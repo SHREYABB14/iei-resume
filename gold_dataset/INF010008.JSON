@@ -1,0 +1,208 @@
+{
+    "personal": {
+        "name": "Dr. D. Kavitha",
+        "email": "kavitha_donepudi@yahoo.com",
+        "phone": "9441309716",
+        "designation": "Senior Assistant Professor",
+        "department": "Information Technology",
+        "organization": "Prasad V. Potluri Siddhartha Institute of Technology"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science and Engineering",
+            "university": "JNTU Kakinada",
+            "year": 2018
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Computer Science and Engineering",
+            "university": "Acharya Nagarjuna University",
+            "year": 2005,
+            "percentage": 82
+        },
+        {
+            "degree": "MCA",
+            "university": "IGNOU",
+            "year": 2002,
+            "percentage": 64.89
+        },
+        {
+            "degree": "BCA",
+            "university": "IGNOU",
+            "year": 2002,
+            "percentage": 61.92
+        },
+        {
+            "degree": "Diploma in Computers and Engineering",
+            "year": 1993,
+            "percentage": 79.97
+        }
+    ],
+    "experience": {
+        "academic_years": 14.2,
+        "industry_years": 0,
+        "research_years": 0,
+        "total_years": 14.2,
+        "detailed_experience": [
+            {
+                "designation": "Senior Assistant Professor",
+                "organization": "PVP Siddhartha Institute of Technology",
+                "start": "2010-03",
+                "end": "Present"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "PVP Siddhartha Institute of Technology",
+                "start": "2004-12",
+                "end": "2010-02"
+            }
+        ]
+    },
+    "research_areas": [
+        "Graph Mining",
+        "Frequent Subgraph Mining",
+        "Protein Structure Analysis",
+        "Data Mining",
+        "Semantic Web",
+        "Cloud Computing",
+        "Machine Learning"
+    ],
+    "publications": {
+        "journal_count": 13,
+        "conference_count": 5,
+        "book_count": 0,
+        "book_chapter_count": 0,
+        "patent_count": 0,
+        "total_publications": 18
+    },
+    "research_grants": [
+        {
+            "title": "Applying Graph Mining Techniques for Protein Structure Analysis",
+            "funding_agency": "UGC",
+            "amount": 50000,
+            "type": "Minor Research Project"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Top 5 Percent Performer",
+            "description": "NPTEL Introduction to Programming in C",
+            "year": 2018
+        }
+    ],
+    "memberships": [
+        {
+            "organization": "Indian Society for Technical Education",
+            "membership_type": "Life Member"
+        },
+        {
+            "organization": "Indian Society of Systems for Science and Engineering",
+            "membership_type": "Life Member"
+        }
+    ],
+    "administrative_roles": [
+        "NBA Criterion 3 Coordinator",
+        "ISO Committee Member",
+        "NAAC Committee Member",
+        "NIRF Committee Member",
+        "Board of Studies Member",
+        "Academic Curriculum Committee Member",
+        "Module Coordinator",
+        "PAC Committee Member",
+        "Research Committee Member",
+        "Disciplinary Committee Member",
+        "Department Newsletter Coordinator",
+        "House Journal Member",
+        "Proctor",
+        "NPTEL Mentor",
+        "Project Guide"
+    ],
+    "subjects_taught": [
+        "Database Management Systems",
+        "Data Structures",
+        "Object Oriented Analysis and Design using UML",
+        "Embedded Systems",
+        "Distributed Database Management Systems",
+        "Data Warehousing and Data Mining",
+        "Design Patterns",
+        "Software Testing Methodology",
+        "Software Project Management"
+    ],
+    "fdp": [
+        {
+            "program_name": "Deep Learning and its Applications",
+            "year": 2019
+        },
+        {
+            "program_name": "Outcome Based Education NBA",
+            "year": 2019
+        },
+        {
+            "program_name": "Blockchain Technology",
+            "year": 2018
+        },
+        {
+            "program_name": "Computer Vision, Information Theory and Analytics",
+            "year": 2017
+        },
+        {
+            "program_name": "Machine Learning",
+            "year": 2015
+        },
+        {
+            "program_name": "Big Data Analytics",
+            "year": 2016
+        }
+    ],
+    "sttp": [
+        {
+            "program_name": "Intelligent Computing and Deep Learning",
+            "year": 2017
+        },
+        {
+            "program_name": "Soft Computing Techniques using MATLAB",
+            "year": 2016
+        },
+        {
+            "program_name": "Open Source Technologies",
+            "year": 2016
+        }
+    ],
+    "reviewer_roles": [
+        {
+            "event": "ICCIDE 2018",
+            "role": "Reviewer"
+        }
+    ],
+    "invited_talks": [
+        {
+            "title": "Graph Mining and its Applications",
+            "organization": "SRK Institute of Technology",
+            "year": 2010
+        }
+    ],
+    "software_skills": [
+        "MATLAB",
+        "Data Mining Tools",
+        "Machine Learning Tools"
+    ],
+    "languages_known": [
+        "Telugu",
+        "English",
+        "Hindi"
+    ],
+    "patents": [],
+    "research_metrics": {
+        "h_index": null,
+        "i10_index": null,
+        "citations": null
+    },
+    "validation_warnings": [
+        "No patent information found",
+        "Research metrics not mentioned",
+        "No ORCID found",
+        "No Google Scholar profile found"
+    ],
+    "confidence_score": 0.97
+}

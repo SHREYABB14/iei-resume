@@ -1,0 +1,167 @@
+{
+    "personal": {
+        "name": "Dr. P. Udhayakumar",
+        "email": "pudhayakumar@cutn.ac.in",
+        "alternate_email": "rjudhayakumar@gmail.com",
+        "phone": "+91-9942465604",
+        "designation": "Assistant Professor",
+        "department": "Department of Social Work",
+        "organization": "Central University of Tamil Nadu"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Social Work",
+            "university": "Bharathidasan University",
+            "year": 2014
+        },
+        {
+            "degree": "M.Phil.",
+            "specialization": "Social Work",
+            "university": "Bharathidasan University",
+            "year": 2008
+        },
+        {
+            "degree": "Master of Social Work",
+            "specialization": "Social Work",
+            "university": "Urumu Dhanalakshmi College",
+            "year": 2006
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics",
+            "university": "Bharathidasan University",
+            "year": 2003
+        }
+    ],
+    "experience": {
+        "academic_years": 19.0,
+        "industry_years": 1.8,
+        "research_years": 0,
+        "total_years": 20.8,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "Central University of Tamil Nadu",
+                "start": "2016-06",
+                "end": "Present"
+            },
+            {
+                "designation": "Assistant Professor (Contract)",
+                "organization": "Central University of Tamil Nadu",
+                "start": "2013-10",
+                "end": "2016-06"
+            },
+            {
+                "designation": "Guest Faculty",
+                "organization": "Community College, Central University of Tamil Nadu",
+                "start": "2014-05",
+                "end": "2014-07"
+            },
+            {
+                "designation": "Guest Faculty",
+                "organization": "Bharathidasan University",
+                "start": "2009-07",
+                "end": "2011-04"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Urumu Dhanalakshmi College",
+                "start": "2006-05",
+                "end": "2008-07"
+            },
+            {
+                "designation": "Project Manager",
+                "organization": "Society for Regardless Individuals Trust",
+                "start": "2009-07",
+                "end": "2011-04"
+            }
+        ]
+    },
+    "research_areas": [
+        "Mental Health",
+        "Strength Based Social Work",
+        "Ageing and Social Work",
+        "Spirituality and Social Work",
+        "Psychiatric Social Work"
+    ],
+    "publications": {
+        "journal_count": 14,
+        "conference_count": 13,
+        "book_chapter_count": 13,
+        "book_count": 0,
+        "patent_count": 0
+    },
+    "awards": [
+        {
+            "title": "Rajiv Gandhi National Fellowship",
+            "awarded_by": "UGC"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "UGC NET",
+            "subject": "Social Work"
+        }
+    ],
+    "administrative_roles": [
+        "NSS Programme Officer",
+        "Student Counsellor",
+        "Counsellor - Juvenile Justice Board",
+        "Conference Organizing Secretary",
+        "Coordinator of Examinations",
+        "Board of Studies Member",
+        "Institutional Human Ethics Review Board Member",
+        "Curriculum Development Convener"
+    ],
+    "courses_taught": [
+        "Psychology for Social Work Practice",
+        "Introduction to Mental Health",
+        "Psychiatric Social Work",
+        "Advanced Counselling",
+        "Social Work Research and Statistics",
+        "Health Systems",
+        "Sociology for Social Work Practice",
+        "Medical Social Work"
+    ],
+    "conference_organized": [
+        {
+            "role": "Organizing Secretary",
+            "conference": "National Conference on Social Work and Mental Health",
+            "year": 2016
+        }
+    ],
+    "invited_talks": [
+        "Child Psychiatry",
+        "Psychosocial Interventions with Children",
+        "Psychology for Social Work Practice",
+        "Synopsis and Thesis: Hands on Training"
+    ],
+    "memberships": [
+        {
+            "organization": "Institutional Human Ethics Review Board",
+            "role": "Member"
+        },
+        {
+            "organization": "Board of Studies",
+            "role": "Member"
+        }
+    ],
+    "patents": [],
+    "projects": [],
+    "fdp": [],
+    "sttp": [],
+    "research_metrics": {
+        "h_index": null,
+        "i10_index": null,
+        "citations": null
+    },
+    "validation_warnings": [
+        "No patent information found",
+        "No funded projects found",
+        "Research metrics not mentioned",
+        "No ORCID found",
+        "No Google Scholar profile found"
+    ],
+    "confidence_score": 0.96
+}

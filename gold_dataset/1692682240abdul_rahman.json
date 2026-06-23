@@ -1,0 +1,165 @@
+{
+    "personal": {
+        "name": "Mohd Abdul Rahman",
+        "email": [
+            "mohd.abdulrahman@mjcollege.ac.in"
+        ],
+        "phone": "+91-9014516726",
+        "skype": "Abdulrahman47550",
+        "date_of_birth": "1990-04-01",
+        "gender": "Male",
+        "nationality": "Indian",
+        "marital_status": "Married",
+        "languages_known": [
+            "English",
+            "Hindi",
+            "Telugu",
+            "Urdu"
+        ]
+    },
+    "education": [
+        {
+            "degree": "M.Tech.",
+            "specialization": "Computer Science",
+            "institution": "Royal Institute of Engineering and Technology",
+            "university": "JNTU Hyderabad",
+            "percentage": 77
+        },
+        {
+            "degree": "B.Tech.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Shadan College of Engineering and Technology",
+            "university": "JNTU Hyderabad",
+            "percentage": 63
+        },
+        {
+            "degree": "Intermediate (MPC)",
+            "board": "Board of Intermediate Education Hyderabad",
+            "percentage": 82
+        },
+        {
+            "degree": "SSC",
+            "board": "Board of Secondary Education Hyderabad",
+            "percentage": 76
+        }
+    ],
+    "experience": {
+        "academic_years": 9.0,
+        "industry_years": 0.0,
+        "research_years": 0.0,
+        "total_years": 9.0,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "CMR College of Engineering and Technology",
+                "department": "Computer Science and Engineering",
+                "start": "2021-01",
+                "end": "2023-12"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Shadan Women's College of Engineering and Technology",
+                "department": "Computer Science and Engineering",
+                "start": "2018-08",
+                "end": "2020-11"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "JB Group",
+                "department": "Computer Science and Engineering",
+                "start": "2017-01",
+                "end": "2017-11"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Shadan College of Engineering and Technology",
+                "department": "Computer Science and Engineering",
+                "start": "2014-10",
+                "end": "2016-12"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Defeating SQL Injection",
+            "type": "M.Tech Project"
+        },
+        {
+            "title": "Online Course Portal for a Campus",
+            "type": "B.Tech Project",
+            "platform": "Java"
+        }
+    ],
+    "subjects_taught": [
+        "Formal Languages and Automata Theory",
+        "C Programming",
+        "Data Structures",
+        "Compiler Design",
+        "Software Testing",
+        "Human Computer Interaction",
+        "Design and Analysis of Algorithms",
+        "System Modeling Techniques",
+        "Principles of Programming Languages",
+        "Computer Forensics"
+    ],
+    "awards": [
+        {
+            "title": "JNTUH Ratified Faculty"
+        },
+        {
+            "title": "Award for Excellence Performance in Results"
+        },
+        {
+            "title": "Appreciation Certificate"
+        },
+        {
+            "title": "Citation of Honour Certificate"
+        }
+    ],
+    "administrative_roles": [
+        "Class Advisor",
+        "Examination Duties Coordinator",
+        "External Examiner"
+    ],
+    "workshops": [
+        {
+            "title": "One Week Workshop on AI and ML",
+            "organization": "CMRCET Kandlakoya"
+        },
+        {
+            "title": "Life Skill Training",
+            "organization": "JB Group of Institutions"
+        },
+        {
+            "title": "Faculty Development Program",
+            "organization": "SCET Peerancheru"
+        }
+    ],
+    "software_skills": [
+        "Java",
+        "C Programming"
+    ],
+    "publications": {
+        "journal_count": 0,
+        "conference_count": 0,
+        "book_count": 0,
+        "patent_count": 0
+    },
+    "research_areas": [],
+    "patents": [],
+    "memberships": [],
+    "certifications": [],
+    "phd_guidance": {
+        "completed_phd": 0,
+        "ongoing_phd": 0
+    },
+    "validation_warnings": [
+        "No PhD qualification found",
+        "No publications listed",
+        "No patents listed",
+        "No memberships listed",
+        "No FDP/STTP details available",
+        "No research projects found"
+    ],
+    "confidence_score": 0.95
+}

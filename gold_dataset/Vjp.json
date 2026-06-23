@@ -1,0 +1,249 @@
+{
+    "personal": {
+        "name": "Dr. Vikul Jagansing Pawar",
+        "email": "vikul.pawar@geca.ac.in",
+        "designation": "Head, Computer Science and Engineering",
+        "current_position": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "organization": "Government College of Engineering Aurangabad"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "University College of Engineering, Osmania University",
+            "year": 2023
+        },
+        {
+            "degree": "M.E.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Government College of Engineering Aurangabad",
+            "university": "Dr. Babasaheb Ambedkar Marathwada University",
+            "year": 2014,
+            "cgpa": 8.625
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Babasaheb Naik College of Engineering, Pusad",
+            "university": "Sant Gadge Baba Amravati University",
+            "year": 2006,
+            "percentage": 68.74
+        }
+    ],
+    "experience": {
+        "academic_years": 16.0,
+        "industry_years": 2.0,
+        "research_years": 0.0,
+        "total_years": 18.0,
+        "detailed_experience": [
+            {
+                "designation": "Head of Department & Assistant Professor",
+                "organization": "Government College of Engineering Aurangabad",
+                "department": "Computer Science and Engineering",
+                "start": "2025-06",
+                "end": "Present"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Government College of Engineering Aurangabad",
+                "department": "Computer Science and Engineering",
+                "start": "2011-01",
+                "end": "Present"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Babasaheb Naik College of Engineering",
+                "department": "Computer Science and Engineering",
+                "start": "2009-07",
+                "end": "2010-12"
+            },
+            {
+                "designation": "Associate Consultant",
+                "organization": "Capgemini India Pvt. Ltd.",
+                "start": "2007-06",
+                "end": "2009-06"
+            }
+        ]
+    },
+    "research_areas": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Medical Image Processing",
+        "Brain Tumor Detection",
+        "Lung Cancer Detection",
+        "Cloud Computing",
+        "Cyber Security",
+        "Blockchain Technology",
+        "Data Analytics"
+    ],
+    "subjects_taught": [
+        "Data Analytics",
+        "Software Engineering",
+        "Data Structures",
+        "Software Project Management",
+        "Distributed Database",
+        "Cyber Security and Cyber Laws",
+        "Software Testing and Quality Assurance",
+        "Database Management Systems",
+        "Compiler Construction",
+        "Advanced Computer Networks",
+        "Advanced Computer Vision",
+        "Blockchain Technology",
+        "Information Security",
+        "Research Methodology"
+    ],
+    "publications": {
+        "journal_count": 15,
+        "conference_count": 9,
+        "book_count": 1,
+        "book_chapter_count": 3,
+        "patent_count": 4,
+        "total_publications": 28
+    },
+    "book_publications": [
+        {
+            "title": "Elements of Electronics and Computer Engineering"
+        }
+    ],
+    "book_chapters": [
+        {
+            "title": "Assistive Technologies for Visually Impaired Persons Using Image Processing Techniques"
+        },
+        {
+            "title": "Educational Cloud Framework — A Literature Review on Finding Better Private Cloud Framework for Educational Hub"
+        },
+        {
+            "title": "Enhancement in Brain Tumor Diagnosis Using MRI Image Processing Techniques"
+        }
+    ],
+    "patents": [
+        {
+            "title": "Oral Cancer Detection Using Deep Learning",
+            "application_no": "202321054868",
+            "year": 2023
+        },
+        {
+            "title": "Lung Cancer Prediction and Detection Using Deep Learning",
+            "application_no": "202121009683",
+            "year": 2021
+        },
+        {
+            "title": "DS-System: Doctors Guide System for Brain Tumor Diagnosis",
+            "application_no": "202021057092",
+            "year": 2021
+        },
+        {
+            "title": "Educational Cloud Framework",
+            "application_no": "202021038371",
+            "year": 2020
+        }
+    ],
+    "certifications": [
+        "NITTT Chennai (8 Modules)",
+        "NPTEL Software Engineering",
+        "NPTEL Digital Image Processing",
+        "NPTEL Joy of Computing Using Python (Silver Medal)",
+        "IBM Machine Learning with Python",
+        "Elsevier Certified Peer Reviewer"
+    ],
+    "administrative_roles": [
+        "Head of Department",
+        "Institute Data Center In-charge",
+        "R&D Laboratory In-charge",
+        "Assistant Controller of Examination",
+        "Departmental Controller of Examination",
+        "Boys Hostel Warden",
+        "COMPSA Coordinator",
+        "Training and Placement Coordinator",
+        "Department Purchase Committee Member",
+        "TEQIP Procurement Coordinator",
+        "Session Chair ICCIPC 2025",
+        "Board of Studies Member",
+        "DTE Inspection Committee Member",
+        "PhD Board Examiner"
+    ],
+    "consultancy_projects": [
+        {
+            "client": "Education Department Z.P. Aurangabad"
+        },
+        {
+            "client": "Z.P. Parbhani"
+        },
+        {
+            "client": "Z.P. Nashik"
+        },
+        {
+            "client": "Municipal Corporation Aurangabad"
+        }
+    ],
+    "industry_experience": {
+        "organization": "Capgemini India Pvt. Ltd.",
+        "client": "HSBC Bank",
+        "technologies": [
+            "COBOL",
+            "JCL",
+            "VSAM",
+            "IBM Mainframe"
+        ]
+    },
+    "fdp": {
+        "conducted": 3,
+        "attended": 40
+    },
+    "sttp": {
+        "conducted": 1,
+        "attended": 15
+    },
+    "expert_lectures": [
+        "Artificial Intelligence, Machine Learning and Deep Learning",
+        "Software Testing Techniques"
+    ],
+    "memberships": [
+        {
+            "organization": "ISTE",
+            "type": "Life Member"
+        },
+        {
+            "organization": "International Society for Research and Development (ISRD)",
+            "type": "Life Member"
+        },
+        {
+            "organization": "International Association of Engineers (IAENG)"
+        },
+        {
+            "organization": "World Academy of Science Engineering and Technology (WASET)"
+        },
+        {
+            "organization": "Institute of Research Engineers and Doctors (IRED)"
+        }
+    ],
+    "software_skills": [
+        "Python",
+        "COBOL",
+        "JCL",
+        "IBM Mainframe",
+        "OpenStack",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision"
+    ],
+    "awards": [
+        {
+            "title": "NPTEL Silver Medal",
+            "course": "Joy of Computing Using Python"
+        }
+    ],
+    "research_metrics": {
+        "h_index": null,
+        "i10_index": null,
+        "citations": null
+    },
+    "validation_warnings": [
+        "Research metrics not explicitly mentioned",
+        "Google Scholar profile not provided",
+        "ORCID not provided"
+    ],
+    "confidence_score": 0.99
+}

@@ -1,0 +1,389 @@
+{
+    "personal": {
+        "name": "Dheeraj Bhardwaj",
+        "email": [
+            "dheerajb@cse.iitd.ernet.in"
+        ],
+        "phone": [
+            "+91-11-26596005",
+            "+91-11-20514237"
+        ],
+        "linkedin": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": "",
+        "website": "http://www.cse.iitd.ernet.in/~dheerajb",
+        "skype": "",
+        "date_of_birth": "1969-09-29",
+        "gender": "",
+        "nationality": "Indian",
+        "marital_status": "Married",
+        "languages_known": []
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science / Scientific Computing",
+            "institution": "Indian Institute of Technology Delhi",
+            "year": 1996
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Computer Science / Scientific Computing",
+            "institution": "Indian Institute of Technology Delhi",
+            "year": 1990
+        }
+    ],
+    "experience": {
+        "academic_years": 14.0,
+        "industry_years": 8.0,
+        "research_years": 10.0,
+        "total_years": 32.0,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "Indian Institute of Technology Delhi",
+                "department": "Computer Science and Engineering",
+                "start": "2002-07",
+                "end": "Present"
+            },
+            {
+                "designation": "Director Technical",
+                "organization": "SUN Microsystems Asia Pacific Science and Technology Facility",
+                "department": "",
+                "start": "2002-07",
+                "end": "Present"
+            },
+            {
+                "designation": "Director Technical",
+                "organization": "GridLogics Technologies Pvt. Ltd.",
+                "department": "",
+                "start": "2002-07",
+                "end": "Present"
+            },
+            {
+                "designation": "Director Technical / Chief Scientist",
+                "organization": "GridSolv Software Pvt. Ltd.",
+                "department": "",
+                "start": "2002-07",
+                "end": "Present"
+            },
+            {
+                "designation": "Consultant",
+                "organization": "Madhya Pradesh State Electricity Board",
+                "department": "",
+                "start": "2002-07",
+                "end": "Present"
+            },
+            {
+                "designation": "Member Technical Staff",
+                "organization": "Centre for Development of Advanced Computing (C-DAC)",
+                "department": "Seismic Data Processing Group",
+                "start": "1996-11",
+                "end": "2002-06"
+            },
+            {
+                "designation": "Research Geophysicist",
+                "organization": "Veritas DGC Inc.",
+                "department": "",
+                "start": "2001-08",
+                "end": "2002-01"
+            },
+            {
+                "designation": "Postdoctoral Researcher",
+                "organization": "Northwestern University",
+                "department": "Electrical and Computer Engineering",
+                "start": "2001-05",
+                "end": "2001-08"
+            },
+            {
+                "designation": "Guest Graduate Researcher",
+                "organization": "Argonne National Laboratory",
+                "department": "Mathematics and Computer Science Division",
+                "start": "2001-06",
+                "end": "2001-08"
+            },
+            {
+                "designation": "Visiting Scientist",
+                "organization": "Eastern Illinois University",
+                "department": "Information Technology Services",
+                "start": "2000-05",
+                "end": "2001-04"
+            },
+            {
+                "designation": "Resource Faculty",
+                "organization": "University of Pune",
+                "department": "Interdisciplinary School of Scientific Computing",
+                "start": "1999-01",
+                "end": "2000-04"
+            },
+            {
+                "designation": "Visiting Scientist",
+                "organization": "Eastern Illinois University",
+                "department": "Mathematics",
+                "start": "1997-08",
+                "end": "1997-12"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Birla Institute of Technology and Science Pilani",
+                "department": "Computer Science",
+                "start": "1996-07",
+                "end": "1996-10"
+            },
+            {
+                "designation": "Research Associate",
+                "organization": "Indian Institute of Technology Delhi",
+                "department": "Mathematics",
+                "start": "1996-03",
+                "end": "1996-06"
+            }
+        ]
+    },
+    "research_areas": [
+        "Parallel Computing",
+        "Distributed Computing",
+        "Grid Computing",
+        "Scientific Computing",
+        "High Performance Computing",
+        "Cluster Computing",
+        "Parallel I/O",
+        "Computational Fluid Dynamics",
+        "Seismic Data Processing",
+        "Computational Grid Infrastructure",
+        "e-Science",
+        "Oil Exploration Computing"
+    ],
+    "subjects_taught": [
+        "Scientific Computing",
+        "Parallel Computing",
+        "Distributed Computing",
+        "Grid Computing",
+        "Parallel Scientific Applications",
+        "Algebra",
+        "Computer Programming",
+        "Numerical Analysis"
+    ],
+    "projects": [
+        {
+            "title": "Prestack Migration and Velocity Analysis",
+            "funding_agency": "Department of Science and Technology",
+            "role": "Co-PI",
+            "status": "Ongoing"
+        },
+        {
+            "title": "Development of Parallel Solvers for Solving Partial Differential Equations and their Industrial Applications",
+            "funding_agency": "Indian National Science Academy",
+            "status": "Ongoing"
+        }
+    ],
+    "research_grants": [
+        {
+            "title": "Development of Seismic Migration and Modelling Algorithms for Imaging Crustal Structures",
+            "agency": "DST",
+            "role": "Co-Principal Investigator"
+        },
+        {
+            "title": "Development of Parallel Seismic Data Processing Algorithms",
+            "agency": "DST",
+            "role": "Co-Principal Investigator"
+        },
+        {
+            "title": "Development of Parallel Solvers for Hyperbolic System of Equations and Their Applications to Some Industrial Problems",
+            "agency": "DST",
+            "role": "Principal Investigator"
+        },
+        {
+            "title": "Development of Parallel Navier Stokes Solvers",
+            "agency": "Naval Research Board",
+            "role": "Principal Investigator"
+        },
+        {
+            "title": "Development of Parallel Computing Environment and Scientific Applications",
+            "agency": "Eastern Illinois University",
+            "role": "Principal Investigator"
+        }
+    ],
+    "consultancy_projects": [
+        {
+            "client": "SUN Microsystems",
+            "title": "Asia Pacific Science and Technology Facility"
+        },
+        {
+            "client": "Marketopers Securities Pvt. Ltd.",
+            "title": "Parallel Algorithms for Financial Market Forecast"
+        },
+        {
+            "client": "Madhya Pradesh State Electricity Board",
+            "title": "Data Centre Setup"
+        },
+        {
+            "client": "Progression Infonet",
+            "title": "HPC Cluster and HPC Solutions"
+        }
+    ],
+    "publications": {
+        "journal_count": 12,
+        "conference_count": 27,
+        "book_count": 0,
+        "book_chapter_count": 1,
+        "patent_count": 0,
+        "total_publications": 40
+    },
+    "books": [],
+    "book_chapters": [
+        {
+            "title": "Application I/O on a Parallel File System for Linux Clusters",
+            "publisher": "John Wiley & Sons"
+        }
+    ],
+    "patents": [],
+    "phd_guidance": {
+        "completed_phd": 0,
+        "ongoing_phd": 0,
+        "students": []
+    },
+    "awards": [
+        {
+            "title": "Young Scientist Award",
+            "organization": "Indian National Science Academy",
+            "year": 2000
+        },
+        {
+            "title": "Young Scientist Project Award",
+            "organization": "Department of Science and Technology",
+            "year": 1998
+        },
+        {
+            "title": "British Council Young Scientist",
+            "year": 2002
+        },
+        {
+            "title": "CNR International Fellowship",
+            "year": 1997
+        },
+        {
+            "title": "CSIR Research Associateship",
+            "year": 1995
+        },
+        {
+            "title": "National Merit Scholarship",
+            "year": 1984
+        },
+        {
+            "title": "Gold Medal - Science Exhibition",
+            "year": 1985
+        }
+    ],
+    "fellowships": [
+        {
+            "title": "CNR International Fellowship",
+            "country": "Italy"
+        },
+        {
+            "title": "CSIR Research Associateship"
+        }
+    ],
+    "memberships": [
+        {
+            "organization": "Research Board of Advisors",
+            "role": "Member"
+        }
+    ],
+    "editorial_roles": [
+        {
+            "role": "Assistant Editor",
+            "journal": "International Journal of Applied Science and Computations"
+        }
+    ],
+    "reviewer_roles": [],
+    "administrative_roles": [
+        "Vice President, Mathematics Society IIT Delhi",
+        "Program Committee Member - International Conferences"
+    ],
+    "leadership_roles": [
+        "Director Technical - SUN APSTF",
+        "Director Technical - GridLogics Technologies",
+        "Director Technical and Chief Scientist - GridSolv Software"
+    ],
+    "conference_organized": [
+        {
+            "event": "Workshop on e-Science",
+            "role": "Organizing Chair",
+            "year": 2003
+        },
+        {
+            "event": "INDO-UK Workshop on e-Science",
+            "role": "Organizing Chair",
+            "year": 2004
+        },
+        {
+            "event": "QIP on e-Science",
+            "role": "Organizing Chair",
+            "year": 2004
+        }
+    ],
+    "conference_presentations": [
+        "IMACS 1998",
+        "IMACS 2000",
+        "PETROTECH",
+        "SEG Annual Meetings",
+        "HiPC",
+        "HPC Asia"
+    ],
+    "invited_talks": [
+        "NASA Ames Research Center",
+        "University of Rome",
+        "Eastern Illinois University",
+        "Computer Society of India Annual Convention",
+        "Genome Informatics FAOBMB Congress",
+        "EUROINDIA 2004",
+        "ELITEX 2004"
+    ],
+    "fdp": [
+        {
+            "program_name": "QIP on e-Science",
+            "organizer": "IIT Delhi"
+        }
+    ],
+    "sttp": [],
+    "workshops": [
+        {
+            "title": "Workshop on Parallel Computing and PARAM-10000"
+        },
+        {
+            "title": "Workshop on e-Science"
+        },
+        {
+            "title": "INDO-UK Workshop on e-Science"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "CSIR NET Qualified",
+            "year": 1994
+        }
+    ],
+    "software_skills": [
+        "Grid Computing",
+        "Parallel Computing",
+        "Cluster Computing",
+        "Linux Clusters",
+        "MPI",
+        "MPI-IO",
+        "High Performance Computing",
+        "Scientific Computing"
+    ],
+    "research_metrics": {
+        "h_index": 0,
+        "i10_index": 0,
+        "citations": 0
+    },
+    "validation_warnings": [
+        "Google Scholar profile not found",
+        "ORCID not found",
+        "Patent information not found",
+        "PhD guidance information not available"
+    ],
+    "confidence_score": 0.97
+}

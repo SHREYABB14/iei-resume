@@ -1,0 +1,231 @@
+{
+    "personal": {
+        "name": "Dr. Harish Chandra Phuleria",
+        "email": "phuleria@iitb.ac.in",
+        "phone": "+91 22 2576 5851",
+        "designation": "Associate Professor",
+        "department": "Environmental Science and Engineering Department",
+        "organization": "Indian Institute of Technology Bombay",
+        "date_of_birth": "1978-11-04",
+        "nationality": "Indian",
+        "linkedin": "",
+        "orcid": "",
+        "google_scholar": "https://scholar.google.com/citations?user=F_PM2WQAAAAJ",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Environmental Engineering",
+            "institution": "University of Southern California",
+            "year": 2007
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Environmental Science and Engineering",
+            "institution": "Indian Institute of Technology Bombay",
+            "year": 2003
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Chemistry",
+            "institution": "Indian Institute of Technology Delhi",
+            "year": 2001
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Chemistry",
+            "institution": "University of Delhi",
+            "year": 1999
+        }
+    ],
+    "experience": {
+        "academic_years": 15.0,
+        "industry_years": 0.3,
+        "research_years": 10.0,
+        "total_years": 25.3,
+        "detailed_experience": [
+            {
+                "designation": "Associate Professor",
+                "organization": "Indian Institute of Technology Bombay",
+                "department": "Environmental Science and Engineering",
+                "start": "2021-05",
+                "end": "Present"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Indian Institute of Technology Bombay",
+                "department": "Centre for Environmental Science and Engineering",
+                "start": "2013-10",
+                "end": "2021-05"
+            },
+            {
+                "designation": "Senior Research Scientist",
+                "organization": "Swiss Tropical and Public Health Institute",
+                "start": "2013-01",
+                "end": "2013-10"
+            },
+            {
+                "designation": "Head, Exposure Science Group",
+                "organization": "Swiss Tropical and Public Health Institute",
+                "start": "2012-01",
+                "end": "2012-12"
+            },
+            {
+                "designation": "Deputy Head, Environmental Exposure Sciences Unit",
+                "organization": "Swiss Tropical and Public Health Institute",
+                "start": "2010-11",
+                "end": "2011-12"
+            },
+            {
+                "designation": "Postdoctoral Scientist",
+                "organization": "Swiss Tropical and Public Health Institute",
+                "start": "2010-01",
+                "end": "2010-10"
+            },
+            {
+                "designation": "Postdoctoral Researcher",
+                "organization": "University of Basel",
+                "start": "2007-12",
+                "end": "2009-12"
+            },
+            {
+                "designation": "Graduate Research Assistant",
+                "organization": "University of Southern California",
+                "start": "2004-01",
+                "end": "2007-05"
+            },
+            {
+                "designation": "Environmental Scientist",
+                "organization": "Ecosmart India Limited",
+                "start": "2003-02",
+                "end": "2003-04"
+            }
+        ]
+    },
+    "research_areas": [
+        "Air Pollution",
+        "Environmental Exposure Assessment",
+        "Environmental Epidemiology",
+        "Aerosol Science",
+        "Occupational Health",
+        "Climate Studies",
+        "Indoor Air Quality",
+        "Particulate Matter",
+        "Black Carbon",
+        "Environmental Health",
+        "Traffic Emissions",
+        "Air Quality Modelling",
+        "Environmental Monitoring"
+    ],
+    "publications": {
+        "journal_count": 51,
+        "conference_count": 50,
+        "book_chapter_count": 2,
+        "policy_brief_count": 1,
+        "publications": []
+    },
+    "research_metrics": {
+        "h_index": 29,
+        "i10_index": 43,
+        "citations": 4000
+    },
+    "projects": {
+        "sponsored_projects_count": 15,
+        "consultancy_projects_count": 7,
+        "major_funding_agencies": [
+            "DBT-Wellcome Trust",
+            "DST",
+            "MoEFCC",
+            "MHRD",
+            "IRCC IIT Bombay",
+            "Swiss National Science Foundation",
+            "Federal Office of Environment Switzerland"
+        ]
+    },
+    "awards": [
+        {
+            "title": "Young Faculty Award",
+            "organization": "IIT Bombay",
+            "year": 2013
+        },
+        {
+            "title": "Third Place Winner",
+            "event": "Graduate Student Research Competition",
+            "year": 2006
+        },
+        {
+            "title": "CSIR Junior Research Fellowship",
+            "year": 2001
+        },
+        {
+            "title": "Merit-cum-Means Scholarship",
+            "organization": "IIT Delhi"
+        },
+        {
+            "title": "CBSE Merit Scholarship",
+            "year": 1993
+        }
+    ],
+    "memberships": [
+        "The Aerosol Society",
+        "International Commission on Occupational Health",
+        "ASHRAE",
+        "Indian Association of Occupational Health",
+        "Indian Public Health Association",
+        "International Society for Exposure Sciences",
+        "International Society for Environmental Epidemiology",
+        "Air and Waste Management Association",
+        "American Geophysical Union",
+        "American Association for Aerosol Research"
+    ],
+    "phd_guidance": {
+        "ongoing_phd": 10,
+        "completed_phd": 4,
+        "completed_mtech": 11,
+        "completed_msc": 9,
+        "postdoctoral_researchers_mentored": 3
+    },
+    "subjects_taught": [
+        "Environmental Chemistry",
+        "Environmental Chemistry Laboratory",
+        "Environmental Statistics",
+        "Environmental Studies",
+        "Health Safety and Environment",
+        "Aerosol Science and Engineering",
+        "Environmental Monitoring Lab",
+        "Communication Skills",
+        "Environmental Exposures and Health",
+        "Environmental Noise and Health Effects"
+    ],
+    "administrative_roles": [
+        "Member PGC, IDP Climate Studies",
+        "Member DPGC, ESED",
+        "Warden Hostel 1, IIT Bombay",
+        "Research Internship Programme Coordinator",
+        "Website and Content Development Coordinator",
+        "Computer Committee Coordinator",
+        "Vice President, ESEA",
+        "Associate Warden",
+        "Faculty Advisor PhD Programme"
+    ],
+    "professional_services": [
+        "International Conference Speaker",
+        "Workshop Organizer",
+        "Research Mentor",
+        "PhD Supervisor",
+        "Postdoctoral Mentor",
+        "Consultant on Environmental Impact Studies"
+    ],
+    "consultancy_projects": [
+        "Viraj Profiles Air Pollution Audit",
+        "Ratnagiri Refinery Air Emission Assessment",
+        "MCGM Road Marking Evaluation",
+        "Ulhas River Pollution Assessment",
+        "Environment Management System Audit",
+        "MMRDA Noise Barrier Guidelines",
+        "PM Toxicity Assessment Project"
+    ],
+    "validation_warnings": [],
+    "confidence_score": 0.98
+}

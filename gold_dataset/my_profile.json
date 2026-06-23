@@ -1,0 +1,226 @@
+{
+    "personal": {
+        "name": "Dr. S. Saroja",
+        "date_of_birth": "1988-07-17",
+        "email": [
+            "saroja@nitt.edu",
+            "activeroja@gmail.com"
+        ],
+        "phone": "",
+        "designation": "Assistant Professor",
+        "department": "Department of Computer Applications",
+        "organization": "National Institute of Technology Tiruchirappalli",
+        "office_address": "Department of Computer Applications, NIT Trichy",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=XPcluDIAAAAJ",
+        "orcid": "0000-0002-7418-7301"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Information and Communication Engineering (Multiprocessor Scheduling)",
+            "institution": "Anna University",
+            "year": 2020
+        },
+        {
+            "degree": "M.E.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Anna University",
+            "year": 2011,
+            "grade": "First Class with Distinction",
+            "university_rank": 8
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "Information Technology",
+            "institution": "Anna University",
+            "year": 2009,
+            "grade": "First Class with Distinction",
+            "university_rank": 32
+        },
+        {
+            "degree": "HSC",
+            "institution": "State Board",
+            "year": 2005,
+            "grade": "First Class with Distinction"
+        },
+        {
+            "degree": "SSLC",
+            "institution": "State Board",
+            "year": 2003,
+            "grade": "First Class with Distinction"
+        }
+    ],
+    "experience": {
+        "academic_years": 14.0,
+        "industry_years": 0.0,
+        "research_years": 5.0,
+        "total_years": 14.0,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "National Institute of Technology Tiruchirappalli",
+                "department": "Computer Applications",
+                "start": "2022-10-07",
+                "end": "Present"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Mepco Schlenk Engineering College",
+                "department": "Information Technology",
+                "start": "2011-06-15",
+                "end": "2022-09-30"
+            }
+        ]
+    },
+    "specialization": [
+        "Multiprocessor Scheduling",
+        "Multi-Criteria Decision Making"
+    ],
+    "research_areas": [
+        "Multiprocessor Scheduling",
+        "Task Scheduling",
+        "Multi-Criteria Decision Making",
+        "Cloud Computing",
+        "Fog Computing",
+        "Machine Learning",
+        "Deep Learning",
+        "Blockchain",
+        "Healthcare Analytics"
+    ],
+    "awards": [
+        {
+            "year": 2009,
+            "title": "University Rank Holder - UG",
+            "organization": "Anna University"
+        },
+        {
+            "year": 2011,
+            "title": "University Rank Holder - PG",
+            "organization": "Anna University"
+        }
+    ],
+    "fellowships": [
+        {
+            "title": "Summer Research Fellowship",
+            "organization": "Indian Academy of Sciences, IIT Ropar",
+            "start": "2018-05",
+            "end": "2018-07"
+        },
+        {
+            "title": "Summer Research Fellowship",
+            "organization": "Indian Academy of Sciences, IIT Ropar",
+            "start": "2015-05",
+            "end": "2015-07"
+        }
+    ],
+    "memberships": [
+        {
+            "organization": "Computer Society of India (CSI)",
+            "membership_type": "Life Member",
+            "membership_no": "I1124446",
+            "year": 2013
+        },
+        {
+            "organization": "Indian Society for Technical Education (ISTE)",
+            "membership_type": "Life Member",
+            "membership_no": "LM83804",
+            "year": 2012
+        }
+    ],
+    "publications": {
+        "journal_count": 14,
+        "conference_count": 11,
+        "book_chapter_count": 4,
+        "book_count": 3
+    },
+    "books": [
+        {
+            "title": "Smart Healthcare System Design: Security and Privacy Aspects",
+            "publisher": "John Wiley Sons",
+            "year": 2021,
+            "isbn": "9781119791683"
+        },
+        {
+            "title": "Soft Computing in Data Analytics",
+            "publisher": "Springer",
+            "year": 2018,
+            "isbn": "978-981-13-0513-9"
+        },
+        {
+            "title": "Histopathological Image Analysis in Medical Decision Making",
+            "publisher": "IGI Global",
+            "year": 2018,
+            "isbn": "2327-9354"
+        }
+    ],
+    "invited_talks": [
+        {
+            "topic": "Blockchain Use Cases",
+            "date": "2022-09-07",
+            "organization": "VVV College for Women"
+        },
+        {
+            "topic": "Blockchain Technology",
+            "date": "2022-03-04",
+            "organization": "IET Sivakasi Center"
+        },
+        {
+            "topic": "Blackbox Testing Techniques and JUnit",
+            "date": "2017-11-28",
+            "organization": "Mepco Schlenk Engineering College"
+        },
+        {
+            "topic": "Optimization Techniques",
+            "date": "2016-12-06",
+            "organization": "Mepco Schlenk Engineering College"
+        },
+        {
+            "topic": "Internetworking",
+            "date": "2014-12-17",
+            "organization": "Ramco Institute of Technology"
+        }
+    ],
+    "workshops_organized": [
+        {
+            "title": "Machine Learning for Infotainment Systems",
+            "role": "Coordinator",
+            "year": 2021
+        },
+        {
+            "title": "Blockchain Technology",
+            "role": "Coordinator",
+            "year": 2020
+        },
+        {
+            "title": "Machine Learning and Deep Learning for Real Time Stream Analytics",
+            "role": "Coordinator",
+            "year": 2019
+        },
+        {
+            "title": "Machine Learning Algorithms for IoT Applications",
+            "role": "Coordinator",
+            "year": 2019
+        },
+        {
+            "title": "Big Data Stream Analytics",
+            "role": "Coordinator",
+            "year": 2018
+        }
+    ],
+    "administrative_roles": [],
+    "projects": [],
+    "phd_guidance": {
+        "completed_phd": 0,
+        "ongoing_phd": 0
+    },
+    "patents": [],
+    "certifications": [],
+    "validation_warnings": [
+        "No phone number available in CV",
+        "No funded R&D projects reported",
+        "No patents reported",
+        "No PhD scholars guided reported",
+        "Publication list partially visible; detailed extraction would require publication-wise parsing"
+    ],
+    "confidence_score": 0.98
+}

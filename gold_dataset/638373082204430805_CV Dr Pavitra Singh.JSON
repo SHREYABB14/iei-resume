@@ -1,0 +1,234 @@
+{
+    "personal": {
+        "name": "Dr. Pavitra Singh",
+        "email": "iitg2005@gmail.com",
+        "phone": "+919718126725",
+        "google_scholar": "https://scholar.google.com/citations?user=YV5F5EIAAAAJ",
+        "designation": "Assistant Professor",
+        "department": "Mechanical Engineering",
+        "organization": "NIAMT (NIFFT), Ranchi"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Energy Science and Engineering",
+            "university": "Indian Institute of Technology Guwahati",
+            "year": 2021
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Mechanical Engineering (Fluid and Thermal)",
+            "university": "Indian Institute of Technology Guwahati",
+            "year": 2007
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Mechanical Engineering",
+            "university": "C.C.S. University Meerut",
+            "year": 2002
+        }
+    ],
+    "experience": {
+        "academic_years": 13.5,
+        "industry_years": 2.0,
+        "research_years": 4.0,
+        "total_years": 19.5,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "NIAMT (NIFFT), Ranchi",
+                "start": "2023-11",
+                "end": "Present"
+            },
+            {
+                "designation": "Dean R&D and Assistant Professor",
+                "organization": "Government Engineering College Munger",
+                "start": "2023-04",
+                "end": "2023-11"
+            },
+            {
+                "designation": "Research Fellow and Consultant",
+                "organization": "Dyn3D Technologies",
+                "start": "2021-06",
+                "end": "2023-04"
+            },
+            {
+                "designation": "SRF and Teaching Assistant",
+                "organization": "Indian Institute of Technology Guwahati",
+                "start": "2017-07",
+                "end": "2021-06"
+            },
+            {
+                "designation": "Associate Professor",
+                "organization": "Lingaya's University",
+                "start": "2014-08",
+                "end": "2016-07"
+            },
+            {
+                "designation": "Associate Professor",
+                "organization": "GNIOT Greater Noida",
+                "start": "2013-01",
+                "end": "2013-12"
+            },
+            {
+                "designation": "Associate Professor and HOD",
+                "organization": "RD Engineering College",
+                "start": "2011-08",
+                "end": "2013-01"
+            },
+            {
+                "designation": "Associate Professor",
+                "organization": "JP Institute of Engineering and Technology",
+                "start": "2008-09",
+                "end": "2011-08"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Babu Banarasidas Institute of Technology",
+                "start": "2007-07",
+                "end": "2008-07"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Inderprastha Engineering College",
+                "start": "2003-09",
+                "end": "2005-07"
+            }
+        ]
+    },
+    "research_areas": [
+        "Thermo-Fluids",
+        "CFD",
+        "Fluidized Bed Technology",
+        "Drying Technology",
+        "Heat Transfer",
+        "Solar Energy",
+        "Energy Storage",
+        "Battery Thermal Management",
+        "Renewable Energy",
+        "Fluid Mechanics"
+    ],
+    "publications": {
+        "journal_count": 16,
+        "conference_count": 6,
+        "book_chapter_count": 4,
+        "book_count": 0,
+        "patent_count": 0,
+        "total_publications": 28
+    },
+    "projects": [
+        {
+            "title": "Thermal and Hydrodynamic Studies of a Rotating Fluidized Bed Dryer with Static Geometry",
+            "type": "PhD Research"
+        },
+        {
+            "title": "Design, Development and Performance Evaluation of Cyclone Type Trans-Esterification Setup",
+            "type": "M.Tech Research"
+        }
+    ],
+    "phd_guidance": {
+        "completed": 0,
+        "ongoing": 1,
+        "pg_guided": 3,
+        "students": [
+            {
+                "title": "Design Development and Performance Evaluation of a Fluidized Bed Grain Temperature Stabilizer",
+                "status": "Submitted"
+            }
+        ]
+    },
+    "awards": [
+        {
+            "title": "Best Paper Award",
+            "event": "ICTEMA 2020"
+        },
+        {
+            "title": "Gold Medal",
+            "event": "Inter IIT Sports Meet 2018"
+        },
+        {
+            "title": "Silver Medal",
+            "event": "Assam State Para Powerlifting"
+        },
+        {
+            "title": "MHRD PhD Scholarship"
+        },
+        {
+            "title": "Rifle Shooting Prize",
+            "year": 2018
+        }
+    ],
+    "administrative_roles": [
+        "Dean Research and Development",
+        "Assistant Examination Controller",
+        "Head of Department",
+        "M.Tech Program Coordinator",
+        "Internship Coordinator",
+        "Project Coordinator",
+        "Seminar Coordinator",
+        "Welfare Secretary IIT Guwahati"
+    ],
+    "subjects_taught": [
+        "Thermodynamics",
+        "IC Engines",
+        "Refrigeration and Air Conditioning",
+        "Heat and Mass Transfer",
+        "Fluid Mechanics",
+        "Fluid Machinery",
+        "Engineering Mechanics",
+        "Manufacturing Processes",
+        "Engineering Drawing"
+    ],
+    "software_skills": [
+        "ANSYS Fluent",
+        "SolidWorks",
+        "AutoCAD",
+        "Python",
+        "MS Excel"
+    ],
+    "reviewer_roles": [
+        {
+            "journal": "Journal of Thermal Analysis and Calorimetry",
+            "publisher": "Springer"
+        },
+        {
+            "journal": "Materials Today Proceedings",
+            "publisher": "Elsevier"
+        },
+        {
+            "journal": "Mechanica",
+            "publisher": "Elsevier"
+        }
+    ],
+    "certifications": [
+        {
+            "program": "Entrepreneurship and Startup Workshop",
+            "organization": "IIT Guwahati",
+            "year": 2018
+        },
+        {
+            "program": "Faculty Development Program",
+            "organization": "NIT Jalandhar",
+            "year": 2021
+        },
+        {
+            "program": "Teachers Training Program",
+            "organization": "BIPARD Bihar",
+            "year": 2023
+        }
+    ],
+    "memberships": [],
+    "patents": [],
+    "research_metrics": {
+        "google_scholar_available": true,
+        "h_index": null,
+        "i10_index": null,
+        "citations": null
+    },
+    "validation_warnings": [
+        "No patent information found",
+        "Membership information not found",
+        "Google Scholar metrics not explicitly mentioned"
+    ],
+    "confidence_score": 0.99
+}

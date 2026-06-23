@@ -1,0 +1,317 @@
+{
+    "personal": {
+        "name": "Prof. Chiranjeev Kumar",
+        "email": [
+            "chiranjeev@iitism.ac.in",
+            "k_chiranjeev@yahoo.co.uk"
+        ],
+        "phone": [
+            "+91-326-2235489",
+            "+91-9431125793"
+        ],
+        "linkedin": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": "",
+        "date_of_birth": "",
+        "gender": "",
+        "nationality": "Indian",
+        "marital_status": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Mobility Management and Route Optimization for Wireless Networks",
+            "institution": "MNNIT Allahabad",
+            "university": "University of Allahabad",
+            "year": 2006
+        },
+        {
+            "degree": "M.E.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Motilal Nehru Regional Engineering College (MNNIT)",
+            "university": "University of Allahabad",
+            "year": 2001,
+            "class": "First Class First",
+            "thesis": "Platform Independent Computing on a Heterogeneous Cluster"
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Telecommunication Engineering",
+            "institution": "Dayananda Sagar College of Engineering",
+            "university": "University of Bangalore",
+            "year": 1997,
+            "class": "First Class"
+        }
+    ],
+    "experience": {
+        "academic_years": 25.8,
+        "industry_years": 0.2,
+        "research_years": 18.0,
+        "total_years": 26.0,
+        "detailed_experience": [
+            {
+                "designation": "Professor (HAG)",
+                "organization": "Indian Institute of Technology (ISM) Dhanbad",
+                "department": "Computer Science and Engineering",
+                "start": "2023-12",
+                "end": "Present"
+            },
+            {
+                "designation": "Professor",
+                "organization": "Indian Institute of Technology (ISM) Dhanbad",
+                "department": "Computer Science and Engineering",
+                "start": "2017-11",
+                "end": "2023-12"
+            },
+            {
+                "designation": "Associate Professor",
+                "organization": "Indian Institute of Technology (ISM) Dhanbad",
+                "department": "Computer Science and Engineering",
+                "start": "2009-06",
+                "end": "2017-11"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Indian Institute of Technology (ISM) Dhanbad",
+                "department": "Computer Science and Engineering",
+                "start": "2006-06",
+                "end": "2009-06"
+            },
+            {
+                "designation": "Senior Lecturer",
+                "organization": "Indian Institute of Technology (ISM) Dhanbad",
+                "department": "Computer Science and Engineering",
+                "start": "2005-06",
+                "end": "2006-06"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Institute of Engineering and Rural Technology (IERT), Allahabad",
+                "department": "Computer Science and Engineering",
+                "start": "2002-09",
+                "end": "2005-06"
+            },
+            {
+                "designation": "Guest Lecturer",
+                "organization": "Institute of Engineering and Rural Technology (IERT), Allahabad",
+                "department": "Computer Science and Engineering",
+                "start": "2002-03",
+                "end": "2002-09"
+            },
+            {
+                "designation": "Guest Lecturer",
+                "organization": "MNNIT Allahabad",
+                "department": "Computer Science and Engineering",
+                "start": "2001-07",
+                "end": "2002-03"
+            },
+            {
+                "designation": "Part Time Academic Counselor",
+                "organization": "IGNOU Study Center, MNNIT Allahabad",
+                "department": "",
+                "start": "2001-08",
+                "end": "2002-06"
+            },
+            {
+                "designation": "Faculty Member and Administrative Officer",
+                "organization": "FACE-IT Allahabad",
+                "department": "",
+                "start": "2000-12",
+                "end": "2002-03"
+            },
+            {
+                "designation": "System Executive",
+                "organization": "Prime Management and Technological Consultants (pMTC)",
+                "department": "",
+                "start": "2001-03",
+                "end": "2001-05"
+            },
+            {
+                "designation": "Visiting Lecturer",
+                "organization": "MNNIT Allahabad",
+                "department": "Computer Science and Engineering",
+                "start": "2001-01",
+                "end": "2001-05"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Development of Virtual Reality Mine Simulator (VRMS) for Improving Safety and Productivity in Indian Coal Mines",
+            "funding_agency": "Coal India Limited",
+            "role": "Co-PI",
+            "status": "Ongoing"
+        },
+        {
+            "title": "Study of Executive Manpower Requirement for the Next 10 Years in CIL and its Subsidiaries",
+            "funding_agency": "Coal India Limited",
+            "role": "Member",
+            "status": "Ongoing"
+        },
+        {
+            "title": "Information Security Education and Awareness (ISEA) Phase-II",
+            "funding_agency": "MCIT",
+            "role": "Team Member",
+            "status": "Completed"
+        },
+        {
+            "title": "WSN Based Disaster and Environmental Monitoring System for Safety of Miners",
+            "funding_agency": "CSIR",
+            "role": "PI",
+            "status": "Completed"
+        },
+        {
+            "title": "Energy-Efficient Intruder Detection Schemes for WSN using Learning-Based Techniques",
+            "funding_agency": "DRDO",
+            "role": "PI",
+            "status": "Completed"
+        },
+        {
+            "title": "Node Mobility Techniques for Tactical IP Networks",
+            "funding_agency": "DRDO",
+            "role": "PI",
+            "status": "Completed"
+        },
+        {
+            "title": "Development of Mobility Management Protocols for Wireless Networks",
+            "funding_agency": "IIT (ISM) Dhanbad",
+            "role": "PI",
+            "status": "Completed"
+        },
+        {
+            "title": "Development of QoS Routing Protocol for Wireless Ad-Hoc Networks",
+            "funding_agency": "UGC",
+            "role": "PI",
+            "status": "Completed"
+        }
+    ],
+    "subjects_taught": [
+        "Computer Networks",
+        "Advanced Computer Networks",
+        "Advanced Data Structures",
+        "Advanced DBMS",
+        "Computer Programming",
+        "Database Management Systems",
+        "Software Engineering",
+        "Distributed Operating Systems",
+        "Internet Technology",
+        "Data Structures",
+        "Operating Systems",
+        "Advanced Operating Systems"
+    ],
+    "research_areas": [
+        "Wireless Networks",
+        "Mobile Ad Hoc Networks",
+        "Wireless Sensor Networks",
+        "Internet of Things",
+        "Software Engineering",
+        "Cloud Computing",
+        "Distributed Systems",
+        "Dependability Analysis",
+        "Network Security",
+        "Mobility Management",
+        "QoS Routing",
+        "Disaster Management Systems"
+    ],
+    "awards": [
+        {
+            "title": "Gold Medal in M.E. (Computer Science and Engineering)"
+        },
+        {
+            "title": "Best Paper Award",
+            "event": "World Congress on Engineering and Computer Science (WCECS 2007)"
+        },
+        {
+            "title": "Certificate of Appreciation for Design and Development of Student Feedback System",
+            "year": 2012
+        },
+        {
+            "title": "Certified Novell Administrator (CNA)"
+        },
+        {
+            "title": "Certified Novell Engineer (CNE)"
+        }
+    ],
+    "administrative_roles": [
+        "Head, Department of Computer Science and Engineering, IIT (ISM) Dhanbad",
+        "Dean (Academic), IIT (ISM) Dhanbad",
+        "Dean (Information Systems), IIT (ISM) Dhanbad",
+        "Head, Computer Centre, IIT (ISM) Dhanbad",
+        "Head, Automation Centre, IIT (ISM) Dhanbad",
+        "Training and Placement Officer, IIT (ISM) Dhanbad",
+        "Professor In-Charge (Training and Placement)",
+        "Chairman, Website Committee",
+        "Chairman, Office Automation Committee",
+        "Chairman, DFSC CSE Department"
+    ],
+    "publications": {
+        "journal_count": 99,
+        "conference_count": 81,
+        "book_count": 7,
+        "book_chapter_count": 5,
+        "patent_count": 1,
+        "abstract_count": 3,
+        "technical_article_count": 2
+    },
+    "patents": [
+        {
+            "title": "An Integrated UMTS Wireless LAN System and Method for Location Management",
+            "patent_number": "380036",
+            "status": "Granted",
+            "granted_date": "2021-10-26"
+        }
+    ],
+    "memberships": [
+        {
+            "role": "Advisory Board Member",
+            "organization": "Multiple IEEE and International Conferences"
+        },
+        {
+            "role": "Technical Program Committee Member",
+            "organization": "International Conferences"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "Certified Novell Administrator (CNA)"
+        },
+        {
+            "title": "Certified Novell Engineer (CNE)"
+        }
+    ],
+    "phd_guidance": {
+        "completed_phd": 19,
+        "ongoing_phd": 3
+    },
+    "workshops": [
+        {
+            "title": "Building Sensor Nodes (BSN-2023)",
+            "role": "Coordinator"
+        },
+        {
+            "title": "Conceptual Blockchain: An Application Portfolio (CBC-2023)",
+            "role": "Co-Coordinator"
+        },
+        {
+            "title": "IEEE International Conference on Recent Advances in Information Technology (RAIT-2016)",
+            "role": "General Chair and Program Chair"
+        }
+    ],
+    "software_skills": [
+        "NS-2",
+        "NS-3",
+        "Computer Networks",
+        "Wireless Network Simulation",
+        "Distributed Systems",
+        "Database Systems",
+        "Software Engineering"
+    ],
+    "validation_warnings": [
+        "ORCID not available",
+        "Google Scholar profile not available in CV",
+        "ResearchGate profile not available in CV",
+        "Date of birth not explicitly mentioned"
+    ],
+    "confidence_score": 0.99
+}

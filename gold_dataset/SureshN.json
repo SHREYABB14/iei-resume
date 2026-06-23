@@ -1,0 +1,200 @@
+{
+    "personal": {
+        "name": "N. Suresh",
+        "email": "mailtonsuresh@gmail.com",
+        "phone": "+91-9884785587",
+        "linkedin": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": "",
+        "website": "www.sureshnatarajan.webnode.com",
+        "date_of_birth": "1985-06-22",
+        "nationality": "Indian"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Power Electronics",
+            "university": "Sathyabama University",
+            "status": "Pursuing",
+            "registration_year": 2014
+        },
+        {
+            "degree": "M.E.",
+            "specialization": "Control and Instrumentation",
+            "university": "College of Engineering Guindy, Anna University",
+            "year": 2009,
+            "cgpa": 6.47
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Electrical and Electronics Engineering",
+            "university": "Anna University",
+            "year": 2007,
+            "percentage": 72
+        }
+    ],
+    "experience": {
+        "academic_years": 12.5,
+        "industry_years": 0,
+        "research_years": 0,
+        "total_years": 12.5,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "The New Royal College of Engineering and Technology",
+                "start": "2009-07",
+                "end": "2010-05"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Sathyabama University",
+                "start": "2010-06",
+                "end": "2019-04"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Jerusalem College of Engineering",
+                "start": "2019-07",
+                "end": "2022-02"
+            }
+        ]
+    },
+    "publications": {
+        "journal_count": 8,
+        "conference_count": 6,
+        "book_count": 0,
+        "book_chapter_count": 0,
+        "patent_count": 0,
+        "publication_summary": {
+            "total_papers": 14,
+            "scopus_journals": 6,
+            "scopus_conferences": 2,
+            "other_journals": 2,
+            "other_conferences": 4
+        }
+    },
+    "research_metrics": {
+        "scopus_citations": 32,
+        "scopus_h_index": 3,
+        "google_scholar_citations": 80,
+        "google_scholar_h_index": 3,
+        "google_scholar_i10_index": 3
+    },
+    "patents": [],
+    "projects": [],
+    "awards": [
+        {
+            "title": "School Topper",
+            "year": 2003
+        }
+    ],
+    "memberships": [
+        {
+            "organization": "Indian Society for Technical Education",
+            "membership_type": "Life Member",
+            "membership_id": "LM110393"
+        },
+        {
+            "organization": "International Association of Engineers",
+            "membership_type": "Member",
+            "membership_id": "170436"
+        }
+    ],
+    "editorial_roles": [
+        {
+            "role": "Editorial Board Member",
+            "organization": "SSRG International Journal of Electrical and Electronics Engineering"
+        },
+        {
+            "role": "Advisor / Editorial Board Member",
+            "organization": "International Journal of Application or Innovation in Engineering and Management"
+        }
+    ],
+    "subjects_taught": [
+        "Digital Signal Processing",
+        "Electromagnetic Theory",
+        "Control System",
+        "Advanced Control Systems",
+        "Electrical Machines I",
+        "Electrical Machines II",
+        "Fuzzy Logic and ANN",
+        "Electronic Devices and Circuits",
+        "Microprocessors and Microcontrollers",
+        "Measurements and Instrumentation",
+        "Biomedical Instrumentation",
+        "Circuit Theory",
+        "Digital Logic Circuits",
+        "Linear Integrated Circuits"
+    ],
+    "research_areas": [
+        "Power Electronics",
+        "Control Systems",
+        "Electrical Machines",
+        "Renewable Energy",
+        "Power Systems",
+        "Instrumentation"
+    ],
+    "certifications": [
+        "Effective Engineering Teaching in Practice (NPTEL)",
+        "Outcome Based Pedagogic Principles for Effective Teaching (NPTEL)",
+        "Design of Photovoltaic Systems (NPTEL)",
+        "Non-Conventional Energy Resources (NPTEL)"
+    ],
+    "fdp": [
+        {
+            "program_name": "Working with Electrical CAD",
+            "duration_days": 5
+        },
+        {
+            "program_name": "Electric Transportation Infrastructure for E-Mobility in India",
+            "duration_days": 5
+        },
+        {
+            "program_name": "Power System Analysis",
+            "duration_days": 6
+        }
+    ],
+    "sttp": [
+        {
+            "program_name": "Electric Mobility: Development, Integration and Design Challenges",
+            "duration_days": 6
+        }
+    ],
+    "administrative_roles": [
+        "NAAC Criteria 6 In-charge",
+        "Workshop Coordinator",
+        "Project Coordinator",
+        "Subject Coordinator",
+        "Industrial Visit In-charge",
+        "Library In-charge",
+        "Class Counsellor",
+        "Proctor",
+        "Board of Studies Member",
+        "Admission Team Member"
+    ],
+    "software_skills": [
+        "MATLAB",
+        "LabVIEW",
+        "PSpice",
+        "Capture CIS",
+        "Workbench",
+        "Multisim",
+        "C",
+        "C++",
+        "Python"
+    ],
+    "languages_known": [
+        "English",
+        "Tamil",
+        "Hindi",
+        "Telugu"
+    ],
+    "validation_warnings": [
+        "No patents found",
+        "No funded projects found",
+        "No ORCID found",
+        "No Google Scholar profile URL found"
+    ],
+    "confidence_score": 0.97
+}

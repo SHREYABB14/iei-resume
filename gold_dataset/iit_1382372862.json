@@ -1,0 +1,208 @@
+{
+    "personal": {
+        "name": "Dr. Arindam Sarkar",
+        "email": "asarkar@iitbbs.ac.in",
+        "phone": "+91-674-2306356",
+        "mobile": "+91-8895267097",
+        "google_scholar": "http://scholar.google.com/citations?user=Bwi0Su8AAAAJ",
+        "designation": "Assistant Professor",
+        "department": "School of Infrastructure",
+        "organization": "Indian Institute of Technology Bhubaneswar"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Civil Engineering",
+            "university": "Indian Institute of Technology Kharagpur",
+            "year": 2006,
+            "thesis_title": "Scour downstream of an apron and characteristics of submerged horizontal jet over rough and sudden changes from smooth to rough beds"
+        },
+        {
+            "degree": "M.E.",
+            "specialization": "Applied Mechanics",
+            "university": "Bengal Engineering and Science University",
+            "year": 2001,
+            "percentage": 82.11
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Civil Engineering",
+            "university": "Jalpaiguri Government Engineering College",
+            "year": 1998,
+            "percentage": 73.39
+        }
+    ],
+    "experience": {
+        "academic_years": 17.0,
+        "industry_years": 0,
+        "research_years": 6.0,
+        "total_years": 23.0,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "Indian Institute of Technology Bhubaneswar",
+                "start": "2010-05",
+                "end": "Present"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Thapar University",
+                "start": "2007-03",
+                "end": "2010-05"
+            },
+            {
+                "designation": "Postdoctoral Research Fellow",
+                "organization": "Technion – Israel Institute of Technology",
+                "country": "Israel"
+            },
+            {
+                "designation": "Doctoral Research Fellow",
+                "organization": "Indian Institute of Technology Kharagpur"
+            }
+        ]
+    },
+    "research_areas": [
+        "Hydraulic Engineering",
+        "Fluvial Hydraulics",
+        "Sediment Transport",
+        "Scour around Hydraulic Structures",
+        "Open Channel Hydraulics",
+        "Experimental Fluid Mechanics",
+        "Flow Modelling",
+        "Environmental Hydraulics",
+        "Vegetation Hydraulics"
+    ],
+    "publications": {
+        "journal_count": 15,
+        "conference_count": 7,
+        "book_count": 0,
+        "book_chapter_count": 0,
+        "patent_count": 0,
+        "total_publications": 22
+    },
+    "research_grants": [
+        {
+            "title": "Hydraulics of Submerged Structures Subject to Shallow Submergence",
+            "agency": "DST",
+            "amount_lakhs": 13.64,
+            "role": "PI",
+            "status": "Completed"
+        },
+        {
+            "title": "Flow Field Around Group of Submerged Structures and its Application to Sediment Transport",
+            "agency": "DST-SERB",
+            "amount_lakhs": 43.0,
+            "role": "PI",
+            "status": "Ongoing"
+        },
+        {
+            "title": "Impact Assessment of Climate Change on Hydro-meteorological Processes and Water Resources of Mahanadi River Basin",
+            "agency": "Ministry of Water Resources",
+            "role": "Co-PI",
+            "status": "Reviewed and Resubmitted"
+        }
+    ],
+    "consultancy_projects": [
+        {
+            "client": "Samana Municipal Corporation",
+            "title": "Rainwater Harvesting and Groundwater Recharge System Design"
+        },
+        {
+            "client": "Patran Municipal Corporation",
+            "title": "Drainage Network Design"
+        },
+        {
+            "client": "HINDALCO",
+            "title": "Transmission Tower Foundation Design"
+        },
+        {
+            "client": "OPTCL",
+            "title": "Pile Foundation Design Verification"
+        },
+        {
+            "client": "RITES Ltd",
+            "title": "Box Bridge Design Proof Checking"
+        }
+    ],
+    "editorial_roles": [
+        {
+            "role": "Editorial Board Member",
+            "journal": "International Journal of Water Resources and Environmental Engineering"
+        }
+    ],
+    "reviewer_roles": [
+        "Journal of Hydraulic Engineering (ASCE)",
+        "International Journal of Sediment Research",
+        "Journal of Hydroinformatics",
+        "Environmental Fluid Mechanics",
+        "Water Resources Research",
+        "Sadhana",
+        "Journal of The Institution of Engineers (India)"
+    ],
+    "memberships": [
+        {
+            "organization": "Indian Society for Hydraulics",
+            "membership_type": "Member"
+        },
+        {
+            "organization": "Institution of Engineers (India)",
+            "membership_type": "Member"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Lady Davis Fellowship",
+            "description": "Postdoctoral Fellowship at Technion Israel Institute of Technology"
+        }
+    ],
+    "phd_guidance": {
+        "ongoing": 1,
+        "students": [
+            {
+                "topic": "Flow through submerged and emergent vegetation",
+                "status": "Ongoing"
+            }
+        ]
+    },
+    "conference_organized": [
+        {
+            "event": "Indian Water Management in 21st Century",
+            "year": 2011
+        },
+        {
+            "event": "Workshop on Indian Water Management and Symposium on Sustainable Infrastructure Development",
+            "year": 2013
+        }
+    ],
+    "invited_talks": [
+        {
+            "title": "Hydrological Modeling: Recent Advances",
+            "organization": "NIT Silchar",
+            "type": "Keynote Lecture"
+        },
+        {
+            "title": "Advance Topics in Fluid Flow and Heat Transfer",
+            "organization": "Thapar University",
+            "type": "Faculty Development Programme Lecture"
+        }
+    ],
+    "subjects_taught": [
+        "Hydraulics",
+        "Fluid Mechanics",
+        "Hydraulic Engineering",
+        "Environmental Hydraulics"
+    ],
+    "patents": [],
+    "research_metrics": {
+        "google_scholar_available": true,
+        "h_index": null,
+        "i10_index": null,
+        "citations": null
+    },
+    "validation_warnings": [
+        "No patents found",
+        "Research metrics not explicitly mentioned",
+        "Publication categorization may require verification"
+    ],
+    "confidence_score": 0.99
+}

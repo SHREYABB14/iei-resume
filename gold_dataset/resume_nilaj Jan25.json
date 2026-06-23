@@ -1,0 +1,161 @@
+{
+    "personal": {
+        "name": "Dr. Nilaj Najukrao Deshmukh",
+        "email": "nilaj.deshmukh@fcrit.ac.in",
+        "phone": "",
+        "linkedin": "",
+        "orcid": "0000-0002-4244-6882",
+        "google_scholar": "Available",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Mechanical Engineering",
+            "university": "IIT Bombay",
+            "year": 2016
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Mechanical Engineering",
+            "university": "VJTI Mumbai",
+            "year": 2006,
+            "percentage": 68.0
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Mechanical Engineering",
+            "university": "Amravati University",
+            "year": 1998,
+            "percentage": 64.74
+        },
+        {
+            "degree": "Diploma",
+            "specialization": "Mechanical Engineering",
+            "university": "Board of Technical Education Mumbai",
+            "year": 1995,
+            "percentage": 60.0
+        }
+    ],
+    "experience": {
+        "academic_years": 25.7,
+        "industry_years": 1.8,
+        "research_years": 0,
+        "total_years": 27.5
+    },
+    "publications": {
+        "journal_count": 24,
+        "conference_count": 41,
+        "book_count": 1,
+        "book_chapter_count": 3,
+        "patent_count": 2
+    },
+    "patents": [
+        {
+            "title": "A Method of Suppressing Thermo-Acoustic Instabilities by Means of Active Closed Loop",
+            "application_no": "202021026306",
+            "status": "Published",
+            "year": 2021
+        },
+        {
+            "title": "Toothpaste Refiller",
+            "application_no": "2022221009678",
+            "status": "Published",
+            "year": 2023
+        }
+    ],
+    "projects": {
+        "be_projects_guided": 18,
+        "me_mtech_projects_guided": 17,
+        "phd_scholars": 3,
+        "research_grants": 4
+    },
+    "awards": [
+        "Best Paper Award ICNTE-2017",
+        "Best Paper Award ICNTE-2021",
+        "Best Researcher Award 2021-22",
+        "Best Faculty of the Year 2024",
+        "Eminent Mechanical Engineer Award 2024"
+    ],
+    "memberships": [
+        {
+            "organization": "Institution of Engineers (India)",
+            "grade": "Fellow"
+        },
+        {
+            "organization": "National Society of Fluid Mechanics and Fluid Power",
+            "grade": "Member"
+        },
+        {
+            "organization": "Council of Vibration Specialists",
+            "grade": "Fellow"
+        },
+        {
+            "organization": "International Institute of Acoustics and Vibration",
+            "grade": "Distinguished Fellow"
+        },
+        {
+            "organization": "Aeronautical Society of India",
+            "grade": "Member"
+        }
+    ],
+    "research_metrics": {
+        "journal_papers": 24,
+        "international_conference_papers": 35,
+        "national_conference_papers": 6,
+        "books": 1,
+        "book_chapters": 3,
+        "patents": 2
+    },
+    "research_areas": [
+        "Thermo-acoustics",
+        "Combustion",
+        "Noise Measurement",
+        "IC Engines",
+        "Heat Transfer",
+        "Virtual Instrumentation",
+        "Data Acquisition Systems",
+        "Alternative Fuels"
+    ],
+    "administrative_roles": [
+        "Dean (Admin. and Faculty)",
+        "Dean (Faculty)",
+        "Head of Department",
+        "NBA Coordinator",
+        "NAAC Coordinator",
+        "MESA Coordinator",
+        "Renewable Energy Club Coordinator",
+        "Project Coordinator",
+        "Chief Conductor University Examination"
+    ],
+    "funded_projects": [
+        {
+            "title": "Experimental and Simulation Study of Different Horns for Cleaning",
+            "agency": "University of Mumbai",
+            "amount": 45000
+        },
+        {
+            "title": "Optimization of Wind Mill Design",
+            "agency": "University of Mumbai",
+            "amount": 35000
+        },
+        {
+            "title": "Characterization and Suppression of Thermo-acoustic Instability",
+            "agency": "University of Mumbai",
+            "amount": 25000
+        },
+        {
+            "title": "Suppression of Thermo-acoustic Instability using Helmholtz Resonator",
+            "agency": "University of Mumbai",
+            "amount": 40000
+        }
+    ],
+    "fdp_organized": 5,
+    "training_programs_organized": 6,
+    "invited_talks": 15,
+    "validation_warnings": [
+        "Phone number not available",
+        "Research metrics (h-index, citations) not explicitly mentioned"
+    ],
+    "confidence_score": 0.95
+}

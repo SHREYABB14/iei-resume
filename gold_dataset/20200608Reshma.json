@@ -1,0 +1,312 @@
+{
+    "personal": {
+        "name": "Dr. Reshma Rabbani",
+        "email": [
+            "reshma.rabbani@rediffmail.com"
+        ],
+        "phone": [
+            "0771-2432961",
+            "7224091971"
+        ],
+        "linkedin": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": "",
+        "website": "",
+        "skype": "",
+        "date_of_birth": "1984-07-20",
+        "gender": "Female",
+        "nationality": "Indian",
+        "marital_status": "",
+        "languages_known": [
+            "English",
+            "Hindi"
+        ]
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "English",
+            "institution": "Pt. Ravishankar Shukla University",
+            "year": 2018,
+            "thesis_title": "A Post-Colonial Study of Select Novels of V.S. Naipaul"
+        },
+        {
+            "degree": "M.Phil.",
+            "specialization": "English",
+            "institution": "Pt. Ravishankar Shukla University",
+            "year": 2011,
+            "percentage": 70.8,
+            "dissertation_title": "Film & Literature: A Comparative Study of Chetan Bhagat's Novel Five Point Someone and Raj Kumar Hirani's Film Three Idiots"
+        },
+        {
+            "degree": "M.A.",
+            "specialization": "English",
+            "institution": "Durga College",
+            "university": "Pt. Ravishankar Shukla University",
+            "year": 2008,
+            "percentage": 62
+        },
+        {
+            "degree": "B.A.",
+            "institution": "Daga Girls College",
+            "university": "Pt. Ravishankar Shukla University",
+            "year": 2006,
+            "percentage": 70
+        },
+        {
+            "degree": "12th",
+            "specialization": "Science (Biology)",
+            "institution": "Holy Cross School, Raipur",
+            "board": "CBSE",
+            "year": 2003,
+            "percentage": 62
+        },
+        {
+            "degree": "10th",
+            "institution": "St. Joseph's Convent High School, Sambalpur",
+            "board": "ICSE",
+            "year": 2001,
+            "percentage": 72
+        }
+    ],
+    "experience": {
+        "academic_years": 10.0,
+        "industry_years": 0.0,
+        "research_years": 4.0,
+        "total_years": 10.0,
+        "detailed_experience": [
+            {
+                "designation": "Visiting Faculty",
+                "organization": "School of Studies in Literature and Languages, Pt. Ravishankar Shukla University",
+                "department": "Literature and Languages",
+                "start": "2018-09",
+                "end": "2019-04"
+            },
+            {
+                "designation": "Assistant Professor (Contract)",
+                "organization": "Centre for Basic Sciences, Pt. Ravishankar Shukla University",
+                "department": "English",
+                "start": "2015-07",
+                "end": "2017-08"
+            },
+            {
+                "designation": "Part Time Lecturer",
+                "organization": "Government Co-Ed Polytechnic College",
+                "department": "English",
+                "start": "2014-08",
+                "end": "2015-05"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Disha Institute of Management and Technology",
+                "department": "English",
+                "start": "2013-02",
+                "end": "2013-08"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Pragati College of Engineering and Management",
+                "department": "Communication Skills",
+                "start": "2012-01",
+                "end": "2012-07"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Central Institute of Technology",
+                "department": "Communication Skills",
+                "start": "2010-05",
+                "end": "2011-12"
+            },
+            {
+                "designation": "Assistant Professor of English",
+                "organization": "Government College Navapara Gobra (Rajim)",
+                "department": "English",
+                "start": "2010-01",
+                "end": "2010-04"
+            },
+            {
+                "designation": "Assistant Professor of English",
+                "organization": "Aviva Info Tech College",
+                "department": "English",
+                "start": "2009-08",
+                "end": "2010-01"
+            },
+            {
+                "designation": "Assistant Teacher",
+                "organization": "Mata Sundari Public School",
+                "department": "",
+                "start": "2008-07",
+                "end": "2009-07"
+            }
+        ]
+    },
+    "research_areas": [
+        "Post Colonial Literature",
+        "English Literature",
+        "V.S. Naipaul Studies",
+        "Diaspora Studies",
+        "Communication Skills",
+        "Language Teaching",
+        "Comparative Literature",
+        "Women Studies",
+        "English Language Teaching"
+    ],
+    "subjects_taught": [
+        "English Literature",
+        "Communication Skills",
+        "English Language",
+        "Phonetics",
+        "Technical Communication"
+    ],
+    "projects": [],
+    "research_grants": [],
+    "consultancy_projects": [],
+    "publications": {
+        "journal_count": 4,
+        "conference_count": 0,
+        "book_count": 0,
+        "book_chapter_count": 0,
+        "patent_count": 0,
+        "total_publications": 4
+    },
+    "books": [],
+    "book_chapters": [],
+    "patents": [],
+    "phd_guidance": {
+        "completed_phd": 0,
+        "ongoing_phd": 0,
+        "students": []
+    },
+    "awards": [
+        {
+            "title": "Qualified UGC-NET",
+            "year": 2018
+        },
+        {
+            "title": "Qualified CG-SET",
+            "year": 2013
+        },
+        {
+            "title": "2nd Position in M.Phil",
+            "organization": "Pt. Ravishankar Shukla University",
+            "year": 2011
+        },
+        {
+            "title": "7th Position in M.A. English",
+            "organization": "Pt. Ravishankar Shukla University",
+            "year": 2008
+        },
+        {
+            "title": "4th Position in B.A.",
+            "organization": "Pt. Ravishankar Shukla University",
+            "year": 2006
+        },
+        {
+            "title": "1st Position in Daga Girls College",
+            "year": 2006
+        }
+    ],
+    "fellowships": [],
+    "memberships": [
+        {
+            "organization": "English Language Teachers Association of India (ELTAI)",
+            "role": "Executive Member",
+            "since": "2018-04"
+        }
+    ],
+    "editorial_roles": [],
+    "reviewer_roles": [],
+    "administrative_roles": [],
+    "leadership_roles": [
+        "Executive Member, ELTAI Raipur Chapter"
+    ],
+    "conference_organized": [],
+    "conference_presentations": [
+        {
+            "title": "A Comparative Study of Chetan Bhagat's Five Point Someone and Raj Kumar Hirani's 3 Idiots",
+            "type": "National Conference",
+            "year": 2018
+        },
+        {
+            "title": "Eurocentrism, an Essential Parameter of Happiness in V.S. Naipaul's In a Free State",
+            "type": "National Conference",
+            "year": 2018
+        },
+        {
+            "title": "Diasporic Alienation in V.S. Naipaul's Half a Life",
+            "type": "National Conference",
+            "year": 2017
+        },
+        {
+            "title": "Role of Language Laboratories in Honing Communication Skills and Personality Development",
+            "type": "National Seminar",
+            "year": 2017
+        },
+        {
+            "title": "The Sun of British Empire and English Language Never Sets in the Works of V.S. Naipaul",
+            "type": "National Seminar",
+            "year": 2017
+        },
+        {
+            "title": "The New Awakened Women: The Journey of Women from Suppression to Liberation",
+            "type": "National Conference",
+            "year": 2015
+        },
+        {
+            "title": "English Language in Setting and Upsetting the British Empire",
+            "type": "International Conference",
+            "year": 2015
+        }
+    ],
+    "invited_talks": [],
+    "fdp": [
+        {
+            "program_name": "Faculty Development Programme",
+            "role": "Conducted",
+            "organization": "Pragati College of Engineering and Management"
+        }
+    ],
+    "sttp": [],
+    "workshops": [
+        {
+            "title": "Awareness about Patents (IPR)",
+            "year": 2018
+        },
+        {
+            "title": "Teaching Speaking Techniques and Poetry Appreciation",
+            "year": 2015
+        },
+        {
+            "title": "Innovative Methods of Teaching Phonetics, Grammar, Vocabulary and Writing Skills",
+            "year": 2013
+        },
+        {
+            "title": "Trainer's Training Programme on Communication Skills",
+            "year": 2011
+        }
+    ],
+    "certifications": [
+        {
+            "title": "UGC-NET"
+        },
+        {
+            "title": "CG-SET"
+        }
+    ],
+    "software_skills": [],
+    "research_metrics": {
+        "h_index": 0,
+        "i10_index": 0,
+        "citations": 0
+    },
+    "validation_warnings": [
+        "No ORCID profile found",
+        "No Google Scholar profile found",
+        "No ResearchGate profile found",
+        "No funded research projects found",
+        "No patents found",
+        "No PhD supervision reported"
+    ],
+    "confidence_score": 0.99
+}

@@ -1,0 +1,16 @@
+streamlit
+PyMuPDF
+pdfplumber
+paddleocr
+pandas
+openpyxl
+spacy
+sentence-transformers
+python-docx
+docx2txt
+textract
+python-dateutil
+sentencepiece
+requests
+jsonschema
+pytest

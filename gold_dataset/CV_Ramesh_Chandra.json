@@ -1,0 +1,260 @@
+{
+    "personal": {
+        "name": "Dr. Ramesh Chandra",
+        "email": [
+            "ramesh.chandra@ic.iitr.ac.in",
+            "ramesfic@gmail.com"
+        ],
+        "phone": "+91-9897031912",
+        "designation": "Professor (HAG Scale)",
+        "department": "Institute Instrumentation Centre & Centre for Nanotechnology",
+        "organization": "Indian Institute of Technology Roorkee",
+        "website": "https://www.iitr.ac.in/centers/IIC/pages/People+_en_Faculty__en_.html",
+        "orcid": "0000-0002-4529-2217",
+        "google_scholar": "https://scholar.google.co.in/citations?hl=en&user=VOwGOJQAAAAJ",
+        "date_of_birth": "1964-04-24"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Physics",
+            "university": "Indian Institute of Technology Delhi",
+            "year": 1993
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Physics",
+            "university": "Aligarh Muslim University",
+            "year": 1987
+        }
+    ],
+    "experience": {
+        "academic_years": 28.0,
+        "industry_years": 0.0,
+        "research_years": 1.0,
+        "total_years": 29.0,
+        "detailed_experience": [
+            {
+                "designation": "Professor (Senior Scale)",
+                "organization": "Indian Institute of Technology Roorkee",
+                "start": "2021-01",
+                "end": "Present"
+            },
+            {
+                "designation": "Professor",
+                "organization": "Indian Institute of Technology Roorkee",
+                "start": "2014-04",
+                "end": "2020-12"
+            },
+            {
+                "designation": "Associate Professor",
+                "organization": "Indian Institute of Technology Roorkee",
+                "start": "2007-01",
+                "end": "2014-03"
+            },
+            {
+                "designation": "Assistant Professor",
+                "organization": "Indian Institute of Technology Roorkee",
+                "start": "2004-01",
+                "end": "2006-12"
+            },
+            {
+                "designation": "Reader",
+                "organization": "CCS University Meerut",
+                "start": "2002-01",
+                "end": "2004-01"
+            },
+            {
+                "designation": "Lecturer",
+                "organization": "Guru Nanak Dev University",
+                "start": "1994-01",
+                "end": "2002-01"
+            },
+            {
+                "designation": "Research Associate",
+                "organization": "National Physical Laboratory",
+                "start": "1993-01",
+                "end": "1994-01"
+            }
+        ]
+    },
+    "research_areas": [
+        "Nanomaterials",
+        "Thin Film Technology",
+        "Nanostructured Coatings",
+        "Hydrogen Sensors",
+        "Gas Sensors",
+        "Supercapacitors",
+        "Energy Storage",
+        "Energy Conversion",
+        "Magnetic Nanostructures",
+        "Corrosion Resistant Coatings",
+        "Functional Nanomaterials",
+        "Sputtering Technology",
+        "Catalysis"
+    ],
+    "publications": {
+        "journal_count": 240,
+        "conference_count": 135,
+        "book_count": 0,
+        "book_chapter_count": 1,
+        "patent_count": 1,
+        "total_publications": 376
+    },
+    "phd_guidance": {
+        "completed_phd": 28,
+        "ongoing_phd": 15,
+        "completed_pg": 18,
+        "postdoctoral_fellows": 3
+    },
+    "research_grants": {
+        "completed_projects": 16,
+        "ongoing_projects": 1,
+        "completed_project_amount_lakhs": 1053.21,
+        "ongoing_project_amount_lakhs": 95.40
+    },
+    "consultancy_projects": {
+        "completed_projects": 13,
+        "ongoing_projects": 3,
+        "completed_amount_lakhs": 36.75,
+        "ongoing_amount_lakhs": 13.50
+    },
+    "patents": [
+        {
+            "title": "Growth of Cuprous Oxide Nanowires with Top Layer of Noble Metal",
+            "application_no": "201811032673",
+            "filing_date": "2018-08-31",
+            "status": "Filed"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Dr. A.N. Chatterjee Memorial Award",
+            "year": 1990
+        },
+        {
+            "title": "Commonwealth Fellowship",
+            "organization": "University of Cambridge",
+            "duration": "2002-2003"
+        },
+        {
+            "title": "INSA Fellowship",
+            "organization": "University of Cambridge",
+            "duration": "2009-2010"
+        },
+        {
+            "title": "INSA Fellowship",
+            "organization": "Silesian University, Poland",
+            "year": 2019
+        },
+        {
+            "title": "Visiting Scientist",
+            "organization": "TIFR Mumbai"
+        },
+        {
+            "title": "Visiting Associate",
+            "organization": "IUAC New Delhi"
+        }
+    ],
+    "administrative_roles": [
+        "Head, Institute Instrumentation Centre",
+        "Head, DST SAIF (EPMA) Facility",
+        "Staff Advisor, Hobbies Club",
+        "Staff Advisor, Sports Council",
+        "Chairman, Safety Committee"
+    ],
+    "memberships": [
+        {
+            "organization": "Technical Expert Committee - DRDO IRDE"
+        },
+        {
+            "organization": "Technical Expert Committee - DRDO SSPL"
+        },
+        {
+            "organization": "Technical Expert Committee - DRDO TBRL"
+        },
+        {
+            "organization": "Indian Institute of Petroleum (CSIR)"
+        },
+        {
+            "organization": "Indian Society for Hydraulics"
+        },
+        {
+            "organization": "Institution of Engineers (India)"
+        }
+    ],
+    "reviewer_roles": [
+        "Elsevier",
+        "Springer",
+        "ACS",
+        "American Institute of Physics",
+        "Applied Physics Letters",
+        "Applied Surface Science",
+        "International Journal of Hydrogen Energy",
+        "Thin Solid Films",
+        "Sensors and Actuators B",
+        "Materials and Design",
+        "Journal of Applied Physics",
+        "Vacuum",
+        "Journal of Alloys and Compounds",
+        "Applied Optics"
+    ],
+    "conference_organized": [
+        {
+            "event": "Advances in Characterization Techniques on Functional Nanomaterials",
+            "years": [
+                2010,
+                2012,
+                2014,
+                2015,
+                2017,
+                2019
+            ]
+        },
+        {
+            "event": "NCERT Workshop for NTS Awardees",
+            "year": 2011
+        }
+    ],
+    "invited_talks": [
+        {
+            "title": "Several invited talks delivered at national and international conferences"
+        }
+    ],
+    "research_infrastructure": [
+        "XRD",
+        "FESEM",
+        "TEM",
+        "EPMA",
+        "XRF",
+        "ICP-MS/MS",
+        "PPMS",
+        "SQUID Magnetometer",
+        "NMR",
+        "EPR",
+        "RF/DC Magnetron Sputtering",
+        "Excimer Laser PLD System",
+        "Gas Sensing Facility",
+        "Electrochemical Workstation"
+    ],
+    "industry_collaborations": [
+        "Attero Recycling Pvt Ltd",
+        "Asahi India Glass Ltd",
+        "BMW Steels Ltd"
+    ],
+    "professional_services": [
+        "Reviewer",
+        "Technical Expert Committee Member",
+        "Research Infrastructure Development",
+        "Workshop Organizer",
+        "Training Program Coordinator"
+    ],
+    "research_metrics": {
+        "orcid_available": true,
+        "google_scholar_available": true,
+        "journal_publications": 240,
+        "conference_publications": 135
+    },
+    "validation_warnings": [],
+    "confidence_score": 0.99
+}

@@ -1,0 +1,191 @@
+{
+    "personal": {
+        "name": "Dr. Sartaj Ul Hasan",
+        "email": "sartaj.hasan@iitjammu.ac.in",
+        "phone": "+91-1912571167",
+        "website": "https://sites.google.com/site/sartajulhasan/",
+        "designation": "Assistant Professor",
+        "department": "Department of Mathematics",
+        "organization": "Indian Institute of Technology Jammu"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Mathematics",
+            "university": "Indian Institute of Technology Bombay",
+            "year": 2010,
+            "thesis_title": "Primitive Recursive Vector Sequences, Polynomial Systems and Determinantal Codes over Finite Fields"
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Mathematics",
+            "university": "Aligarh Muslim University",
+            "year": 2001,
+            "percentage": 85.0,
+            "rank": "First Position"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Mathematics",
+            "university": "M.J.P. Rohilkhand University",
+            "year": 1999,
+            "percentage": 75.8,
+            "rank": "First Position in College"
+        }
+    ],
+    "experience": {
+        "academic_years": 9.5,
+        "industry_years": 11.0,
+        "research_years": 1.3,
+        "total_years": 21.8,
+        "detailed_experience": [
+            {
+                "designation": "Assistant Professor",
+                "organization": "Indian Institute of Technology Jammu",
+                "start": "2018-02",
+                "end": "Present"
+            },
+            {
+                "designation": "Scientist D",
+                "organization": "Defence Research and Development Organisation",
+                "start": "2014-07",
+                "end": "2018-01"
+            },
+            {
+                "designation": "Scientist C",
+                "organization": "Defence Research and Development Organisation",
+                "start": "2010-07",
+                "end": "2014-06"
+            },
+            {
+                "designation": "Postdoctoral Fellow",
+                "organization": "Carleton University, Canada",
+                "start": "2011-09",
+                "end": "2012-12"
+            },
+            {
+                "designation": "Scientist B",
+                "organization": "Defence Research and Development Organisation",
+                "start": "2007-02",
+                "end": "2010-06"
+            },
+            {
+                "designation": "Teaching Assistant",
+                "organization": "Indian Institute of Technology Bombay",
+                "start": "2003-07",
+                "end": "2007-02"
+            }
+        ]
+    },
+    "research_areas": [
+        "Finite Fields",
+        "Cryptography",
+        "Coding Theory",
+        "Polynomial Systems",
+        "Shift Registers"
+    ],
+    "publications": {
+        "journal_count": 9,
+        "conference_count": 1,
+        "book_count": 0,
+        "book_chapter_count": 0,
+        "patent_count": 0,
+        "total_publications": 10
+    },
+    "research_grants": [
+        {
+            "project_id": "SRG/2019/000295",
+            "title": "Dembowski-Ostrom Polynomials Derived from Dickson Polynomials over Finite Fields",
+            "funding_agency": "SERB",
+            "duration": "2019-2021"
+        },
+        {
+            "project_id": "MTR/2019/000744",
+            "title": "Self-reciprocal Polynomials from Dickson Polynomials over Finite Fields and Their Applications",
+            "funding_agency": "SERB",
+            "duration": "2019-2022"
+        }
+    ],
+    "phd_guidance": {
+        "completed": 1,
+        "students": [
+            {
+                "name": "Mohit Pal",
+                "status": "Completed",
+                "defense_date": "2021-10-12"
+            }
+        ]
+    },
+    "awards": [
+        {
+            "title": "DRDO Young Scientist of the Year Award",
+            "year": 2014
+        },
+        {
+            "title": "Laboratory Scientist of the Year Award",
+            "year": 2009
+        },
+        {
+            "title": "University Gold Medal",
+            "year": 2001
+        },
+        {
+            "title": "NBHM Scholarship",
+            "year": "1999-2001"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "GATE",
+            "year": 2002
+        },
+        {
+            "name": "UGC-NET",
+            "year": 2002
+        }
+    ],
+    "memberships": [
+        {
+            "organization": "Ramanujan Mathematical Society",
+            "membership_type": "Life Member"
+        },
+        {
+            "organization": "Cryptology Research Society of India",
+            "membership_type": "Life Member"
+        },
+        {
+            "organization": "Indian Mathematical Society",
+            "membership_type": "Life Member"
+        },
+        {
+            "organization": "The Mathematics Consortium",
+            "membership_type": "Associate Member"
+        }
+    ],
+    "conference_organized": [
+        {
+            "event": "International Workshop on Cryptography and Coding Theory",
+            "year": 2021
+        },
+        {
+            "event": "Indocrypt 2014",
+            "year": 2014
+        }
+    ],
+    "research_metrics": {
+        "h_index": null,
+        "i10_index": null,
+        "citations": null
+    },
+    "patents": [],
+    "subjects_taught": [],
+    "fdp": [],
+    "sttp": [],
+    "validation_warnings": [
+        "No patent information found",
+        "Research metrics not mentioned",
+        "No ORCID found",
+        "No Google Scholar profile found"
+    ],
+    "confidence_score": 0.98
+}

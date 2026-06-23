@@ -1,0 +1,209 @@
+{
+    "personal": {
+        "name": "Dr. Panduranga Vital Terlapu",
+        "email": "vital2927@gmail.com",
+        "phone": "+919491936489",
+        "linkedin": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "GITAM University",
+            "year": 2017
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Nagarjuna University",
+            "year": 2010
+        },
+        {
+            "degree": "MCA",
+            "specialization": "Computer Applications",
+            "institution": "Andhra University",
+            "year": 1998
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Computer Science",
+            "institution": "Andhra University",
+            "year": 1995
+        }
+    ],
+    "experience": {
+        "academic_years": 22.0,
+        "industry_years": 0.0,
+        "research_years": 0.0,
+        "total_years": 22.0,
+        "detailed_experience": [
+            {
+                "designation": "Associate Professor",
+                "organization": "Aditya Institute of Technology and Management",
+                "department": "Computer Science and Engineering",
+                "start": "2018-06",
+                "end": "Present"
+            },
+            {
+                "designation": "Associate Professor and CODE TANTRA Trainer",
+                "organization": "Sri Sivani College of Engineering",
+                "department": "Computer Science and Engineering",
+                "start": "2017-06",
+                "end": "2018-06"
+            },
+            {
+                "designation": "Associate Professor and E-BOX Trainer",
+                "organization": "Raghu Engineering College",
+                "department": "Computer Science and Engineering",
+                "start": "2012-03",
+                "end": "2017-06"
+            },
+            {
+                "designation": "Assistant Professor and Associate Professor",
+                "organization": "Gayatri College of PG Courses",
+                "department": "Computer Science",
+                "start": "2003-06",
+                "end": "2012-03"
+            },
+            {
+                "designation": "HOD and Assistant Professor",
+                "organization": "B.S. & J.R. PG College",
+                "department": "Computer Science",
+                "start": "1998-11",
+                "end": "2003-05"
+            }
+        ]
+    },
+    "research_areas": [
+        "Machine Learning",
+        "Deep Learning",
+        "Artificial Intelligence",
+        "Neural Networks",
+        "Data Mining",
+        "Medical Data Analytics",
+        "Pattern Recognition",
+        "Computer Vision",
+        "Educational Data Mining",
+        "Healthcare Analytics"
+    ],
+    "publications": {
+        "journal_count": 35,
+        "conference_count": 10,
+        "book_count": 2,
+        "patent_count": 0
+    },
+    "research_metrics": {
+        "h_index": 0,
+        "i10_index": 0,
+        "citations": 0
+    },
+    "awards": [
+        {
+            "title": "AP-SET Qualified",
+            "year": 2012
+        },
+        {
+            "title": "Associate Professor Ratification",
+            "organization": "JNTU Kakinada",
+            "year": 2022
+        }
+    ],
+    "memberships": [
+        "ISTE Life Member",
+        "ACM Professional Member",
+        "International Computer Science and Engineering Society",
+        "Institute for Engineering Research and Publication",
+        "International Association of Academic Plus Corporate",
+        "Machine Intelligence Research Labs",
+        "SWEPT",
+        "NITTTR Mentor"
+    ],
+    "projects": [],
+    "patents": [],
+    "certifications": [
+        "NPTEL Data Analytics with Python",
+        "NPTEL Deep Learning",
+        "NPTEL Introduction to Machine Learning",
+        "NPTEL Programming in Java",
+        "NPTEL Programming in C++",
+        "NPTEL Compiler Design",
+        "Oracle Database 11g Administration",
+        "Deep Learning Specialization (Coursera)",
+        "Convolutional Neural Networks (Coursera)"
+    ],
+    "fdp": [
+        {
+            "program_name": "AI and Deep Learning",
+            "organizer": "APSSDC",
+            "duration": "60 Hours"
+        },
+        {
+            "program_name": "Machine Learning and its Applications",
+            "organizer": "NITTTR Kolkata",
+            "duration": "1 Week"
+        },
+        {
+            "program_name": "Artificial Intelligence and Machine Learning",
+            "organizer": "E&ICT Academy IIT Guwahati",
+            "duration": "1 Week"
+        },
+        {
+            "program_name": "Introduction to Automata Languages and Computation",
+            "organizer": "IIT Kharagpur",
+            "duration": "2 Weeks"
+        },
+        {
+            "program_name": "Deep Learning",
+            "organizer": "IIT Madras",
+            "duration": "3 Weeks"
+        }
+    ],
+    "workshops": [
+        "AI Master Class",
+        "Machine Learning Master Class",
+        "MATLAB Simulink",
+        "Image Processing using MATLAB",
+        "Outcome Based Education",
+        "Ethical Hacking",
+        "Advanced Optimization Techniques"
+    ],
+    "subjects_taught": [
+        "Formal Languages and Automata Theory",
+        "Compiler Design",
+        "Computer Graphics",
+        "Image Processing",
+        "Database Management Systems",
+        "Data Mining",
+        "Operating Systems",
+        "Network Security",
+        "Artificial Intelligence",
+        "Soft Computing",
+        "Neural Networks",
+        "Machine Learning",
+        "Deep Learning",
+        "Theory of Computation"
+    ],
+    "phd_guidance": {
+        "ongoing_phd": 0,
+        "completed_phd": 0,
+        "pg_projects_guided": 58,
+        "ug_projects_guided": 34
+    },
+    "administrative_roles": [
+        "IQAC Departmental In-Charge",
+        "BOS Member",
+        "Course Construct Coordinator",
+        "NBA Criterion 5 Coordinator",
+        "Exam Cell In-Charge",
+        "R&D Departmental In-Charge"
+    ],
+    "validation_warnings": [
+        "No patents found",
+        "No sponsored research projects found",
+        "Research metrics not explicitly mentioned"
+    ],
+    "confidence_score": 0.96
+}
