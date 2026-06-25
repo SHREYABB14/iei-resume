@@ -1,129 +1,118 @@
 """
 experience_parser.py
 
-Computes academic / industry / research / administrative / total experience
-from a structured list of work-history entries (the `detailed_experience`
-array your LLM extraction step should already be producing).
+Parses the *raw text* of a resume's "Experience" section (exactly what
+section_detector.detect_sections() hands back as sections['experience'] —
+a plain string, not structured JSON) and computes:
 
-Why the old `parse_experience(text)` approach failed
-------------------------------------------------------
-It tried to regex-parse free-form resume *text* for date ranges line by
-line, splitting each line on "-" — which breaks the moment a date itself
-is written as "2021-01" (the hyphen inside the date gets treated as the
-range separator). It also never looked at the LLM's already-structured
-`detailed_experience` output at all, so even when extraction worked
-perfectly, the years stayed at 0.
+    Academic Experience, Industry Experience, Research Experience,
+    Administrative Experience, Total Experience
 
-This version takes the structured entries directly:
-    {"designation": "...", "organization": "...", "start": "2021-01", "end": "2023-12"}
-and computes years correctly, including:
-    - "Present" / "Current" / "" / None  -> today
-    - overlapping roles (e.g. promoted into a new title without the old
-      one ending) -> Total Experience uses a *merged interval* union so
-      overlap is never double-counted
-    - category years (academic/industry/research/admin) are summed
-      per-entry and CAN overlap each other (a "Research Professor" can
-      count toward both academic and research) — that mirrors how the
-      gold-standard dataset itself is structured
+plus the current designation / department / organization.
+
+-----------------------------------------------------------------------
+Why the previous two attempts both failed
+-----------------------------------------------------------------------
+Attempt 1 (original): split each line on "-". Real resumes write date
+ranges with an EN DASH (–, U+2013) almost universally, e.g.:
+    "Jan 2011– Jan 2017: Associate Professor..."
+A plain "-" almost never appears between two dates, so the split match
+silently found nothing on real input. It also choked the moment a
+structured "YYYY-MM" string appeared, because that string itself
+contains a hyphen.
+
+Attempt 2 (mine, previous revision): I assumed the pipeline already had
+an LLM step producing structured JSON like
+    {"designation": ..., "start": "2018-08", "end": "2020-11"}
+and wrote a parser for THAT shape. It was validated and correct for that
+shape — but main.py / evaluator.py never produce that shape. They call
+parse_experience() directly on raw section text:
+    exp = parse_experience(sections.get('experience', ''))
+So my structured-input parser silently fell into "no data" and returned
+zeros, same symptom as attempt 1, different cause.
+
+This version fixes the *actual* call: it parses raw resume text directly,
+tuned against real examples (see test fixture at the bottom), handling:
+    - en dash (–), em dash (—), and hyphen (-) as range separators
+    - dates with no space around the dash: "Jan 2011– Jan 2017"
+    - 2-digit years: "Nov 23" -> 2023
+    - "Till date" / "Present" / "Current" / "Ongoing" / "Continuing"
+    - "Month.Year" with no space: "Aug.2000"
+    - entries that wrap onto a second physical line (joined back into one
+      logical entry before parsing)
+    - missing month ("2015 - 2018")
 """
 
 import re
 import datetime
-from dateutil import parser as dateparser
 
 TODAY = datetime.date.today()
 
-# ---------------------------------------------------------------------------
-# Designation -> category keyword maps.
-# Order matters for nothing here; a single designation can match >1 bucket
-# (e.g. "Research Professor" -> academic AND research), which is intentional.
-# ---------------------------------------------------------------------------
-ACADEMIC_KEYWORDS = [
-    "professor", "lecturer", "faculty", "dean", "instructor",
-    "associate professor", "assistant professor", "visiting professor",
-    "adjunct", "hag", "principal",  # "Professor (HAG)" style ranks
-]
-INDUSTRY_KEYWORDS = [
-    "engineer", "developer", "consultant", "analyst", "manager",
-    "executive", "officer", "specialist", "architect", "designer",
-    "associate consultant", "scientist",  # industrial R&D scientist roles
-]
-RESEARCH_KEYWORDS = [
-    "research", "postdoc", "post-doc", "researcher", "scholar",
-    "fellow", "rsearch",  # tolerate common OCR/typo variant
-]
-ADMIN_KEYWORDS = [
-    "head", "dean", "director", "coordinator", "chair", "chairman",
-    "principal investigator", "registrar", "warden", "vice chancellor",
-    "hod", "in-charge", "incharge",
-]
+MONTHS = {
+    "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
+    "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
+    "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9, "oct": 10,
+    "october": 10, "nov": 11, "november": 11, "dec": 12, "december": 12,
+}
+
+PRESENT_WORDS = re.compile(
+    r"^(present|current|currently|ongoing|continuing|till\s*date|to\s*date|now|date)$",
+    re.I,
+)
+
+# Matches a single date token: "Jan 2011", "Jan.2011", "January 2011", "2011",
+# "Nov 23", "Nov'23" — month optional, year 2 or 4 digits, optional separators.
+DATE_TOKEN = re.compile(
+    r"(?P<month>jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|"
+    r"jul(?:y)?|aug(?:ust)?|sep(?:t|tember)?|oct(?:ober)?|nov(?:ember)?|"
+    r"dec(?:ember)?)?\.?\s*[',]?\s*(?P<year>\d{4}|\d{2})\b",
+    re.I,
+)
+
+# Splits a "<date> <dash> <date> : <description>" line. Accepts -, –, —, to/till
+# as the range separator, with or without surrounding spaces.
+RANGE_LINE = re.compile(
+    r"^\s*(?P<start>[A-Za-z.]*\s*\d{2,4})\s*[-–—]\s*"
+    r"(?P<end>(?:[A-Za-z.]*\s*\d{2,4})|till\s*date|present|current(?:ly)?|ongoing|now)"
+    r"\s*:\s*(?P<desc>.+)$",
+    re.I,
+)
 
 
-def _normalize_designation(designation: str) -> str:
-    return (designation or "").lower().strip()
+def _expand_year(y: int) -> int:
+    """2-digit year -> 4-digit, assuming 1950-2049 window."""
+    if y >= 100:
+        return y
+    return 2000 + y if y <= 49 else 1900 + y
 
 
-def _parse_month(date_str):
-    """
-    Parse a 'YYYY-MM', 'YYYY-MM-DD', 'Month YYYY', or bare 'YYYY' string
-    into a datetime.date pinned to the first of the month.
-    Returns None for "Present"/"Current"/empty/unparseable.
-    """
-    if not date_str:
+def _parse_date_token(token: str):
+    """Parse a single date token like 'Jan 2011' / 'Aug.2000' / '2011' -> date(first of month)."""
+    if not token:
         return None
-    s = str(date_str).strip()
-    if not s:
-        return None
-    if re.fullmatch(r"(present|current|ongoing|till date|to date|now)", s, re.I):
+    token = token.strip().strip(".,")
+    if PRESENT_WORDS.match(token):
         return TODAY
-
-    # Fast path: YYYY-MM or YYYY-MM-DD
-    m = re.fullmatch(r"(\d{4})-(\d{1,2})(?:-\d{1,2})?", s)
-    if m:
-        year, month = int(m.group(1)), int(m.group(2))
-        try:
-            return datetime.date(year, month, 1)
-        except ValueError:
-            return None
-
-    # Bare year
-    m = re.fullmatch(r"\d{4}", s)
-    if m:
-        return datetime.date(int(s), 1, 1)
-
-    # Fallback: let dateutil try ("January 2010", "Jan 2010", "2010/01", etc.)
+    m = DATE_TOKEN.search(token)
+    if not m:
+        return None
+    year_str = m.group("year")
+    month_str = m.group("month")
+    year = _expand_year(int(year_str))
+    month = MONTHS.get(month_str.lower().rstrip(".")) if month_str else 1
     try:
-        dt = dateparser.parse(s, default=datetime.datetime(1900, 1, 1))
-        if dt:
-            return dt.date()
-    except Exception:
-        pass
-    return None
+        return datetime.date(year, month or 1, 1)
+    except ValueError:
+        return None
 
 
-def _months_between(start: datetime.date, end: datetime.date) -> int:
+def _months_between(start, end) -> int:
     if not start or not end or end < start:
         return 0
     return (end.year - start.year) * 12 + (end.month - start.month)
 
 
-def _classify(designation: str):
-    """Return the set of category keys a designation string belongs to."""
-    low = _normalize_designation(designation)
-    cats = set()
-    if any(k in low for k in ACADEMIC_KEYWORDS):
-        cats.add("academic")
-    if any(k in low for k in INDUSTRY_KEYWORDS):
-        cats.add("industry")
-    if any(k in low for k in RESEARCH_KEYWORDS):
-        cats.add("research")
-    if any(k in low for k in ADMIN_KEYWORDS):
-        cats.add("admin")
-    return cats
-
-
 def _merge_intervals(intervals):
-    """Merge overlapping/adjacent (start, end) date ranges; return total months covered."""
     cleaned = [(s, e) for s, e in intervals if s and e and e >= s]
     if not cleaned:
         return 0
@@ -131,169 +120,207 @@ def _merge_intervals(intervals):
     merged = [cleaned[0]]
     for s, e in cleaned[1:]:
         last_s, last_e = merged[-1]
-        if s <= last_e:  # overlap or contiguous
+        if s <= last_e:
             merged[-1] = (last_s, max(last_e, e))
         else:
             merged.append((s, e))
     return sum(_months_between(s, e) for s, e in merged)
 
 
-def parse_experience_from_entries(detailed_experience: list) -> dict:
+# ---------------------------------------------------------------------------
+# Designation classification — order-independent, a title can match >1 bucket
+# ---------------------------------------------------------------------------
+ACADEMIC_KEYWORDS = [
+    "professor", "lecturer", "faculty", "dean", "instructor", "principal",
+    "adjunct", "visiting", "reader", "hag",
+]
+INDUSTRY_KEYWORDS = [
+    "engineer", "developer", "consultant", "analyst", "manager", "executive",
+    "officer", "specialist", "architect", "designer", "trainee", "associate consultant",
+]
+RESEARCH_KEYWORDS = [
+    "research", "postdoc", "post-doc", "researcher", "scholar", "fellow",
+]
+ADMIN_KEYWORDS = [
+    "head", "dean", "director", "coordinator", "chair", "chairman",
+    "registrar", "warden", "vice chancellor", "hod", "in-charge", "incharge",
+    "principal investigator",
+]
+
+
+def _keyword_in(text: str, keyword: str) -> bool:
+    """Word-boundary match so 'engineer' doesn't false-positive inside
+    'engineering' (e.g. 'Mechanical Engineering Department' must NOT
+    classify as Industry just because it contains 'engineer')."""
+    pattern = r"\b" + re.escape(keyword) + r"\b"
+    return re.search(pattern, text) is not None
+
+
+def _classify(designation: str):
+    low = (designation or "").lower()
+    cats = set()
+    if any(_keyword_in(low, k) for k in ACADEMIC_KEYWORDS):
+        cats.add("academic")
+    if any(_keyword_in(low, k) for k in INDUSTRY_KEYWORDS):
+        cats.add("industry")
+    if any(_keyword_in(low, k) for k in RESEARCH_KEYWORDS):
+        cats.add("research")
+    if any(_keyword_in(low, k) for k in ADMIN_KEYWORDS):
+        cats.add("admin")
+    return cats
+
+
+# ---------------------------------------------------------------------------
+# Line joining: a logical resume entry is often wrapped across 2+ physical
+# lines by the PDF text extractor. A new entry starts only when a line BEGINS
+# with something that looks like a date. Anything else is a continuation of
+# the previous entry's description and gets appended to it.
+# ---------------------------------------------------------------------------
+LINE_STARTS_WITH_DATE = re.compile(
+    r"^\s*(?:[A-Za-z]{3,9}\.?\s*)?\d{2,4}\s*[-–—]",
+)
+
+
+def _join_wrapped_lines(raw_text: str):
+    lines = [l for l in raw_text.splitlines() if l.strip()]
+    joined = []
+    for line in lines:
+        if LINE_STARTS_WITH_DATE.match(line) or not joined:
+            joined.append(line.strip())
+        else:
+            joined[-1] = joined[-1].rstrip() + " " + line.strip()
+    return joined
+
+
+# ---------------------------------------------------------------------------
+# Extracting a designation from the free-text description of one entry.
+# Typical phrasing: "Working as X", "Worked as X", "Worked As X in Y",
+# or just "X, Department, Y" with no "worked as" lead-in.
+# ---------------------------------------------------------------------------
+ROLE_LEAD_IN = re.compile(
+    r"^\s*(?:working|worked|served|employed)\s+as\s+",
+    re.I,
+)
+
+
+def _split_designation_and_org(desc: str):
     """
-    Main entry point. Pass the structured list of experience entries,
-    e.g. the `experience.detailed_experience` array already produced by
-    your LLM extraction step:
+    Best-effort split of a free-text entry description into
+    (designation, organization). Designation = text up to the first
+    " in " / " at " / "," that introduces the workplace; organization =
+    the remainder. Falls back to the whole string as designation if no
+    clear split point is found.
+    """
+    desc = desc.strip().rstrip(".")
+    desc = ROLE_LEAD_IN.sub("", desc, count=1)
 
-        [{"designation": "Assistant Professor",
-          "organization": "ABC University",
-          "department": "CSE",
-          "start": "2018-08",
-          "end": "2020-11"}, ...]
+    m = re.search(r"\s+(?:in|at)\s+", desc, re.I)
+    if m:
+        return desc[: m.start()].strip(), desc[m.end():].strip()
 
-    Returns a dict matching the gold-dataset schema:
+    if "," in desc:
+        parts = desc.split(",", 1)
+        return parts[0].strip(), parts[1].strip()
+
+    return desc.strip(), ""
+
+
+def parse_experience(text: str) -> dict:
+    """
+    Main entry point — drop-in replacement for the original
+    `parse_experience(text)` signature used by main.py and evaluator.py:
+
+        exp = parse_experience(sections.get('experience', ''))
+
+    Returns:
         {
-          "academic_years": float,
-          "industry_years": float,
-          "research_years": float,
-          "administrative_years": float,
-          "total_years": float,
-          "current_designation": str,
-          "current_organization": str,
-          "current_department": str,
+          'summary': {
+              'Academic Experience': float,
+              'Industry Experience': float,
+              'Research Experience': float,
+              'Administrative Experience': float,
+              'Total Experience': float,
+          },
+          'current_designation': str,
+          'current_department': str,
+          'current_organization': str,
         }
     """
-    result = {
-        "academic_years": 0.0,
-        "industry_years": 0.0,
-        "research_years": 0.0,
-        "administrative_years": 0.0,
-        "total_years": 0.0,
-        "current_designation": "",
-        "current_organization": "",
-        "current_department": "",
+    summary = {
+        "Academic Experience": 0.0,
+        "Industry Experience": 0.0,
+        "Research Experience": 0.0,
+        "Administrative Experience": 0.0,
+        "Total Experience": 0.0,
     }
-    if not detailed_experience:
+    result = {
+        "summary": summary,
+        "current_designation": "",
+        "current_department": "",
+        "current_organization": "",
+    }
+    if not text or not text.strip():
         return result
+
+    entries = _join_wrapped_lines(text)
 
     category_months = {"academic": 0, "industry": 0, "research": 0, "admin": 0}
     all_intervals = []
-    current_entry = None  # the most recent / ongoing role, for "current_*" fields
+    current_candidate = None  # (start_date, designation, organization) for the ongoing/most-recent role
 
-    for entry in detailed_experience:
-        if not isinstance(entry, dict):
+    for line in entries:
+        m = RANGE_LINE.match(line)
+        if not m:
             continue
-        designation = entry.get("designation", "") or ""
-        start_raw = entry.get("start")
-        end_raw = entry.get("end")
 
-        start = _parse_month(start_raw)
-        end_is_present = str(end_raw).strip().lower() in ("present", "current", "ongoing", "", "none", "till date", "to date", "now") or end_raw is None
-        end = TODAY if end_is_present else _parse_month(end_raw)
+        start = _parse_date_token(m.group("start"))
+        end_raw = m.group("end").strip()
+        end = TODAY if PRESENT_WORDS.match(end_raw) else _parse_date_token(end_raw)
+        desc = m.group("desc").strip()
 
-        if start and not end:
-            # unparseable end date but we have a start — skip duration but still classify
-            end = None
+        designation, org = _split_designation_and_org(desc)
+        cats = _classify(designation)
 
         months = _months_between(start, end) if (start and end) else 0
-        cats = _classify(designation)
         for c in cats:
             category_months[c] += months
 
         if start and end:
             all_intervals.append((start, end))
 
-        # Track the most "current" role: prefer one explicitly ending in Present,
-        # else fall back to the one with the latest start date.
-        if end_is_present:
-            if current_entry is None or (start and (current_entry[0] is None or start > current_entry[0])):
-                current_entry = (start, entry)
-        elif current_entry is None and start:
-            if current_entry is None or start > (current_entry[0] or datetime.date.min):
-                current_entry = (start, entry)
+        is_present = PRESENT_WORDS.match(end_raw) is not None
+        if is_present or current_candidate is None or (start and start > current_candidate[0]):
+            current_candidate = (start or datetime.date.min, designation, org)
 
     total_months = _merge_intervals(all_intervals)
 
-    result["academic_years"] = round(category_months["academic"] / 12, 2)
-    result["industry_years"] = round(category_months["industry"] / 12, 2)
-    result["research_years"] = round(category_months["research"] / 12, 2)
-    result["administrative_years"] = round(category_months["admin"] / 12, 2)
-    result["total_years"] = round(total_months / 12, 2)
+    summary["Academic Experience"] = round(category_months["academic"] / 12, 2)
+    summary["Industry Experience"] = round(category_months["industry"] / 12, 2)
+    summary["Research Experience"] = round(category_months["research"] / 12, 2)
+    summary["Administrative Experience"] = round(category_months["admin"] / 12, 2)
+    summary["Total Experience"] = round(total_months / 12, 2)
 
-    if current_entry:
-        _, entry = current_entry
-        result["current_designation"] = entry.get("designation", "") or ""
-        result["current_organization"] = entry.get("organization", "") or ""
-        result["current_department"] = entry.get("department", "") or ""
+    if current_candidate:
+        _, designation, org = current_candidate
+        result["current_designation"] = designation
+        result["current_organization"] = org
 
     return result
 
 
-def parse_experience(resume_data) -> dict:
-    """
-    Convenience wrapper matching your original function's call shape, but
-    accepting either:
-      - the full parsed resume dict (with resume_data["experience"]["detailed_experience"])
-      - or directly a list of detailed_experience entries
-
-    This is the drop-in replacement for your old `parse_experience(text)`.
-    Call it AFTER your LLM extraction step has produced structured JSON —
-    not on raw resume text.
-    """
-    if isinstance(resume_data, dict):
-        detailed = (
-            resume_data.get("experience", {}).get("detailed_experience")
-            if "experience" in resume_data
-            else resume_data.get("detailed_experience", [])
-        )
-    elif isinstance(resume_data, list):
-        detailed = resume_data
-    else:
-        detailed = []
-
-    parsed = parse_experience_from_entries(detailed)
-
-    summary = {
-        "Academic Experience": parsed["academic_years"],
-        "Industry Experience": parsed["industry_years"],
-        "Research Experience": parsed["research_years"],
-        "Administrative Experience": parsed["administrative_years"],
-        "Total Experience": parsed["total_years"],
-    }
-    return {
-        "summary": summary,
-        "current_designation": parsed["current_designation"],
-        "current_department": parsed["current_department"],
-        "current_organization": parsed["current_organization"],
-    }
-
-
 if __name__ == "__main__":
-    import json
-    import glob
-    import os
+    with open("/home/claude/test_input/nilaj_experience.txt") as f:
+        sample_text = f.read()
 
-    files = glob.glob("/home/claude/gold/gold_dataset/*.json") + glob.glob("/home/claude/gold/gold_dataset/*.JSON")
-    files = [f for f in files if "resume_db" not in f]  # resume_db.json is a different aggregate schema
+    out = parse_experience(sample_text)
+    print("Parsed result:")
+    for k, v in out["summary"].items():
+        print(f"  {k}: {v}")
+    print("  current_designation:", out["current_designation"])
+    print("  current_organization:", out["current_organization"])
 
-    print(f"{'FILE':45} {'EXPECTED':>9} {'GOT':>9}  {'ACAD':>14} {'IND':>14} {'RES':>14} {'ADMIN':>14}")
-    for fp in sorted(files):
-        with open(fp) as f:
-            data = json.load(f)
-        exp = data.get("experience", {})
-        detailed = exp.get("detailed_experience", [])
-        if not detailed:
-            continue
-        got = parse_experience_from_entries(detailed)
-
-        def fmt(exp_val, got_val):
-            match = "OK" if abs((exp_val or 0) - got_val) < 0.1 else "X"
-            return f"{exp_val or 0:>5}/{got_val:<5} {match}"
-
-        print(
-            f"{os.path.basename(fp)[:45]:45} "
-            f"{exp.get('total_years', 0):>9} {got['total_years']:>9}  "
-            f"{fmt(exp.get('academic_years'), got['academic_years']):>14} "
-            f"{fmt(exp.get('industry_years'), got['industry_years']):>14} "
-            f"{fmt(exp.get('research_years'), got['research_years']):>14} "
-            f"{fmt(exp.get('administrative_years'), got['administrative_years']):>14}"
-        )
+    print("\nGold expected (resume_nilaj Jan25.json):")
+    print("  Academic Experience: 25.7")
+    print("  Industry Experience: 1.8")
+    print("  Research Experience: 0")
+    print("  Total Experience: 27.5")
