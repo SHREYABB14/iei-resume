@@ -16,7 +16,6 @@ MONTH_NUM = r'(?:0?[1-9]|1[0-2])'
 DATE_WITH_MONTH_NUM = rf'(?:{MONTH_NUM}[/\-\'’]{YEAR_PATTERN})'
 DATE_YEAR_ONLY = r'(?:\b(?:19|20)\d{2}\b)'
 
-# Add word boundary at the start to prevent matching parts of years/numbers
 DATE_PATTERN = rf'\b(?:{DATE_WITH_MONTH_WORD}|{DATE_WITH_MONTH_NUM}|{DATE_YEAR_ONLY})'
 PRESENT_PATTERN = r'(?:present|till\s+date|till\s+now|to\s+date|current|ongoing|now|active)'
 DATE_PATTERN_END = rf'(?:{DATE_PATTERN}|(?:[\'’]?\b\d{{2}}\b)|{PRESENT_PATTERN})'
@@ -43,6 +42,118 @@ ADMIN_KEYWORDS = re.compile(
     r'\b(?:head|dean|director|coordinator|chair|principal|warden|registrar|administrative|hod)\b',
     re.IGNORECASE
 )
+
+DESIGNATION_KEYWORDS = re.compile(
+    r'\b(?:professor|lecturer|scientist|dean|director|head|associate\s+professor|assistant\s+professor|asst\s+professor|asst\.\s+professor|sr\.asst\s+professor|reader|member\s+technical\s+staff|consultant)\b',
+    re.IGNORECASE
+)
+
+DEPT_KEYWORDS = re.compile(
+    r'\b(?:department|dept|school|centre|center|discipline)\s+of\b|\b(?:department|dept|school|centre|center|discipline)\b',
+    re.IGNORECASE
+)
+
+ORG_KEYWORDS = re.compile(
+    r'\b(?:institute|university|college|drdo|c\-ac|organisation|organization|iit|nit|iiit|bits|fcrit|nitt|government\s+college|sathyabama|jerusalem)\b',
+    re.IGNORECASE
+)
+
+def extract_personal_meta(text: str, exp_text: str) -> tuple:
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    top_lines = lines[:15]
+    
+    designation = ""
+    department = ""
+    organization = ""
+    
+    def clean_val(val: str) -> str:
+        val = re.sub(r'^[•\-\*●❖\uf0d8\s_]+', '', val)
+        val = re.sub(r'^(?:working\s+as\s+|worked\s+as\s+|presently\s+holding\s+the\s+charge\s+of\s+|presently\s+|holding\s+the\s+charge\s+of\s+)', '', val, flags=re.I)
+        return val.strip()
+
+    # 1. Designation detection
+    for line in top_lines:
+        line_clean = clean_val(line)
+        if DESIGNATION_KEYWORDS.search(line_clean) and not ORG_KEYWORDS.search(line_clean):
+            parts = [p.strip() for p in re.split(r'[,|–\-]', line_clean)]
+            for part in parts:
+                if DESIGNATION_KEYWORDS.search(part):
+                    designation = part
+                    break
+            if designation:
+                break
+                
+    if not designation and exp_text:
+        exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
+        for line in exp_lines[:4]:
+            line_clean = clean_val(line)
+            if DESIGNATION_KEYWORDS.search(line_clean):
+                parts = [p.strip() for p in re.split(r'[,|–\-]', line_clean)]
+                for part in parts:
+                    if DESIGNATION_KEYWORDS.search(part):
+                        designation = part
+                        break
+                if designation:
+                    break
+                    
+    # 2. Department detection
+    for line in top_lines:
+        line_clean = clean_val(line)
+        if DEPT_KEYWORDS.search(line_clean):
+            parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
+            for part in parts:
+                if DEPT_KEYWORDS.search(part):
+                    department = part
+                    break
+            if department:
+                break
+                
+    if not department and exp_text:
+        exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
+        for line in exp_lines[:4]:
+            line_clean = clean_val(line)
+            if DEPT_KEYWORDS.search(line_clean):
+                parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
+                for part in parts:
+                    if DEPT_KEYWORDS.search(part):
+                        department = part
+                        break
+                if department:
+                    break
+                    
+    # 3. Organization detection
+    for line in top_lines:
+        line_clean = clean_val(line)
+        if ORG_KEYWORDS.search(line_clean) and not DESIGNATION_KEYWORDS.search(line_clean):
+            parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
+            for part in parts:
+                if ORG_KEYWORDS.search(part) and not DESIGNATION_KEYWORDS.search(part):
+                    organization = part
+                    break
+            if organization:
+                break
+                
+    if not organization and exp_text:
+        exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
+        for line in exp_lines[:4]:
+            line_clean = clean_val(line)
+            if ORG_KEYWORDS.search(line_clean):
+                parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
+                for part in parts:
+                    if ORG_KEYWORDS.search(part) and not DESIGNATION_KEYWORDS.search(part):
+                        organization = part
+                        break
+                if organization:
+                    break
+                    
+    if designation:
+        designation = clean_val(designation)
+    if department:
+        department = clean_val(department)
+    if organization:
+        organization = clean_val(organization)
+        
+    return designation, department, organization
 
 def _resolve_2digit_year(start_year: int, end_year_str: str) -> int:
     val = int(end_year_str)
@@ -88,7 +199,7 @@ def _parse_date_with_ref(date_str: str, ref_year: int = None) -> datetime.dateti
     except Exception:
         return None
 
-def parse_experience(text: str) -> dict:
+def parse_experience(text: str, full_text: str = "") -> dict:
     summary = {
         'Academic Experience': 0.0,
         'Industry Experience': 0.0,
@@ -101,9 +212,11 @@ def parse_experience(text: str) -> dict:
         'admin_years': 0.0,
         'total_years': 0.0
     }
-    current_designation = ''
-    current_department = ''
-    current_organization = ''
+    
+    current_designation, current_department, current_organization = extract_personal_meta(
+        full_text if full_text else text,
+        text
+    )
 
     if not text:
         res = {
@@ -115,7 +228,7 @@ def parse_experience(text: str) -> dict:
         for k in ['current_designation', 'current_department', 'current_organization', 
                   'designation', 'department', 'organization', 
                   'Current Designation', 'Current Department', 'Current Organization']:
-            summary[k] = ''
+            summary[k] = current_designation if 'designation' in k.lower() else (current_department if 'department' in k.lower() else current_organization)
         return res
 
     raw_lines = [l.strip() for l in text.splitlines() if l.strip()]
@@ -144,7 +257,6 @@ def parse_experience(text: str) -> dict:
     # Process lines to find date ranges and extract durations
     jobs = []
     for i, line in enumerate(lines):
-        # Extract ranges and replace them in the line for since matching
         ranges = []
         remaining_line = line
         for m in RANGE_PATTERN.finditer(line):
@@ -268,39 +380,6 @@ def parse_experience(text: str) -> dict:
     summary['research_years'] = summary['Research Experience']
     summary['admin_years'] = summary['Administrative Experience']
     summary['total_years'] = summary['Total Experience']
-
-    # Extract current designation, organization, department
-    if lines:
-        target_line = None
-        for l in lines[:3]:
-            if len(l.strip()) > 5 and any(c.isalpha() for c in l):
-                target_line = l.strip()
-                break
-        if not target_line:
-            target_line = lines[0]
-            
-        if target_line:
-            if ',' in target_line:
-                parts = [p.strip() for p in target_line.split(',')]
-                current_designation = parts[0]
-                for part in parts[1:]:
-                    low_p = part.lower()
-                    if 'department' in low_p or 'dept' in low_p:
-                        current_department = part
-                current_organization = parts[-1]
-                if current_organization == current_department and len(parts) > 2:
-                    current_organization = parts[-2]
-            else:
-                if ' at ' in target_line:
-                    parts = target_line.split(' at ')
-                    current_designation = parts[0].strip()
-                    current_organization = parts[1].strip()
-                else:
-                    current_designation = target_line.strip()
-
-    current_designation = current_designation.strip()
-    current_department = current_department.strip()
-    current_organization = current_organization.strip()
 
     res = {
         'summary': summary,

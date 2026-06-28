@@ -131,7 +131,7 @@ if process_button:
                 }
 
                 edu = parse_education(sections.get('education', ''))
-                exp = parse_experience(sections.get('experience', ''))
+                exp = parse_experience(sections.get('experience', ''), full_text=text)
                 pubs = parse_publications(sections.get('publications', ''))
 
                 row = {

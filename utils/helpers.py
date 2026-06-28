@@ -168,6 +168,9 @@ def extract_name(text):
         if low in NAME_BLACKLIST:
             continue
 
+        if re.search(r'\b(?:position|post|apply|application|faculty|curriculum|vitae|resume|biodata|profile|cv|objective|career|address|contact|email|phone|mobile|website|personal|details|hobbies|languages|skills)\b', low):
+            continue
+
         if EMAIL_RE.search(line):
             continue
 
@@ -195,6 +198,9 @@ def extract_name(text):
         low = line.lower()
 
         if low in NAME_BLACKLIST:
+            continue
+
+        if re.search(r'\b(?:position|post|apply|application|faculty|curriculum|vitae|resume|biodata|profile|cv|objective|career|address|contact|email|phone|mobile|website|personal|details|hobbies|languages|skills)\b', low):
             continue
 
         if EMAIL_RE.search(line):
