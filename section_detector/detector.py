@@ -4,16 +4,16 @@ import re
 # Expanded list of sections to support common academic CV structures
 SECTIONS = [
     'education', 'experience', 'publications', 'projects', 'awards', 'patents', 'memberships',
-    'fdp', 'certifications', 'research', 'books', 'administrative_work', 'invited_talks',
+    'fdp', 'certifications', 'research', 'administrative_work', 'invited_talks',
     'research_funding', 'editorial_board', 'review_committee', 'advisory_committee',
-    'technical_committee', 'research_scholars', 'professional_service', 'conference_activity'
+    'technical_committee', 'research_scholars', 'professional_service'
 ]
 
 # Improved keyword map for academic CVs (variations included)
 KEYWORDS = {
     'education': ['education', 'educational', 'academic qualification', 'qualification', 'academic qualifications', 'educational qualification', 'academic profile'],
     'experience': ['experience', 'professional experience', 'work experience', 'appointments held', 'employment history', 'service record'],
-    'publications': ['publications', 'research publications', 'journal', 'paper', 'papers', 'conference', 'paper publications', 'journal publications'],
+    'publications': ['publications', 'research publications', 'journal', 'paper', 'papers', 'conference', 'paper publications', 'journal publications', 'books', 'book', 'book chapter', 'book chapters', 'proceedings', 'conferences'],
     'projects': ['projects', 'project'],
     'awards': ['awards', 'achievements', 'recognition'],
     'patents': ['patents', 'patent'],
@@ -21,7 +21,6 @@ KEYWORDS = {
     'fdp': ['fdp', 'faculty development', 'faculty development programme', 'faculty development program', 'short term training program', 'sttp', 'training', 'workshop'],
     'certifications': ['certification', 'certifications'],
     'research': ['research', 'research profile', 'research interests'],
-    'books': ['books', 'book', 'book chapter', 'book chapters'],
     'administrative_work': ['administrative', 'administration', 'administrative work', 'administrative responsibilities'],
     'invited_talks': ['invited talks', 'invited talk', 'invited lectures', 'invited lecture'],
     'research_funding': ['research funding', 'funding', 'grants', 'projects funded'],
@@ -30,8 +29,7 @@ KEYWORDS = {
     'advisory_committee': ['advisory committee', 'advisory'],
     'technical_committee': ['technical committee', 'technical'],
     'research_scholars': ['research scholars', 'phd scholars', 'students guided', 'students supervised'],
-    'professional_service': ['professional service', 'service'],
-    'conference_activity': ['conference', 'conferences', 'conference activity', 'conference organisation', 'conference organizing']
+    'professional_service': ['professional service', 'service']
 }
 
 try:
@@ -68,7 +66,6 @@ def is_heading(line: str) -> bool:
     if not line:
         return False
     s = line.strip()
-    # Basic length/word constraints
     if len(s) > 200:
         return False
     words = s.split()
@@ -76,24 +73,18 @@ def is_heading(line: str) -> bool:
         return False
     if len(s) >= 60 and not s.isupper() and not s.endswith(':'):
         return False
-    # Disqualify if contains years or date ranges
     if YEAR_RE.search(s):
         return False
-    # Must not end with a period
     if s.endswith('.'):
         return False
-    # Avoid lines with multiple commas (likely affiliation lines)
     if s.count(',') > 1:
         return False
-    # Ends with colon or all caps are strong headings
     if s.endswith(':'):
         return True
     if s.isupper():
         return True
-    # Avoid lines that look like sentences
     if looks_like_sentence(s):
         return False
-    # otherwise consider short lines as possible headings
     if len(s) < 60 and len(words) <= 6:
         non_heading_tokens = ['professor', 'university', 'college', 'department', 'institute', 'hospital']
         low = s.lower()
@@ -107,9 +98,8 @@ def detect_sections(text: str) -> Dict[str, str]:
     """
     Detect sections in academic CV text.
 
-    Primary method: keyword matching + robust heading detection.
-    Use sentence-transformer embeddings only as a fallback when a line is detected
-    as a heading but no keyword match is found.
+    Primary method: keyword matching + heading detection.
+    Use sentence-transformer embeddings only as a fallback.
     """
     if not text:
         return {k: '' for k in SECTIONS}
@@ -174,6 +164,7 @@ def detect_sections(text: str) -> Dict[str, str]:
             continue
 
         if assigned and current:
+            sections[current].append(line)
             continue
 
     return {k: '\n'.join(v).strip() for k, v in sections.items()}

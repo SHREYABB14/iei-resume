@@ -58,18 +58,34 @@ ORG_KEYWORDS = re.compile(
     re.IGNORECASE
 )
 
+DESIGNATION_CLEAN_RE = re.compile(
+    r'\b(?:senior|junior|assistant|associate|asst\.?|sr\.?|sr\.asst|adjunct|visiting|hag|head|dean|director|chair|principal|warden|registrar|hag\s+scale)?\s*(?:professor|lecturer|scientist|reader|member\s+technical\s+staff|consultant|dean|director|head|mts|hod|h\.o\.d\.)\b',
+    re.IGNORECASE
+)
+
+BLACKLIST = re.compile(
+    r'\b(?:position|post|apply|application|faculty|curriculum|vitae|resume|biodata|profile|cv|objective|career|address|contact|email|phone|mobile|website|personal|details|hobbies|languages|skills|matric|sec\.school|secondary|hr\.sec|society|growth|potential)\b',
+    re.IGNORECASE
+)
+
 def extract_personal_meta(text: str, exp_text: str) -> tuple:
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    top_lines = lines[:15]
+    top_lines = [l for l in lines[:20] if not BLACKLIST.search(l)]
     
     designation = ""
     department = ""
     organization = ""
     
     def clean_val(val: str) -> str:
-        val = re.sub(r'^[•\-\*●❖\uf0d8\s_]+', '', val)
+        val = re.sub(r'^[•\-\*●❖\uf0d8\s_·]+', '', val)
         val = re.sub(r'^(?:working\s+as\s+|worked\s+as\s+|presently\s+holding\s+the\s+charge\s+of\s+|presently\s+|holding\s+the\s+charge\s+of\s+)', '', val, flags=re.I)
         return val.strip()
+
+    def clean_designation(line: str) -> str:
+        m = DESIGNATION_CLEAN_RE.findall(line)
+        if m:
+            return ' & '.join([x.strip() for x in m if x.strip()])
+        return clean_val(line)
 
     # 1. Designation detection
     for line in top_lines:
@@ -78,7 +94,7 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
             parts = [p.strip() for p in re.split(r'[,|–\-]', line_clean)]
             for part in parts:
                 if DESIGNATION_KEYWORDS.search(part):
-                    designation = part
+                    designation = clean_designation(part)
                     break
             if designation:
                 break
@@ -86,12 +102,14 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
     if not designation and exp_text:
         exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
         for line in exp_lines[:4]:
+            if BLACKLIST.search(line):
+                continue
             line_clean = clean_val(line)
             if DESIGNATION_KEYWORDS.search(line_clean):
                 parts = [p.strip() for p in re.split(r'[,|–\-]', line_clean)]
                 for part in parts:
                     if DESIGNATION_KEYWORDS.search(part):
-                        designation = part
+                        designation = clean_designation(part)
                         break
                 if designation:
                     break
@@ -99,6 +117,8 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
     # 2. Department detection
     for line in top_lines:
         line_clean = clean_val(line)
+        if ORG_KEYWORDS.search(line_clean) and not re.search(r'\b(?:department|dept|discipline)\b', line_clean, re.I):
+            continue
         if DEPT_KEYWORDS.search(line_clean):
             parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
             for part in parts:
@@ -111,7 +131,11 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
     if not department and exp_text:
         exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
         for line in exp_lines[:4]:
+            if BLACKLIST.search(line):
+                continue
             line_clean = clean_val(line)
+            if ORG_KEYWORDS.search(line_clean) and not re.search(r'\b(?:department|dept|discipline)\b', line_clean, re.I):
+                continue
             if DEPT_KEYWORDS.search(line_clean):
                 parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
                 for part in parts:
@@ -136,6 +160,8 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
     if not organization and exp_text:
         exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
         for line in exp_lines[:4]:
+            if BLACKLIST.search(line):
+                continue
             line_clean = clean_val(line)
             if ORG_KEYWORDS.search(line_clean):
                 parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
@@ -240,7 +266,7 @@ def parse_experience(text: str, full_text: str = "") -> dict:
             lines.append(line)
             continue
         is_bullet = (
-            line.startswith(('●', '❖', '*', '-', '▪', '•', '', '✔', '▪', '■', '✦', '★')) or
+            line.startswith(('●', '❖', '*', '-', '▪', '•', '', '✔', '▪', '■', '✦', '★', '·')) or
             re.match(r'^\d+[\.\)\-]', line) or
             re.match(r'^\uf0d8', line)
         )
