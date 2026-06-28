@@ -3,8 +3,8 @@ import re
 
 # Expanded list of sections to support common academic CV structures
 SECTIONS = [
-    'education', 'experience', 'publications', 'projects', 'awards', 'patents', 'memberships',
-    'fdp', 'certifications', 'research', 'administrative_work', 'invited_talks',
+    'education', 'experience', 'fdp', 'publications', 'projects', 'awards', 'patents', 'memberships',
+    'certifications', 'research', 'administrative_work', 'invited_talks',
     'research_funding', 'editorial_board', 'review_committee', 'advisory_committee',
     'technical_committee', 'research_scholars', 'professional_service'
 ]
@@ -13,12 +13,12 @@ SECTIONS = [
 KEYWORDS = {
     'education': ['education', 'educational', 'academic qualification', 'qualification', 'academic qualifications', 'educational qualification', 'academic profile'],
     'experience': ['experience', 'professional experience', 'work experience', 'appointments held', 'employment history', 'service record'],
+    'fdp': ['fdp', 'faculty development', 'faculty development programme', 'faculty development program', 'short term training program', 'sttp', 'training', 'workshop'],
     'publications': ['publications', 'research publications', 'journal', 'paper', 'papers', 'conference', 'paper publications', 'journal publications', 'books', 'book', 'book chapter', 'book chapters', 'proceedings', 'conferences'],
     'projects': ['projects', 'project'],
     'awards': ['awards', 'achievements', 'recognition'],
     'patents': ['patents', 'patent'],
     'memberships': ['membership', 'memberships', 'member of', 'membership of'],
-    'fdp': ['fdp', 'faculty development', 'faculty development programme', 'faculty development program', 'short term training program', 'sttp', 'training', 'workshop'],
     'certifications': ['certification', 'certifications'],
     'research': ['research', 'research profile', 'research interests'],
     'administrative_work': ['administrative', 'administration', 'administrative work', 'administrative responsibilities'],

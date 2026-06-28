@@ -42,6 +42,16 @@ NON_PUBLICATION_KEYWORDS = [
     "convener",
     "faculty advisor",
     "coordinator of",
+    "attended",
+    "participated",
+    "worked as",
+    "working as",
+    "project description",
+    "team functionality",
+    "hereby declare",
+    "declaration",
+    "place:",
+    "date:",
 ]
 
 # At least one of these must be present for an entry to be accepted as a publication
@@ -96,6 +106,16 @@ def _split_title_venue(entry: str):
     cleaned = re.sub(r'^[\d]+[\).\-]\s+', '', entry).strip()
     cleaned = re.sub(r'^[\u2022\-\*]\s+', '', cleaned).strip()
 
+    # Check for quotes: “...”, "...", ‘...’, '...'
+    quote_match = re.search(r'[“"‘\'](.*?)[”"’\']', cleaned)
+    if quote_match:
+        title = quote_match.group(1).strip()
+        remaining = cleaned[quote_match.end():].strip()
+        remaining = re.sub(r'^[,.\s\-–—/]+', '', remaining).strip()
+        remaining = re.sub(r'^(?:in|at|published in|published at)\s+', '', remaining, flags=re.I).strip()
+        return title, remaining
+
+    # Fallback to standard split patterns
     for pattern in [r'\s+-\s+', r'\s+–\s+', r'\s+,\s+', r'\s+in\s+(?=[A-Z])', r'\s+In\s+']:
         parts = re.split(pattern, cleaned, maxsplit=1)
         if len(parts) == 2 and len(parts[0].split()) >= 3:

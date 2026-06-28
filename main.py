@@ -214,10 +214,10 @@ if process_button:
                         'Department': exp.get('current_department', ''),
                         'Publication Type': pub.get('type', ''),
                         'Title of Paper': pub.get('title', '') if pub.get('title') else pub.get('raw', ''),
-                        'Journal Name': pub.get('journal', ''),
-                        'Published Under / Publisher': pub.get('publisher', ''),
+                        'Journal Name': pub.get('journal_name') if pub.get('journal_name') else pub.get('conference_name', ''),
+                        'Published Under / Publisher': pub.get('journal_details', ''),
                         'Year of Publication': pub.get('year', ''),
-                        'Scopus Indexed': pub.get('scopus', ''),
+                        'Scopus Indexed': pub.get('scopus_indexed', 'Unknown'),
                         'Source Resume': name_display,
                     }
                     pub_rows.append(pub_row)
