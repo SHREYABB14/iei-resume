@@ -3,8 +3,8 @@ import re
 YEAR_RE = re.compile(r'(19|20)\d{2}')
 
 # Patterns for detecting numbered or bulleted publication entries
-ENTRY_START_RE = re.compile(r'^[\d]+[\).\-]\s+')
-BULLET_START_RE = re.compile(r'^[\u2022\-\*]\s+')
+ENTRY_START_RE = re.compile(r'^[\d]+[\).\-](?:\s+|$)')
+BULLET_START_RE = re.compile(r'^[\u2022\-\*](?:\s+|$)')
 
 # Patterns for extracting metadata from a publication string
 IMPACT_FACTOR_RE = re.compile(r'impact\s*factor[:\s]*([0-9]+(?:\.[0-9]+)?)', re.IGNORECASE)
@@ -168,6 +168,9 @@ def parse_publications(text: str) -> dict:
     if not text:
         return {'counts': {}, 'publications': []}
 
+    # Clean zero-width space and other zero-width characters
+    text = text.replace('\u200b', '').replace('\u200c', '').replace('\u200d', '').replace('\u200e', '').replace('\u200f', '').replace('\ufeff', '')
+
     counts = {
         'journal': 0, 'int_conf': 0, 'nat_conf': 0,
         'book': 0, 'book_chapter': 0, 'patent': 0,
@@ -219,7 +222,17 @@ def parse_publications(text: str) -> dict:
             if not (1900 <= val <= 2100):
                 explicit_counts[key] = max(explicit_counts[key], val)
 
-    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    # Split middle-of-line entry numbers to separate lines so they start a new entry correctly
+    lines = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        line_split = re.sub(r'\s+(\d+[\.\)\-]\s+)', r'\n\1', line)
+        for part in line_split.splitlines():
+            if part.strip():
+                lines.append(part.strip())
+
     raw_entries = _group_entries(lines)
 
     publications = []
