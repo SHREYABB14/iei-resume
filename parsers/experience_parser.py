@@ -89,25 +89,74 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
             return ' & '.join([x.strip() for x in m if x.strip()])
         return clean_val(line)
 
-    # 1. Designation detection
+    def split_and_extract_meta(line: str) -> tuple:
+        line = clean_val(line)
+        # Strip dates
+        line = re.sub(r'\b(?:from|during|since)\b.*$', '', line, flags=re.I).strip()
+        line = re.sub(r'[\d/\-\.\s]+to[\d/\-\.\s]+$', '', line, flags=re.I).strip()
+        line = re.sub(r'\b(?:19|20)\d{2}\b.*$', '', line).strip()
+        line = re.sub(r'[,.\s\-–—/]+$', '', line).strip()
+        
+        des = ""
+        dept = ""
+        org = ""
+        
+        comma_parts = [p.strip() for p in re.split(r'[,|–\-]', line) if p.strip()]
+        if len(comma_parts) >= 2:
+            for part in comma_parts:
+                part_clean = clean_val(part)
+                if DESIGNATION_KEYWORDS.search(part_clean) and not des:
+                    des = part_clean
+                elif DEPT_KEYWORDS.search(part_clean) and not dept:
+                    dept = part_clean
+                elif ORG_KEYWORDS.search(part_clean) and not org:
+                    org = part_clean
+                    
+            used = [des, dept, org]
+            remaining = [p.strip() for p in comma_parts if clean_val(p) not in used]
+            for part in remaining:
+                if not des:
+                    des = part
+                elif not dept and DEPT_KEYWORDS.search(part):
+                    dept = part
+                elif not org:
+                    org = part
+                    
+        if not org or not dept:
+            parts = re.split(r'\b(?:at|in|with|for)\b', line, maxsplit=1, flags=re.I)
+            if len(parts) == 2:
+                des_part = parts[0].strip()
+                org_part = parts[1].strip()
+                
+                if not des:
+                    if " of " in des_part.lower():
+                        des_sub = re.split(r'\bof\b', des_part, maxsplit=1, flags=re.I)
+                        des = des_sub[0].strip()
+                        if not dept:
+                            dept = des_sub[1].strip()
+                    else:
+                        des = des_part
+                elif " of " in des_part.lower() and not dept:
+                    des_sub = re.split(r'\bof\b', des_part, maxsplit=1, flags=re.I)
+                    dept = des_sub[1].strip()
+                    
+                if not org:
+                    org = org_part
+                    
+        return clean_val(des), clean_val(dept), clean_val(org)
+
+    # 1. Try to find the current job details from top lines
     for line in top_lines:
         line_clean = clean_val(line)
-        if DESIGNATION_KEYWORDS.search(line_clean) and not ORG_KEYWORDS.search(line_clean):
-            parts = [p.strip() for p in re.split(r'[,|–\-]', line_clean)]
-            for part in parts:
-                if DESIGNATION_KEYWORDS.search(part):
-                    designation = clean_designation(part)
+        if DESIGNATION_KEYWORDS.search(line_clean):
+            if ORG_KEYWORDS.search(line_clean) or DEPT_KEYWORDS.search(line_clean):
+                des, dept, org = split_and_extract_meta(line)
+                if des: designation = clean_designation(des)
+                if dept: department = dept
+                if org: organization = org
+                if designation and (department or organization):
                     break
-            if designation:
-                break
-                
-    if not designation and exp_text:
-        exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
-        for line in exp_lines[:4]:
-            if BLACKLIST.search(line):
-                continue
-            line_clean = clean_val(line)
-            if DESIGNATION_KEYWORDS.search(line_clean):
+            else:
                 parts = [p.strip() for p in re.split(r'[,|–\-]', line_clean)]
                 for part in parts:
                     if DESIGNATION_KEYWORDS.search(part):
@@ -115,72 +164,44 @@ def extract_personal_meta(text: str, exp_text: str) -> tuple:
                         break
                 if designation:
                     break
-                    
-    # 2. Department detection
-    for line in top_lines:
-        line_clean = clean_val(line)
-        if ORG_KEYWORDS.search(line_clean) and not re.search(r'\b(?:department|dept|discipline)\b', line_clean, re.I):
-            continue
-        if DEPT_KEYWORDS.search(line_clean):
-            parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
-            for part in parts:
-                if DEPT_KEYWORDS.search(part):
-                    department = part
-                    break
-            if department:
+
+    # 2. Try to find department/organization in top lines if not found
+    if not department:
+        for line in top_lines:
+            line_clean = clean_val(line)
+            if DEPT_KEYWORDS.search(line_clean) and not DESIGNATION_KEYWORDS.search(line_clean):
+                department = line_clean
                 break
-                
-    if not department and exp_text:
+    if not organization:
+        for line in top_lines:
+            line_clean = clean_val(line)
+            if ORG_KEYWORDS.search(line_clean) and not DESIGNATION_KEYWORDS.search(line_clean):
+                organization = line_clean
+                break
+
+    # 3. Fallback to experience text first items (most recent job!)
+    if (not designation or not organization) and exp_text:
         exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
         for line in exp_lines[:4]:
             if BLACKLIST.search(line):
                 continue
             line_clean = clean_val(line)
-            if ORG_KEYWORDS.search(line_clean) and not re.search(r'\b(?:department|dept|discipline)\b', line_clean, re.I):
-                continue
-            if DEPT_KEYWORDS.search(line_clean):
-                parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
-                for part in parts:
-                    if DEPT_KEYWORDS.search(part):
-                        department = part
-                        break
-                if department:
+            if DESIGNATION_KEYWORDS.search(line_clean):
+                des, dept, org = split_and_extract_meta(line)
+                if not designation and des:
+                    designation = clean_designation(des)
+                if not department and dept:
+                    department = dept
+                if not organization and org:
+                    organization = org
+                if designation and organization:
                     break
-                    
-    # 3. Organization detection
-    for line in top_lines:
-        line_clean = clean_val(line)
-        if ORG_KEYWORDS.search(line_clean) and not DESIGNATION_KEYWORDS.search(line_clean):
-            parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
-            for part in parts:
-                if ORG_KEYWORDS.search(part) and not DESIGNATION_KEYWORDS.search(part):
-                    organization = part
-                    break
-            if organization:
-                break
-                
-    if not organization and exp_text:
-        exp_lines = [l.strip() for l in exp_text.splitlines() if l.strip()]
-        for line in exp_lines[:4]:
-            if BLACKLIST.search(line):
-                continue
-            line_clean = clean_val(line)
-            if ORG_KEYWORDS.search(line_clean):
-                parts = [p.strip() for p in re.split(r'[,|]', line_clean)]
-                for part in parts:
-                    if ORG_KEYWORDS.search(part) and not DESIGNATION_KEYWORDS.search(part):
-                        organization = part
-                        break
-                if organization:
-                    break
-                    
-    if designation:
-        designation = clean_val(designation)
-    if department:
-        department = clean_val(department)
-    if organization:
-        organization = clean_val(organization)
-        
+
+    # Final cleanup
+    if designation: designation = clean_designation(designation)
+    if department: department = clean_val(department)
+    if organization: organization = clean_val(organization)
+    
     return designation, department, organization
 
 def _resolve_2digit_year(start_year: int, end_year_str: str) -> int:
@@ -341,20 +362,18 @@ def parse_experience(text: str, full_text: str = "") -> dict:
                         'line': line
                     })
 
-    # Classify each job individually and sum up durations
-    academic_total = 0.0
-    industry_total = 0.0
-    research_total = 0.0
-    admin_total = 0.0
-
-    intervals = []
+    academic_intervals = []
+    industry_intervals = []
+    research_intervals = []
+    admin_intervals = []
+    total_intervals = []
     
     for job in jobs:
         low_context = job['context'].lower()
         
         is_academic = bool(ACADEMIC_KEYWORDS.search(low_context))
-        is_research = bool(RESEARCH_KEYWORDS.search(low_context))
         is_industry = bool(INDUSTRY_KEYWORDS.search(low_context))
+        is_research = bool(RESEARCH_KEYWORDS.search(low_context))
         is_admin = bool(ADMIN_KEYWORDS.search(low_context))
         
         if is_industry:
@@ -366,41 +385,45 @@ def parse_experience(text: str, full_text: str = "") -> dict:
             is_academic = True
             
         if is_academic:
-            academic_total += job['duration']
+            academic_intervals.append((job['start_date'], job['end_date']))
         if is_industry:
-            industry_total += job['duration']
+            industry_intervals.append((job['start_date'], job['end_date']))
         if is_research:
-            research_total += job['duration']
+            research_intervals.append((job['start_date'], job['end_date']))
         if is_admin:
-            admin_total += job['duration']
+            admin_intervals.append((job['start_date'], job['end_date']))
             
-        intervals.append((job['start_date'], job['end_date']))
+        total_intervals.append((job['start_date'], job['end_date']))
 
-    # Compute non-overlapping total experience
-    intervals.sort(key=lambda x: x[0])
-    merged_intervals = []
-    for start, end in intervals:
-        if not merged_intervals:
-            merged_intervals.append((start, end))
-        else:
-            prev_start, prev_end = merged_intervals[-1]
-            if start <= prev_end:
-                merged_intervals[-1] = (prev_start, max(prev_end, end))
-            else:
+    def _compute_deduplicated_duration(intervals_list):
+        if not intervals_list:
+            return 0.0
+        # Make a copy so we don't mutate original intervals list
+        intervals_copy = list(intervals_list)
+        intervals_copy.sort(key=lambda x: x[0])
+        merged_intervals = []
+        for start, end in intervals_copy:
+            if not merged_intervals:
                 merged_intervals.append((start, end))
-                
-    total_months = 0
-    for start, end in merged_intervals:
-        rd = relativedelta(end, start)
-        months = rd.years * 12 + rd.months
-        total_months += max(0, months)
-    total_total = total_months / 12.0
+            else:
+                prev_start, prev_end = merged_intervals[-1]
+                if start <= prev_end:
+                    merged_intervals[-1] = (prev_start, max(prev_end, end))
+                else:
+                    merged_intervals.append((start, end))
+                    
+        total_months = 0
+        for start, end in merged_intervals:
+            rd = relativedelta(end, start)
+            months = rd.years * 12 + rd.months
+            total_months += max(0, months)
+        return round(total_months / 12.0, 2)
 
-    summary['Academic Experience'] = round(academic_total, 2)
-    summary['Industry Experience'] = round(industry_total, 2)
-    summary['Research Experience'] = round(research_total, 2)
-    summary['Administrative Experience'] = round(admin_total, 2)
-    summary['Total Experience'] = round(total_total, 2)
+    summary['Academic Experience'] = _compute_deduplicated_duration(academic_intervals)
+    summary['Industry Experience'] = _compute_deduplicated_duration(industry_intervals)
+    summary['Research Experience'] = _compute_deduplicated_duration(research_intervals)
+    summary['Administrative Experience'] = _compute_deduplicated_duration(admin_intervals)
+    summary['Total Experience'] = _compute_deduplicated_duration(total_intervals)
 
     summary['academic_years'] = summary['Academic Experience']
     summary['industry_years'] = summary['Industry Experience']
