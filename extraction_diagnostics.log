@@ -1,0 +1,110 @@
+============================================================
+Resume File: INF010008.pdf
+Extracted Sections: education, experience, fdp, publications, projects, awards, memberships, administrative_work
+Missing Sections: patents
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 100
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: iit_1382372862.pdf
+Extracted Sections: education, experience, fdp, publications, projects, awards, research, review_committee
+Missing Sections: patents, memberships
+Validation Warnings: Current organization equals university from education (phd_university).
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 95
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: CV_Udhayakumar_Social_Work.pdf
+Extracted Sections: education, experience, fdp, publications, awards, invited_talks
+Missing Sections: patents, projects, memberships
+Validation Warnings: Duplicate publication detected: 'Health Economics & Management...'.; Duplicate publication detected: 'Health Economics & Management...'.; Duplicate publication detected: 'Professional Social Work in In...'.
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 70
+Low Confidence Reason: Low scoring profile
+============================================================
+
+============================================================
+Resume File: CV_Ramesh_Chandra.pdf
+Extracted Sections: education, experience, projects, awards, patents, research, administrative_work
+Missing Sections: publications, memberships, fdp
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 100
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: CV_HarishPhuleria.pdf
+Extracted Sections: education, experience, fdp, publications, projects, awards, memberships, administrative_work
+Missing Sections: patents
+Validation Warnings: Duplicate publication detected: '21st Annual meeting of Interna...'.; Duplicate publication detected: 'Singh M, Phuleria HC, Bowers K...'.; Duplicate publication detected: 'Vijay P, Pullokaran P, Phuleri...'.
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 85
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: A5CSE00T80.pdf
+Extracted Sections: education, experience, fdp, publications, awards, memberships, certifications, research
+Missing Sections: patents, projects
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 100
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: 638373082204430805_CV Dr Pavitra Singh.pdf
+Extracted Sections: education, experience, fdp, publications, projects, awards, research, review_committee
+Missing Sections: patents, memberships
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 85
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: 1646068417831.pdf
+Extracted Sections: education, experience, publications, projects, awards, memberships, research
+Missing Sections: patents, fdp
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 100
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: 1692682240abdul_rahman.pdf
+Extracted Sections: education, experience, fdp, publications, projects
+Missing Sections: patents, awards, memberships
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 85
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: 20200608Reshma.pdf
+Extracted Sections: education, experience, fdp, publications, awards
+Missing Sections: patents, projects, memberships
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 100
+Low Confidence Reason: None
+============================================================
+
+============================================================
+Resume File: 806.pdf
+Extracted Sections: education, experience, fdp, publications, awards, patents, memberships, research, administrative_work, invited_talks, research_funding, advisory_committee, technical_committee, professional_service
+Missing Sections: projects
+Validation Warnings: None
+Parser Used: Regex/Rule-based Parsing Engine
+Confidence Score: 100
+Low Confidence Reason: None
+============================================================
+

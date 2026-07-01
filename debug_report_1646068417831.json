@@ -1,0 +1,179 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Indian Institute of Technology Jammu",
+            "Designation": "Assistant Professor",
+            "Department": "Department of Mathematics",
+            "Category": "Academic",
+            "Start Date": "2018-02-01",
+            "End Date": "2026-06-30",
+            "Duration": 8.33,
+            "Academic Contribution": 8.33,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.33
+        },
+        {
+            "Organization": "Defence Research and Development Organisation",
+            "Designation": "Scientist",
+            "Department": "Department of Mathematics",
+            "Category": "Research",
+            "Start Date": "2014-07-01",
+            "End Date": "2018-01-31",
+            "Duration": 3.5,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.5,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.5
+        },
+        {
+            "Organization": "Defence Research and Development Organisation",
+            "Designation": "Scientist",
+            "Department": "Department of Mathematics",
+            "Category": "Research",
+            "Start Date": "2010-07-01",
+            "End Date": "2014-06-30",
+            "Duration": 3.92,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.92,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.92
+        },
+        {
+            "Organization": "Carleton University",
+            "Designation": "Postdoctoral Fellow",
+            "Department": "School of Mathematics and Statistics",
+            "Category": "Research",
+            "Start Date": "2011-09-08",
+            "End Date": "2012-12-31",
+            "Duration": 1.25,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.25,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.25
+        },
+        {
+            "Organization": "Defence Research and Development Organisation",
+            "Designation": "Scientist",
+            "Department": "School of Mathematics and Statistics",
+            "Category": "Research",
+            "Start Date": "2007-02-28",
+            "End Date": "2010-06-30",
+            "Duration": 3.33,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.33,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.33
+        },
+        {
+            "Organization": "Indian Institute of Technology Bombay",
+            "Designation": "Teaching Assistant",
+            "Department": "Department of Mathematics",
+            "Category": "Academic",
+            "Start Date": "2003-07-01",
+            "End Date": "2007-02-01",
+            "Duration": 3.58,
+            "Academic Contribution": 3.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.58,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.58
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "1. (with M. Pal and P. Stanica) The c-di\ufb00erential uniformity and boomerang uniformity of two classes of permutation polynomials, IEEE Transactions on Information Theory, Vol. 68, No. 1, pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with M. Pal and P. Stanica) The c-di\ufb00erential uniformity and boomerang uniformity of two classes of permutation polynomials, IEEE Transactions on Information Theory, Vol. 68, No. 1, pp.",
+            "Publisher": "IEEE",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "3. (with N. Fernando and M. Pal) Dembowski-Ostrom polynomials and reversed Dickson polynomials, Discrete Applied Mathematics, Vol. 298, pp. 66-79, 2021.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with N. Fernando and M. Pal) Dembowski-Ostrom polynomials and reversed Dickson polynomials, Discrete Applied Mathematics, Vol. 298, pp. 66-79, 2021.",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. (with M. Pal, C. Riera and P. Stanica) On the c-di\ufb00erential uniformity of certain maps over \ufb01nite \ufb01elds, Designs, Codes and Cryptography, Vol. 89, pp. 221-239, 2021.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with M. Pal, C. Riera and P. Stanica) On the c-di\ufb00erential uniformity of certain maps over \ufb01nite \ufb01elds, Designs, Codes and Cryptography, Vol. 89, pp. 221-239, 2021.",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. (with D. Panario and Q. Wang) Nonlinear vectorial primitive recursive sequences, Cryptography and Communication, Volume 10, Issue 6, pp. 1075-1090, 2018.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with D. Panario and Q. Wang) Nonlinear vectorial primitive recursive sequences, Cryptography and Communication, Volume 10, Issue 6, pp. 1075-1090, 2018.",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. (with S. K. Bishoi and H. K. Haran) A note on the Multiple-Recursive Matrix Method for Generating Pseudorandom Vectors, Discrete Applied Mathematics, 222, pp. 67-75, 2017.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with S. K. Bishoi and H. K. Haran) A note on the Multiple-Recursive Matrix Method for Generating Pseudorandom Vectors, Discrete Applied Mathematics, 222, pp. 67-75, 2017.",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. (with S. D. Cohen, D. Panario and Q. Wang) An asymptotic formula for the number of irreducible transformation shift registers, Linear Algebra and its Applications, 484, pp. 46-62, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with S. D. Cohen, D. Panario and Q. Wang) An asymptotic formula for the number of irreducible transformation shift registers, Linear Algebra and its Applications, 484, pp. 46-62, 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. (with P. Beelen and S. R. Ghorpade) Linear Codes Associated to Determinantal Varieties, Discrete Mathematics, 338, pp. 1493-1500, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(with P. Beelen and S. R. Ghorpade) Linear Codes Associated to Determinantal Varieties, Discrete Mathematics, 338, pp. 1493-1500, 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. (with D. Panario and Q. Wang) Word-oriented transformation shift registers and their linear com- plexity, in Proceedings of SEquences and Their Applications - SETA 2012, T. Helleseth and J. Jedwab Eds., Lecture Notes in Computer Science, Springer, Berlin, Vol. 7280, pp. 190-202, 2012.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "(with D. Panario and Q. Wang) Word-oriented transformation shift registers and their linear com- plexity, in Proceedings of SEquences and Their Applications",
+            "Publisher": "Springer",
+            "Year": "2012",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "1646068417831.pdf",
+        "Missing Fields": "patents, fdp",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "1646068417831.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, publications, projects, awards, memberships, research",
+        "Sections missing": "patents, fdp",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 0%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

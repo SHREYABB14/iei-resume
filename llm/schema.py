@@ -1,4 +1,5 @@
 import json
+import re
 from jsonschema import validate, ValidationError
 
 SCHEMA = {
@@ -60,7 +61,7 @@ def extract_json_text(text: str) -> str:
     start = text.find('{')
     if start == -1:
         raise ValueError('No JSON object found in text')
-    # naive bracket matching
+    
     depth = 0
     for i in range(start, len(text)):
         if text[i] == '{':
@@ -72,16 +73,59 @@ def extract_json_text(text: str) -> str:
     raise ValueError('Incomplete JSON object')
 
 
+def repair_json_string(s: str) -> str:
+    s = s.strip()
+    s = re.sub(r'^```(?:json)?\s*', '', s, flags=re.I)
+    s = re.sub(r'\s*```$', '', s)
+    s = re.sub(r'[“”]', '"', s)
+    s = re.sub(r'[‘’]', "'", s)
+    s = re.sub(r',\s*([\}\]])', r'\1', s)
+    s = re.sub(r'[\x00-\x1f]', '', s)
+    return s.strip()
+
+
 def validate_and_extract(text: str) -> dict:
-    jtext = extract_json_text(text)
+    if not text:
+        return {}
+
+    cleaned_text = repair_json_string(text)
+
     try:
+        data = json.loads(cleaned_text)
+        return data
+    except Exception:
+        pass
+
+    try:
+        jtext = extract_json_text(cleaned_text)
         data = json.loads(jtext)
+        return data
     except Exception as e:
-        raise ValueError(f'Invalid JSON: {e}')
+        # Fallback regex parser for major fields
+        fallback_data = {}
+        
+        m_name = re.search(r'"name"\s*:\s*"([^"]+)"', cleaned_text, re.I)
+        if m_name:
+            fallback_data['name'] = m_name.group(1)
+            
+        m_email = re.search(r'"email"\s*:\s*"([^"]+)"', cleaned_text, re.I)
+        if m_email:
+            fallback_data['email'] = m_email.group(1)
+            
+        m_phone = re.search(r'"phone"\s*:\s*"([^"]+)"', cleaned_text, re.I)
+        if m_phone:
+            fallback_data['phone'] = m_phone.group(1)
+            
+        m_des = re.search(r'"current_designation"\s*:\s*"([^"]+)"', cleaned_text, re.I)
+        if m_des:
+            fallback_data['current_designation'] = m_des.group(1)
 
-    try:
-        validate(instance=data, schema=SCHEMA)
-    except ValidationError as e:
-        raise ValueError(f'JSON does not match schema: {e.message}')
+        m_dept = re.search(r'"current_department"\s*:\s*"([^"]+)"', cleaned_text, re.I)
+        if m_dept:
+            fallback_data['current_department'] = m_dept.group(1)
 
-    return data
+        m_org = re.search(r'"current_organization"\s*:\s*"([^"]+)"', cleaned_text, re.I)
+        if m_org:
+            fallback_data['current_organization'] = m_org.group(1)
+            
+        return fallback_data

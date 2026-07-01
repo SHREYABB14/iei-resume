@@ -64,16 +64,20 @@ def _write_faculty_meta(ws, faculty_name: str, designation: str, branch: str):
 def _write_pub_table(ws, publications: list, start_row: int):
     """
     Write the publication data table starting at `start_row`.
-    Columns: Sr No | Title of Paper | Journal Name |
-             Published Under / Journal Details | Year of Publication |
-             Scopus Index
+    Columns: Sr No | Publication Type | Title of Paper | Journal Name |
+             Published Under / Journal Details | Publisher | Year of Publication |
+             DOI | ISSN / ISBN | Scopus Index
     """
     col_headers = [
         'Sr No',
+        'Publication Type',
         'Title of Paper',
         'Journal Name',
         'Published Under / Journal Details',
+        'Publisher',
         'Year of Publication',
+        'DOI',
+        'ISSN / ISBN',
         'Scopus Index',
     ]
 
@@ -90,10 +94,14 @@ def _write_pub_table(ws, publications: list, start_row: int):
         row = start_row + sr_no
         row_data = [
             sr_no,
+            pub.get('Publication Type', ''),
             pub.get('Title of Paper', ''),
             pub.get('Journal Name', ''),
             pub.get('Published Under / Publisher', ''),
+            pub.get('Publisher', ''),
             pub.get('Year of Publication', ''),
+            pub.get('DOI', ''),
+            pub.get('ISSN / ISBN', ''),
             pub.get('Scopus Indexed', 'Unknown'),
         ]
         for col_idx, value in enumerate(row_data, start=1):
@@ -103,7 +111,7 @@ def _write_pub_table(ws, publications: list, start_row: int):
             cell.border = _thin_border()
 
     # Set reasonable column widths
-    col_widths = [8, 45, 30, 35, 20, 15]
+    col_widths = [8, 20, 45, 30, 35, 20, 20, 20, 20, 15]
     for col_idx, width in enumerate(col_widths, start=1):
         ws.column_dimensions[get_column_letter(col_idx)].width = width
 
@@ -140,9 +148,9 @@ def generate_excels(master_rows, pub_rows):
 
     cols_to_strip_numbers = {
         'Name', 'Current Designation', 'Current Department', 'Current Organization',
-        'UG Degree', 'UG Branch', 'UG University',
-        'PG Degree', 'PG Branch', 'PG University',
-        'PhD University', 'Title of Paper', 'Journal Name', 'Published Under / Journal Details',
+        'UG Degree', 'UG Branch', 'UG University', 'UG Institute',
+        'PG Degree', 'PG Branch', 'PG University', 'PG Institute',
+        'PhD University', 'PhD Institute', 'Title of Paper', 'Journal Name', 'Published Under / Journal Details',
         'Faculty Name', 'Designation', 'Department', 'Publication Type'
     }
 
@@ -174,17 +182,18 @@ def generate_excels(master_rows, pub_rows):
 
     expected_master_cols = [
         'Source File', 'Name', 'Email', 'Phone',
+        'Nationality', 'Country', 'Address',
         'Current Designation', 'Current Department', 'Current Organization',
-        'UG Degree', 'UG Branch', 'UG University', 'UG Year',
-        'PG Degree', 'PG Branch', 'PG University', 'PG Year',
-        'PhD University', 'PhD Year',
+        'UG Degree', 'UG Branch', 'UG University', 'UG Institute', 'UG Year',
+        'PG Degree', 'PG Branch', 'PG University', 'PG Institute', 'PG Year',
+        'PhD University', 'PhD Institute', 'PhD Year',
         'Academic Experience', 'Industry Experience',
         'Research Experience', 'Administrative Experience', 'Total Experience',
         'Journal Count', 'International Conference Count',
         'National Conference Count', 'Book Count', 'Book Chapter Count',
         'Patent Count', 'Projects Count', 'Awards Count', 'Membership Count',
         'FDP Attended', 'STTP Attended',
-        'ORCID', 'Google Scholar', 'Confidence Score',
+        'ORCID', 'Google Scholar', 'Confidence Score', 'Validation Warnings',
     ]
 
     master_df = pd.DataFrame(master_rows) if master_rows else pd.DataFrame(columns=expected_master_cols)

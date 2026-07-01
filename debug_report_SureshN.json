@@ -1,0 +1,227 @@
+{
+    "Employment History": [
+        {
+            "Organization": "The New Royal College of Engineering and Technology (11 months)",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2009-07-01",
+            "End Date": "2010-05-01",
+            "Duration": 0.83,
+            "Academic Contribution": 0.83,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.83
+        },
+        {
+            "Organization": "Assistant Professor in Sathyabama University",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2010-06-01",
+            "End Date": "2019-04-01",
+            "Duration": 8.83,
+            "Academic Contribution": 8.83,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 8.83,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.83
+        },
+        {
+            "Organization": "Assistant Professor in Jerusalem College of Engineering",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2019-07-01",
+            "End Date": "2022-02-01",
+            "Duration": 2.58,
+            "Academic Contribution": 2.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.58
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "Scopus indexed",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Scopus indexed",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Scopus indexed",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Scopus indexed",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Scopus Citations Scopus h-index Google Scholar Citations Google Scholar h-index Google Scholar i-10 index 32 03 80 03 03",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Scopus Citations Scopus h-index Google Scholar Citations Google Scholar h-index Google Scholar i-10 index 32 03 80 03 03",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "1.  N.Suresh, E.Balaji, K.Jeffry Anto, J.Jenith,\u201dRaspberry Pi Based Liquid Flow Monitoring And Control\u201d, International Journal of Research in Engineering and Technology, 2014, Vol.3(7), pp 122-125. (Google Scholar Citation- 36)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "N.Suresh, E.Balaji, K.Jeffry Anto, J.Jenith,\u201dRaspberry Pi Based Liquid Flow Monitoring And Control\u201d, International Journal of Research",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Suresh.N, \u201cImplementation of Wireless Data Logger to Monitor Energy in Industries\u201d, International Journal of Applied Engineering Research, 2014, Vol. 9, pp.30187-30197 (Google Scholar Citation- 36)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Implementation of Wireless Data Logger to Monitor Energy in Industries",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Suresh.N and  Samuel Rajesh Babu.R , \u201cReview on Harmonics and its Eliminating Strategies in Power System\u201d, Indian Journal of Science and Technology, 2015, Vol No.8, pp 1-9. (Google Scholar Citation- 15, Scopus Citation-10)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Review on Harmonics and its Eliminating Strategies in Power System",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Suresh Natarajan and R. Samuel Rajesh Babu, \u201cComparison of Cascaded H-bridge Inverters for Harmonic Mitigation Considering Various Loads\u201d, International Journal of Power Electronics and Drive System, 2017, Vol. 8(1), pp.10-19 (Google Scholar Citation- 02, Scopus Citation-02)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Comparison of Cascaded H-bridge Inverters for Harmonic Mitigation Considering Various Loads",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Suresh N  and R. Samuel Rajesh Babu,\u201d Reduction of Total Harmonic Distortion in Cascaded H-Bridge Inverter by Pattern Search Technique\u201d , 2017, Vol.7(6), pp. 3292~3298 (Google Scholar Citation- 12, Scopus Citation-14)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Suresh N  and R. Samuel Rajesh Babu,\u201d Reduction of Total Harmonic Distortion in Cascaded H-Bridge Inverter by Pattern Search Technique\u201d",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Aaron James.S, Suresh,N, Bestley Joe S, Amalarani.V, \u201cModernized Control Of Leningrad Metal Works Turbine Using Restricted Governing Mode Of Operation\u201d, International Journal Of Pharmacy & Technology, 2015, Vol.7, pp.9925-9234. (Scopus Citation- 01)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Modernized Control Of Leningrad Metal Works Turbine Using Restricted Governing Mode Of Operation",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Suresh N, Vinithraj R,  Shajithali S, \u201cReal time Automobile Accident Exploration and Extrication System\u201d, Research Journal of Pharmaceutical, Biological and Chemical Sciences, 2017, Vol.8(2), pp.275-279",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Real time Automobile Accident Exploration and Extrication System",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Suresh.N, Yogesh.C, Yukesh.S, \u201cServo Motor Based Finger Movement Of Myoelectric Hand For Human\u201d, International Journal of Pharmacy & Technology,2016, Vol.8(4),pp.22200- 22206.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Servo Motor Based Finger Movement Of Myoelectric Hand For Human",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. James, S.A., Suresh, N., Vinothkumar, C. \u201cDistillation  Column  Control Using Dcs\u201d, International Conference on Control, Instrumentation, Communication and Computational Technologies (IEEE Conference), 2014, pp.1516-",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Distillation  Column  Control Using Dcs",
+            "Publisher": "IEEE",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1520. (Google Scholar Citation- 02, Scopus Citation- 03)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(Google Scholar Citation- 02, Scopus Citation- 03)",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "10. Paulselvan.T and Suresh.N \u201cIndustrial Monitoring and Control System using Zigbee Protocol\u201d International Conference on Advances in Computer ,Communication & Management Symposium, 2013.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Industrial Monitoring and Control System using Zigbee Protocol",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Bestley Joe S, Aaron James S, Suresh N, Aditya Harsha Kiran Chivukula, \u201cA Novel Vulnerability Assessment and Observatory Of Tsunami Disaster Using Kalman Filter\u201d, International Conference on Control, Instrumentation, Communication and Computational Technologies (IEEE Conference) ,2015, pp 715-719",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "A Novel Vulnerability Assessment and Observatory Of Tsunami Disaster Using Kalman Filter",
+            "Publisher": "IEEE",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11- Level Inverter\u201d. International Conference on Scienece, Technology, Engineering and Management\u201d, 2020",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Level Inverter\u201d. International Conference on Scienece, Technology, Engineering and Management\u201d, 2020",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Vishranthi Mohan, Shyam kumar Ganesan, Surendhar Veeramani, Suresh Natarajan, \u201cSolar Powered Irrigation Pump for Smart Agriculture using IOT\u201d. International Conference on Scienece, Technology, Engineering and Management\u201d, 2020",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Solar Powered Irrigation Pump for Smart Agriculture using IOT",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. G.Raja and N.Suresh, \u201cDevelopment In Volatile Organic Compounds  Gas Detection Using Pid Sensor With Controller\u201d Proceeding of National Conference on Recent Trends in Electrical and Communication Engineering (NCRTECE '13), 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Development In Volatile Organic Compounds  Gas Detection Using Pid Sensor With Controller",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "SureshN.pdf",
+        "Missing Fields": "patents, awards",
+        "Warnings": "Duplicate publication detected: 'Scopus indexed...'.",
+        "Validation Errors": "Duplicate publication detected: 'Scopus indexed...'.",
+        "Duplicate Detection": "Yes",
+        "Confidence deductions": 5
+    },
+    "Processing Report": {
+        "Resume File": "SureshN.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, memberships",
+        "Sections missing": "patents, awards",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

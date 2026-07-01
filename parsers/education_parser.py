@@ -5,14 +5,78 @@ def clean_val(val: str) -> str:
     val = re.sub(r'^[•\-\*●❖\uf0d8\uf0b7\s_·]+', '', val)
     return val.strip()
 
-def parse_education(text: str):
+def _extract_institutions(line_no_score: str) -> tuple:
+    univ = ""
+    inst = ""
+    
+    # Try affiliation split first
+    aff_parts = re.split(r'\b(?:affiliated\s+(?:to|under|with)|under|affiliated|approved\s+by)\b', line_no_score, flags=re.I)
+    if len(aff_parts) == 2:
+        part_inst = aff_parts[0].strip()
+        part_univ = aff_parts[1].strip()
+        
+        # Univ
+        univ_match = re.search(r'\b([^,\(]+(?:university|univ|board|school|college|institute|iit|nit|iiit|bits)[^,\(]*)\b', part_univ, re.I)
+        univ = univ_match.group(1).strip() if univ_match else part_univ
+        
+        # Inst
+        inst_match = re.search(r'\b([^,\(]+(?:institute|college|school|academy|polytechnic|iit|nit|iiit|bits)[^,\(]*)\b', part_inst, re.I)
+        inst = inst_match.group(1).strip() if inst_match else part_inst
+    else:
+        # Check commas
+        parts = [p.strip() for p in re.split(r'[,|–\-]', line_no_score) if p.strip()]
+        for part in parts:
+            if re.search(r'\b(?:university|univ|board)\b', part, re.I) and not univ:
+                univ = part
+            elif re.search(r'\b(?:institute|college|school|academy)\b', part, re.I) and not inst:
+                inst = part
+                
+        if not univ:
+            m = re.search(r'\b([^,\(]+(?:university|univ|board|iit|nit|iiit|bits)[^,\(]*)\b', line_no_score, re.I)
+            univ = m.group(1).strip() if m else ""
+        if not inst:
+            m = re.search(r'\b([^,\(]+(?:institute|college|school|academy|iit|nit|iiit|bits)[^,\(]*)\b', line_no_score, re.I)
+            inst = m.group(1).strip() if m else ""
+            
+    # Clean prefix/suffixes
+    def clean_edu_name(val: str) -> str:
+        if not val:
+            return ""
+        val = re.sub(r'^(?:from|at|under|of|affiliated\s+to|affiliated\s+under|awarded\s+from|by)\s+', '', val, flags=re.I).strip()
+        val = re.sub(r'\b(?:in\s+)?(?:19|20)\d{2}\b.*$', '', val, flags=re.I).strip()
+        val = val.rstrip(',. ')
+        return val.strip()
+        
+    univ = clean_edu_name(univ)
+    inst = clean_edu_name(inst)
+    
+    if not inst and univ:
+        inst = univ
+    if not univ and inst:
+        univ = inst
+        
+    return inst, univ
+
+def parse_education(text: str) -> dict:
+    try:
+        return _parse_education_impl(text)
+    except Exception as e:
+        print(f"Warning in parse_education: {e}")
+        return {
+            "ug_degree": "", "ug_branch": "", "ug_university": "", "ug_institute": "", "ug_year": "",
+            "pg_degree": "", "pg_branch": "", "pg_university": "", "pg_institute": "", "pg_year": "",
+            "phd_university": "", "phd_institute": "", "phd_year": ""
+        }
+
+
+def _parse_education_impl(text: str) -> dict:
     result = {
-        "ug_degree": "", "ug_branch": "", "ug_university": "", "ug_year": "",
-        "pg_degree": "", "pg_branch": "", "pg_university": "", "pg_year": "",
-        "phd_university": "", "phd_year": ""
+        "ug_degree": "", "ug_branch": "", "ug_university": "", "ug_institute": "", "ug_year": "",
+        "pg_degree": "", "pg_branch": "", "pg_university": "", "pg_institute": "", "pg_year": "",
+        "phd_university": "", "phd_institute": "", "phd_year": ""
     }
 
-    if not text:
+    if not text or not isinstance(text, str):
         return result
 
     raw_lines = [l.strip() for l in text.splitlines() if l.strip()]
@@ -34,7 +98,6 @@ def parse_education(text: str):
         else:
             lines[-1] = lines[-1] + " " + line
 
-    # Track if we found main degrees
     found_phd = False
     found_pg = False
     found_ug = False
@@ -60,25 +123,8 @@ def parse_education(text: str):
         line_no_year = re.sub(r'\b(?:19|20)\d{2}\b', '', line).strip()
         line_no_score = re.sub(r'\b(?:\d{1,2}(?:\.\d{1,2})?%|\b(?:cgp[a]?\s*)?\d\.\d{1,2}(?:\s*/\s*10)?)\b', '', line_no_year, flags=re.I).strip()
 
-        # University extraction
-        univ = ""
-        aff_match = re.search(r'\b(?:affiliated\s+(?:to|under|with)|under)\s+([^,\(]+(?:university|univ|board|school|college|institute)[^,\(]*)\b', line_no_score, re.I)
-        if aff_match:
-            univ = aff_match.group(1).strip()
-        else:
-            univ_match = re.search(r'\b(?:from|at|under|of)\s+([^,\(]+(?:university|college|institute|iit|nit|school|board)[^,\(]*)\b', line_no_score, re.I)
-            if univ_match:
-                univ = univ_match.group(1).strip()
-            else:
-                univ_match2 = re.search(r'\b([^,\(]*(?:university|college|institute|iit|nit|school|board)[^,\(]*)\b', line_no_score, re.I)
-                if univ_match2:
-                    univ = univ_match2.group(1).strip()
-        
-        if univ:
-            univ = re.sub(r'^(?:from|at|under|of|affiliated\s+to|affiliated\s+under|awarded\s+from)\s+', '', univ, flags=re.I).strip()
-            univ = re.sub(r'\s+in\s*$', '', univ, flags=re.I).strip()
-            univ = re.sub(r'\b(?:in\s+)?(?:19|20)\d{2}\b.*$', '', univ, flags=re.I).strip()
-            univ = univ.rstrip(',. ')
+        # University and Institute extraction
+        inst, univ = _extract_institutions(line_no_score)
 
         # Branch extraction
         branch = ""
@@ -107,6 +153,7 @@ def parse_education(text: str):
 
         if is_phd and not found_phd:
             result["phd_university"] = univ if univ else clean_val(line_no_score)
+            result["phd_institute"] = inst if inst else clean_val(line_no_score)
             result["phd_year"] = year
             found_phd = True
         elif is_pg and not found_pg:
@@ -114,6 +161,7 @@ def parse_education(text: str):
             result["pg_degree"] = deg_match.group(0).strip().upper() if deg_match else "Master"
             result["pg_branch"] = branch
             result["pg_university"] = univ
+            result["pg_institute"] = inst
             result["pg_year"] = year
             found_pg = True
         elif is_ug and not found_ug:
@@ -121,6 +169,7 @@ def parse_education(text: str):
             result["ug_degree"] = deg_match.group(0).strip().upper() if deg_match else "Bachelor"
             result["ug_branch"] = branch
             result["ug_university"] = univ
+            result["ug_institute"] = inst
             result["ug_year"] = year
             found_ug = True
 

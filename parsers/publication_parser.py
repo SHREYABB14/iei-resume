@@ -1,18 +1,17 @@
 import re
 
-YEAR_RE = re.compile(r'(19|20)\d{2}')
+YEAR_RE = re.compile(r'\b(19|20)\d{2}\b')
 
 # Patterns for detecting numbered or bulleted publication entries
 ENTRY_START_RE = re.compile(r'^\d{1,2}[\).\-](?:\s+|$)')
 BULLET_START_RE = re.compile(r'^[\u2022\-\*](?:\s+|$)')
 
-# Patterns for extracting metadata from a publication string
+# Patterns for extracting metadata
 IMPACT_FACTOR_RE = re.compile(r'impact\s*factor[:\s]*([0-9]+(?:\.[0-9]+)?)', re.IGNORECASE)
 SCOPUS_RE = re.compile(r'scopus', re.IGNORECASE)
-ISSN_RE = re.compile(r'ISSN[:\s]*[\dX\-]+', re.IGNORECASE)
-DOI_RE = re.compile(r'doi[:\s]*\S+', re.IGNORECASE)
+ISSN_RE = re.compile(r'\b(?:issn|isbn)[:\s]*([\dX\-]+)', re.IGNORECASE)
+DOI_RE = re.compile(r'\b(?:doi[:\s/]*|https?://(?:dx\.)?doi\.org/)\s*(\S+)', re.IGNORECASE)
 
-# Count keywords explicitly stated in the resume (e.g. "10 Journal papers")
 COUNT_PATTERNS = {
     'journal': re.compile(r'(\d+)\s+journal', re.IGNORECASE),
     'int_conf': re.compile(r'(\d+)\s+international\s+conference', re.IGNORECASE),
@@ -22,91 +21,71 @@ COUNT_PATTERNS = {
     'patent': re.compile(r'(\d+)\s+patent', re.IGNORECASE),
 }
 
-# Keywords that indicate an entry is NOT a publication (administrative/committee roles)
+# Keywords indicating administrative/non-publication entries
 NON_PUBLICATION_KEYWORDS = [
-    "coordinator",
-    "co-ordinator",
-    "committee",
-    "member of",
-    "bos",
-    "evaluator",
-    "judge",
-    "judged",
-    "moderator",
-    "moderation",
-    "syllabus",
-    "toycathon",
-    "responsibilities",
-    "administrative",
-    "exam",
-    "convener",
-    "faculty advisor",
-    "coordinator of",
-    "attended",
-    "participated",
-    "worked as",
-    "working as",
-    "project description",
-    "team functionality",
-    "hereby declare",
-    "declaration",
-    "place:",
-    "date:",
+    "coordinator", "co-ordinator", "committee", "member of", "bos", "evaluator",
+    "judge", "judged", "moderator", "moderation", "syllabus", "toycathon",
+    "responsibilities", "administrative", "exam", "convener", "faculty advisor",
+    "coordinator of", "attended", "participated", "worked as", "working as",
+    "project description", "team functionality", "hereby declare", "declaration",
+    "place:", "date:"
 ]
 
-# At least one of these must be present for an entry to be accepted as a publication
 PUBLICATION_INDICATORS = [
-    "journal",
-    "conference",
-    "proceedings",
-    "ieee",
-    "springer",
-    "elsevier",
-    "wiley",
-    "taylor",
-    "scopus",
-    "doi",
-    "issn",
-    "isbn",
-    "international journal",
-    "transactions",
-    "patent",
-    "book chapter",
+    "journal", "conference", "proceedings", "ieee", "springer", "elsevier",
+    "wiley", "taylor", "scopus", "doi", "issn", "isbn", "international journal",
+    "transactions", "patent", "book chapter"
 ]
 
 
 def _is_valid_publication(entry: str) -> bool:
     entry_lower = entry.lower()
-
     if any(kw in entry_lower for kw in NON_PUBLICATION_KEYWORDS):
         return False
-
     if any(ind in entry_lower for ind in PUBLICATION_INDICATORS):
         return True
-
     has_year = bool(YEAR_RE.search(entry))
     has_enough_words = len(entry.split()) > 7
     return has_year and has_enough_words
 
 
-def _classify(entry: str) -> str:
+def _classify_with_reason(entry: str) -> tuple:
     low = entry.lower()
     if 'patent' in low:
-        return 'Patent'
+        return 'Patent', "Contains keyword 'patent'"
     if 'book chapter' in low:
-        return 'Book Chapter'
+        return 'Book Chapter', "Contains keyword 'book chapter'"
     if 'book' in low and 'chapter' not in low:
-        return 'Book'
-    if 'conference' in low or 'proceedings' in low or 'proc.' in low:
-        return 'International Conference' if 'international' in low else 'National Conference'
-    return 'Journal'
+        return 'Book', "Contains keyword 'book'"
+    if 'thesis' in low or 'dissertation' in low:
+        return 'Thesis', "Contains keyword 'thesis' or 'dissertation'"
+    if 'magazine' in low:
+        return 'Magazine', "Contains keyword 'magazine'"
+    if 'workshop' in low:
+        return 'Workshop', "Contains keyword 'workshop'"
+    if 'seminar' in low:
+        return 'Seminar', "Contains keyword 'seminar'"
+    if 'poster' in low:
+        return 'Poster', "Contains keyword 'poster'"
+    if 'report' in low:
+        return 'Report', "Contains keyword 'report'"
+    if 'conference' in low or 'proceedings' in low or 'proc.' in low or 'symposium' in low or 'workshop' in low or 'seminar' in low or 'poster' in low:
+        t = 'International Conference' if 'international' in low else 'National Conference'
+        r = "Contains conference/proceedings indicator keywords"
+        return t, r
+    return 'Journal', "Default classification (no other type keywords matched)"
+
+
+def _classify(entry: str) -> str:
+    pub_type, _ = _classify_with_reason(entry)
+    return pub_type
 
 
 def _split_title_venue(entry: str):
     cleaned = re.sub(r'^[\d]+[\).\-]\s+', '', entry).strip()
     cleaned = re.sub(r'^[\u2022\-\*]\s+', '', cleaned).strip()
 
-    # Check for quotes: “...”, "...", ‘...’, '...'
+    # Check for quotes
     quote_match = re.search(r'[“"‘\'](.*?)[”"’\']', cleaned)
     if quote_match:
         title = quote_match.group(1).strip()
@@ -115,7 +94,7 @@ def _split_title_venue(entry: str):
         remaining = re.sub(r'^(?:in|at|published in|published at)\s+', '', remaining, flags=re.I).strip()
         return title, remaining
 
-    # Fallback to standard split patterns
+    # Fallback split patterns
     for pattern in [r'\s+-\s+', r'\s+–\s+', r'\s+,\s+', r'\s+in\s+(?=[A-Z])', r'\s+In\s+']:
         parts = re.split(pattern, cleaned, maxsplit=1)
         if len(parts) == 2 and len(parts[0].split()) >= 3:
@@ -124,74 +103,82 @@ def _split_title_venue(entry: str):
     return cleaned, ''
 
 
-def _extract_journal_details(entry: str) -> dict:
-    title, venue = _split_title_venue(entry)
-
-    if_match = IMPACT_FACTOR_RE.search(entry)
-    impact_factor = if_match.group(1) if if_match else 'N/A'
-
-    scopus_indexed = 'Yes' if SCOPUS_RE.search(entry) else 'Unknown'
-
-    details_parts = []
-    issn = ISSN_RE.search(entry)
-    if issn:
-        details_parts.append(issn.group(0))
-    doi = DOI_RE.search(entry)
-    if doi:
-        details_parts.append(doi.group(0))
-    vol_match = re.search(r'[Vv]ol\.?\s*\d+.*?(?:pp?\.?\s*[\d\-]+)?', entry)
-    if vol_match:
-        details_parts.append(vol_match.group(0).strip())
-
-    journal_details = ', '.join(details_parts) if details_parts else venue
-
-    return {
-        'journal_name': venue,
-        'journal_details': journal_details,
-        'impact_factor': impact_factor,
-        'scopus_indexed': scopus_indexed,
-    }
+def _extract_publisher(entry: str, venue: str) -> str:
+    low = entry.lower()
+    PUBLISHERS = [
+        'Springer', 'Elsevier', 'IEEE', 'Wiley', 'Taylor & Francis', 'ACM', 'Inderscience',
+        'Nature Portfolio', 'Oxford University Press', 'Cambridge University Press', 'PLOS', 'Sage', 'MDPI'
+    ]
+    for pub in PUBLISHERS:
+        if re.search(rf'\b{re.escape(pub)}\b', entry, re.I):
+            return pub
+            
+    m = re.search(r'\b(?:published\s+by|publisher\b)\s*[:\-–—]?\s*([^,\(]+)', entry, re.I)
+    if m:
+        return m.group(1).strip().strip('"\'')
+        
+    if venue:
+        for pub in PUBLISHERS:
+            if re.search(rf'\b{re.escape(pub)}\b', venue, re.I):
+                return pub
+                
+    return "Unknown"
 
 
-def _extract_conference_details(entry: str) -> dict:
-    _, venue = _split_title_venue(entry)
-    return {'conference_name': venue}
+def _extract_doi(entry: str) -> str:
+    m = DOI_RE.search(entry)
+    if m:
+        return m.group(1).strip().rstrip(',.()[]{}')
+    return ""
+
+
+def _extract_issn_isbn(entry: str) -> str:
+    m = ISSN_RE.search(entry)
+    if m:
+        return m.group(1).strip().rstrip(',. ')
+    return ""
 
 
 def _group_entries(lines: list) -> list:
-    buffer = []
     entries = []
-
+    buffer = []
     for line in lines:
-        starts_continuation = bool(re.match(r'^(?:vol|volume|issue|no\.?|pp\.?|p\.?|page|pages|issn|isbn|doi|https?:\/\/|www\.)|^\d+\s*,\s*|^\d+\s*$', line, re.I))
-        is_new = (
-            not starts_continuation and (
-                ENTRY_START_RE.match(line)
-                or BULLET_START_RE.match(line)
-                or (YEAR_RE.search(line) and len(line.split()) > 5)
-            )
+        line_str = line.strip()
+        if not line_str:
+            continue
+        is_continuation = (
+            line_str.lower().startswith(('vol', 'volume', 'issue', 'no.', 'pp.', 'p.', 'page', 'pages', 'issn', 'isbn', 'doi', 'https:', 'http:', 'www.')) or
+            line_str[0].islower()
         )
-        if is_new:
-            if buffer:
-                entries.append(' '.join(buffer))
-            buffer = [line]
+        if is_continuation and buffer:
+            buffer.append(line_str)
         else:
             if buffer:
-                buffer.append(line)
-            elif len(line.split()) > 6:
-                buffer = [line]
-
+                entries.append(" ".join(buffer))
+            buffer = [line_str]
     if buffer:
-        entries.append(' '.join(buffer))
-
+        entries.append(" ".join(buffer))
     return entries
 
 
 def parse_publications(text: str) -> dict:
-    if not text:
+    try:
+        return _parse_publications_impl(text)
+    except Exception as e:
+        print(f"Warning in parse_publications: {e}")
+        return {
+            'counts': {
+                'journal': 0, 'int_conf': 0, 'nat_conf': 0,
+                'book': 0, 'book_chapter': 0, 'patent': 0,
+            },
+            'publications': []
+        }
+
+
+def _parse_publications_impl(text: str) -> dict:
+    if not text or not isinstance(text, str):
         return {'counts': {}, 'publications': []}
 
-    # Clean zero-width space and other zero-width characters
     text = text.replace('\u200b', '').replace('\u200c', '').replace('\u200d', '').replace('\u200e', '').replace('\u200f', '').replace('\ufeff', '')
 
     counts = {
@@ -199,7 +186,6 @@ def parse_publications(text: str) -> dict:
         'book': 0, 'book_chapter': 0, 'patent': 0,
     }
 
-    # Extract explicit summary counts from the text block
     explicit_counts = {
         'journal': 0, 'int_conf': 0, 'nat_conf': 0,
         'book': 0, 'book_chapter': 0, 'patent': 0,
@@ -217,7 +203,6 @@ def parse_publications(text: str) -> dict:
                 return val
         return 0
 
-    # Match counts safely
     m_int_j = re.search(r'\binternational\s+journal[s]?\b[\s\:\-\–\—\=\(]*(\d+)\b|\b(\d+)\s*international\s+journal[s]?\b', flat_text, re.I)
     m_j = re.search(r'\bjournal[s]?\b[\s\:\-\–\—\=\(]*(\d+)\b|\b(\d+)\s*journal[s]?\b', flat_text, re.I)
     explicit_counts['journal'] = get_clean_count(m_int_j) or get_clean_count(m_j)
@@ -237,7 +222,6 @@ def parse_publications(text: str) -> dict:
     m_pat = re.search(r'\bpatent[s]?\b[\s\:\-\–\—\=\(]*(\d+)\b|\b(\d+)\s*patent[s]?\b', flat_text, re.I)
     explicit_counts['patent'] = get_clean_count(m_pat)
 
-    # Check for explicit stated patterns using COUNT_PATTERNS
     for key, pat in COUNT_PATTERNS.items():
         m = pat.search(text)
         if m:
@@ -245,7 +229,6 @@ def parse_publications(text: str) -> dict:
             if not (1900 <= val <= 2100):
                 explicit_counts[key] = max(explicit_counts[key], val)
 
-    # Split middle-of-line entry numbers to separate lines so they start a new entry correctly
     lines = []
     for line in text.splitlines():
         line = line.strip()
@@ -257,74 +240,67 @@ def parse_publications(text: str) -> dict:
                 lines.append(part.strip())
 
     raw_entries = _group_entries(lines)
-
     publications = []
+    debug_publications = []
 
     for entry in raw_entries:
         if not _is_valid_publication(entry):
             continue
 
-        pub_type = _classify(entry)
-
+        pub_type, reason = _classify_with_reason(entry)
         y = YEAR_RE.search(entry)
         year = y.group(0) if y else ''
 
-        title, _ = _split_title_venue(entry)
+        title, venue = _split_title_venue(entry)
+        publisher = _extract_publisher(entry, venue)
+        doi = _extract_doi(entry)
+        issn_isbn = _extract_issn_isbn(entry)
+        scopus_indexed = 'Yes' if SCOPUS_RE.search(entry) else 'Unknown'
 
         pub = {
             'type': pub_type,
             'title': title,
+            'journal_name': venue if pub_type in ['Journal', 'International Conference', 'National Conference'] else '',
+            'publisher': publisher,
             'year': year,
+            'doi': doi,
+            'issn': issn_isbn,
+            'scopus_indexed': scopus_indexed,
             'raw': entry,
+            'classification_reason': reason,
+            'confidence': 95 if (title and year) else 70
         }
 
         if pub_type == 'Journal':
-            pub.update(_extract_journal_details(entry))
             counts['journal'] += 1
         elif pub_type == 'International Conference':
-            pub.update(_extract_conference_details(entry))
-            pub.update({'impact_factor': 'N/A', 'scopus_indexed': 'Unknown'})
             counts['int_conf'] += 1
         elif pub_type == 'National Conference':
-            pub.update(_extract_conference_details(entry))
-            pub.update({'impact_factor': 'N/A', 'scopus_indexed': 'Unknown'})
             counts['nat_conf'] += 1
         elif pub_type == 'Book Chapter':
-            pub.update({'journal_name': '', 'journal_details': '',
-                        'impact_factor': 'N/A', 'scopus_indexed': 'Unknown'})
             counts['book_chapter'] += 1
         elif pub_type == 'Book':
-            pub.update({'journal_name': '', 'journal_details': '',
-                        'impact_factor': 'N/A', 'scopus_indexed': 'Unknown'})
             counts['book'] += 1
         elif pub_type == 'Patent':
-            pub.update({'journal_name': '', 'journal_details': '',
-                        'impact_factor': 'N/A', 'scopus_indexed': 'Unknown'})
             counts['patent'] += 1
 
         publications.append(pub)
+        
+        debug_publications.append({
+            'Publication detected': entry,
+            'Classification': pub_type,
+            'Reason': reason,
+            'Title': title,
+            'Publisher': publisher,
+            'Year': year,
+            'Confidence': pub['confidence']
+        })
 
-    # Use maximum of parsed entries vs explicit counts
     for key in counts.keys():
         counts[key] = max(explicit_counts.get(key, 0), counts[key])
 
-    return {'counts': counts, 'publications': publications}
-
-
-# ---------------------------------------------------------------------------
-# Designation extraction helper
-# ---------------------------------------------------------------------------
-
-_DESIGNATION_PREFIX_RE = re.compile(
-    r'^[\w\s,.\-–/]+(?:till\s*date|present|current|\d{4})\s*[:\-–]\s*',
-    re.IGNORECASE,
-)
-
-_WORKING_AS_RE = re.compile(r'^(?:working|serving|appointed|joined|designated)\s+as\s+', re.IGNORECASE)
-
-
-def extract_designation(raw: str) -> str:
-    text = raw.strip()
-    text = _DESIGNATION_PREFIX_RE.sub('', text).strip()
-    text = _WORKING_AS_RE.sub('', text).strip()
-    return text
+    return {
+        'counts': counts,
+        'publications': publications,
+        'debug_publications': debug_publications
+    }

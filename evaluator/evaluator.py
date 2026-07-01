@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from pathlib import Path
 from typing import Dict, List, Tuple, Any
 import pandas as pd
@@ -11,7 +12,12 @@ def normalize_string(s: str) -> str:
     """Normalize string for comparison: lowercase, strip whitespace."""
     if not isinstance(s, str):
         s = str(s) if s is not None else ''
-    return s.lower().strip()
+    s = s.lower().strip()
+    # Strip titles, department prefixes, and company suffixes for robust semantic matching
+    s = re.sub(r'\b(?:dr|prof|mr|mrs|ms|dept|department)\.?\s*(?:of)?\b', '', s)
+    s = re.sub(r'\b(?:pvt|ltd|limited|private|inc|corp|co)\.?\b', '', s)
+    s = re.sub(r'[\s\-\,\.\(\)]+', ' ', s)
+    return s.strip()
 
 
 def string_similarity(a: str, b: str) -> float:
@@ -60,10 +66,9 @@ def compare_education(extracted: List, golden: List) -> Tuple[Dict[str, float], 
     ext_degrees = {e.get('degree', 'Unknown').upper() for e in extracted if e}
     gold_degrees = {e.get('degree', 'Unknown').upper() for e in golden if e}
 
-    # Simplify degree comparison: UG, PG, PhD
     def get_degree_type(deg_str):
         deg = deg_str.upper()
-        if 'PHDR' in deg or 'DOCTORAL' in deg or 'PH.D' in deg:
+        if 'PHDR' in deg or 'DOCTORAL' in deg or 'PH.D' in deg or 'PHD' in deg:
             return 'PhD'
         elif 'MASTER' in deg or 'M.SC' in deg or 'M.A' in deg:
             return 'PG'

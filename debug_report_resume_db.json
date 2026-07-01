@@ -1,0 +1,514 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Indian Institute of Technology",
+            "Designation": "Assistant Professor",
+            "Department": "Department of Computer Science & Engineering",
+            "Category": "Academic",
+            "Start Date": "2002-07-01",
+            "End Date": "2026-06-30",
+            "Duration": 23.92,
+            "Academic Contribution": 23.92,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 23.92,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 23.92
+        },
+        {
+            "Organization": "http",
+            "Designation": "Consultant",
+            "Department": "Centre for Development of Advanced Computing",
+            "Category": "Industry",
+            "Start Date": "1996-11-01",
+            "End Date": "2002-06-01",
+            "Duration": 5.58,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 5.58,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 5.58
+        },
+        {
+            "Organization": "http",
+            "Designation": "",
+            "Department": "Centre for Development of Advanced Computing",
+            "Category": "Research",
+            "Start Date": "2001-08-01",
+            "End Date": "2002-01-01",
+            "Duration": 0.42,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.42,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.42
+        },
+        {
+            "Organization": "Northwestern University",
+            "Designation": "Postdoctoral Researcher",
+            "Department": "Electrical & Computer Engineering Department",
+            "Category": "Research",
+            "Start Date": "2001-05-01",
+            "End Date": "2001-08-01",
+            "Duration": 0.25,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.25,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.25
+        },
+        {
+            "Organization": "Mathematics & Computer Science Division",
+            "Designation": "Guest graduate researcher",
+            "Department": "Electrical & Computer Engineering Department",
+            "Category": "Research",
+            "Start Date": "2001-06-01",
+            "End Date": "2001-08-01",
+            "Duration": 0.17,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.17,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.17
+        },
+        {
+            "Organization": "Eastern Illinois University",
+            "Designation": "Visiting Scientist",
+            "Department": "Information Technology Services Department",
+            "Category": "Academic",
+            "Start Date": "2000-05-01",
+            "End Date": "2001-04-01",
+            "Duration": 0.92,
+            "Academic Contribution": 0.92,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.92,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.92
+        },
+        {
+            "Organization": "Resource Faculty, Interdisciplinary School of Scientific Computing, University of Pune, Pune (India).",
+            "Designation": "",
+            "Department": "Resource Faculty, Interdisciplinary School of Scientific Computing, University of Pune, Pune (India).",
+            "Category": "Academic",
+            "Start Date": "1999-01-01",
+            "End Date": "2000-04-01",
+            "Duration": 1.25,
+            "Academic Contribution": 1.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.25,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.25
+        },
+        {
+            "Organization": "Eastern Illinois University",
+            "Designation": "Visiting Scientist",
+            "Department": "Department of Mathematics",
+            "Category": "Academic",
+            "Start Date": "1997-08-01",
+            "End Date": "1997-12-01",
+            "Duration": 0.33,
+            "Academic Contribution": 0.33,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.33,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.33
+        },
+        {
+            "Organization": "Birla Institute of Technology & Science",
+            "Designation": "Lecturer",
+            "Department": "Department of Computer Science",
+            "Category": "Academic",
+            "Start Date": "1996-07-01",
+            "End Date": "1996-10-01",
+            "Duration": 0.25,
+            "Academic Contribution": 0.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.25,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.25
+        },
+        {
+            "Organization": "Indian Institute of Technology",
+            "Designation": "Research Associate",
+            "Department": "Department of Mathematics",
+            "Category": "Industry",
+            "Start Date": "1996-03-01",
+            "End Date": "1996-06-01",
+            "Duration": 0.25,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.25,
+            "Research Contribution": 0.25,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.25
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "1. D. Bhardwaj and M. Sinha, GridFS:  Ensuring Massively Parallel I/O for High Performance Clusters, International Workshop on Databases in Networked Information Systems (DNIS 2005), Japan.",
+            "Classification": "Workshop",
+            "Reason": "Contains keyword 'workshop'",
+            "Title": "D. Bhardwaj and M. Sinha, GridFS:  Ensuring Massively Parallel I/O for High Performance Clusters, International Workshop on Databases",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. S. Yerneni, S. Phadke., D. Bhardwaj, S. Chakraborty, and R. Rastogi, Imaging subsurface geology with seismic migration on a computing cluster,  Current Science,  Vol. 88., No. 3, February 2005.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Yerneni, S. Phadke., D. Bhardwaj, S. Chakraborty, and R. Rastogi, Imaging subsurface geology with seismic migration on a computing cluster,  Current Science,  Vol. 88., No. 3, February 2005.",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. D. Bhardwaj, \u201cApplication I/O on a Parallel File System for Linux Clusters\u201d, to appear as a book chapter in \u201cHigh performance computing: Paradigm and Infrastructure\u201d, John Wiley & Sons, Inc, 2005 Page 4 of 9",
+            "Classification": "Book Chapter",
+            "Reason": "Contains keyword 'book chapter'",
+            "Title": "Application I/O on a Parallel File System for Linux Clusters",
+            "Publisher": "Wiley",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. D. Bhardwaj and S. Newhouse, \u201cThe Grid: The Future of Oil and Gas Exploration Computing\u201d, Proceedings of PETROTECH\u20192005, January 2005.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "The Grid: The Future of Oil and Gas Exploration Computing",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. D. Bhardwaj, J. Cohen, S. McGough and S. Newhouse \u201cA Componentized Approach to Grid Enabling Seismic Modeling Algorithm, Lecture Notes in Computer Science, Springer Verlag, PP. 94-97, 2004",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, J. Cohen, S. McGough and S. Newhouse \u201cA Componentized Approach to Grid Enabling Seismic Modeling Algorithm, Lecture Notes",
+            "Publisher": "Springer",
+            "Year": "2004",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. D. Bhardwaj and M. Sansi, Relational Model Creation Algorithm for Financial Markets. Proceedings of First World Congress on Lateral Computing, Bangalore, 2004.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "D. Bhardwaj and M. Sansi, Relational Model Creation Algorithm for Financial Markets. Proceedings of First World Congress on Lateral Computing, Bangalore, 2004.",
+            "Publisher": "Unknown",
+            "Year": "2004",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. D. Bhardwaj, BioGrid: Challenges, Problems and Opportunities,BIOHORIZON, 2004.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, BioGrid: Challenges, Problems and Opportunities,BIOHORIZON, 2004.",
+            "Publisher": "Unknown",
+            "Year": "2004",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. S. Phadke, S. Yerneni, S. Chakraborty and D. Bhardwaj, Seismic Numerical Modeling on PARAM Padma , Proceedings of SPG (Society of Petroleum Geophysicists) Fifth conference- 2004.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "S. Phadke, S. Yerneni, S. Chakraborty and D. Bhardwaj, Seismic Numerical Modeling on PARAM Padma",
+            "Publisher": "Unknown",
+            "Year": "2004",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. D. Bhardwaj, M. Sansi and D. Ajwani, Parallel Algorithm for Real Time Decision System for Financial Markets, HiPC\u20192003.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, M. Sansi and D. Ajwani, Parallel Algorithm for Real Time Decision System for Financial Markets, HiPC\u20192003.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Chakraborty, S., Yerneni, S., Phadke, S. and Bhardwaj, D., Parallelization Strategies for Seismic modelling algorithms, J Ind Geophys Union (IGU), vol. 7 (2003), no. 1, pp. 11-14.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Chakraborty, S., Yerneni, S., Phadke, S. and Bhardwaj, D., Parallelization Strategies for Seismic modelling algorithms, J Ind Geophys Union (IGU), vol. 7 (2003), no. 1, pp. 11-14.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. D. Bhardwaj, High Performance Computing in Exploration Geophysics: Changing Dimensions, Oil Asia Journal, Vol. 24 (2 & 3), 2003 and (Proceeding of PETROTECH\u2019 2003, Delhi, India)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, High Performance Computing",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. N. Seetharama Krishna, P. Yadav and D. Bhardwaj, The Parallel I/O Architecture for High Performance Computers using Network Centric Storage System, HPC ASIA 2002, India.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "N. Seetharama Krishna, P. Yadav and D. Bhardwaj, The Parallel I/O Architecture for High Performance Computers using Network Centric Storage System, HPC ASIA 2002, India.",
+            "Publisher": "Unknown",
+            "Year": "2002",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. N. Seetharama Krishna, P. Yadav and D. Bhardwaj, A Scalable High Performance Storage System Architecture, 15th International Conference on Parallel and Distributed Computing Systems (PDCS 2002), Louisville, KY USA, pp. 193 \u2013 198.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "N. Seetharama Krishna, P. Yadav and D. Bhardwaj, A Scalable High Performance Storage System Architecture, 15th International Conference on Parallel and Distributed Computing Systems (PDCS 2002), Louisville, KY USA, pp. 193",
+            "Publisher": "Unknown",
+            "Year": "2002",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. S. Yerneni, D. Bhardwaj, S. Chakraborty and S. Phadke, Finite Difference Forward Modeling for Complex Geological Models, SEG (Society for Exploration Geophysicists) 72nd Annual International Meeting, Oct 6-11, 2002, Salt Lake City, Utah USA.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Yerneni, D. Bhardwaj, S. Chakraborty and S. Phadke, Finite Difference Forward Modeling for Complex Geological Models, SEG (Society for Exploration Geophysicists) 72nd Annual International Meeting, Oct 6-11, 2002, Salt Lake City, Utah USA.",
+            "Publisher": "Unknown",
+            "Year": "2002",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "15. S.K. Dey and D. Bhardwaj, Parallelized PFI for large-scale non-linear systems in a distributed computing environment. Applicable Mathematics (Edited by Prof. J.C. Mishra), Nrosa Publications, 2001.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S.K. Dey and D. Bhardwaj, Parallelized PFI for large-scale non-linear systems in a distributed computing environment. Applicable Mathematics (Edited by Prof. J.C. Mishra), Nrosa Publications, 2001.",
+            "Publisher": "Unknown",
+            "Year": "2001",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. D. Bhardwaj, Formation of Shock Waves in Magnetogasdynamic Flows, International Journal of Engineering Science Vol. 38 (2000), pp.1197-1206.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, Formation of Shock Waves",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "17. D. Bhardwaj, Problem Solving Environment for wave equation based seismic modelling. Proceedings of IMACS\u20192000: International Conference on Scientific Computing & Mathematical Modelling, University of Wisconsin at Milwaukee, USA, pp.78 \u2013 87.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "D. Bhardwaj, Problem Solving Environment for wave equation based seismic modelling. Proceedings of IMACS\u20192000: International Conference on Scientific Computing & Mathematical Modelling, University of Wisconsin at Milwaukee, USA, pp.78",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Expanded Abstract, SEG (Society for Exploration Geophysicists) 70th Annual International Meeting, August\u20192000 Calgary, Canada.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Expanded Abstract, SEG (Society for Exploration Geophysicists) 70th Annual International Meeting, August\u20192000 Calgary, Canada.",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "19. D. Bhardwaj, S. Phadke & S. Yerneni, On improving performance of migration algorithms using MPI and MPI-IO, Expanded Abstract, SEG (Society for Exploration Geophysicists) 70th Annual International Meeting, August\u20192000 Calgary, Canada.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, S. Phadke & S. Yerneni, On improving performance of migration algorithms using MPI and MPI-IO, Expanded Abstract, SEG (Society for Exploration Geophysicists) 70th Annual International Meeting, August\u20192000 Calgary, Canada.",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "20. D. Bhardwaj, S. Phadke and S. Yerneni, Efficient Parallel I/O for Seismic Imaging in a Distributed Computing Environment, Proc. of SPG (Society of Petroleum Geophysicists) third conference - 2000, pp. 105 \u2013108.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "D. Bhardwaj, S. Phadke and S. Yerneni, Efficient Parallel I/O for Seismic Imaging in a Distributed Computing Environment, Proc. of SPG (Society of Petroleum Geophysicists) third conference",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21. S. Phadke, D. Bhardwaj and S. Yerneni, 3D seismic modeling in a Message Passing Environment, Proc. of SPG (Society of Petroleum Geophysicists) third conference- 2000, pp. 168 - 172.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "S. Phadke, D. Bhardwaj and S. Yerneni, 3D seismic modeling in a Message Passing Environment, Proc. of SPG (Society of Petroleum Geophysicists) third conference- 2000, pp. 168",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "22. S. Phadke, D. Bhardwaj and S.K. Dey, An Explicit Predictor-Corrector Solver with Application to Seismic Wave Modelling, Computers & Geosciences, Vol. 26, No. 9-10 (2000), pp. 1053-1058. Page 5 of 9",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Phadke, D. Bhardwaj and S.K. Dey, An Explicit Predictor-Corrector Solver with Application to Seismic Wave Modelling, Computers & Geosciences, Vol. 26, No. 9-10 (2000), pp. 1053-1058. Page 5 of 9",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Computers and Mathematics with Applications, Vol. 40, No. 12 (2000), pp. 1397-1404.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Computers and Mathematics with Applications, Vol. 40, No. 12 (2000), pp. 1397-1404.",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Mathematical and Computer in Modelling, Vol. 32, No.9 (2000), pp. 997-1003.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Mathematical and Computer",
+            "Publisher": "Unknown",
+            "Year": "2000",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "25. D. Bhardwaj and S. Yerneni., Wave Equation Methods in Seismic Data Processing, Lecture notes of refresher course in Geophysics, at Pune University, Pune (India) during December 28, January 18, 1999.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj and S. Yerneni., Wave Equation Methods",
+            "Publisher": "Unknown",
+            "Year": "1999",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "26. D. Bhardwaj and R. Upadhyay, Group Theoretic Method for Converging Shock Wave Problem. Applied Mathematics Letters Vol. 12 No.2 (1999), pp. 79-86.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj and R. Upadhyay, Group Theoretic Method for Converging Shock Wave Problem. Applied Mathematics Letters Vol. 12 No.2 (1999), pp. 79-86.",
+            "Publisher": "Unknown",
+            "Year": "1999",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "27. D. Bhardwaj, Parallel Solver for Hyperbolic System of Equations and its Application to Oil Exploration, Proceedings of an International AMSE conference on Computer Modeling, Simulation and Communication (CMSC-99), Tata McGraw Hill, 1999.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "D. Bhardwaj, Parallel Solver for Hyperbolic System of Equations and its Application to Oil Exploration, Proceedings of an International AMSE conference on Computer Modeling, Simulation and Communication (CMSC-99), Tata McGraw Hill, 1999.",
+            "Publisher": "Unknown",
+            "Year": "1999",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "28. S. Yerneni, D. Bhardwaj and S. Phadke, Implementation of wave equation based Imaging Techniques on PARAM 10000, The journal of geophysical union, Vol.3, No. 1(1999) pp.45-50.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Yerneni, D. Bhardwaj and S. Phadke, Implementation of wave equation based Imaging Techniques on PARAM 10000, The journal of geophysical union, Vol.3, No. 1(1999) pp.45-50.",
+            "Publisher": "Unknown",
+            "Year": "1999",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "29. S. Phadke, D. Bhardwaj and S. Yerneni., Development of migration and modelling algorithms for imaging crustal structures, Research Highlights Volume in Earth Sciences, Paper no. 15, Published by Department of Science and Technology, Govt. of India, 1999.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Phadke, D. Bhardwaj and S. Yerneni., Development of migration and modelling algorithms for imaging crustal structures, Research Highlights Volume",
+            "Publisher": "Department of Science and Technology",
+            "Year": "1999",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "30. D. Bhardwaj, S. Yerneni and S. Phadke, Parallel Computing in Seismic Data Processing, 1999, Proceedings of PETROTECH-99: 3RD International Petroleum Conference and Exhibition, New Delhi, (1999), pp. 279 - 286.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "D. Bhardwaj, S. Yerneni and S. Phadke, Parallel Computing in Seismic Data Processing, 1999, Proceedings of PETROTECH-99: 3RD International Petroleum Conference and Exhibition, New Delhi, (1999), pp. 279",
+            "Publisher": "Unknown",
+            "Year": "1999",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "31. S. Phadke, D. Bhardwaj and S. Yerneni, Wave equation based migration and modelling algorithms on parallel computers, Proc. of SPG (Society of Petroleum Geophysicists) second conference (1998), pp. 55 \u2013 59.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "S. Phadke, D. Bhardwaj and S. Yerneni, Wave equation based migration and modelling algorithms on parallel computers, Proc. of SPG (Society of Petroleum Geophysicists) second conference (1998), pp. 55",
+            "Publisher": "Unknown",
+            "Year": "1998",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "32. S. Phadke and D. Bhardwaj, Parallel Implementation of Seismic Modeling Algorithms on PARAM OpenFrame. Neural, Parallel and Scientific Computations (Dynamic Publishers, Atlanta (USA)), Vol. 6, No.4, (1998) pp. 469 - 478.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Phadke and D. Bhardwaj, Parallel Implementation of Seismic Modeling Algorithms on PARAM OpenFrame. Neural, Parallel and Scientific Computations (Dynamic Publishers, Atlanta (USA)), Vol. 6, No.4, (1998) pp. 469",
+            "Publisher": "Unknown",
+            "Year": "1998",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "33. R. Shankar and D. Bhardwaj, Similarity Solution of Reactive Shock in Magnetogasdynamics. Differential Equations and Dynamical Systems: An international Journal of theory and applications, Vol. 6, No.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "R. Shankar and D. Bhardwaj, Similarity Solution of Reactive Shock",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "34. D. Bhardwaj, S.K. Dey and S. Phadke, A predictor-corrector solver for wave equation based seismic modeling, Special Proceedings of IMACS\u201998: International conference on Scientific Computing and Mathematical Modeling, Alicante, Spain (featured talk),",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "D. Bhardwaj, S.K. Dey and S. Phadke, A predictor-corrector solver for wave equation based seismic modeling, Special Proceedings of IMACS\u201998: International conference on Scientific Computing and Mathematical Modeling, Alicante, Spain (featured talk),",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "35.  S. Yerneni, D. Bhardwaj and S. Phadke, Wave equation based Imaging Techniques, 1998, Proceedings of 35th annual convention and meeting on \u201cContinental Margins of India - Evolution, Processes and Potentials\u201d.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Continental Margins of India - Evolution, Processes and Potentials",
+            "Publisher": "Unknown",
+            "Year": "1998",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "36. P.C. Jain, R. Shankar and D. Bhardwaj, Numerical Solution of Korteweg -deVries (KdV) Equation, Chaos, Solitons & Fractals, Vol.8, No. 6(1997). pp. 943 - 951.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "P.C. Jain, R. Shankar and D. Bhardwaj, Numerical Solution of Korteweg -deVries (KdV) Equation, Chaos, Solitons & Fractals, Vol.8, No. 6(1997). pp. 943",
+            "Publisher": "Unknown",
+            "Year": "1997",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "38. S. Phadke and D. Bhardwaj, PVM Implementation of higher order finite difference seismic modelling algorithms in a distributed computing environment, SEG (Society for Exploration Geophysicists) 67th Annual International Meeting, Nov. 2-7, 1997, Dallas Texas, USA.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S. Phadke and D. Bhardwaj, PVM Implementation of higher order finite difference seismic modelling algorithms in a distributed computing environment, SEG (Society for Exploration Geophysicists) 67th Annual International Meeting, Nov. 2-7, 1997, Dallas Texas, USA.",
+            "Publisher": "Unknown",
+            "Year": "1997",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "39. D. Bhardwaj, A Computational Method for Solving two dimensional Burgers' Equation, Differential Equations and Dynamical Systems: An international Journal of theory and applications, Vol. 4, No.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "D. Bhardwaj, A Computational Method for Solving two dimensional Burgers' Equation, Differential Equations and Dynamical Systems: An international Journal of theory and applications, Vol. 4, No.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "40. R. Shankar and D. Bhardwaj, On Reactive shock in magnetogasdynamic flow. Journal of Mathematical Analysis and Applications, Vol. 179, No. 2(1993), pp. 335-348.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "R. Shankar and D. Bhardwaj, On Reactive shock in magnetogasdynamic flow. Journal of Mathematical Analysis and Applications, Vol. 179, No. 2(1993), pp. 335-348.",
+            "Publisher": "Unknown",
+            "Year": "1993",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "resume_db.pdf",
+        "Missing Fields": "patents, memberships",
+        "Warnings": "Current organization equals university from education (phd_university).",
+        "Validation Errors": "Current organization equals university from education (phd_university).",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 40
+    },
+    "Processing Report": {
+        "Resume File": "resume_db.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, awards, invited_talks",
+        "Sections missing": "patents, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 0%, PG Degree: 0%, PhD Univ: 100%"
+    }
+}

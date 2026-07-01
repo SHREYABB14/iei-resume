@@ -1,0 +1,285 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Tiruchirappalli",
+            "Designation": "Assistant Professor",
+            "Department": "Department of NIT Trichy National Institute of Technology",
+            "Category": "Academic",
+            "Start Date": "2022-10-07",
+            "End Date": "2026-06-30",
+            "Duration": 3.67,
+            "Academic Contribution": 3.67,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.67
+        },
+        {
+            "Organization": "Tiruchirappalli",
+            "Designation": "",
+            "Department": "Department of NIT Trichy National Institute of Technology",
+            "Category": "Academic",
+            "Start Date": "2011-06-15",
+            "End Date": "2022-09-30",
+            "Duration": 11.25,
+            "Academic Contribution": 11.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 11.25
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "presenter, Any other) Event Organized by Venue 01.08.2019- 31.09.2019 Introduction to Parallel Programming in OpenMP National Participant IIT Madras Online 01.01.2019- 30.04.2019 Introduction to R software National Participant IIT Madras Online 12.12.2018- 17.12.2018 Deep Learning:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "presenter, Any other) Event Organized by Venue 01.08.2019- 31.09.2019 Introduction to Parallel Programming",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Moth-Flame Optimization for Early Prediction of Heart Diseases Computational and Mathematical Methods in Medicine DOI:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Moth-Flame Optimization for Early Prediction of Heart Diseases Computational and Mathematical Methods",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Prediction of the Age and Gender Based on Human Face Images Based on Deep Learning Algorithm Computational and Mathematical Methods in Medicine DOI:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Prediction of the Age and Gender Based on Human Face Images Based on Deep Learning Algorithm Computational and Mathematical Methods",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2022 Saroja, S. & Rengaraj, Madavan & Sikkandar, Haseena & Pepsi, Blessa & Karthick, Alagar & Vinayagam, Mohanavel & Muhibbullah, Md.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "2022 Saroja, S. & Rengaraj, Madavan & Sikkandar, Haseena & Pepsi, Blessa & Karthick, Alagar & Vinayagam, Mohanavel & Muhibbullah, Md.",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Human Centered Decision Making for Covid-19 Testing Center Location Selection \u2013 Tamil Nadu A Case Study Computational and Mathematical Methods in Medicine DOI:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Human Centered Decision Making for Covid-19 Testing Center Location Selection",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2022 Rengaraj Madavan, Subburaj Saroja, Alagar Karthick, Srinivasan Murugesan, V Mohanavel, P Velmurugan, Sami Al Obaid, Saleh Alfarraj, S Sivakumar Performance analysis of mixed vegetable oil as an alternative for transformer insulation oil Biomass Conversion and Biorefinery",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "2022 Rengaraj Madavan, Subburaj Saroja, Alagar Karthick, Srinivasan Murugesan, V Mohanavel, P Velmurugan, Sami Al Obaid, Saleh Alfarraj, S Sivakumar Performance analysis of mixed vegetable oil as an alternative for transformer insulation oil Biomass Conversion and Biorefinery",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "S Saroja, C Sowmya Dhanalakshmi Optimization of transformer oil blended with natural ester oils using Taguchi-based grey relational analysis Fuel 288 119629 2021 Subbaraj, Saroja & Thiyagarajan, Revathi & Rengaraj,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "S Saroja, C Sowmya Dhanalakshmi Optimization of transformer oil blended with natural ester oils using Taguchi-based grey relational analysis Fuel 288 119629 2021 Subbaraj, Saroja & Thiyagarajan, Revathi & Rengaraj,",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Ambient Intelligence and DOI:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ambient Intelligence and DOI:",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2021 Subbaraj, Saroja & Thiagarajan, Revathi & Rengaraj, Madavan.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "2021 Subbaraj, Saroja & Thiagarajan, Revathi & Rengaraj, Madavan.",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Multi- objective league championship algorithm for real-time task scheduling Neural Computing and Applications. DOI:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Multi- objective league championship algorithm for real-time task scheduling Neural Computing and Applications. DOI:",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2020 Rengaraj, Madavan & Saroja, Subbaraj Decision Making on State of Transformers based on Insulation Condition using AHP and TOPSIS methods IET Science, Measurement & Technology DOI: 14.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "2020 Rengaraj, Madavan & Saroja, Subbaraj Decision Making on State of Transformers based on Insulation Condition using AHP and TOPSIS methods IET Science, Measurement & Technology DOI: 14.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2020 Dr.S.Saroja, Dr.T.Revathi Hybrid dual- objective parallel Cluster Computing",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "2020 Dr.S.Saroja, Dr.T.Revathi Hybrid dual- objective parallel Cluster Computing",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1399-1427 2018 Rengaraj, Madavan & Balaraman, Sujatha & S, Saroja.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "1399-1427 2018 Rengaraj, Madavan & Balaraman, Sujatha & S, Saroja.",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Multi Criteria Decision Making Methods for Ranking the Liquid Insulation System Based on its Performance Characteristics with Anti- Oxidants under Accelerated Aging Conditions IET Generation, Transmission & Distribution DOI: 11.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Multi Criteria Decision Making Methods for Ranking the Liquid Insulation System Based on its Performance Characteristics with Anti- Oxidants under Accelerated Aging Conditions IET Generation, Transmission & Distribution DOI: 11.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "1 Mar-2019 Miss.A.Archana, Miss.A.Gohulavani, Miss.A.Madhangi, Dr.S.Saroja Inter And Intra Domain Based Resources Partitioning For Fog Computing \u2013Enabled Industrial Internet Of Things International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "1 Mar-2019 Miss.A.Archana, Miss.A.Gohulavani, Miss.A.Madhangi, Dr.S.Saroja Inter And Intra Domain Based Resources Partitioning For Fog Computing \u2013Enabled Industrial Internet Of Things International",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Contemporary Engineering and Technology 2019 2 Mar-2018 Dr.S.Saroja, Miss.Aiswarya, Miss.Gomathi, Miss.Jothisha Flowshop Scheduling using Hybrid Monkey Search Algorithm International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Contemporary Engineering and Technology 2019 2 Mar-2018 Dr.S.Saroja, Miss.Aiswarya, Miss.Gomathi, Miss.Jothisha Flowshop Scheduling using Hybrid Monkey Search Algorithm International",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Electronics, Communication and Aerospace Technology 3 Mar-2018 Dr.S.Saroja, Heterogeneous International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Electronics, Communication and Aerospace Technology 3 Mar-2018 Dr.S.Saroja, Heterogeneous International",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Electronics, Communication and Aerospace Technology 4 Mar-2018 Mr.S.Muthukumar, Dr.S.Saroja, Miss.Harini, Miss.Priya dharshini, Miss.Ramya Energy Constrained Reliability Aware Scheduling for real time systems International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Electronics, Communication and Aerospace Technology 4 Mar-2018 Mr.S.Muthukumar, Dr.S.Saroja, Miss.Harini, Miss.Priya dharshini, Miss.Ramya Energy Constrained Reliability Aware Scheduling for real time systems International",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Electronics, Communication and Aerospace Technology 5 Mar-2017 Miss.Sinthiya, Dr.S.Saroja Dynamic workflow Scheduling for Mulit- Occupant Cloud Environment\u201d, 2017 on Computing Technologies International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Electronics, Communication and Aerospace Technology 5 Mar-2017 Miss.Sinthiya, Dr.S.Saroja Dynamic workflow Scheduling for Mulit- Occupant Cloud Environment\u201d, 2017 on Computing Technologies International",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Computing Technologies 6 Oct-2016 Miss.N.Sinthya, Dr.S.Saroja Active fault tolerant clustering mechanism for scientific workflows International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Computing Technologies 6 Oct-2016 Miss.N.Sinthya, Dr.S.Saroja Active fault tolerant clustering mechanism for scientific workflows International",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Computation, Communication and Innovation 7 May-2016 Miss.Selvamani, Dr.S.Saroja Categorizing long and short range pixels for image segmentation on Recent Trends in Engineering and Technology 8 Jan-2016 Miss.Selvamani, Dr.S.Saroja Image segmentation by data driven objectness International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Computation, Communication and Innovation 7 May-2016 Miss.Selvamani, Dr.S.Saroja Categorizing long and short range pixels for image segmentation on Recent Trends",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Computing Technologies and Intelligent Data Engineering 9 Jan-2015 Mrs.Immaculate Jansi Rani, Dr.S.Saroja Modified Energy-Aware Rolling Horizon Algorithm for Scheduling of Cloudlets International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Computing Technologies and Intelligent Data Engineering 9 Jan-2015 Mrs.Immaculate Jansi Rani, Dr.S.Saroja Modified Energy-Aware Rolling Horizon Algorithm for Scheduling of Cloudlets International",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "- 2015 10 Apr-2013 Dr.S.Saroja, Miss.Jeyaprabha, Miss.Mathu Bala, Miss.Parvatha Meenatchi Recognizing copy \u2013 move falsification in an Image and Recovery of Transformation International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "2015 10 Apr-2013 Dr.S.Saroja, Miss.Jeyaprabha, Miss.Mathu Bala, Miss.Parvatha Meenatchi Recognizing copy",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Computational Intelligence 11 Mar-2011 Dr.S.Saroja, Dr.K.Muneeswaran Improving Quality of Print \u2013 Scan Images International",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Computational Intelligence 11 Mar-2011 Dr.S.Saroja, Dr.K.Muneeswaran Improving Quality of Print",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Name of Publishers Year of Publication ISSN/ISBN Number Dr.S.Saroja, Ms.S.Haseena, Ms.M.Blessa Binolin Pepsi Smart Healthcare System Design: Security and Privacy Aspects John Wiley Sons 2021 9781119791683 S.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Name of Publishers Year of Publication ISSN/ISBN Number Dr.S.Saroja, Ms.S.Haseena, Ms.M.Blessa Binolin Pepsi Smart Healthcare System Design: Security and Privacy Aspects John Wiley Sons 2021 9781119791683 S.",
+            "Publisher": "Wiley",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Vedhanayaki, Madavan Rengaraj, Sujatha Balaraman, S Saroja Soft Computing in Data Analytics Springer 2018 978-981-13- 0513-9 Dr.T.Revathi, Dr.S.Saroja, Ms.S.Haseena, Ms.M.Blessa Binolin Pepsi Histopathological Image Analysis in Medical Decision Making IGI Global 2018 2327-9354",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Vedhanayaki, Madavan Rengaraj, Sujatha Balaraman, S Saroja Soft Computing",
+            "Publisher": "Springer",
+            "Year": "2018",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "my_profile.pdf",
+        "Missing Fields": "patents, projects",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "my_profile.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, awards, memberships, research, invited_talks, research_funding",
+        "Sections missing": "patents, projects",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 0%, PG Degree: 0%, PhD Univ: 0%"
+    }
+}

@@ -1,0 +1,477 @@
+{
+    "Employment History": [
+        {
+            "Organization": "NIAMT (NIFFT) Ranchi",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2023-11-01",
+            "End Date": "2026-06-30",
+            "Duration": 2.58,
+            "Academic Contribution": 2.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.58
+        },
+        {
+            "Organization": "Government Engineering College Munger",
+            "Designation": "Dean",
+            "Department": "under the Department of Science",
+            "Category": "Research",
+            "Start Date": "2023-04-20",
+            "End Date": "2026-06-30",
+            "Duration": 3.17,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.17,
+            "Administrative Contribution": 3.17,
+            "Total Contribution": 3.17
+        },
+        {
+            "Organization": "April",
+            "Designation": "Consultant",
+            "Department": "under the Department of Science",
+            "Category": "Industry",
+            "Start Date": "2021-06-01",
+            "End Date": "2026-06-30",
+            "Duration": 5.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 5.0,
+            "Research Contribution": 5.0,
+            "Administrative Contribution": 5.0,
+            "Total Contribution": 5.0
+        },
+        {
+            "Organization": "Indian Institute of Technology Guwahati",
+            "Designation": "SRF",
+            "Department": "Department of Energy Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2017-07-01",
+            "End Date": "2021-06-01",
+            "Duration": 3.92,
+            "Academic Contribution": 3.92,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.92,
+            "Administrative Contribution": 3.92,
+            "Total Contribution": 3.92
+        },
+        {
+            "Organization": "Mechanical Engineering in GNIOT Greater Noida",
+            "Designation": "Associate Professor & Head",
+            "Department": "Department of Energy Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2013-01-21",
+            "End Date": "2013-12-30",
+            "Duration": 0.92,
+            "Academic Contribution": 0.92,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.92,
+            "Total Contribution": 0.92
+        },
+        {
+            "Organization": "RD Engineering college Ghaziabad",
+            "Designation": "HOD",
+            "Department": "Department of Energy Science and Engineering",
+            "Category": "Administrative",
+            "Start Date": "2011-08-05",
+            "End Date": "2013-01-16",
+            "Duration": 1.42,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 1.42,
+            "Total Contribution": 1.42
+        },
+        {
+            "Organization": "Mechanical Engineering in J.P. Institute of Engineering and Technology",
+            "Designation": "Associate Professor",
+            "Department": "Department of Energy Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2008-09-01",
+            "End Date": "2011-08-01",
+            "Duration": 2.92,
+            "Academic Contribution": 2.92,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 2.92,
+            "Total Contribution": 2.92
+        },
+        {
+            "Organization": "in Mechanical Engineering in Babu Banarasidas Institute of Technology Ghaziabad",
+            "Designation": "Assistant Professor",
+            "Department": "Department of Energy Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2007-07-08",
+            "End Date": "2008-07-31",
+            "Duration": 1.0,
+            "Academic Contribution": 1.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 1.0,
+            "Total Contribution": 1.0
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "2023. Thermal analysis of a rotating fluidized bed dryer in static geometry dryer with and without slit.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Thermal analysis of a rotating fluidized bed dryer in static geometry dryer with and without slit.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2021. A comparative analysis and scale-up of a novel slit-less gas-solid vortex reactor dryer with spiral chimney versus conical chimney outlet. International Communications in Heat and Mass Transfer, 121, p.105112. doi.org/10.1016/j.icheatmasstransfer.2021.105112. [SCI & IF: 6.782 (Elsevier ISBN 0735-1933). 16/1/2021.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A comparative analysis and scale-up of a novel slit-less gas-solid vortex reactor dryer with spiral chimney versus conical chimney outlet. International Communications",
+            "Publisher": "Elsevier",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2021. A novel slit-less gas-solid vortex reactor dryer: Experimental validation and scale-up. Journal of the Taiwan Institute of Chemical Engineers, 118, pp.121-130. doi.org/10.1016/j.jtice.2021.01.017. [SCI & IF: 5.876]. (Elsevier ISBN:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A novel slit-less gas-solid vortex reactor dryer: Experimental validation and scale-up. Journal of the Taiwan Institute of Chemical Engineers, 118, pp.121-130. doi.org/10.1016/j.jtice.2021.01.017. [SCI & IF: 5.876]. (Elsevier ISBN:",
+            "Publisher": "Elsevier",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2021. Numerical investigation of fluid flow and heat transfer in a gas-solid vortex reactor without slit: Scale-up and optimization. International Communications in Heat and Mass Transfer.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Numerical investigation of fluid flow and heat transfer in a gas-solid vortex reactor without slit: Scale-up and optimization. International Communications",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "128, p.105590. https://doi.org/10.1016/j.icheatmasstransfer.2021.105590 [SCI & IF:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "128, p.105590. https://doi.org/10.1016/j.icheatmasstransfer.2021.105590 [SCI & IF:",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6.782]. (Elsevier ISBN 0735-1933). 14/9/2021",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "6.782]. (Elsevier ISBN 0735-1933). 14/9/2021",
+            "Publisher": "Elsevier",
+            "Year": "1933",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Evaluating the proficiency of a novel solar evacuated tube collector.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Evaluating the proficiency of a novel solar evacuated tube collector.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Applied Thermal Engineering. https://doi.org/10.1016/j.applthermaleng.2023.120311.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Applied Thermal Engineering. https://doi.org/10.1016/j.applthermaleng.2023.120311.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2022. Experimental investigation of paddy drying characteristics in a slitless rotary fluidized-bed dryer. Drying Technology, pp.1-13. Dio:10.1080/07373937.2021.2018700. Taylor and Francis [SCI & IF: 4.452]. 24/12/2021.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Experimental investigation of paddy drying characteristics in a slitless rotary fluidized-bed dryer. Drying Technology, pp.1-13. Dio:10.1080/07373937.2021.2018700. Taylor and Francis [SCI & IF: 4.452]. 24/12/2021.",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2020. Numerical study of the hydrodynamics and heat transfer characteristics of gas\u2013solid in a slit-less rotating fluidized bed in static geometry. Journal of Thermal Analysis and Calorimetry, 141(6), pp.2647-2656. doi.org/10.1007/s10973-020- 10070-w. [SCI & IF: 2.73]. (Springer ISBN 1388-6150). 4/8/2020",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Numerical study of the hydrodynamics and heat transfer characteristics of gas\u2013solid in a slit-less rotating fluidized bed in static geometry. Journal of Thermal Analysis and Calorimetry, 141(6), pp.2647-2656. doi.org/10.1007/s10973-020- 10070-w. [SCI & IF: 2.73]. (Springer ISBN 1388-6150). 4/8/2020",
+            "Publisher": "Springer",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2020. Experimental study of food grain drying in a gas\u2013solid vortex reactor. Drying Technology, pp.1-13.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Experimental study of food grain drying in a gas\u2013solid vortex reactor. Drying Technology, pp.1-13.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dio:10.1080/07373937.2020.1835948. [SCI & IF: 4.452]. (Taylor and Francis ISBN: 1532-2300). 23/10/2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Dio:10.1080/07373937.2020.1835948. [SCI & IF: 4.452]. (Taylor and Francis ISBN: 1532-2300). 23/10/2020.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Numerical analysis of gas-solid hydrodynamics and heat transfer characteristics in a multi-stage fluidized bed temperature-stabilizer. of Thermal Analysis and Calorimetry (Springer). (accepted).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Numerical analysis of gas-solid hydrodynamics and heat transfer characteristics in a multi-stage fluidized bed temperature-stabilizer. of Thermal Analysis and Calorimetry (Springer). (accepted).",
+            "Publisher": "Springer",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023.  Solidification acceleration of phase change material in horizontal latent heat thermal energy storage system by using spiral fins. Case Studies in Thermal Engineering, Vol.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Solidification acceleration of phase change material in horizontal latent heat thermal energy storage system by using spiral fins. Case Studies",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. A short review on process capabilities and future scope of incremental sheet forming. Advances in Materials and Processing Technologies.  doi.org/10.1080/2374068X.2023.2168288 (ISSN",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A short review on process capabilities and future scope of incremental sheet forming. Advances",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Eexperimental study of a rapid rate biofuel production in a cyclone type reactor. https://doi.org/10.1016/j.matpr.2023.01.31.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Eexperimental study of a rapid rate biofuel production in a cyclone type reactor. https://doi.org/10.1016/j.matpr.2023.01.31.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Granular material drying and energy analysis of a scaled-up rotating fluidized bed dryer of fixed geometry. https://doi.org/10.1016/j.matpr.2023.02.122 Materials Today",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Granular material drying and energy analysis of a scaled-up rotating fluidized bed dryer of fixed geometry. https://doi.org/10.1016/j.matpr.2023.02.122 Materials Today",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Numerical and experimental analysis of a gas-solid vortex reactor with waste heat utilizer. Journal of Thermal Analysis and Calorimetry (under review).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Numerical and experimental analysis of a gas-solid vortex reactor with waste heat utilizer. Journal of Thermal Analysis and Calorimetry (under review).",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Enhancement of electric energy conversion efficiency of PV/T Solar Panel by Cooling and Waste Energy Storage using PCM paraffin.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Enhancement of electric energy conversion efficiency of PV/T Solar Panel by Cooling and Waste Energy Storage using PCM paraffin.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Experimental study of granular drying in a rotating fluidized bed in static geometry dryer with waste heat recovery. In the 9th International Symposium on Hydrogen Energy, Renewable Energy and Materials (HEREM",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Experimental study of granular drying in a rotating fluidized bed in static geometry dryer with waste heat recovery.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13- 14, 2023, Bangkok, Thailand, ISSN: 1867-4941/ Print ISSN: 0930-8989.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "14, 2023, Bangkok, Thailand, ISSN: 1867-4941/ Print ISSN: 0930-8989.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "18. Singh, P., Prasad, A., Agrawal, A., and Mahto, B., 2023 Experimental investigation of a rapid rate cyclone type transesterification reactor. The 9th International Symposium on Hydrogen Energy, Renewable Energy and Materials (HEREM",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Singh, P., Prasad, A., Agrawal, A., and Mahto, B., 2023 Experimental investigation of a rapid rate cyclone type transesterification reactor. The 9th International Symposium on Hydrogen Energy, Renewable Energy and Materials (HEREM",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023) October 13-14, 2023| Bangkok, Thailand, ISSN: 1867-4941/ Print ISSN: 0930-8989.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "October 13-14, 2023| Bangkok, Thailand, ISSN: 1867-4941/ Print ISSN: 0930-8989.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2021. Experimental Investigation of Paddy Drying in Rotating Fluidized Bed in Static Geometry. In Proceedings of International Conference on Thermofluids (pp. 591-600). Springer. https://doi.org/10.1007/978-981- 15-7831-1_55 (978-981-15-7831-1). 23-25 Jan. 2020.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Experimental Investigation of Paddy Drying",
+            "Publisher": "Springer",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2020. \"Study of agricultural product drying in a slit-less rotating fluidized bed dryer with static geometry\".",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Study of agricultural product drying in a slit-less rotating fluidized bed dryer with static geometry",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "International Conference on Thermal Engineering and Management Advances (ICTEMA-2020), 27-28 June 2020 Jalpaiguri Government Engineering College, Jalpaiguri, West Bengal 735102, India (Best paper award).",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "International Conference on Thermal Engineering and Management Advances (ICTEMA-2020), 27-28 June 2020 Jalpaiguri Government Engineering College, Jalpaiguri, West Bengal 735102, India (Best paper award).",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2019. \"Numerical study of the hydrodynamics and heat transfer of a gas-solid rotating fluidized bed in static geometry dryer\". The 2nd International Mechanical Engineering Conference (IMEC-2019) to from 29th November to 1st December 2019, at National Institute of Technology, Tiruchirappalli, Tamil Nadu.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Numerical study of the hydrodynamics and heat transfer of a gas-solid rotating fluidized bed in static geometry dryer",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2021. Study of Granular Food Material Drying in a Pilot-Scale Rotating Fluidized Bed with Static Geometry Dryer. In Recent Advances in Mechanical Engineering (pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Study of Granular Food Material Drying in a Pilot-Scale Rotating Fluidized Bed with Static Geometry Dryer. In Recent Advances",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "555-562). https://doi.org/10.1007/978-981-15-7711-6_55 (ISBN No.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "555-562). https://doi.org/10.1007/978-981-15-7711-6_55 (ISBN No.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "9811577102). (07-8/02/2020) Springer (11/1/2021).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "9811577102). (07-8/02/2020) Springer (11/1/2021).",
+            "Publisher": "Springer",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2019. Study of agricultural product drying in a rotating fluidized bed with static geometry. Post-Harvest Technology and Value Addition 1, pp.1-8. ISBN No. 978-93-5396-087-",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Study of agricultural product drying in a rotating fluidized bed with static geometry. Post-Harvest Technology and Value Addition 1, pp.1-8. ISBN No. 978-93-5396-087-",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2022. Study of Agricultural Product Drying in a Rotating Fluidized Bed in Static Geometry Dryer With and Without Slits. In Advances in Thermofluids and Renewable Energy (pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Study of Agricultural Product Drying in a Rotating Fluidized Bed",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "443-451). Springer. ISBN: 978-981-16-3496-3, doi.org/10.1007/978- 981-16-3497-0_35. (26-28 Nov. 2020). Springer (22/10/2021).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "443-451). Springer. ISBN: 978-981-16-3496-3, doi.org/10.1007/978- 981-16-3497-0_35. (26-28 Nov. 2020). Springer (22/10/2021).",
+            "Publisher": "Springer",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. Analysis of Parametric Study on Weld Properties in TIG Welding. In Recent Advances in Mechanical Engineering (pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Analysis of Parametric Study on Weld Properties",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "(24th-25th Sep.) https://doi.org/10.1007/978-981-16-9057-0_77. Springer, Singapore.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(24th-25th Sep.) https://doi.org/10.1007/978-981-16-9057-0_77. Springer, Singapore.",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2020. \u201cNumerical study of gas-solid vortex reactor with spiral chimney\u201d. 1st online National Conference on Recent Trend in Thermal Sciences and Alternate Energy Resources (RTTSAER2020) on 1st July 2020, at Government college of Technology, Coimbatore and National Institute of Technology, Arunachal Pradesh.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Numerical study of gas-solid vortex reactor with spiral chimney",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2018. Development and performance evaluation of an efficient and user-friendly rotating fluidized bed in static geometry (RFBSG) dryer, National Conference on Waste to Energy Conversion (WEC-2018), December 28-29, 2018, NIT Mizoram, Mizoram.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Development and performance evaluation of an efficient and user-friendly rotating fluidized bed in static geometry (RFBSG) dryer, National Conference on Waste to Energy Conversion (WEC-2018), December 28-29, 2018, NIT Mizoram, Mizoram.",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "28. Singh, P. And Agrawal, A. \u201cBiodiesel: An alternative Fuel to Reduce Greenhouse Gas with Better Performance of C.I. Engines\u201d Save Earth Volume-I, 2010.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Biodiesel: An alternative Fuel to Reduce Greenhouse Gas with Better Performance of C.I. Engines",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "638373082204430805_CV Dr Pavitra Singh.pdf",
+        "Missing Fields": "patents, memberships",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 15
+    },
+    "Processing Report": {
+        "Resume File": "638373082204430805_CV Dr Pavitra Singh.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, awards, research, review_committee",
+        "Sections missing": "patents, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

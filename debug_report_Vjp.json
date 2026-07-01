@@ -1,0 +1,405 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Government College of Engineering Aurangabad",
+            "Designation": "Assistant Professor",
+            "Department": "\u200b 14 Years and 06 Months of experience as an Assistant Professor in Computer Science & Engineering Dept",
+            "Category": "Academic",
+            "Start Date": "2011-01-07",
+            "End Date": "2026-06-30",
+            "Duration": 15.42,
+            "Academic Contribution": 15.42,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 15.42
+        },
+        {
+            "Organization": "\u200b Babasaheb Naik College of Engineering Pusad,( ).",
+            "Designation": "",
+            "Department": "\u200b 14 Years and 06 Months of experience as an Assistant Professor in Computer Science & Engineering Dept",
+            "Category": "Academic",
+            "Start Date": "2009-07-01",
+            "End Date": "2010-12-01",
+            "Duration": 1.42,
+            "Academic Contribution": 1.42,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.42
+        },
+        {
+            "Organization": "\u200b 2 Years of experience in Mainframe Software Development at CapGemini India Pvt Ltd",
+            "Designation": "Associate Consultant",
+            "Department": "experience",
+            "Category": "Industry",
+            "Start Date": "2007-06-01",
+            "End Date": "2009-06-01",
+            "Duration": 2.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 2.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.0
+        },
+        {
+            "Organization": "\u200b 2 Years of experience in Mainframe Software Development at CapGemini India Pvt Ltd",
+            "Designation": "",
+            "Department": "experience",
+            "Category": "Industry",
+            "Start Date": "2025-06-01",
+            "End Date": "2026-06-30",
+            "Duration": 1.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 1.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        },
+        {
+            "Organization": "\u200b 2 Years of experience in Mainframe Software Development at CapGemini India Pvt Ltd",
+            "Designation": "",
+            "Department": "4.\u200b Presently holding the charge of R&D Lab of Computer Science and Engineering Department.Worked as incharge of Facilitation Center for DSE Engineering Admission .",
+            "Category": "Industry",
+            "Start Date": "2017-01-01",
+            "End Date": "2018-01-01",
+            "Duration": 1.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 1.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        },
+        {
+            "Organization": "the Examination Cell of Government College of Engineering Aurangabad",
+            "Designation": "5.\u200b Worked as Assistant Controller",
+            "Department": "Examination",
+            "Category": "Academic",
+            "Start Date": "2022-10-01",
+            "End Date": "2024-07-01",
+            "Duration": 1.75,
+            "Academic Contribution": 1.75,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.75
+        },
+        {
+            "Organization": "7.\u200b Worked as Warden for Boys Hostel for 8 years, in Government Engineering College Aurangabad, while handling this portfolio worked on various activities related students and at Institute level.",
+            "Designation": "",
+            "Department": "Examination",
+            "Category": "Academic",
+            "Start Date": "2011-01-01",
+            "End Date": "2019-01-01",
+            "Duration": 8.0,
+            "Academic Contribution": 8.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.0
+        },
+        {
+            "Organization": "7.\u200b Worked as Warden for Boys Hostel for 8 years, in Government Engineering College Aurangabad, while handling this portfolio worked on various activities related students and at Institute level.",
+            "Designation": "",
+            "Department": "Examination",
+            "Category": "Academic",
+            "Start Date": "2007-08-01",
+            "End Date": "2009-06-01",
+            "Duration": 1.83,
+            "Academic Contribution": 1.83,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.83,
+            "Administrative Contribution": 1.83,
+            "Total Contribution": 1.83
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "1. Published a Book-Chapter titled \u201cAssistive Technologies for Visually Impaired Persons Using Image Processing Techniques \u2013 A Survey\u201d in the Publication of Recent Trends in Image Processing and Pattern Recognition, Third International Conference, RTIP2R 2020, Aurangabad, India, January 3\u20134, 2020, Revised Selected Papers, Part I, Revised Selected Papers ISBN: 978-981-16-0507-9 (eBook) https://link.springer.com/chapter/10.1007%2F978-981-16-0507-9_9, Springer Nature Singapore Pte Ltd. 2021.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Assistive Technologies for Visually Impaired Persons Using Image Processing Techniques \u2013 A Survey",
+            "Publisher": "Springer",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Published a Book-Chapter titled \u201cEducational Cloud Framework\u2014A Literature Review on Finding Better Private Cloud Framework for Educational Hub\u201d in the Publication of Microservices in Big Data Analytics Second International, ICETCE 2019, Rajasthan, India, February 1st-2nd 2019, Revised Selected ISBN 978-981-15- 0127-2 ISBN 978-981-15-0128-9 https://doi.org/10.1007/978-981-15-0128-9, Springer Nature Singapore Pte Ltd. 2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Educational Cloud Framework\u2014A Literature Review on Finding Better Private Cloud Framework for Educational Hub",
+            "Publisher": "Springer",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Published a Book-Chapter titled \u201cEnhancement In Brain Tumor Diagnosis Using Mri Image Processing Techniques\u201d in the Publication of Advanced Informatics for Computing Research Second International Conference, ICAICR 2018, Shimla, India, July 14\u201315, 2018, Revised Selected Papers, Part II, ISBN 978-981-13-3143-5, https://link.springer.com/chapter/10.1007%2F978-981-13-3140-4_59 Springer Nature Singapore Pte Ltd. 2019.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Enhancement In Brain Tumor Diagnosis Using Mri Image Processing Techniques",
+            "Publisher": "Springer",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Published a paper entitled \u201cImplementation of MARGEN: MARathi Question Answering GENerative Conversation Model using BILSTM\u201d, in Journal of Technology, ISSN: 10123407, VOLUME 12 ISSUE 6, 2024.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Implementation of MARGEN: MARathi Question Answering GENerative Conversation Model using BILSTM",
+            "Publisher": "Unknown",
+            "Year": "2024",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Published a paper entitled \u201cEXPLORING RADIOMICS DATASETS FOR BRAIN TUMOR DIAGNOSIS USING DATA MINING TECHNIQUES\u201d, Journal For Basic Sciences Volume 24, Issue 6, 2024 ISSN NO: 1006-8341, DOI:10.37896/JBSV24.6/3202",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "EXPLORING RADIOMICS DATASETS FOR BRAIN TUMOR DIAGNOSIS USING DATA MINING TECHNIQUES",
+            "Publisher": "Unknown",
+            "Year": "2024",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Published a paper entitled \u201cDeep Learning Based Diabetic Retinopathy Disease Classification in Fundus Photographic Images\u201d, Journal For Basic Sciences Volume-24, Issue-5, 2024 ISSN NO:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Deep Learning Based Diabetic Retinopathy Disease Classification in Fundus Photographic Images",
+            "Publisher": "Unknown",
+            "Year": "2024",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. 1006-8341. DOI:10.37896/JBSV24.5/3162",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "1006-8341. DOI:10.37896/JBSV24.5/3162",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "5. Published a paper entitled \u201cEarly Assessment of Diabetic Retinopathy by Detecting Microaneurysm with Deep Neural Network\u201d, Indian Journal of Science and Technology 17(17): 1786-1790. https://doi.org/10.17485/IJST/v17i17.732",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Early Assessment of Diabetic Retinopathy by Detecting Microaneurysm with Deep Neural Network",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "6. Published a paper entitled \u201cA Novel Approach for Object Detection Using Optimized Convolutional Neural Network to Assist Visually Impaired People\u201d, In ACVAIT-2022, Springer Nature, AISR 176, pp. 187\u2013207,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A Novel Approach for Object Detection Using Optimized Convolutional Neural Network to Assist Visually Impaired People",
+            "Publisher": "Springer",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2023. https://doi.org/10.2991/978-94-6463-196-8_17",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "https://doi.org/10.2991/978-94-6463-196-8_17",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Published a paper entitled \u201cIntensifying Lung Cancer Classification Model Using Hybrid-Layer Convolutional Neural Network with Enhanced-CSO Weight Optimization Algorithm\u201d, in the International Journal of Computing and Digital Systems,  ISSN  (2210-142X),  Int.  J.  Com.  Dig.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Intensifying Lung Cancer Classification Model Using Hybrid-Layer Convolutional Neural Network with Enhanced-CSO Weight Optimization Algorithm",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Sys.13, No.1 (Apr-23), DOI:http://dx.doi.org/10.12785/ijcds/130164.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Sys.13, No.1 (Apr-23), DOI:http://dx.doi.org/10.12785/ijcds/130164.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "8. Published a paper entitled \u201cModified convolutional neural network for lung cancer detection: Improved cat swarm-based optimal training\u201d, in the journal of Web Intelligence Journal, SCOPUS, ESCI Indexed Journal, ISSN print",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Modified convolutional neural network for lung cancer detection: Improved cat swarm-based optimal training",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "1570- 1263, ISSN online 1875-9289), Volume 21, Issue 1, Pages 37-59, Publisher IOS Press.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "1263, ISSN online 1875-9289), Volume 21, Issue 1, Pages 37-59, Publisher IOS Press.",
+            "Publisher": "IOS Press.",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "9. Published a paper entitled \u201cPulmonary Nodule Detection and Classification In CT Images Over Employing R-CAD System\u201d, in The Seybold Report Journal (Scopus Indexed), ISSN No. 1533-9211, DOI 10.5281/zenodo.6962497",
+            "Classification": "Report",
+            "Reason": "Contains keyword 'report'",
+            "Title": "Pulmonary Nodule Detection and Classification In CT Images Over Employing R-CAD System",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "10. Presented and published a paper entitled \"Lung Cancer Nodules Detection Using Ideal Features Extraction Technique in CT Images\", in International Conference on Advances in Computer Vision and Artificial Intelligence Technology (ACVAIT",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Lung Cancer Nodules Detection Using Ideal Features Extraction Technique in CT Images",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2022) organized by Dept of Computer Science and Information Technology, Dr. Babasaheb Ambedkar Marathwada University, Aurangabad",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "organized by Dept of Computer Science and Information Technology, Dr. Babasaheb Ambedkar Marathwada University, Aurangabad",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Presented and published a paper titled \u201cEvaluation on Lung Cancer Detection Using Computer Assisted Diagnosis (CAD) System\u201d in IEEE 7th International Conference on Advanced Computing and Communication Systems (ICACCS) 2021 at Sri Eshwar College of Engineering (Autonomous), Coimbatore, Tamil Nadu, India.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Evaluation on Lung Cancer Detection Using Computer Assisted Diagnosis (CAD) System",
+            "Publisher": "IEEE",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Published a paper titled \u201cPrediction of Degree Student Achievement Analysis\u201d in the AICTE sponsored International Conference on Recent Innovations in Engineering and Technology (ICRIET 2020), Erode, Tamil Nadu, India during",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Prediction of Degree Student Achievement Analysis",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Published a paper titled \u201cLung Cancer Detection System Using Image Processing and MachineLearning Techniques\u201d at International Journal of Advanced Trends in Computer Science and Engineering Available Online at https://doi.org/10.30534/ijatcse/2020/260942020, UGC Approved Scopus Indexed [ISSN 0974-2034] Volume 9, Issue No.4, July \u2013 August 2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Lung Cancer Detection System Using Image Processing and MachineLearning Techniques",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. Published a paper titled \u201cAssistive Technologies for Visually Impaired Persons Using Image Processing Techniques - A Survey\u201din3rd Biennial International Conference on Recent Trends in Image Processing and Pattern Recognition (RTIP2R) at Dr. BAMU University Aurangabad India January 2020.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Assistive Technologies for Visually Impaired Persons Using Image Processing Techniques - A Survey",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. Published a paper titled \u201cImplementation of Stable Private Cloud using Open Stack with Virtual Machine results\u201d at International Journal of Computer Engineering and Information Technology (IJCEIT), UGC Approved Scopus Indexed [ISSN 0974-2034]Volume 11, Issue 4, April 2019.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Implementation of Stable Private Cloud using Open Stack with Virtual Machine results",
+            "Publisher": "Unknown",
+            "Year": "2034",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. Published a paper titled \u201cEducational Cloud Framework - A Literature Review on Finding Better Private Cloud Framework for Educational Hub\u201d at ICETCE-2019_Springer IETE Sponsored by Springer and IETE at Jaipur India during",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Educational Cloud Framework - A Literature Review on Finding Better Private Cloud Framework for Educational Hub",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "17.  Published a paper titled \u201cEnhancement In Brain Tumor Diagnosis Using Mri Image Processing Techniques\u201d at ICAICR-2018 Sponsored by Springer and CSI at Shimla India during 14-16 July 2018.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Enhancement In Brain Tumor Diagnosis Using Mri Image Processing Techniques",
+            "Publisher": "Springer",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "18. Published a paper titled \u201cAndroid based American Sign Language Recognition System with Skin Segmentation and SVM\u201d in IEEE International conference at IISC Bangalore India 2018.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Android based American Sign Language Recognition System with Skin Segmentation and SVM",
+            "Publisher": "IEEE",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "19. Published a paper titled \u201cStructuring Cloud Computing Using Big Data Analytics Solution: A Survey\u201d at IEEE International conference on Communication and Electronics Systems (ICCES) 2016 at PPG Institute Coimbatore India.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Structuring Cloud Computing Using Big Data Analytics Solution: A Survey",
+            "Publisher": "IEEE",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "20. Published a paper titled \u201cFeature Extraction and selection from MRI Images for the brain tumor classification\u201d at IEEE International conference on Communication and Electronics Systems (ICCES) 2016 at PPG Institute Coimbatore India.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Feature Extraction and selection from MRI Images for the brain tumor classification",
+            "Publisher": "IEEE",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21. Published a paper titled \u201cEnhancing Information Security in Cloud Computing Environment Using Cryptographic Techniques\u201d at IEEE International conference on Communication and Electronics Systems (ICCES) 2016 at PPG Institute Coimbatore India.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Enhancing Information Security in Cloud Computing Environment Using Cryptographic Techniques",
+            "Publisher": "IEEE",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "23. Published a paper titled \u201cAn Improved Binarization Technique For Degraded Document Images Using Local Thresholding Method\u201d at International Conference On Emerging Trends In Computer Science & Engineering (Icetcse-",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "An Improved Binarization Technique For Degraded Document Images Using Local Thresholding Method",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2014) And International Journal Of Pure And Applied Research In Engineering And Technology.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "And International Journal Of Pure And Applied Research",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "Vjp.pdf",
+        "Missing Fields": "awards",
+        "Warnings": "Current organization equals university from education (pg_university).; Publication 'Implementation of Stable Priva...' has year in the future (2034).; Duplicate publication detected: 'Enhancement In Brain Tumor Dia...'.",
+        "Validation Errors": "Current organization equals university from education (pg_university).; Publication 'Implementation of Stable Priva...' has year in the future (2034).; Duplicate publication detected: 'Enhancement In Brain Tumor Dia...'.",
+        "Duplicate Detection": "Yes",
+        "Confidence deductions": 30
+    },
+    "Processing Report": {
+        "Resume File": "Vjp.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, patents, memberships, certifications",
+        "Sections missing": "awards",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

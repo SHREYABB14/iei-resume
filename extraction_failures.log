@@ -1,0 +1,18 @@
+File: INF010008.pdf | Field: UG Degree | Reason: UG Degree not found
+File: INF010008.pdf | Field: PG/PhD Details | Reason: PG and PhD details not found
+File: INF010008.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: iit_1382372862.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: CV_Udhayakumar_Social_Work.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: CV_Ramesh_Chandra.pdf | Field: Address | Reason: Exception: 'list' object has no attribute 'rstrip'
+File: CV_Ramesh_Chandra.pdf | Field: UG Degree | Reason: UG Degree not found
+File: CV_HarishPhuleria.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: A5CSE00T80.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: 638373082204430805_CV Dr Pavitra Singh.pdf | Field: Address | Reason: Exception: 'list' object has no attribute 'rstrip'
+File: 638373082204430805_CV Dr Pavitra Singh.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: 1646068417831.pdf | Field: Phone | Reason: Phone not found
+File: 1646068417831.pdf | Field: Address | Reason: Exception: 'list' object has no attribute 'rstrip'
+File: 1692682240abdul_rahman.pdf | Field: UG Degree | Reason: UG Degree not found
+File: 1692682240abdul_rahman.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: 20200608Reshma.pdf | Field: Address | Reason: Exception: 'list' object has no attribute 'rstrip'
+File: 20200608Reshma.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined
+File: 806.pdf | Field: FDP/STTP Counts | Reason: Exception: name 're' is not defined

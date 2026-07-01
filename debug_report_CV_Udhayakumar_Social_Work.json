@@ -1,0 +1,540 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Central University of Tamil Nadu",
+            "Designation": "Assistant Professor",
+            "Department": "Department of Social Work",
+            "Category": "Academic",
+            "Start Date": "2016-06-06",
+            "End Date": "2026-06-30",
+            "Duration": 10.0,
+            "Academic Contribution": 10.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 10.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 10.0
+        },
+        {
+            "Organization": "Central University of Tamil Nadu",
+            "Designation": "NSS Programme Officer",
+            "Department": "Department of Social Work",
+            "Category": "Administrative",
+            "Start Date": "2016-09-20",
+            "End Date": "2026-06-30",
+            "Duration": 9.75,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 9.75,
+            "Total Contribution": 9.75
+        },
+        {
+            "Organization": "4. Student Counsellor: Counselling & Guidance Cell (CGC), Central University of Tamil Nadu, Thiruvarur, Tamil Nadu, India .",
+            "Designation": "",
+            "Department": "Department of Social Work",
+            "Category": "Academic",
+            "Start Date": "2015-08-08",
+            "End Date": "2026-06-30",
+            "Duration": 10.83,
+            "Academic Contribution": 10.83,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 10.83,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 10.83
+        },
+        {
+            "Organization": "Central University of Tamil Nadu",
+            "Designation": "Assistant Professor",
+            "Department": "Department of Social Work",
+            "Category": "Academic",
+            "Start Date": "2013-10-08",
+            "End Date": "2016-06-05",
+            "Duration": 2.58,
+            "Academic Contribution": 2.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.58,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.58
+        },
+        {
+            "Organization": "2. Guest Faculty: Community College, Central University of Tamil Nadu, Thiruvarur, Tamil Nadu, India .",
+            "Designation": "",
+            "Department": "Department of Social Work",
+            "Category": "Academic",
+            "Start Date": "2014-05-06",
+            "End Date": "2014-07-05",
+            "Duration": 0.08,
+            "Academic Contribution": 0.08,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.08,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.08
+        },
+        {
+            "Organization": "Department of Social Work, Bharathidasan University, Tiruchirappalli, Tamil Nadu, India form .",
+            "Designation": "",
+            "Department": "Department of Social Work, Bharathidasan University, Tiruchirappalli, Tamil Nadu, India form .",
+            "Category": "Academic",
+            "Start Date": "2009-07-01",
+            "End Date": "2011-04-30",
+            "Duration": 1.75,
+            "Academic Contribution": 1.75,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.75,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.75
+        },
+        {
+            "Organization": "Department of Social Work, Urumu Dhanalakshmi College, Tiruchirappalli, Tamil Nadu, India form .",
+            "Designation": "",
+            "Department": "Department of Social Work, Urumu Dhanalakshmi College, Tiruchirappalli, Tamil Nadu, India form .",
+            "Category": "Academic",
+            "Start Date": "2006-05-01",
+            "End Date": "2008-07-03",
+            "Duration": 2.17,
+            "Academic Contribution": 2.17,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.17
+        },
+        {
+            "Organization": "5",
+            "Designation": "5. Project Manager: Society for Regardless Individuals Trust",
+            "Department": "Department of Social Work, Urumu Dhanalakshmi College, Tiruchirappalli, Tamil Nadu, India form .",
+            "Category": "Research",
+            "Start Date": "2009-07-05",
+            "End Date": "2011-04-25",
+            "Duration": 1.75,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.75,
+            "Administrative Contribution": 1.75,
+            "Total Contribution": 1.75
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "1. Udhayakumar, P. and Ilango, P. (2018). Psychological Wellbeing among the college students. Journal of Social Work Education and Practice, 3(2), Pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2018). Psychological Wellbeing among the college students. Journal of Social Work Education and Practice, 3(2), Pp.",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Udhayakumar, P. and Ilango, P. (2013). Invoking the Spirit: A Model of Incorporating the Spiritual Dimension into Gerontological Health care Practice.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013). Invoking the Spirit: A Model of Incorporating the Spiritual Dimension into Gerontological Health care Practice.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "International Journal of Applied Management Research, Vol.5 (Special Issue), Pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "International Journal of Applied Management Research, Vol.5 (Special Issue), Pp.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "3. Udhayakumar, P. and Ilango, P. (2013). Human Rights for the Wellbeing of Older Persons. International Journal of Applied Management Research, Vol.5 (Special Issue), Pp. 1-5. ISSN No. 09748709.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013). Human Rights for the Wellbeing of Older Persons. International Journal of Applied Management Research, Vol.5 (Special Issue), Pp. 1-5. ISSN No. 09748709.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Udhayakumar, P. and Ilango, P. (2013). Integrating Spirituality into Gerontological Health Care Management. Tamilnadu Journal of Applied Management Research, Vol.2 (1), Pp- 49-51.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013). Integrating Spirituality into Gerontological Health Care Management. Tamilnadu Journal of Applied Management Research, Vol.2 (1), Pp- 49-51.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Udhayakumar, P. and Ilango, P. (2013). Occupational Stress Experienced among the Women Employees in Industries. Tamilnadu Journal of Applied Management Research, Vol.2 (1), Pp- 49-51. ISSN No. 22771158.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013). Occupational Stress Experienced among the Women Employees",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Udhayakumar, P. and Ilango, P. (2013). The Healing Touch- Some Thoughts on Spirituality and Wellbeing.  Tamilnadu Journal of Applied Management Research, Vol.2 (1), Pp- 67-71.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013). The Healing Touch- Some Thoughts on Spirituality and Wellbeing.  Tamilnadu Journal of Applied Management Research, Vol.2 (1), Pp- 67-71.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Udhayakumar, P. and Ilango, P. (2012). Quality of Informal Care received by Elderly in Tiruchirappalli. Indian Journal of Gerontology, Vol. 26(4), Pp. 513-523, 2012.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2012). Quality of Informal Care received by Elderly",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Udhayakumar, P. and Ilango, P. (2013).  Gerontological Mental Health in India.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013).  Gerontological Mental Health",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Journal of Research, Extension and Development, Vol. 1(7), Pp. 9-12.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Journal of Research, Extension and Development, Vol. 1(7), Pp. 9-12.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "9. Udhayakumar, P. and Ilango, P. (2012). Spirituality and Mental Health among Elderly.  Journal of Research, Extension and Development, Vol. 1(2), Pp. 8-14.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2012). Spirituality and Mental Health among Elderly.  Journal of Research, Extension and Development, Vol. 1(2), Pp. 8-14.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10.  Ilango, P., and Udhayakumar, P. (2012). Spirituality, Stress and Wellbeing among the Elders Practicing Spirituality. Samaja Karyada Hejjegalu (Social Work \u2013 Foot Prints), Vol. 2(10), Pp. 37 -42.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ilango, P., and Udhayakumar, P. (2012). Spirituality, Stress and Wellbeing among the Elders Practicing Spirituality. Samaja Karyada Hejjegalu (Social Work",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11.  Udhayakumar, P. and Ilango, P. (2012). Informal Care Received by Elderly Residing in Slums of Tiruchirappalli District, Tamilnadu, India. International Research Journal of Social Sciences, Vol.1(1), Pp. 15-18.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2012). Informal Care Received by Elderly Residing",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12.  Udhayakumar, P. and Ilango, P. (2013). Social Changes and Peer Group Influence among the Adolescents Pursuing Under Graduation. International Research Journal of Social Sciences, Vol .2(1), Pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2013). Social Changes and Peer Group Influence among the Adolescents Pursuing Under Graduation. International Research Journal of Social Sciences, Vol .2(1), Pp.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Udhayakumar, P. and Ilango, P. (2014). Social Change during Adolescent Development. International Journal of Applied Management Research, Vol.6 (Special Issue), Pp. 356-359.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2014). Social Change during Adolescent Development. International Journal of Applied Management Research, Vol.6 (Special Issue), Pp. 356-359.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. Udhayaumar, P., Ilango, P., and Siji Mary Koshy (2014). Emotional Intelligence among  the Employees working in Industries. International Journal of Applied Management Research, Vol.6 (Special Issue), Pp. 372-374.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayaumar, P., Ilango, P., and Siji Mary Koshy (2014). Emotional Intelligence among  the Employees working",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Ilango, P. and Udhayakumar, P (2015). Gerontological Mental Health in India. In:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ilango, P. and Udhayakumar, P (2015). Gerontological Mental Health",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Udhayakumar, P., and Ilango, P. (2015). Spirituality and Wellbeing among the Older Persons. The 2nd International Social Work Conference (Conference Proceedings), Perpustakaan Negara Malaysia Cataloging- in- Publication:  Malaysia, Pp. 153 \u2013 164.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Udhayakumar, P., and Ilango, P. (2015). Spirituality and Wellbeing among the Older Persons. The 2nd International Social Work Conference (Conference Proceedings), Perpustakaan Negara Malaysia Cataloging- in- Publication:  Malaysia, Pp. 153",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Ilango, P., and Udhayakumar, P. (2013). Mental Health and Wellbeing among Older Persons: Gerontological Social Work Perspectives. In: Social Work and Mental Health- Areas of Practice, Challenges and Way Forward, Sage Publishers, New Delhi, India, Pp. 164-175 .",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ilango, P., and Udhayakumar, P. (2013). Mental Health and Wellbeing among Older Persons: Gerontological Social Work Perspectives. In: Social Work and Mental Health- Areas of Practice, Challenges and Way Forward, Sage Publishers, New Delhi, India, Pp. 164-175 .",
+            "Publisher": "Sage",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Udhayakumar, P., and Ilango, P. (2013). Older Persons Wellbeing and the Spiritual Imperative. In: Scientific Writing and Publishing in Social Work, Niruta Publications, Bangalore, India, Pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P., and Ilango, P. (2013). Older Persons Wellbeing and the Spiritual Imperative. In: Scientific Writing and Publishing",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Udhayakumar, P., and Ilango, P. (2012). Spirituality and Quality of Life among the Elderly. In: Professional Social Work \u2013 Best Practices and Innovations in Teaching, Research and Extension\u201d, Authors Press, New Delhi, India.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P., and Ilango, P. (2012). Spirituality and Quality of Life among the Elderly. In: Professional Social Work",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Udhayakumar, P., and Ilango, P. (2011). Spirituality and Its Approach towards Geriatric Care \u2013An Innovation in Care Giving for the Elderly. In: Professional Social Work \u2013 Best Practices and Innovations in Teaching, Research and Extension, Authors Press, New Delhi.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P., and Ilango, P. (2011). Spirituality and Its Approach towards Geriatric Care \u2013An Innovation in Care Giving for the Elderly. In: Professional Social Work",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Jeryda, J.O., and Udhayakumar, P. (2010). Psychological Problems Faced by the HIV/AIDS Patients when Administered Antiretro - Viral Therapy. In: Professional Social Work in India \u2013 Contributions to Welfare and   Development, Allied Publishers, New Delhi, 2010.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Jeryda, J.O., and Udhayakumar, P. (2010). Psychological Problems Faced by the HIV/AIDS Patients when Administered Antiretro",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Udhayakumar, P. and Ilango, P. (2010). Social Acceptance \u2013 Social Grouping during Adolescence. In: Professional Social Work in India \u2013 Contributions to Welfare and   Development\u201d, Allied Publishers, New Delhi, 2010.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2010). Social Acceptance",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. Udhayakumar, P., and Ilango, P. (2010). Job Stress among the Employees of Tool Fab Engineering Industries, Tiruchirappalli. In: Professional Social Work in India \u2013 Contributions to Welfare and   Development, Allied Publishers, New Delhi.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P., and Ilango, P. (2010). Job Stress among the Employees of Tool Fab Engineering Industries, Tiruchirappalli. In: Professional Social Work in India",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Udhayakumar, P. and Ilango, P. (2009). Impact of Social Changes among Adolescents- Peer Group Influence. In: Social Work Profession in India- Issues and Challenges\u201d, Allied Publishers, New Delhi.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2009). Impact of Social Changes among Adolescents- Peer Group Influence. In: Social Work Profession",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Udhayakumar, P. and Ilango, P. (2011). A study on Test- Anxiety among Adolescent School Students with reference to Thiruvarur district. In: Paradigms in Social Science Research: A New Horizon, Authors Press, New Delhi, Pp. 250 \u2013 254.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Udhayakumar, P. and Ilango, P. (2011). A study on Test- Anxiety among Adolescent School Students with reference to Thiruvarur district. In: Paradigms in Social Science Research: A New Horizon, Authors Press, New Delhi, Pp. 250",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Ilango, P., Udhayakumar, P., and Abraham, P. (2012). Strengths- based Approach to Social Work Practice with Older Persons. In: Paper in Strengths Based Practice, Allied Publishers, New Delhi, Pp. 150 -160.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ilango, P., Udhayakumar, P., and Abraham, P. (2012). Strengths- based Approach to Social Work Practice with Older Persons. In: Paper",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Ilango, P., Udhayakumar, P., and Abraham, P. (2012). Strengths- based Approach to Social Work Practice with Older Persons. Abstract Book on International conference on Strengths Based Practices in Social Work and Human Services, 22-24 November 2012, Kathmandu, Nepal & Brisbane Institute of Strengths Based Practice Inc., Australia.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "Ilango, P., Udhayakumar, P., and Abraham, P. (2012). Strengths- based Approach to Social Work Practice with Older Persons. Abstract Book on International conference on Strengths Based Practices",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "SELECTED CONFERENCE PAPERS AND PRESENTATIONS",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "SELECTED CONFERENCE PAPERS AND PRESENTATIONS",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Central University of Tamil Nadu, Thiruvarur on 18th March 2018",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Central University of Tamil Nadu, Thiruvarur on 18th March 2018",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Spirituality, Stress and Wellbeing among the Elders Practising Spirituality, presented at 4th International Seminar on \u201cHealth Economics & Management\u201d & Human Enrichment \u2013 Medical Ethics\u201d organized by PG & Research Department of Economics on 30th & 31st January 2014.",
+            "Classification": "Seminar",
+            "Reason": "Contains keyword 'seminar'",
+            "Title": "Health Economics & Management",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Gerontological Mental Health in India, presented at 4th International Seminar on \u201cHealth Economics & Management\u201d & Human Enrichment \u2013 Medical Ethics\u201d organized by PG & Research Department of Economics on 30th & 31st January 2014.",
+            "Classification": "Seminar",
+            "Reason": "Contains keyword 'seminar'",
+            "Title": "Health Economics & Management",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Spirituality and Mental Health among Elderly presented at 4th International Seminar on \u201cHealth Economics & Management\u201d & Human Enrichment \u2013 Medical Ethics\u201d organized by PG & Research Department of Economics on 30th & 31st January 2014.",
+            "Classification": "Seminar",
+            "Reason": "Contains keyword 'seminar'",
+            "Title": "Health Economics & Management",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5.  \u201cInvoking the Spirit: A Model of Incorporating the Spiritual Dimension into Gerontological Health Care Practice, presented at ICMR Sponsored 3rd International Seminar on \u201cHealth Economics and Management\u201d organised by PG & Research Department of Economics, Rajah Serfoji Government College, Thanjavur on 13th & 14th December 2012.",
+            "Classification": "Seminar",
+            "Reason": "Contains keyword 'seminar'",
+            "Title": "Invoking the Spirit: A Model of Incorporating the Spiritual Dimension into Gerontological Health Care Practice, presented at ICMR Sponsored 3rd International Seminar on \u201cHealth Economics and Management",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6.  Strengths- based Approach to Social Work Practice with Older Persons, presented at the International Conference on Strengths Based Practices in Social Work and",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Strengths- based Approach to Social Work Practice with Older Persons, presented at the International Conference on Strengths Based Practices",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Human Services, organised by the  Brisbane Institute of Strengths Based Practice Inc, in cooperation with  Nepal School of Social Work and James Cook University, Australia at Kathmandu, Nepal on 22nd & 24th November 2012.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Human Services, organised by the  Brisbane Institute of Strengths Based Practice Inc, in cooperation with  Nepal School of Social Work and James Cook University, Australia at Kathmandu, Nepal on 22nd & 24th November 2012.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7.  Spirituality and Its Approach towards Geriatric Care \u2013An Innovation in Care Giving for the Elderly, presented at International Symposium on \u201cProfessional Social Work: Best  Practices and Innovations in Teaching, Research and Extension\u201d organized by the Department of Social Work, Bharathidasan University, Tirichirappalli on 10th & 11th  March 2011.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Professional Social Work: Best  Practices and Innovations in Teaching, Research and Extension",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Spirituality and Its Influences on Quality of Life of the Elderly, presented at National Conference on \u201cSocial Development In India \u2013 New Vistas and Challenges\u201d organized by the Department of Social Work, Bharathidasan University, Tirichirappalli on 10th & 11th  January  2011.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Social Development In India \u2013 New Vistas and Challenges",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9.  Social Acceptance \u2013 Social Grouping During Adolescence, presented at National Conference on \u201cProfessional Social Work in India- Welfare and Development\u201d organized by the Department of Social Work, Bharathidasan University, Tirichirappalli on 29th & 30th  March 2010.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Professional Social Work in India- Welfare and Development",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10.  Job Stress among the Employees of Tool Fab Engineering Industries, Tiruchirappalli presented at National Conference on \u201cProfessional Social Work in India- Welfare and Development\u201d organized by the Department of Social Work, Bharathidasan University, Tirichirappalli on 29th & 30th  March 2010.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Professional Social Work in India- Welfare and Development",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Psychological Problems Faced by the HIV/AIDS  Patients when Administered Antiretro  Viral Therapy, presented at National Conference on \u201cIndian Social Work Perspective on HIV/AIDS \u2013 Issues, Challenges, Prevention and Management\u201d organized by the Department of Social Work, Kodaikanal Christian College, Kodaikanal  on 12th & 13th  October 2009.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Indian Social Work Perspective on HIV/AIDS \u2013 Issues, Challenges, Prevention and Management",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12.  Changes in Social Behavior During Adolescence, presented at National Conference on \u201cMillennium Development Goals: A Social Science Perspective\u201d organized by the Department of Social Work, Bishop Heber College, Tirichirappalli on 27th & 28th  February 2009.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Millennium Development Goals: A Social Science Perspective",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Impact of Social Changes among Adolescents- Peer  Group Influence presented at National Conference on \u201cProfessional Social Work in India- Issues  and Concern\u201d organized by the Department of Social Work, Bharathidasan University, Tirichirappalli on 29th & 30th  January 2009.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Professional Social Work in India- Issues  and Concern",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "National Conference on Social Work & Mental Health on 10th May 2016, Central University of Tamil Nadu, Thiruvarur, India.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "National Conference on Social Work & Mental Health on 10th May 2016, Central University of Tamil Nadu, Thiruvarur, India.",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "CV_Udhayakumar_Social_Work.pdf",
+        "Missing Fields": "patents, projects, memberships",
+        "Warnings": "Duplicate publication detected: 'Health Economics & Management...'.; Duplicate publication detected: 'Health Economics & Management...'.; Duplicate publication detected: 'Professional Social Work in In...'.",
+        "Validation Errors": "Duplicate publication detected: 'Health Economics & Management...'.; Duplicate publication detected: 'Health Economics & Management...'.; Duplicate publication detected: 'Professional Social Work in In...'.",
+        "Duplicate Detection": "Yes",
+        "Confidence deductions": 30
+    },
+    "Processing Report": {
+        "Resume File": "CV_Udhayakumar_Social_Work.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, awards, invited_talks",
+        "Sections missing": "patents, projects, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

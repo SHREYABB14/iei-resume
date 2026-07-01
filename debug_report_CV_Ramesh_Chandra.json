@@ -1,0 +1,120 @@
+{
+    "Employment History": [
+        {
+            "Organization": "1",
+            "Designation": "Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2021-01-01",
+            "End Date": "2026-06-30",
+            "Duration": 5.42,
+            "Academic Contribution": 5.42,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 5.42
+        },
+        {
+            "Organization": "I.I.T. Roorkee April ( )",
+            "Designation": "Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2014-01-01",
+            "End Date": "2020-01-01",
+            "Duration": 6.0,
+            "Academic Contribution": 6.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 6.0
+        },
+        {
+            "Organization": "I.I.T. Roorkee ( )",
+            "Designation": "Associate Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2007-01-01",
+            "End Date": "2014-01-01",
+            "Duration": 7.0,
+            "Academic Contribution": 7.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 7.0
+        },
+        {
+            "Organization": "I.I.T. Roorkee ( )",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2004-01-01",
+            "End Date": "2007-01-01",
+            "Duration": 3.0,
+            "Academic Contribution": 3.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.0
+        },
+        {
+            "Organization": "University",
+            "Designation": "Reader",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2002-01-01",
+            "End Date": "2004-01-01",
+            "Duration": 2.0,
+            "Academic Contribution": 2.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.0
+        },
+        {
+            "Organization": "6",
+            "Designation": "Lecturer",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "1994-01-01",
+            "End Date": "2002-01-01",
+            "Duration": 8.0,
+            "Academic Contribution": 8.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.0
+        },
+        {
+            "Organization": "7",
+            "Designation": "7. Research Associate at N.P.L.",
+            "Department": "",
+            "Category": "Research",
+            "Start Date": "1993-01-01",
+            "End Date": "1994-01-01",
+            "Duration": 1.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        }
+    ],
+    "Publication Debug": [],
+    "Validation Report": {
+        "Resume File": "CV_Ramesh_Chandra.pdf",
+        "Missing Fields": "publications, memberships, fdp",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "CV_Ramesh_Chandra.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, projects, awards, patents, research, administrative_work",
+        "Sections missing": "publications, memberships, fdp",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 0%, PG Degree: 0%, PhD Univ: 100%"
+    }
+}

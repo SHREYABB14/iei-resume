@@ -1,0 +1,588 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Tekkali",
+            "Designation": "\uf0b7 Working as an Associate ProfessorAditya Institute of Technology and ManagementCollege",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2018-06-01",
+            "End Date": "2026-06-30",
+            "Duration": 8.0,
+            "Academic Contribution": 8.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.0
+        },
+        {
+            "Organization": "Sri Sivani College of Engineering Srikakulam",
+            "Designation": "Associate Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2017-06-01",
+            "End Date": "2018-06-01",
+            "Duration": 1.0,
+            "Academic Contribution": 1.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        },
+        {
+            "Organization": "Trainer in Raghu Engineering College",
+            "Designation": "Associate Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2012-03-01",
+            "End Date": "2017-06-01",
+            "Duration": 5.25,
+            "Academic Contribution": 5.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 5.25
+        },
+        {
+            "Organization": "\uf0b7 Worked as an Assistant Professor and Associate Professorin GayatriCollege of P",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2003-06-01",
+            "End Date": "2012-03-01",
+            "Duration": 8.75,
+            "Academic Contribution": 8.75,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.75
+        },
+        {
+            "Organization": "College",
+            "Designation": "HOD",
+            "Department": "",
+            "Category": "Administrative",
+            "Start Date": "1998-11-01",
+            "End Date": "2003-05-01",
+            "Duration": 4.5,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 4.5,
+            "Total Contribution": 4.5
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "1. Terlapu, Panduranga Vital, et al. \"Intelligent diagnosis system of hepatitis C virus: A probabilistic neural network based approach.\" International Journal of Imaging Systems and Technology (published:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Intelligent diagnosis system of hepatitis C virus: A probabilistic neural network based approach.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "19 May 2022).(SCIE/Clarivate Analytics/WOS/ SCOPUS/UGC CARE-LIST-II). DOI: https://doi.org/10.1002/ima.22746",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "19 May 2022).(SCIE/Clarivate Analytics/WOS/ SCOPUS/UGC CARE-LIST-II). DOI: https://doi.org/10.1002/ima.22746",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Terlapu, P. V., Yugandhar, M., Ramesh, B., Kumar, B. V., &Pemula, R. (2022, January).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Terlapu, P. V., Yugandhar, M., Ramesh, B., Kumar, B. V., &Pemula, R. (2022, January).",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Student Cognitive Learning Capability (SCLC) Prediction System using PCA-ANN based Model. In 2022 International Conference on Computing, Communication and Power Technology (IC3P) (pp. 11-18). IEEE.DOI: 10.1109/IC3P52835.2022.00013",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Student Cognitive Learning Capability (SCLC) Prediction System using PCA-ANN based Model.",
+            "Publisher": "IEEE",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Terlapu, Panduranga Vital, Ram Prasad Reddy Sadi, Ram KishorPondreti, and Chalapathi Rao Tippana. \"Intelligent Identification of Liver Diseases based on Incremental Hidden Layer Neurons ANN Model.\" International Journal of Computing and Digital System (2021). (SCOPUS/UGC CARE-LIST-II).https://dx.doi.org/10.12785/ijcds/110183",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Intelligent Identification of Liver Diseases based on Incremental Hidden Layer Neurons ANN Model.",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Balasankar, V., Penumatsa, S. S. V., &Vital, T. P. R. (2021, February). \u201cEmpirical Statistical Analysis and Cluster Studies on Socio-Economic Status (SES) Dataset\u201d. In IOP Conference Series: Materials Science and Engineering (Vol. 1085, No. 1, p. 012030).",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Empirical Statistical Analysis and Cluster Studies on Socio-Economic Status (SES) Dataset",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "IOP Publishing (SCOPUS/UGC-CARE-LIST-II). DOI:10.1088/1757-899X/1085/1/012030",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "IOP Publishing (SCOPUS/UGC-CARE-LIST-II). DOI:10.1088/1757-899X/1085/1/012030",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "283-314. Academic Press, 2021(Single Author)(ELSEVIER) https://www.sciencedirect.com/science/article/pii/B9780128222607000133",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "283-314. Academic Press, 2021(Single Author)(ELSEVIER) https://www.sciencedirect.com/science/article/pii/B9780128222607000133",
+            "Publisher": "Elsevier",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Vital, T., et al., \"Probabilistic Neural Network-based Model for Identification of Parkinson\u2019s Disease by using Voice Profile and Personal Data.\" Arabian Journal for Science and Engineering 46, no. 4 (2021): 3383-3407. (SCIE/Clarivate  Analytics/WOS/ SCOPUS/UGC CARE-LIST-II)https://doi.org/10.1007/s13369-020-05080-7",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Probabilistic Neural Network-based Model for Identification of Parkinson",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "609-625. Springer, Singapore,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "609-625. Springer, Singapore,",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2021. (SCOPUS/ WOS/ UGC CARE-LIST-II). https://doi.org/10.1007/978-981-15-8439-8_50",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "(SCOPUS/ WOS/ UGC CARE-LIST-II). https://doi.org/10.1007/978-981-15-8439-8_50",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Vital, T. PanduRanga, K. Sangeeta, and KalyanaKiran Kumar. \"Student Classification Based on Cognitive Abilities and Predicting Learning Performances Using Machine Learning Models.\" International Journal of Computing and Digital Systems 10, no. 1 (2021): 63-75(SCOPUS/ UGC CARE-LIST-II). http://dx.doi.org/10.12785/ijcds/100107",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Student Classification Based on Cognitive Abilities and Predicting Learning Performances Using Machine Learning Models.",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. P. R. V. Terlapu.et al., \"Intelligent socio-economic status prediction system using machine learning models on Rajahmundry AP, SES dataset.\" Indian Journal of Science and Technology 13, no. 37 (2020): 3820-3842(Web of Science/ Publons / UGC CARE- LIST-II).https://doi.org/10.17485/IJST/v13i37.1435",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Intelligent socio-economic status prediction system using machine learning models on Rajahmundry AP, SES dataset.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Sadi, Ram Prasad Reddy, and PanduRanga Vital Terlapu. \"Personalized Publishing of Data with Multiple Sensitive Attributes based on Sensitivity Level.\" Solid State Technology 63, no. 6 (2020): 3374-3394. http://www.solidstatetechnology.us/index.php/JSST/article/view/3446",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Personalized Publishing of Data with Multiple Sensitive Attributes based on Sensitivity Level.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Aravind. \"A Novel Deep Learning Approach for Voice Based Form Filling (VBFF) using Bi-LSTM Model.\"MuktShabd Journal Volume IX, Issue IX, September/2020 ISSN No: 2347-3150 (UGC CARE-LIST-I).DOI:09.0014.MSJ.2020.V9I9.0086781.11250",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A Novel Deep Learning Approach for Voice Based Form Filling (VBFF) using Bi-LSTM Model.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Kumar, G. Rajendra, BaratamSowjanya, and T. PanduRanga Vital. \"Foreground Segmentation Based On Convolutional Neural Network.\"MuktShabd Journal Volume IX, Issue VII, July/2020 ISSN No: 2347-3150 Page No: 2477 (UGC CARE-LIST-I). DOI:09.0014.MSJ.2020.V9I7.0086781.10707",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Foreground Segmentation Based On Convolutional Neural Network.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Jayaram, D., and T. Panduranga Vital. \"AODV and AntHocNet for Mobile Ad Hoc Networks Performance Evaluation Analysis.\"MuktShabd Journal ISSN-2347-3150 (UGC CARE-LIST-I). DOI:09.0014.MSJ.2020.V9I7.0086781.10707",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "AODV and AntHocNet for Mobile Ad Hoc Networks Performance Evaluation Analysis.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. Kumar, K. D., Vankala, K., &Vital, T. P. \u201cAn Efficient Method for Detection of Dysfunctionality in Heart through Iris Using Hybrid Method\u201dMuktShabd Journal ISSN- 2347-3150 (Volume IX, Issue VII, JULY/2020 Page No : 2168-2176) (UGC CARE-LIST- I).DOI:09.0014.MSJ.2020.V9I7.0086781.10707",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "An Efficient Method for Detection of Dysfunctionality in Heart through Iris Using Hybrid Method",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sci. Technol. Res. 9, no. 3 (2020): 3723-3734(SCOPUS / Web of Science/ Publons / UGC CARE-LIST-II).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Sci. Technol. Res. 9, no. 3 (2020): 3723-3734(SCOPUS / Web of Science/ Publons / UGC CARE-LIST-II).",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. PanduRanga Vital, T., L. VenkataSatyanarayana, and G. S. N. Murthy. \"Empirical Analysis on Uddanam CKD with Unsupervised MLs Including PCA.\" In Computational Intelligence in Pattern Recognition, pp. 571-587. Springer, Singapore, 2020(SCOPUS/ UGC CARE-LIST-II).https://doi.org/10.1007/978-981-15-2449-3_49",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Empirical Analysis on Uddanam CKD with Unsupervised MLs Including PCA.",
+            "Publisher": "Springer",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "17. PanduRanga Vital, T. et al., \"Statistical and Supervised Machine Learning Analysis on Clinical Uddanam Nephrology Dataset\" Jour of Adv Research in Dynamical & Control Systems, Vol. 11, 04-Issue, 2019(SCOPUS/ UGC CARE-LIST-II). https://www.jardcs.org/abstract.php?id=722",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Statistical and Supervised Machine Learning Analysis on Clinical Uddanam Nephrology Dataset",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\"Empirical Study and Statistical Performance Analysis with ANN for Parkinson\u2019s Vowelized Data set.\" In Computational Intelligence in Data Mining, pp. 767-780. Springer, Singapore, 2020(SCOPUS/ WOS/ UGC CARE-LIST-II). https://doi.org/10.1007/978-981-13-8676-3_64",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Empirical Study and Statistical Performance Analysis with ANN for Parkinson",
+            "Publisher": "Springer",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "19. Murthy, G. S. N., M. V. V. Chowdary, M. V. Sangameswar, and T. P. R. Vital. \"Exploring the API Calls for Malware Behavior Detection using Concordance and Document Frequency.\"(SCOPUS / Web of Science/ Publons / UGC CARE-LIST-",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Exploring the API Calls for Malware Behavior Detection using Concordance and Document Frequency.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "20. T. PanduRanga Vital, and K. Sangeeta. \"Machine Learning Models and Neural Network Techniques for Predicting Uddanam CKD.\" International Journal of Recent Technology and Engineering (IJRTE) 8, no. 2 (2019).(SCOPUS/ WOS/ UGC CARE- LIST-II)DOI: 10.35940/ijrte.B1792.078219",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Machine Learning Models and Neural Network Techniques for Predicting Uddanam CKD.",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21. Vital, T. PanduRanga, P. Shiny, S. E. Ashish, and T. Sai Kumar. \"Statistical and Unsupervised MLs Analysis on Parkinson\u2019s Disease Data set Acquired from AP India.\" (SCOPUS/ UGC CARE-LIST-II). https://doi.org/10.1007/978-981-13-1921-1_27",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Statistical and Unsupervised MLs Analysis on Parkinson",
+            "Publisher": "Unknown",
+            "Year": "1921",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "22. PanduRanga Vital T.,Murali Krishna M., Narayana G.V.L., Suneel P., Ramarao P. (2019) Empirical Analysis on Cancer Dataset with Machine Learning Algorithms. Soft Computing in Data Analytics. Advances in Intelligent Systems and Computing, vol 758.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "PanduRanga Vital T.,Murali Krishna M., Narayana G.V.L., Suneel P., Ramarao P. (2019) Empirical Analysis on Cancer Dataset with Machine Learning Algorithms. Soft Computing",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Springer, Singapore. (SCOPUS/ WOS/ UGC CARE-LIST-II). https://doi.org/10.1007/978-981-13-0514-6_75",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Springer, Singapore. (SCOPUS/ WOS/ UGC CARE-LIST-II). https://doi.org/10.1007/978-981-13-0514-6_75",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "23. PanduRanga Vital, T., Lakshmi, B. G., SwapnaRekha, H., &DhanaLakshmi, M. (2019).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "PanduRanga Vital, T., Lakshmi, B. G., SwapnaRekha, H., &DhanaLakshmi, M. (2019).",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Student Performance Analysis with Using Statistical and Cluster Studies. In Soft Computing in Data Analytics (pp. 743-757). Springer, Singapore. (SCOPUS/ WOS/ UGC CARE-LIST-II) https://doi.org/10.1007/978-981-13-0514-6_71",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Student Performance Analysis with Using Statistical and Cluster Studies. In Soft Computing",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "24. Panduranga Vital, T.,Dileep Kumar, K., Bhagya Sri, H. V., &Murali Krishna, M. (2019).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Panduranga Vital, T.,Dileep Kumar, K., Bhagya Sri, H. V., &Murali Krishna, M. (2019).",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Analysis of Cancer Data Set with Statistical and Unsupervised Machine Learning Methods. In Smart Intelligent Computing and Applications (pp. 267-276). Springer, Singapore.https://doi.org/10.1007/978-981-13-1921-1_27",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Analysis of Cancer Data Set with Statistical and Unsupervised Machine Learning Methods.",
+            "Publisher": "Springer",
+            "Year": "1921",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "25. Vital, T. Panduranga, et al. \"A probabilistic neural network approach for classification of datasets collected from north coastal districts of AP, India Using MatLab.\" Procedia Computer Science 48 (2015): 715-721 ISSN: 1877-0509. (SCOPUS / WOS/ UGC CARE- LIST-II).https://doi.org/10.1016/j.procs.2015.04.206",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A probabilistic neural network approach for classification of datasets collected from north coastal districts of AP, India Using MatLab.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "26. Vital, T. Panduranga, M. Y. V. Nagesh, T. Anuradha, and AppalaRajuSamanthula. \"A neural network approach for classification of kidney disease dataset collected from Visakhapatnam of AP, India.\"Int J Innovative Res SciEng 2, no. 2 (2016).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A neural network approach for classification of kidney disease dataset collected from Visakhapatnam of AP, India.",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "27. Vital, T. P., et al.,(2016) \u201cPerformance Analysis of Parkinson Disease with Probabilistic Neural Networks\u201d International Journal of Advanced Scientific and Technical Research Issue 6 volume 1, Jan. \u2013Feb. 2016 ISSN 2249-9954 http://www.rspublication.com/ijst/index.html",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Performance Analysis of Parkinson Disease with Probabilistic Neural Networks",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "28. Baby, P. Swathi, and T. Panduranga Vital. \"Statistical analysis and predicting kidney diseases using machine learning algorithms.\" International Journal of Engineering Research and Technology 4, no. 7 (2015): 206-210 (SCINAPSE / Mendeley).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Statistical analysis and predicting kidney diseases using machine learning algorithms.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "30. Vital, T. Panduranga, GSV PrasadaRaju, and D. S. V. G. K. Kaladhar. \"Understanding of Protein Interaction Networks Between Normal And Cancer Conditions Using Selected Attributes.\" International Journal of Advance Research In Science And Engineering IJARSE, Vol. No.4, Special Issue (02), February 2015 ISSN-2319-8354(E)(SJIF-INNO- SPACE/Cite-Factor).https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1037.6492",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Understanding of Protein Interaction Networks Between Normal And Cancer Conditions Using Selected Attributes.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "31. Vital, T. P., et al.,(2014). Data Collection, Statistical Analysis and Clustering Studies of Cancer Dataset from Vizainagaram District, AP, and India. In ICT and Critical Infrastructure: Proceedings of the 48th Annual Convention of Computer Society of India- Vol II (pp. 423-430). Springer, Cham. ISBN 978-3-319-03094-4 Online ISBN 978-3-319- 03095-1 (SCOPUS / WOS/ UGC CARE-LIST-II).https://doi.org/10.1007/978-3-319- 03095-1_45",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Vital, T. P., et al.,(2014). Data Collection, Statistical Analysis and Clustering Studies of Cancer Dataset from Vizainagaram District, AP, and India.",
+            "Publisher": "Springer",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "32. Paper published in International journal publications IJRCSE Vol-4, Issue-6, and Nov - Dec, 2014 ISSN: 2321-0338(Print) ISSN: 2321-5585 (Online) on Dec-2014 with a title \u201cData Mining Techniques for Physicians to Diagnose Diseases\u201d",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Data Mining Techniques for Physicians to Diagnose Diseases",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "33. Sriram, T. V., Rao, Vital, T. P. R. (2013). Intelligent Parkinson disease prediction using machine learning algorithms. Int. J. Eng. Innov. Technol, Volume -3, Isue-3 sep-2013 ISSN NO. 2277-3754, P-212-215. (PUBLONS ) https://www.ijeit.com/Vol%203/Issue%203/IJEIT1412201309_33.pdf",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Sriram, T. V., Rao, Vital, T. P. R. (2013). Intelligent Parkinson disease prediction using machine learning algorithms. Int. J. Eng. Innov. Technol, Volume -3, Isue-3 sep-2013 ISSN NO. 2277-3754, P-212-215. (PUBLONS ) https://www.ijeit.com/Vol%203/Issue%203/IJEIT1412201309_33.pdf",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "34. Rao, P. Ramakrishna, B. Addai, G. Ramakrishna, and T. PanduRangaVital.\"Adaptive fuzzy filtering for artifact reduction in compressed images and videos.\" AIRCC's International Journal of Computer Science and Information Technology 3, no. 1 (2011): 118-",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Adaptive fuzzy filtering for artifact reduction in compressed images and videos.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "35. Rao, D. Srinivasa, T. Pandurang Vital, and T. V. S. Sriram. \"Detection of Routing Anomaly using IDS Architecture based on Agents and Clusters in MANETs.\" International Journal of Computer Applications 975 (2011): 8887. DOI: 10.5120/3089-4236 (https://www.ijcaonline.org/)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Detection of Routing Anomaly using IDS Architecture based on Agents and Clusters in MANETs.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Completed Online Orientation Training Program for Mentors organized by National Institute of Technical Teachers\u2019 Training and Research (NITTTR), Kolkata under All India Council forTechnical Education, New Delhi from 7th February to 11st February, 2022 successfully. Certificate (Registration) No: 1-4563338991.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Completed Online Orientation Training Program for Mentors organized by National Institute of Technical Teachers\u2019 Training and Research (NITTTR), Kolkata under All India Council forTechnical Education, New Delhi from 7th February to 11st February, 2022 successfully. Certificate (Registration) No: 1-4563338991.",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Techniques and Application\u201d organized by Information and Technology, PVPSIT, Vijayawada, from 22-04-2022 to 23-04-2022.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Techniques and Application\u201d organized by Information and Technology, PVPSIT, Vijayawada, from 22-04-2022 to 23-04-2022.",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Completed One Week Short Term Training Program through ICT Mode on \"NBA Accreditation Issues\" organized by National Institute of Technical Teachers\u2019 Training and Research (NITTTR), Kolkata from 28th March to 1st April, 2022 successfully.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "NBA Accreditation Issues",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Completed One Week Short Term Training Program through ICT Mode on Machine Learning and its Applications organized by National Institute of Technical Teachers\u2019 Training and Research (NITTTR), Kolkata from 27th December to 31st December, 2021 successfully. Certificate No: NITTTRK/ICT/2021-22/06312.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Completed One Week Short Term Training Program through ICT Mode on Machine Learning and its Applications organized by National Institute of Technical Teachers\u2019 Training and Research (NITTTR), Kolkata from 27th December to 31st December, 2021 successfully. Certificate No: NITTTRK/ICT/2021-22/06312.",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Completed the National level Intercollegiate Online Faculty Development Program on Outcome Based Education organized by the Internal Quality Assurance Cell of Auxilium College (Autonomous), Vellore in association with ipsr solutions limited 22nd  November 2021 to 27th  November 2021 (6 days) Certificate No: PGFmcTIW1m",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Completed the National level Intercollegiate Online Faculty Development Program on Outcome Based Education organized by the Internal Quality Assurance Cell of Auxilium College (Autonomous), Vellore in association with ipsr solutions limited 22nd  November 2021 to 27th  November 2021 (6 days) Certificate No: PGFmcTIW1m",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Successfully completed 60 Contact Hours FDP on \"AI and Deep Learning (DL)\" Held from 1stJuly 2020 to 28thJuly 2020 organized by AP State Skill Development Corporation (APSSDC).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "AI and Deep Learning (DL)",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Completed NPTEL Online Certification Course on \"Data Analytics with Python\" organized by IIT Roorkee.Jan-Apr-2022 (12 week Course)Roll No: NPTEL22CS- 08524290276.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Data Analytics with Python",
+            "Publisher": "Unknown",
+            "Year": "2022",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Completed NPTEL Online Certification Course on \"Compiler Design\" Organized by IIT MadrasJan-Apr-2019(12 week Course) Roll No: NPTEL19CS01S42120010.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Compiler Design",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Completed NPTEL Online Certification Course on \"Programing in C++\" Organized by IIT Madras Jan-Mar-2019(12 week Course) Roll No: NPTEL19CS10S11990053",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Programing in C++",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Completed NPTEL Online Certification Course on \"Deep Learning\" Organized by IIT Madras Jul-Oct-2018(12 week Course) Roll No: NPTEL18CS41S12030034",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Deep Learning",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Completed NPTEL Online Certification Course on \"Programing in JAVA\" with silver medal Organized by IIT Kharagpur Jul-Oct 2019 (12 week Course) Roll No:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Programing in JAVA",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Completed NPTEL Online Certification Course on \"Introduction to Machine Learning\" Organized by IIT Kharagpur Aug-Oct 2018 (8 week Course) Roll No:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Introduction to Machine Learning",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Completed NPTEL Online Certification Course on \"Accreditation and Outcome Based Learning\" with Silver Medal Organized by IIT Kharagpur Aug-Oct 2019 (8 week Course) Roll No: NPTEL19GE18S62190033.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Accreditation and Outcome Based Learning",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. Successfully completed Certificate of Completion \"10 reasons to get \u2013 and use \u2013 an ORCID iD\" on Friday 01 May, 2020 Presented by Alice Meadows organized by",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "10 reasons to get \u2013 and use \u2013 an ORCID iD",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "A5CSE00T80.pdf",
+        "Missing Fields": "patents, projects",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "A5CSE00T80.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, awards, memberships, certifications, research",
+        "Sections missing": "patents, projects",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Indian Institute of Technology",
+            "Designation": "Assistant Professor",
+            "Department": "Assistant Professor Department of Civil Engineering",
+            "Category": "Academic",
+            "Start Date": "2010-05-01",
+            "End Date": "2026-06-30",
+            "Duration": 16.08,
+            "Academic Contribution": 16.08,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 16.08
+        },
+        {
+            "Organization": "Israel Institute of Technology",
+            "Designation": "doctoral Research Fellow",
+            "Department": "in the Department of Civil and Environmental Engineering Research in Indian Institute of Technology",
+            "Category": "Research",
+            "Start Date": "2007-03-01",
+            "End Date": "2010-05-01",
+            "Duration": 3.17,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.17,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.17
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "4. Journal of Hydroinformatics, IWA Publishing",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Journal of Hydroinformatics, IWA Publishing",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "5. Journal of The Institution of Engineers (India): Series A, Springer",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Journal of The Institution of Engineers (India): Series A, Springer",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "6. Journal of Geophysical Research, Water Resources Research",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Journal of Geophysical Research, Water Resources Research",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "7. Sadhana, Academy Proceedings in Engineering Sciences, Springer",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Sadhana, Academy Proceedings",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "8. Recent Trends in Civil Engineering and Technology, STM Journals",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Recent Trends in Civil Engineering and Technology, STM Journals",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "9. Environmental Fluid Mechanics, Springer",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Environmental Fluid Mechanics, Springer",
+            "Publisher": "Springer",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "Sarkar, A., and Dey, S. (2004). \u201cReview on local scour due to jets.\u201d International Journal of Sediment Research, Vol. 19, No. 3, pp. 210-238.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Review on local scour due to jets.",
+            "Publisher": "Unknown",
+            "Year": "2004",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A., and Dey, S. (2005). \u201cScour holes downstream of aprons caused by sluices.\u201d Water Management Journal, Proc. of Institute of Civil Engineers, London. Vol. 158, WM2, pp. 55-64.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Scour holes downstream of aprons caused by sluices.",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2006). \u201cScour downstream of an apron due to submerged horizontal jets.\u201d Journal of Hydraulic Engineering, ASCE, Vol. 132, No. 3, pp. 246-257.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Scour downstream of an apron due to submerged horizontal jets.",
+            "Publisher": "Unknown",
+            "Year": "2006",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2006). \u201cResponse of velocity and turbulence in submerged wall jets to abrupt changes from smooth to rough beds and its application to scour downstream of an apron.\u201d Journal of Fluid Mechanics, Vol. 556, pp. 387-419.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Response of velocity and turbulence in submerged wall jets to abrupt changes from smooth to rough beds and its application to scour downstream of an apron.",
+            "Publisher": "Unknown",
+            "Year": "2006",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2007). \u201cEffect of upward seepage on scour and flow downstream of an apron due to submerged jets.\u201d Journal of Hydraulic Engineering, ASCE, Vol. 133, No. 1, pp. 59-69.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Effect of upward seepage on scour and flow downstream of an apron due to submerged jets.",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A., and Dey, S. (2007). \u201cEffect of seepage on scour due to submerged jets and resulting flow field.\u201d Journal of Hydraulic Research, IAHR, Vol. 45, No. 3, pp. 357-364.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Effect of seepage on scour due to submerged jets and resulting flow field.",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2007). \u201cComputation of Reynolds and boundary shear stress in submerged jets on rough boundaries.\u201d Journal of Hydro-Environment Research, Elsevier, Vol. 1, No. 2, pp. 110-117.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Computation of Reynolds and boundary shear stress in submerged jets on rough boundaries.",
+            "Publisher": "Elsevier",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2008). \u201cCharacteristics of turbulent flow in submerged jumps on rough beds.\u201d Journal of Engineering Mechanics, ASCE, Vol. 134, No. 1, pp. 49-59.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Characteristics of turbulent flow in submerged jumps on rough beds.",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2008). \u201cCharacteristics of submerged jets in an evolving scour hole downstream of an apron.\u201d Journal of Engineering Mechanics, ASCE, Vol. 134, No. 11, pp.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Characteristics of submerged jets in an evolving scour hole downstream of an apron.",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. (2012). \u201cVortex excited transverse surface waves in an array of randomly placed circular cylinders.\u201d Journal of Hydraulic Engineering, ASCE, Vol. 138, No. 7, pp. 610-618.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Vortex excited transverse surface waves in an array of randomly placed circular cylinders.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. and Ratha, D. (2011). \u201cCharacteristics of turbulent flow around submerged structures subjected to shallow submergence over plane bed.\u201d Journal of Fluids and Structures, Elsevier (In Press).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Characteristics of turbulent flow around submerged structures subjected to shallow submergence over plane bed.",
+            "Publisher": "Elsevier",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. and Ratha, D. (2012). \u201cHydraulics of backward facing step with transition.\u201d Submitted (under review).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Hydraulics of backward facing step with transition.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. (2012). \u201cTurbulent flow in submerged jumps over smooth and rough beds.\u201d Submitted (under review).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Turbulent flow in submerged jumps over smooth and rough beds.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. (2013). \u201cScour and flow around submerged structures.\u201d Water Management Journal, Institution of Civil Engineers, London, Vol. 166, No. WM1, pp. 1-14.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Scour and flow around submerged structures.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Patnaik, R., Chakraborty, P. and Sarkar, A. (2013). \u201cDrag force due to vortex excited transverse surface waves in an array of randomly placed circular cylinders.\u201d Journal of Engineering Mechanics, ASCE (under review).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Drag force due to vortex excited transverse surface waves in an array of randomly placed circular cylinders.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A., and Dey, S. (2002). \u201cDownstream scour due to submerged jets: A review.\u201d Hydro-2002 Conference on Hydraulics, Water Resources and Ocean Engineering. IIT Mumbai.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Downstream scour due to submerged jets: A review.",
+            "Publisher": "Unknown",
+            "Year": "2002",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2005). \u201cLocal scour downstream of an apron caused by submerged horizontal jet.\u201d Second International Conference on Scour and Erosion, Singapore, pp.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Local scour downstream of an apron caused by submerged horizontal jet.",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A., and Dey, S. (2005). \u201cScour hole characteristics downstream of an apron due to submerged horizontal jets.\u201d National Conference on Advances in Water Engineering For Sustainable Development, NCAWESD-2005, IIT Chennai, pp. 33-41.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Scour hole characteristics downstream of an apron due to submerged horizontal jets.",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Dey, S., and Sarkar, A. (2006). \u201cTurbulent flow in submerged jumps on rough beds.\u201d Second International Conference on Application of Fluid Mechanics in Industry and Environment, ICAFMIE-06, ISI, Kolkata, pp. 166-172.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Turbulent flow in submerged jumps on rough beds.",
+            "Publisher": "Unknown",
+            "Year": "2006",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. (2011). \u201cSimulation of turbulent flow in submerged jumps on smooth and rough beds.\u201d 7th IAHR Symposium on River, Coastal and Estuarine Morphodynamics, RCEM 2011, Beijing, pp. 879-889.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Simulation of turbulent flow in submerged jumps on smooth and rough beds.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. and Ratha, D. (2012). \u201cFlow separation over backward facing step with transitions.\u201d International Congress on Computational Mechanics and Simulation, ICCMS, IIT Hyderabad, pp. 1-9.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Flow separation over backward facing step with transitions.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Sarkar, A. (2013). \u201cTime variation of maximum equilibrium scour depth around submerged structures.\u201d Workshop on Indian Water Management in 21st Century and Symposium on Sustainable Infrastructure Development, IWMSID 2013, Bhubaneswar, pp.",
+            "Classification": "Workshop",
+            "Reason": "Contains keyword 'workshop'",
+            "Title": "Time variation of maximum equilibrium scour depth around submerged structures.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Short Term Course on \u201cHydrological Modeling: Recent Advances\u201d, NIT Silchar, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Hydrological Modeling: Recent Advances",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Faculty Development Programme on \u201cAdvance Topics in Fluid Flow and Heat Transfer\u201d, Thapar University, Patiala, 2013",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Advance Topics in Fluid Flow and Heat Transfer",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "iit_1382372862.pdf",
+        "Missing Fields": "patents, memberships",
+        "Warnings": "Current organization equals university from education (phd_university).",
+        "Validation Errors": "Current organization equals university from education (phd_university).",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 5
+    },
+    "Processing Report": {
+        "Resume File": "iit_1382372862.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, awards, research, review_committee",
+        "Sections missing": "patents, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

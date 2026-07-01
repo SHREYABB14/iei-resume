@@ -1,0 +1,213 @@
+{
+    "Employment History": [
+        {
+            "Organization": "",
+            "Designation": "",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2018-09-04",
+            "End Date": "2019-04-30",
+            "Duration": 0.58,
+            "Academic Contribution": 0.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.58
+        },
+        {
+            "Organization": "Ravishankar Shukla University",
+            "Designation": "Assistant Professor",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Academic",
+            "Start Date": "2015-07-29",
+            "End Date": "2016-04-30",
+            "Duration": 0.75,
+            "Academic Contribution": 0.75,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.75,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.75
+        },
+        {
+            "Organization": "Ravishankar Shukla University",
+            "Designation": "",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Academic",
+            "Start Date": "2016-09-06",
+            "End Date": "2017-04-30",
+            "Duration": 0.58,
+            "Academic Contribution": 0.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.58,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.58
+        },
+        {
+            "Organization": "Ravishankar Shukla University",
+            "Designation": "",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Academic",
+            "Start Date": "2017-08-05",
+            "End Date": "2017-08-26",
+            "Duration": 0.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.0
+        },
+        {
+            "Organization": "Ed Polytechnic College",
+            "Designation": "Lecturer",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Academic",
+            "Start Date": "2014-08-21",
+            "End Date": "2015-05-31",
+            "Duration": 0.75,
+            "Academic Contribution": 0.75,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.75
+        },
+        {
+            "Organization": "Chandrakhuri",
+            "Designation": "Assistant Professor",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Academic",
+            "Start Date": "2013-02-11",
+            "End Date": "2013-08-12",
+            "Duration": 0.5,
+            "Academic Contribution": 0.5,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.5
+        },
+        {
+            "Organization": "Chandrakhuri",
+            "Designation": "",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Industry",
+            "Start Date": "2012-01-02",
+            "End Date": "2012-07-02",
+            "Duration": 0.5,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.5,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.5
+        },
+        {
+            "Organization": "Chandrakhuri",
+            "Designation": "",
+            "Department": "at Center for Basic Sciences",
+            "Category": "Industry",
+            "Start Date": "2010-05-02",
+            "End Date": "2011-12-31",
+            "Duration": 1.58,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 1.58,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.58
+        },
+        {
+            "Organization": "Gobra",
+            "Designation": "Assistant Professor",
+            "Department": "English",
+            "Category": "Academic",
+            "Start Date": "2010-01-19",
+            "End Date": "2010-04-30",
+            "Duration": 0.25,
+            "Academic Contribution": 0.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.25
+        },
+        {
+            "Organization": "Byron Bazar",
+            "Designation": "Assistant Professor",
+            "Department": "English",
+            "Category": "Academic",
+            "Start Date": "2009-08-03",
+            "End Date": "2010-01-18",
+            "Duration": 0.42,
+            "Academic Contribution": 0.42,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.42
+        },
+        {
+            "Organization": "Mata Sundari Public School",
+            "Designation": "\uf0b7 Worked as an Assistant Teacher",
+            "Department": "English",
+            "Category": "Academic",
+            "Start Date": "2008-07-13",
+            "End Date": "2009-07-30",
+            "Duration": 1.0,
+            "Academic Contribution": 1.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "\uf0b7 Post Colonial World in V S Naipaul\u2019s A Bend in the River  published in \u201c International Journal of English Language, Literature in Humanities\u201d indexed, Peer Reviewed( Refereed )  Journal Vol6, Issue2, February 2018,ISSN-2321-7065 (Online)",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "International Journal of English Language, Literature in Humanities",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Ambivalence in V.S. Naipaul 's The Mystic Masseur published in \"New Man Publication: International Journal of Multidisciplinary Studies\" Vol. 4,Issue 06,June2017,ISSN:2348-1390(online).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "s The Mystic Masseur published in",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "\uf0b7 The New Awakened Women: The Journey of Women from Suppression to Liberation published in \"International Journal of English Language, Literature and Translation Studies (IJELR) Vol. 03,Issue 03,2016(July-September),ISSN:2395-2368(print), 2349-9451(online).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "\uf0b7 The New Awakened Women: The Journey of Women from Suppression to Liberation published in \"International Journal of English Language, Literature and Translation Studies (IJELR) Vol. 03,Issue 03,2016(July-September),ISSN:2395-2368(print), 2349-9451(online).",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Role of Modern Language Laboratories in Teaching Communication Skills published in\" The Criterion: An International Journal in English \" Vol. 07, Issue IV(August 016),ISSN:0976-8165.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "The Criterion: An International Journal in English",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "20200608Reshma.pdf",
+        "Missing Fields": "patents, projects, memberships",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "20200608Reshma.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, awards",
+        "Sections missing": "patents, projects, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

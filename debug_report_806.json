@@ -1,0 +1,406 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Indian Institute of Technology",
+            "Designation": "Professor",
+            "Department": "Computer Science and Engineering Department",
+            "Category": "Academic",
+            "Start Date": "2023-12-26",
+            "End Date": "2026-06-30",
+            "Duration": 2.5,
+            "Academic Contribution": 2.5,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.5
+        },
+        {
+            "Organization": "IIT",
+            "Designation": "Professor",
+            "Department": "Dhanbad Teaching UG and PG Students Associate Professor CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2017-11-07",
+            "End Date": "2023-12-25",
+            "Duration": 6.08,
+            "Academic Contribution": 6.08,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 6.08,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 6.08
+        },
+        {
+            "Organization": "IIT",
+            "Designation": "Assistant Professor",
+            "Department": "d Teaching UG and PG Students Assistant Professor CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2009-06-28",
+            "End Date": "2017-11-06",
+            "Duration": 8.33,
+            "Academic Contribution": 8.33,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 8.33,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 8.33
+        },
+        {
+            "Organization": "IIT",
+            "Designation": "Senior Lecturer",
+            "Department": "d Teaching UG and PG Students Senior Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2006-06-28",
+            "End Date": "2009-06-27",
+            "Duration": 2.92,
+            "Academic Contribution": 2.92,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.92,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.92
+        },
+        {
+            "Organization": "Institute of Engineering and Rural Technology",
+            "Designation": "Lecturer",
+            "Department": "d Teaching UG and PG Students Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2005-06-23",
+            "End Date": "2006-06-27",
+            "Duration": 1.0,
+            "Academic Contribution": 1.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        },
+        {
+            "Organization": "Engineering Degree Division",
+            "Designation": "Lecturer",
+            "Department": "d Teaching UG Students Guest Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2002-09-07",
+            "End Date": "2005-06-22",
+            "Duration": 2.75,
+            "Academic Contribution": 2.75,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.75
+        },
+        {
+            "Organization": "Motilal Nehru National Institute of Technology",
+            "Designation": "Lecturer",
+            "Department": "d Teaching UG Students Guest Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2002-03-01",
+            "End Date": "2002-09-06",
+            "Duration": 0.5,
+            "Academic Contribution": 0.5,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.5
+        },
+        {
+            "Organization": "MNNIT",
+            "Designation": "Lecturer",
+            "Department": "d Teaching UG Students Guest Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2002-01-08",
+            "End Date": "2002-03-01",
+            "Duration": 0.08,
+            "Academic Contribution": 0.08,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.08
+        },
+        {
+            "Organization": "MNNIT Allahab",
+            "Designation": "d Teaching UG and PG Students Part Time Academic Counselor IGNOU Study Center",
+            "Department": "d Teaching UG Students Guest Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2001-07-16",
+            "End Date": "2002-01-07",
+            "Duration": 0.42,
+            "Academic Contribution": 0.42,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.42
+        },
+        {
+            "Organization": "MNNIT Allahab",
+            "Designation": "ad Teaching BCA and MCA Students Faculty Member and",
+            "Department": "d Teaching UG Students Guest Lecturer CSE Dept",
+            "Category": "Academic",
+            "Start Date": "2001-08-01",
+            "End Date": "2002-06-01",
+            "Duration": 0.83,
+            "Academic Contribution": 0.83,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.83
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "1. Reviewer in a Connection Science Journal (Taylor & Francis).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in a Connection Science Journal (Taylor & Francis).",
+            "Publisher": "Taylor & Francis",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2. Reviewer in an IEEE Transactions on Network Science and Engineering.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in an IEEE Transactions on Network Science and Engineering.",
+            "Publisher": "IEEE",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "3. Reviewer in an International Journal of Cybernetics and Systems (Taylor & Francis).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in an International Journal of Cybernetics and Systems (Taylor & Francis).",
+            "Publisher": "Taylor & Francis",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "4. Reviewer in \u201c1st International Conference on Intelligent Computing & Communication (ICIC2 2016)\u201d, 18-19 February 2016, West Bengal, India.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "1st International Conference on Intelligent Computing & Communication (ICIC2 2016)",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Reviewer in an International Journal of Vehicular Communications.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in an International Journal of Vehicular Communications.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "6. Reviewer in \u201c2nd International Conference on Systems and Informatics (ICSAI 2014)\u201d, 15-17 November 2014, Shanghai, China.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "2nd International Conference on Systems and Informatics (ICSAI 2014)",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Reviewer in \u201c7th National Conference on Advancement of Technologies-Information Systems & Computer Networks (ISCON-2012)\u201d, 03-04 March 2012, GLA University, Mathura.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "7th National Conference on Advancement of Technologies-Information Systems & Computer Networks (ISCON-2012)",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Reviewer in an \u201c2nd Annual International Conference Software Engineering & Applications (SEA-2011)\u201d, Singapore.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "2nd Annual International Conference Software Engineering & Applications (SEA-2011)",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. Reviewer in an \u201cIEEE International Conference on Computer and Communication Technology (ICCCT-2011)\u201d, MNNIT Allahabad.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "IEEE International Conference on Computer and Communication Technology (ICCCT-2011)",
+            "Publisher": "IEEE",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Reviewer in an \u201cIEEE International Conference on Computer and Communication Technology (ICCCT-2010)\u201d, MNNIT Allahabad.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "IEEE International Conference on Computer and Communication Technology (ICCCT-2010)",
+            "Publisher": "IEEE",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Reviewer in an International Journal of Computer Science & Software Technology.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in an International Journal of Computer Science & Software Technology.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "12. Reviewer in a Journal of Tata Search 2008, 15th Issue.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in a Journal of Tata Search 2008, 15th Issue.",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Reviewer in an International Journal of Computers & Applications (IJCA), ACTA Press.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in an International Journal of Computers & Applications (IJCA), ACTA Press.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "14. Reviewer in an Iranian Journal of Electrical and Computer Engineering (IJECE), Iran.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Reviewer in an Iranian Journal of Electrical and Computer Engineering (IJECE), Iran.",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "15. Reviewer in \u201c41st National Annual Convention\u201d, Computer Society of India (CSI- 2006).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "41st National Annual Convention",
+            "Publisher": "Unknown",
+            "Year": "2006",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. Reviewer in an International Conference on \u201cEmerging Applications of IT (EAIT\u201906)\u201d.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Emerging Applications of IT (EAIT",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "17. Reviewer in an 2nd International Conference on \u201cInformation Systems Design and Intelligent Applications (INDIA) \u2013 2015\u201d, 8-9 January 2005, West Bengal, India.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Information Systems Design and Intelligent Applications (INDIA) \u2013 2015",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Reviewer for a book on Data Structure using C, TMH Publication, June 2013.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "Reviewer for a book on Data Structure using C, TMH Publication, June 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Reviewer for a book on Data Communications and Networks by A. Godbole, TMH Publication, January 2011.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "Reviewer for a book on Data Communications and Networks by A. Godbole, TMH Publication, January 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Reviewer for a book on Internet and Web Technologies by Raj Kamal, TMH Publication, June 2010.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "Reviewer for a book on Internet and Web Technologies by Raj Kamal, TMH Publication, June 2010.",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Reviewer for a book on In-line/On-Line Fundamentals of the Internet and the World Wide Web (2nd Edition) by Greenlaw/Hepp, TMH Publication, July 2008",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "Reviewer for a book on In-line/On-Line Fundamentals of the Internet and the World Wide Web (2nd Edition) by Greenlaw/Hepp, TMH Publication, July 2008",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2007. Revised book is \u201cWeb Technologies: TCP/IP Architecture, and Java Programming (Second Edition)\u201d by Godbole/Kahate.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "Web Technologies: TCP/IP Architecture, and Java Programming (Second Edition)",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Reviewer for \u201cThe Handbook of Computer Networks\u201d undertaken by John Wiley & Sons, Inc. and reviewed articles on:",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "The Handbook of Computer Networks",
+            "Publisher": "Wiley",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "3. Distinguished Expert, for evaluation for AICTE cases pertaining to Institutes coming for taking AICTE Approval, 26-27 March 2024.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Distinguished Expert, for evaluation for AICTE cases pertaining to Institutes coming for taking AICTE Approval, 26-27 March 2024.",
+            "Publisher": "Unknown",
+            "Year": "2024",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "24. Expert Member in the Workshop cum Curriculum Revision Board of 1st year Engineering  of Vinoba Bhave University, Hazaribag at BIT Sindri, Dhanbad, 6th August 2017.",
+            "Classification": "Workshop",
+            "Reason": "Contains keyword 'workshop'",
+            "Title": "Expert Member in the Workshop cum Curriculum Revision Board of 1st year Engineering  of Vinoba Bhave University, Hazaribag at BIT Sindri, Dhanbad, 6th August 2017.",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "30. Expert at R.S.P. College, Jharia for Selection of Technicians for Instrument Maintenance, 15 February 2008. on Computer and Communication Technology (ICCCT-2012)\u201d, 23-25 November 2012, MNNIT Allahabad.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Expert at R.S.P. College, Jharia for Selection of Technicians for Instrument Maintenance, 15 February 2008. on Computer and Communication Technology (ICCCT-2012)\u201d, 23-25 November 2012, MNNIT Allahabad.",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2015) held at KIIT University, Bhubaneswar, Odisha, during 05-08 February 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "held at KIIT University, Bhubaneswar, Odisha, during 05-08 February 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "806.pdf",
+        "Missing Fields": "projects",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "806.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, awards, patents, memberships, research, administrative_work, invited_talks, research_funding, advisory_committee, technical_committee, professional_service",
+        "Sections missing": "projects",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "Employment History": [
+        {
+            "Organization": "IIT Bombay",
+            "Designation": "Assistant Professor",
+            "Department": "\u2212Department of Computer Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2001-01-01",
+            "End Date": "2003-01-01",
+            "Duration": 2.0,
+            "Academic Contribution": 2.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.0
+        },
+        {
+            "Organization": "IIT Bombay",
+            "Designation": "Professor",
+            "Department": "\u2212Department of Computer Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2003-01-01",
+            "End Date": "2009-01-01",
+            "Duration": 6.0,
+            "Academic Contribution": 6.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 6.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 6.0
+        },
+        {
+            "Organization": "IIT Bombay",
+            "Designation": "",
+            "Department": "\u2212Department of Computer Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2009-01-01",
+            "End Date": "2026-06-30",
+            "Duration": 17.42,
+            "Academic Contribution": 17.42,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 17.42,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 17.42
+        },
+        {
+            "Organization": "IIT Bombay",
+            "Designation": "",
+            "Department": "\u2212Department of Computer Science and Engineering",
+            "Category": "Academic",
+            "Start Date": "2016-04-01",
+            "End Date": "2019-04-01",
+            "Duration": 3.0,
+            "Academic Contribution": 3.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.0
+        },
+        {
+            "Organization": "University of Pune",
+            "Designation": "Lecturer",
+            "Department": "\u2212Department of Computer Science",
+            "Category": "Academic",
+            "Start Date": "1994-01-01",
+            "End Date": "1995-01-01",
+            "Duration": 1.0,
+            "Academic Contribution": 1.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 1.0
+        },
+        {
+            "Organization": "University of Pune",
+            "Designation": "",
+            "Department": "\u2212Department of Computer Science",
+            "Category": "Academic",
+            "Start Date": "1995-01-01",
+            "End Date": "2001-01-01",
+            "Duration": 6.0,
+            "Academic Contribution": 6.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 6.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 6.0
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "2009. An Indian edition of this book has been published by Ane books in 2013.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "An Indian edition of this book has been published by Ane books in 2013.",
+            "Publisher": "Ane books in 2013.",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Amitabha Sanyal and Uday P. Khedker. Garbage Collection Techniques. In \u201cThe Compiler Design Handbook : Optimizations & Machine Code Generation.\u201d (2nd Ed.) CRC Press USA. 2007.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "The Compiler Design Handbook : Optimizations & Machine Code Generation.",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Uday P. Khedker. Data Flow Analysis. In \u201cThe Compiler Design Handbook : Optimizations & Machine Code Generation.\u201d (1st Ed.) CRC Press USA. 2002.",
+            "Classification": "Book",
+            "Reason": "Contains keyword 'book'",
+            "Title": "The Compiler Design Handbook : Optimizations & Machine Code Generation.",
+            "Publisher": "Unknown",
+            "Year": "2002",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Anushri Jana, Uday P. Khedker Common threads in incremental data \ufb02ow analysis: A compre- hensive survey. ACM Computing Surveys, 58 (4), October 2025.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Anushri Jana, Uday P. Khedker Common threads in incremental data \ufb02ow analysis: A compre- hensive survey. ACM Computing Surveys, 58 (4), October 2025.",
+            "Publisher": "ACM",
+            "Year": "2025",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Komal Pathade, Uday P. Khedker. Computing maximum \ufb01xed point solutions over feasible paths in data \ufb02ow analyses. Science of Computer Programming, 2023.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Komal Pathade, Uday P. Khedker. Computing maximum \ufb01xed point solutions over feasible paths in data \ufb02ow analyses. Science of Computer Programming, 2023.",
+            "Publisher": "Unknown",
+            "Year": "2023",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Swati Jaiswal, Uday P. Khedker, and Alan Mycroft. A Uni\ufb01ed Model for Context-Sensitive Pro- gram Analysis: The Blind Men and the Elephant. ACM Computing Surveys. 54 (6), July 2021.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Swati Jaiswal, Uday P. Khedker, and Alan Mycroft. A Uni\ufb01ed Model for Context-Sensitive Pro- gram Analysis: The Blind Men and the Elephant. ACM Computing Surveys. 54 (6), July 2021.",
+            "Publisher": "ACM",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Pritam Gharat, Uday P. Khedker, and Alan Mycroft. Generalized Points-to Graphs: A Precise and Scalable Abstraction for Points-to Analysis. ACM Transactions on Programming Languages and Systems. 42(2), May 2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Pritam Gharat, Uday P. Khedker, and Alan Mycroft. Generalized Points-to Graphs: A Precise and Scalable Abstraction for Points-to Analysis. ACM Transactions on Programming Languages and Systems. 42(2), May 2020.",
+            "Publisher": "ACM",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Swati Jaiswal, Uday P. Khedker, and Supratik Chakraborty. Bidirectionality in Flow-Sensitive Demand-Driven Analysis. Science of Computer Programming. Volume 190, Pages 1-49, Jan 2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Swati Jaiswal, Uday P. Khedker, and Supratik Chakraborty. Bidirectionality",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "In Defense of Soundiness: A Manifesto. Communications of ACM 58(2): 44-46, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "In Defense of Soundiness: A Manifesto. Communications of ACM 58(2): 44-46, 2015.",
+            "Publisher": "ACM",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Aditya Kanade, Amitabha Sanyal, and Uday P. Khedker. Validation of GCC optimizers through trace generation. Software Practice and Experience 39(6): 611-639, 2009.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Aditya Kanade, Amitabha Sanyal, and Uday P. Khedker. Validation of GCC optimizers through trace generation. Software Practice and Experience 39(6): 611-639, 2009.",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. Uday P. Khedker, Amitabha Sanyal, and Amey Karkare. Heap reference analysis using access graphs. ACM Transactions on Programming Languages & Systems. Vol. 30, Issue 1, Nov. 2007.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Uday P. Khedker, Amitabha Sanyal, and Amey Karkare. Heap reference analysis using access graphs. ACM Transactions on Programming Languages & Systems. Vol. 30, Issue 1, Nov. 2007.",
+            "Publisher": "ACM",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Bageshri Sathe and Uday P. Khedker. An improved bound for call-Strings based interprocedural data \ufb02ow analysis. ACM Transactions on Programming Languages & Systems. Vol. 29, Issue 6 (Oct. 2007).",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Bageshri Sathe and Uday P. Khedker. An improved bound for call-Strings based interprocedural data \ufb02ow analysis. ACM Transactions on Programming Languages & Systems. Vol. 29, Issue 6 (Oct. 2007).",
+            "Publisher": "ACM",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Uday P. Khedker, D. M. Dhamdhere, and Alan Mycroft. Bidirectional data \ufb02ow analysis for type inferencing. Computer Languages, 29(1-2), Pages 15-44, 2003.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Uday P. Khedker, D. M. Dhamdhere, and Alan Mycroft. Bidirectional data \ufb02ow analysis for type inferencing. Computer Languages, 29(1-2), Pages 15-44, 2003.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Rahul Joshi, Uday P. Khedker, Vinay Kakade, and Medha Trivedi. Some interesting results about applications of graphs in compilers. CSI Journal, 31(4), 2002.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Rahul Joshi, Uday P. Khedker, Vinay Kakade, and Medha Trivedi. Some interesting results about applications of graphs in compilers. CSI Journal, 31(4), 2002.",
+            "Publisher": "Unknown",
+            "Year": "2002",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "ACM Transactions on Programming Languages & Systems, 16(5):1472\u20131511, 1994.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "ACM Transactions on Programming Languages & Systems, 16(5):1472\u20131511, 1994.",
+            "Publisher": "ACM",
+            "Year": "1994",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Aditya Kanade, Amitabha Sanyal, Uday P. Khedker. A Logic for Correlating Temporal Properties across Program Transformations. ACM Computing Research Repository CoRR abs/1209.5152, 2012.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Aditya Kanade, Amitabha Sanyal, Uday P. Khedker. A Logic for Correlating Temporal Properties across Program Transformations. ACM Computing Research Repository CoRR abs/1209.5152, 2012.",
+            "Publisher": "ACM",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Amey Karkare, Amitabha Sanyal, and Uday P. Khedker. Effectiveness of garbage collection in MIT/GNU Scheme. ACM Computing Research Repository CoRR abs/cs/0611093, 2006.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Amey Karkare, Amitabha Sanyal, and Uday P. Khedker. Effectiveness of garbage collection",
+            "Publisher": "ACM",
+            "Year": "2006",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "upkResume.pdf",
+        "Missing Fields": "education, patents, memberships",
+        "Warnings": "Duplicate publication detected: 'The Compiler Design Handbook :...'.",
+        "Validation Errors": "Duplicate publication detected: 'The Compiler Design Handbook :...'.",
+        "Duplicate Detection": "Yes",
+        "Confidence deductions": 5
+    },
+    "Processing Report": {
+        "Resume File": "upkResume.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "experience, fdp, publications, projects, awards, research, research_scholars",
+        "Sections missing": "education, patents, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 0%, UG Degree: 0%, PG Degree: 0%, PhD Univ: 0%"
+    }
+}

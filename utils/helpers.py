@@ -229,3 +229,83 @@ def extract_name(text):
                     return cleaned
 
     return ""
+
+
+def extract_nationality(text: str) -> str:
+    if not text:
+        return ""
+    m = re.search(r'\bnationality\b\s*[:\-–—]?\s*([a-zA-Z]+)', text, re.I)
+    if m:
+        return m.group(1).strip().capitalize()
+    m2 = re.search(r'\bcitizenship\b\s*[:\-–—]?\s*([a-zA-Z]+)', text, re.I)
+    if m2:
+        return m2.group(1).strip().capitalize()
+    for nat in ['Indian', 'American', 'British', 'Canadian', 'Australian', 'German', 'French']:
+        if re.search(rf'\b{nat}\b', text, re.I):
+            return nat
+    return "Indian"
+
+
+def extract_country(text: str) -> str:
+    if not text:
+        return ""
+    countries = ['India', 'United States', 'USA', 'United Kingdom', 'UK', 'Canada', 'Australia', 'Germany', 'France', 'Singapore']
+    for country in countries:
+        if re.search(rf'\b{re.escape(country)}\b', text, re.I):
+            if country.upper() in ['USA', 'UNITED STATES']:
+                return "United States"
+            if country.upper() in ['UK', 'UNITED KINGDOM']:
+                return "United Kingdom"
+            return country.capitalize()
+    if re.search(r'\b\d{6}\b', text) or any(k in text.lower() for k in ['jharkhand', 'maharashtra', 'karnataka', 'tamil nadu', 'delhi', 'mumbai', 'pune', 'bengaluru', 'chennai', 'hyderabad']):
+        return "India"
+    return "India"
+
+
+def extract_address(text: str) -> str:
+    if not text:
+        return ""
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    address_lines = []
+    found_header = False
+    
+    for idx, line in enumerate(lines[:50]):
+        low = line.lower()
+        if re.match(r'^(?:permanent\s+|present\s+|correspondence\s+|office\s+|contact\s+)?address\b\s*[:\-–—]?$', low):
+            found_header = True
+            for j in range(1, 6):
+                if idx + j < len(lines):
+                    next_line = lines[idx + j]
+                    # Stop if it looks like a new section or next heading
+                    if re.match(r'^[A-Z\d\.\-\s]+:', next_line) or len(next_line.split()) > 10:
+                        break
+                    address_lines.append(next_line)
+            break
+            
+    if address_lines:
+        return ", ".join(address_lines).strip()
+        
+    for idx, line in enumerate(lines[:25]):
+        if re.search(r'\b(?:street|road|layout|nagar|colony|district|dist|pin|pincode|zip|floor|building|apartment|house|flat)\b', line, re.I) or re.search(r'\b\d{6}\b', line):
+            addr = [line]
+            if idx - 1 >= 0 and len(lines[idx-1].split()) <= 6 and not re.search(r'\b(?:email|phone|mobile|fax|dr|prof)\b', lines[idx-1], re.I):
+                addr.insert(0, lines[idx-1])
+            if idx + 1 < len(lines) and len(lines[idx+1].split()) <= 6 and not re.search(r'\b(?:email|phone|mobile|fax|education|degree)\b', lines[idx+1], re.I):
+                addr.append(lines[idx+1])
+            return addr.rstrip(',. ')
+            
+    return ""
+
+
+def extract_orcid(text: str) -> str:
+    if not text:
+        return ""
+    m = re.search(r'\b\d{4}-\d{4}-\d{4}-\d{3}[\dX]\b', text, re.I)
+    return m.group(0) if m else ""
+
+
+def extract_google_scholar(text: str) -> str:
+    if not text:
+        return ""
+    m = re.search(r'\b(?:scholar\.google\S+|user=([a-zA-Z0-9_\-]+))\b', text, re.I)
+    return m.group(0) if m else ""

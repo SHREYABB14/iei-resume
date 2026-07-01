@@ -1,0 +1,235 @@
+{
+    "Employment History": [
+        {
+            "Organization": "Potluri Siddhartha Institute of Technology",
+            "Designation": "Assistant professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2010-03-01",
+            "End Date": "2026-06-30",
+            "Duration": 16.25,
+            "Academic Contribution": 16.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 16.25
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "\uf0b7 Presented \u201cCandidate Generation using Partitioning for Frequent Subgraph Mining in a Single Graph\u201d in  National Conference on Recent Advances in Modeling Expert Systems(RAMES),held during 26-28 June,2018 at Department of CSE, National Institute of Technology, Warangal.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Candidate Generation using Partitioning for Frequent Subgraph Mining in a Single Graph",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cOptimized Candidate Generation for Frequent Subgraphs in a Single Graph\u201d in International Journal of Research in Electronics and Computer Engineering(IJRECE),Vol-7,Issue-2.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Optimized Candidate Generation for Frequent Subgraphs in a Single Graph",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cProtein Structure Analysis using Graph Mining Techniques\u201d in Journal of Applied Science and Computations, vol-5, Issue-11.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Protein Structure Analysis using Graph Mining Techniques",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cMining Specific Content Search Using Clustering Algorithm\u201d in Global Journal of Engineering Science and Researches (GJESR), ISSN 2348-8034.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Mining Specific Content Search Using Clustering Algorithm",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cFrequent and Significant Pattern Mining using Approximate Patterns for Protein Structure Analysis\u201d in International Journal of Research, vol 5, issue 6, 2018.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Frequent and Significant Pattern Mining using Approximate Patterns for Protein Structure Analysis",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cFast Canonical Labeling for Graph based Data Mining\u201d, International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), ISSN 2277 128x, Volume 7 Issue 5, 2017.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Fast Canonical Labeling for Graph based Data Mining",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cFast graph Isomorphism Testing for Graph based Data Mining with Improved Canonical Labeling.\u201d, Journal of Engineering and Applied Sciences, ISSN 1816-949x,Volume:11, Issue:7,pp:1586-1597,2016.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Fast graph Isomorphism Testing for Graph based Data Mining with Improved Canonical Labeling.",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cFinding Frequent Subgraphs in a Single Graph based on symmetry\u201d, International Journal of Computer Applications, ISSN 0975-8887, Volume146-No11,July,2016",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Finding Frequent Subgraphs in a Single Graph based on symmetry",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cSignificant Subgraph Mining with Representative Set\u201d, Indian of Science and Technology, ISSN 0974-6846, Vol- 9(44),DOI:10.17485/IJST/2016/v9i44/95055, November 2016",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Significant Subgraph Mining with Representative Set",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cA Novel Loom for Alacrity for Protected lawsuit dealings using Cloud Computing Environment\u201d in International Journal of Electrical and Computer Engineering, vol 6, issue 4, pp.1792-1799.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A Novel Loom for Alacrity for Protected lawsuit dealings using Cloud Computing Environment",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cA Cram on Semantic Web Components\u201d International Journal of Advanced Research in Computer Science, Vol 6, ISSN :0976-5697 May-2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A Cram on Semantic Web Components",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201c A comprehensive Study on generalized search engines versus semantic search engines\u201d International Journal of Recent and innovative trends in computing and communications Vol: 2 Issue: 4 ISSn:2321-B169, April 2014 757-761",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A comprehensive Study on generalized search engines versus semantic search engines",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Presented and Published a paperon\u201cAn improved unique canonical labeling for frequent subgraph mining\u201d inInternational IEEE  conference on Advanced Computing Technologies(ICACT), and IEEE Explorer, 21-22 September 2013,",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "An improved unique canonical labeling for frequent subgraph mining",
+            "Publisher": "IEEE",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1- 6, ISBN: 978-1-4678-2816-6, Rajampet, India",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "6, ISBN: 978-1-4678-2816-6, Rajampet, India",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "\uf0b7 Presented \u201cCramming of Frequent sub graph mining algorithms\u201d in National Conference Recent Trends in Information Technology NCRTIT Feb 2013,78-82.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Cramming of Frequent sub graph mining algorithms",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Presented \u201cA Taxonomy of ILP Based Multi Relational Classification\u201d in One Day National Conference on Recent Trends in Information Technology on 9th March-2012",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "A Taxonomy of ILP Based Multi Relational Classification",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cA survey on Assorted approaches in Graph Data Mining\u201d in Internal Journal of Computer Applications, New York, USA, Jan, 2011 edition.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A survey on Assorted approaches in Graph Data Mining",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cMobile Agent Based Routing in MANETS- attacks&defenses\u201d, Network Protocols and Algorithms, ISSN",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Mobile Agent Based Routing in MANETS- attacks&defenses",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "1943- 3581 2011, Vol 3, No 4, pp 108-121.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "3581 2011, Vol 3, No 4, pp 108-121.",
+            "Publisher": "Unknown",
+            "Year": "1943",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Published a paper on \u201cA study on Mobile Internet Protocol and Mobile Adhoc Network Routing Protocols\u201d in International journal of Computer Science and Communication, Vol 1, no.2, 2010,pp 185-189.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "A study on Mobile Internet Protocol and Mobile Adhoc Network Routing Protocols",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Acted as a reviewer for International Conference ICCIDE-2018 at Vignan University, 28-29 Sept,2018",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "\uf0b7 Acted as a reviewer for International Conference ICCIDE-2018 at Vignan University, 28-29 Sept,2018",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Acted as a resource person for delivering the topic \u201cGraph Mining and its Applications\u201d at SRK Institute of Technology, Vijayawada in 4th November, 2010.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Graph Mining and its Applications",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "INF010008.pdf",
+        "Missing Fields": "patents",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 0
+    },
+    "Processing Report": {
+        "Resume File": "INF010008.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, awards, memberships, administrative_work",
+        "Sections missing": "patents",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 0%, PG Degree: 0%, PhD Univ: 0%"
+    }
+}

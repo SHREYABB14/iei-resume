@@ -1,0 +1,78 @@
+{
+    "Employment History": [
+        {
+            "Organization": "affiliated Jawaharlal Nehru Technological University",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2014-10-01",
+            "End Date": "2016-12-01",
+            "Duration": 2.17,
+            "Academic Contribution": 2.17,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.17,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.17
+        },
+        {
+            "Organization": "affiliated Jawaharlal Nehru Technological University",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2017-01-01",
+            "End Date": "2017-11-01",
+            "Duration": 0.83,
+            "Academic Contribution": 0.83,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.83,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.83
+        },
+        {
+            "Organization": "affiliated Jawaharlal Nehru Technological University",
+            "Designation": "Assistant Professor",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2018-08-01",
+            "End Date": "2020-11-01",
+            "Duration": 2.25,
+            "Academic Contribution": 2.25,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.25,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.25
+        },
+        {
+            "Organization": "CMR College of engineering and technology As a assistant professor in cse",
+            "Designation": "\uf0b7 Worked",
+            "Department": "",
+            "Category": "Academic",
+            "Start Date": "2021-01-01",
+            "End Date": "2023-01-01",
+            "Duration": 2.0,
+            "Academic Contribution": 2.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.0
+        }
+    ],
+    "Publication Debug": [],
+    "Validation Report": {
+        "Resume File": "1692682240abdul_rahman.pdf",
+        "Missing Fields": "patents, awards, memberships",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 15
+    },
+    "Processing Report": {
+        "Resume File": "1692682240abdul_rahman.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects",
+        "Sections missing": "patents, awards, memberships",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 0%, PG Degree: 100%, PhD Univ: 0%"
+    }
+}

@@ -1,0 +1,1193 @@
+{
+    "Employment History": [
+        {
+            "Organization": "IIT Bombay",
+            "Designation": "Associate Professor",
+            "Department": "Environmental Science & Engineering Department",
+            "Category": "Academic",
+            "Start Date": "2021-05-01",
+            "End Date": "2026-06-30",
+            "Duration": 5.08,
+            "Academic Contribution": 5.08,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 5.08,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 5.08
+        },
+        {
+            "Organization": "IIT Bombay",
+            "Designation": "Assistant Professor",
+            "Department": "Centre for Environmental Science & Engineering",
+            "Category": "Academic",
+            "Start Date": "2013-10-01",
+            "End Date": "2021-05-01",
+            "Duration": 7.58,
+            "Academic Contribution": 7.58,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 7.58,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 7.58
+        },
+        {
+            "Organization": "Swiss Tropical and Public Health Institute",
+            "Designation": "Scientist",
+            "Department": "Department of Epidemiology and Public Health",
+            "Category": "Research",
+            "Start Date": "2013-01-01",
+            "End Date": "2013-10-01",
+            "Duration": 0.75,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.75,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.75
+        },
+        {
+            "Organization": "Exposure Science group",
+            "Designation": "Head",
+            "Department": "Department of Epidemiology and Public Health",
+            "Category": "Research",
+            "Start Date": "2012-01-01",
+            "End Date": "2012-12-01",
+            "Duration": 0.92,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.92,
+            "Administrative Contribution": 0.92,
+            "Total Contribution": 0.92
+        },
+        {
+            "Organization": "Environmental Exposure Sciences unit",
+            "Designation": "Head",
+            "Department": "Department of Epidemiology and Public Health",
+            "Category": "Research",
+            "Start Date": "2010-11-01",
+            "End Date": "2011-12-01",
+            "Duration": 1.08,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 1.08,
+            "Administrative Contribution": 1.08,
+            "Total Contribution": 1.08
+        },
+        {
+            "Organization": "SwissTPH",
+            "Designation": "Scientist",
+            "Department": "Department of Epidemiology and Public Health",
+            "Category": "Research",
+            "Start Date": "2010-01-01",
+            "End Date": "2010-10-01",
+            "Duration": 0.75,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.75,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.75
+        },
+        {
+            "Organization": "Institute of Social and Preventive Medicine",
+            "Designation": "\uf0b7 Postdoctoral Researcher",
+            "Department": "Department of Epidemiology and Public Health",
+            "Category": "Research",
+            "Start Date": "2007-12-01",
+            "End Date": "2009-12-01",
+            "Duration": 2.0,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 2.0,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 2.0
+        },
+        {
+            "Organization": "USC",
+            "Designation": "\uf0b7 Graduate Research Assistant",
+            "Department": "Department of Civil and Environmental Engineering",
+            "Category": "Research",
+            "Start Date": "2004-01-01",
+            "End Date": "2007-05-01",
+            "Duration": 3.33,
+            "Academic Contribution": 0.0,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 3.33,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 3.33
+        },
+        {
+            "Organization": "Ecosmart India Limited",
+            "Designation": "Scientist",
+            "Department": "Department of Civil and Environmental Engineering",
+            "Category": "Academic",
+            "Start Date": "2003-02-01",
+            "End Date": "2003-04-01",
+            "Duration": 0.17,
+            "Academic Contribution": 0.17,
+            "Industry Contribution": 0.0,
+            "Research Contribution": 0.17,
+            "Administrative Contribution": 0.0,
+            "Total Contribution": 0.17
+        }
+    ],
+    "Publication Debug": [
+        {
+            "Publication detected": "Accepted for publication in Water and Environment Journal, 2021",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Accepted for publication",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Anand A, Phuleria HC. Modeling indoor exposures to PM2.5 and black carbon in densely populated urban slums. Accepted for publication in Building and Environment, 2021.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Anand A, Phuleria HC. Modeling indoor exposures to PM2.5 and black carbon in densely populated urban slums. Accepted for publication",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Raparthi N, Debbarma S, Phuleria HC. Development of real-world emission factors for on-road vehicles from motorway tunnel measurements. Accepted for publication in Atmospheric Environment X, 2021",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Raparthi N, Debbarma S, Phuleria HC. Development of real-world emission factors for on-road vehicles from motorway tunnel measurements. Accepted for publication",
+            "Publisher": "Unknown",
+            "Year": "2021",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Mahesh PA, Larsson K, Johanson G, Phuleria HC, Ravindra PV, Ernstgard L, Ulaganathan M, Krishna M, Palmberg L, Pollitt K, Upadhyay S, Ganguly K. Clinical, epidemiological and experimental approaches to assess adverse health outcomes of indoor biomass smoke exposure: Conclusions from an Indo-Swedish workshop in Mysuru. Toxics, 8(3), 68, 1-17, 2020.",
+            "Classification": "Workshop",
+            "Reason": "Contains keyword 'workshop'",
+            "Title": "Mahesh PA, Larsson K, Johanson G, Phuleria HC, Ravindra PV, Ernstgard L, Ulaganathan M, Krishna M, Palmberg L, Pollitt K, Upadhyay S, Ganguly K. Clinical, epidemiological and experimental approaches to assess adverse health outcomes of indoor biomass smoke exposure: Conclusions from an Indo-Swedish workshop",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Singh V, Phuleria HC, Chandel MK. Estimation of energy recovery potential of sewage sludge in India:  Waste to watt approach. Journal of Cleaner Production, 276, 122538,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Singh V, Phuleria HC, Chandel MK. Estimation of energy recovery potential of sewage sludge",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "2020. https://doi.org/10.1016/j.jclepro.2020.122538.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "https://doi.org/10.1016/j.jclepro.2020.122538.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Bulletin of the American Meteorological Society, 101(7), E1052-E1068, 2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Bulletin of the American Meteorological Society, 101(7), E1052-E1068, 2020.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. Sarkar C, Venkataraman C, Yadav S, Phuleria HC, Chatterjee A. Origin and properties of soluble brown carbon in freshly emitted and aged ambient aerosols over an urban site in India. Environmental Pollution, 254, 113077, 2019.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Sarkar C, Venkataraman C, Yadav S, Phuleria HC, Chatterjee A. Origin and properties of soluble brown carbon in freshly emitted and aged ambient aerosols over an urban site",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Singh V, Phuleria HC, Chandel MK. Estimation of greenhouse gas emissions from municipal wastewater treatment systems in India. Water & Environment Journal, 31, 537\u2013544, 2017.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Singh V, Phuleria HC, Chandel MK. Estimation of greenhouse gas emissions from municipal wastewater treatment systems",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Eeftens M, Phuleria HC, Meier R, Aguilera I, Corradi E, Davey M, Ducret-Stich R, Fierz M, Gehrig R, Ineichen A, Keidel D, Probst-Hensch N, Ragettli MS, Schindler C, K\u00fcnzli N, Tsai MY. Spatial and temporal variability of ultrafine particles, NO2, PM2.5, PM2.5 absorbance, PM10 and PMcoarse in Swiss study areas. Atmospheric Environment, 111, 60-70, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Eeftens M, Phuleria HC, Meier R, Aguilera I, Corradi E, Davey M, Ducret-Stich R, Fierz M, Gehrig R, Ineichen A, Keidel D, Probst-Hensch N, Ragettli MS, Schindler C, K\u00fcnzli N, Tsai MY. Spatial and temporal variability of ultrafine particles, NO2, PM2.5, PM2.5 absorbance, PM10 and PMcoarse",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Aguilera I, Eeftens M, Meier R, Ducret-Stich RE, Schindler C, Ineichen A, Phuleria HC, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Land use regression models for crustal and traffic- related PM2.5 constituents in four areas of the SAPALDIA study. Environmental Research, 30(140), 377-384, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Aguilera I, Eeftens M, Meier R, Ducret-Stich RE, Schindler C, Ineichen A, Phuleria HC, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Land use regression models for crustal and traffic- related PM2.5 constituents in four areas of the SAPALDIA study. Environmental Research, 30(140), 377-384, 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. Meier R, Eeftens M, Aguilera I, Phuleria HC, Ineichen A, Davey M, Ragettli MS, Fierz M, Schindler C, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Ambient ultrafine particle levels at residential and reference sites in urban and rural Switzerland. Environmental Science & Technology, 49(5), 2709-15, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Meier R, Eeftens M, Aguilera I, Phuleria HC, Ineichen A, Davey M, Ragettli MS, Fierz M, Schindler C, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Ambient ultrafine particle levels at residential and reference sites in urban and rural Switzerland. Environmental Science & Technology, 49(5), 2709-15, 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Journal of Exposure Science & Environmental Epidemiology, 25(1), 97-105, 2015",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Journal of Exposure Science & Environmental Epidemiology, 25(1), 97-105, 2015",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. Meier R, Eeftens M, Phuleria HC, Ineichen A, Corradi E, Davey M, Fierz M, Ducret-Stich RE, Aguilera I, Schindler C, Rochat T, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Differences in indoor versus outdoor concentrations of ultrafine particles, PM2.5, PMabsorbance and NO2 in Swiss homes. Journal of Exposure Science & Environmental Epidemiology, 29,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Meier R, Eeftens M, Phuleria HC, Ineichen A, Corradi E, Davey M, Fierz M, Ducret-Stich RE, Aguilera I, Schindler C, Rochat T, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Differences in indoor versus outdoor concentrations of ultrafine particles, PM2.5, PMabsorbance and NO2",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "18. Meier R, Schindler C, Eeftens M, Aguilera I, Ducret-Stich RE, Ineichen A, Davey M, Phuleria HC, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Modeling indoor air pollution of outdoor origin in homes of SAPALDIA subjects in Switzerland. Environment International, 82:85-91, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Meier R, Schindler C, Eeftens M, Aguilera I, Ducret-Stich RE, Ineichen A, Davey M, Phuleria HC, Probst-Hensch N, Tsai MY, K\u00fcnzli N. Modeling indoor air pollution of outdoor origin in homes of SAPALDIA subjects",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Journal of Exposure Science & Environmental Epidemiology, 25(5), 474-481, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Journal of Exposure Science & Environmental Epidemiology, 25(5), 474-481, 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "ESCAPE TRANSPHORM study groups. Long-term effects of elemental composition of particulate matter on inflammatory blood markers in European cohorts. Environment International, 82:76-84, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "ESCAPE TRANSPHORM study groups. Long-term effects of elemental composition of particulate matter on inflammatory blood markers",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21. X. Morelli X, Foraster M, Aguilera I, Basagana X, Corradi E, Deltell A, Ducret-Stich R, Phuleria HC, Ragettli M, Rivera M, Thomasson A, K\u00fcnzli N, Slama R. Short-term associations between traffic-related noise, particle number and traffic flow in three European cities. Atmospheric Environment, 103, 25-33, 2015.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "X. Morelli X, Foraster M, Aguilera I, Basagana X, Corradi E, Deltell A, Ducret-Stich R, Phuleria HC, Ragettli M, Rivera M, Thomasson A, K\u00fcnzli N, Slama R. Short-term associations between traffic-related noise, particle number and traffic flow in three European cities. Atmospheric Environment, 103, 25-33, 2015.",
+            "Publisher": "Unknown",
+            "Year": "2015",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "22. Ragettli MS, Tsai MY, Braun-Fahrl\u00e4nder C, de Nazelle A, Schindler C, Ineichen A, Ducret- Stich RE, Perez L, Probst-Hensch N, K\u00fcnzli N, Phuleria HC. Simulation of population- based commuter exposure to NO\u2082 using different air pollution models. International Journal of Environmental Research & Public Health, 11(5), 5049-68, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ragettli MS, Tsai MY, Braun-Fahrl\u00e4nder C, de Nazelle A, Schindler C, Ineichen A, Ducret- Stich RE, Perez L, Probst-Hensch N, K\u00fcnzli N, Phuleria HC. Simulation of population- based commuter exposure to NO\u2082 using different air pollution models. International Journal of Environmental Research & Public Health, 11(5), 5049-68, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "23. Fuks KB, Weinmayr G, Foraster M, Dratva J, Hampel R, Houthuijs D, Oftedal B, Oudin A, Panasevich S, Penell J, Sommar JN, S\u00f8rensen M, Tiittanen P, Wolf K, Xun WW, Aguilera I, Basaga\u00f1a X, Beelen R, Bots ML, Brunekreef B, Bueno-de-Mesquita HB, Caracciolo B, Cirach M, de Faire U, de Nazelle A, Eeftens M, Elosua R, Erbel R, Forsberg B, Fratiglioni L, Gaspoz JM, Hilding A, Jula A, Korek M, Kr\u00e4mer U, K\u00fcnzli N, Lanki T, Leander K, Magnusson PK, Marrugat J, Nieuwenhuijsen MJ, Ostenson CG, Pedersen NL, Pershagen G, Phuleria HC, Probst-Hensch NM, Raaschou-Nielsen O, Schaffner E, Schikowski T, Schindler C, Schwarze PE, S\u00f8gaard AJ, Sugiri D, Swart WJ, Tsai MY, Turunen AW, Vineis P, Peters A, Hoffmann B. Arterial blood pressure and long-term exposure to traffic- related air pollution: an analysis in the European Study of Cohorts for Air Pollution Effects (ESCAPE). Environmental Health Perspectives, 122(9), 896-905, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Fuks KB, Weinmayr G, Foraster M, Dratva J, Hampel R, Houthuijs D, Oftedal B, Oudin A, Panasevich S, Penell J, Sommar JN, S\u00f8rensen M, Tiittanen P, Wolf K, Xun WW, Aguilera I, Basaga\u00f1a X, Beelen R, Bots ML, Brunekreef B, Bueno-de-Mesquita HB, Caracciolo B, Cirach M, de Faire U, de Nazelle A, Eeftens M, Elosua R, Erbel R, Forsberg B, Fratiglioni L, Gaspoz JM, Hilding A, Jula A, Korek M, Kr\u00e4mer U, K\u00fcnzli N, Lanki T, Leander K, Magnusson PK, Marrugat J, Nieuwenhuijsen MJ, Ostenson CG, Pedersen NL, Pershagen G, Phuleria HC, Probst-Hensch NM, Raaschou-Nielsen O, Schaffner E, Schikowski T, Schindler C, Schwarze PE, S\u00f8gaard AJ, Sugiri D, Swart WJ, Tsai MY, Turunen AW, Vineis P, Peters A, Hoffmann B. Arterial blood pressure and long-term exposure to traffic- related air pollution: an analysis in the European Study of Cohorts for Air Pollution Effects (ESCAPE). Environmental Health Perspectives, 122(9), 896-905, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Spatio-temporal variation of urban ultrafine particle number concentrations, Atmospheric Environment, 96, 275-283, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Spatio-temporal variation of urban ultrafine particle number concentrations, Atmospheric Environment, 96, 275-283, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "25. Wang M, Beelen R, Stafoggia M, Raaschou-Nielsen O, Andersen ZJ, Hoffmann B, Fischer P, Houthuijs D, Nieuwenhuijsen M, Weinmayr G, Vineis P, Xun WW, Dimakopoulou K, Samoli E, Laatikainen T, Lanki T, Turunen AW, Oftedal B, Schwarze P, Aamodt G, Penell J, De Faire U, Korek M, Leander K, Pershagen G, Pedersen NL, \u00d6stenson CG, Fratiglioni L, Eriksen KT, S\u00f8rensen M, Tj\u00f8nneland A, Bueno-de-Mesquita B, Eeftens M, Bots ML, Meliefste K, Kr\u00e4mer U, Heinrich J, Sugiri D, Key T, de Hoogh K, Wolf K, Peters A, Cyrys J, Jaensch A, Concin H, Nagel G, Tsai MY, Phuleria HC, Ineichen A, K\u00fcnzli N, Probst- Hensch N, Schaffner E, Vilier A, Clavel-Chapelon F, Declerq C, Ricceri F, Sacerdote C, Marcon A, Galassi C, Migliore E, Ranzi A, Cesaroni G, Badaloni C, Forastiere F, Katsoulis M, Trichopoulou A, Keuken M, Jedynska A, Kooter IM, Kukkonen J, Sokhi RS, Brunekreef B, Katsouyanni K, Hoek G. Long-term exposure to elemental constituents of particulate matter and cardiovascular mortality in 19 European cohorts: results from the ESCAPE and TRANSPHORM projects. Environment International, 66, 97-106, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Wang M, Beelen R, Stafoggia M, Raaschou-Nielsen O, Andersen ZJ, Hoffmann B, Fischer P, Houthuijs D, Nieuwenhuijsen M, Weinmayr G, Vineis P, Xun WW, Dimakopoulou K, Samoli E, Laatikainen T, Lanki T, Turunen AW, Oftedal B, Schwarze P, Aamodt G, Penell J, De Faire U, Korek M, Leander K, Pershagen G, Pedersen NL, \u00d6stenson CG, Fratiglioni L, Eriksen KT, S\u00f8rensen M, Tj\u00f8nneland A, Bueno-de-Mesquita B, Eeftens M, Bots ML, Meliefste K, Kr\u00e4mer U, Heinrich J, Sugiri D, Key T, de Hoogh K, Wolf K, Peters A, Cyrys J, Jaensch A, Concin H, Nagel G, Tsai MY, Phuleria HC, Ineichen A, K\u00fcnzli N, Probst- Hensch N, Schaffner E, Vilier A, Clavel-Chapelon F, Declerq C, Ricceri F, Sacerdote C, Marcon A, Galassi C, Migliore E, Ranzi A, Cesaroni G, Badaloni C, Forastiere F, Katsoulis M, Trichopoulou A, Keuken M, Jedynska A, Kooter IM, Kukkonen J, Sokhi RS, Brunekreef B, Katsouyanni K, Hoek G. Long-term exposure to elemental constituents of particulate matter and cardiovascular mortality in 19 European cohorts: results from the ESCAPE and TRANSPHORM projects. Environment International, 66, 97-106, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "26. Schikowski T, Adam M, Marcon A, Cai Y, Vierk\u00f6tter A, Carsin AE, Jacquemin B, Al Kanani Z, Beelen R, Birk M, Bridevaux PO, Brunekeef B, Burney P, Cirach M, Cyrys J, de Hoogh K, de Marco R, de Nazelle A, Declercq C, Forsberg B, Hardy R, Heinrich J, Hoek G, Jarvis D, Keidel D, Kuh D, Kuhlbusch T, Migliore E, Mosler G, Nieuwenhuijsen MJ, Phuleria HC, Rochat T, Schindler C, Villani S, Tsai MY, Zemp E, Hansell A, Kauffmann F, Sunyer J, Probst-Hensch N, Kr\u00e4mer U, K\u00fcnzli N. Association of ambient air pollution with the prevalence and incidence of COPD. European Respiratory Journal. 44(3), 614-26, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Schikowski T, Adam M, Marcon A, Cai Y, Vierk\u00f6tter A, Carsin AE, Jacquemin B, Al Kanani Z, Beelen R, Birk M, Bridevaux PO, Brunekeef B, Burney P, Cirach M, Cyrys J, de Hoogh K, de Marco R, de Nazelle A, Declercq C, Forsberg B, Hardy R, Heinrich J, Hoek G, Jarvis D, Keidel D, Kuh D, Kuhlbusch T, Migliore E, Mosler G, Nieuwenhuijsen MJ, Phuleria HC, Rochat T, Schindler C, Villani S, Tsai MY, Zemp E, Hansell A, Kauffmann F, Sunyer J, Probst-Hensch N, Kr\u00e4mer U, K\u00fcnzli N. Association of ambient air pollution with the prevalence and incidence of COPD. European Respiratory Journal. 44(3), 614-26, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "PLoS One, 2014 doi:",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "PLoS One, 2014 doi:",
+            "Publisher": "PLOS",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "28. Beelen R, Raaschou-Nielsen O, Stafoggia M, Andersen ZJ, Weinmayr G, Hoffmann B, Wolf K, Samoli E, Fischer P, Nieuwenhuijsen M, Vineis P, Xun WW, Katsouyanni K, Dimakopoulou K, Oudin A, Forsberg B, Modig L, Havulinna AS, Lanki T, Turunen A, Oftedal B, Nystad W, Nafstad P, De Faire U, Pedersen NL, \u00d6stenson CG, Fratiglioni L, Penell J, Korek M, Pershagen G, Eriksen KT, Overvad K, Ellermann T, Eeftens M, Peeters PH, Meliefste K, Wang M, Bueno-de-Mesquita B, Sugiri D, Kr\u00e4mer U, Heinrich J, de Hoogh K, Key T, Peters A, Hampel R, Concin H, Nagel G, Ineichen A, Schaffner E, Probst-Hensch N, K\u00fcnzli N, Schindler C, Schikowski T, Adam M, Phuleria HC, Vilier A, Clavel-Chapelon F, Declercq C, Grioni S, Krogh V, Tsai MY, Ricceri F, Sacerdote C, Galassi C, Migliore E, Ranzi A, Cesaroni G, Badaloni C, Forastiere F, Tamayo I, Amiano P, Dorronsoro M, Katsoulis M, Trichopoulou A, Brunekreef B, Hoek G. Effects of long-term exposure to air pollution on natural-cause mortality: an analysis of 22 European cohorts within the multicentre ESCAPE project. Lancet, 383(9919), 785-95, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Beelen R, Raaschou-Nielsen O, Stafoggia M, Andersen ZJ, Weinmayr G, Hoffmann B, Wolf K, Samoli E, Fischer P, Nieuwenhuijsen M, Vineis P, Xun WW, Katsouyanni K, Dimakopoulou K, Oudin A, Forsberg B, Modig L, Havulinna AS, Lanki T, Turunen A, Oftedal B, Nystad W, Nafstad P, De Faire U, Pedersen NL, \u00d6stenson CG, Fratiglioni L, Penell J, Korek M, Pershagen G, Eriksen KT, Overvad K, Ellermann T, Eeftens M, Peeters PH, Meliefste K, Wang M, Bueno-de-Mesquita B, Sugiri D, Kr\u00e4mer U, Heinrich J, de Hoogh K, Key T, Peters A, Hampel R, Concin H, Nagel G, Ineichen A, Schaffner E, Probst-Hensch N, K\u00fcnzli N, Schindler C, Schikowski T, Adam M, Phuleria HC, Vilier A, Clavel-Chapelon F, Declercq C, Grioni S, Krogh V, Tsai MY, Ricceri F, Sacerdote C, Galassi C, Migliore E, Ranzi A, Cesaroni G, Badaloni C, Forastiere F, Tamayo I, Amiano P, Dorronsoro M, Katsoulis M, Trichopoulou A, Brunekreef B, Hoek G. Effects of long-term exposure to air pollution on natural-cause mortality: an analysis of 22 European cohorts within the multicentre ESCAPE project. Lancet, 383(9919), 785-95, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "29. Mehta AJ, Thun GA, Imboden M, Ferrarotti I, Keidel D, K\u00fcnzli N, Kromhout H, Miedinger D, Phuleria HC, Rochat T, Russi EW, Schindler C, Schwartz J, Vermeulen R, Luisetti M, Probst-Hensch N; SAPALDIA team. Interactions between SERPINA1 PiMZ genotype, occupational exposure and lung function decline. Occupational & Environmental Medicine, 71(4), 234-40, 2014.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Mehta AJ, Thun GA, Imboden M, Ferrarotti I, Keidel D, K\u00fcnzli N, Kromhout H, Miedinger D, Phuleria HC, Rochat T, Russi EW, Schindler C, Schwartz J, Vermeulen R, Luisetti M, Probst-Hensch N; SAPALDIA team. Interactions between SERPINA1 PiMZ genotype, occupational exposure and lung function decline. Occupational & Environmental Medicine, 71(4), 234-40, 2014.",
+            "Publisher": "Unknown",
+            "Year": "2014",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "30. Ducret-Stich RE, Tsai MY, Thimmaiah D, K\u00fcnzli N, Hopke PK, Phuleria HC. PM10 source apportionment in a Swiss Alpine valley impacted by highway traffic. Environmental Science & Pollution Research, 20(9), 6496-6508, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ducret-Stich RE, Tsai MY, Thimmaiah D, K\u00fcnzli N, Hopke PK, Phuleria HC. PM10 source apportionment in a Swiss Alpine valley impacted by highway traffic. Environmental Science & Pollution Research, 20(9), 6496-6508, 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "32. J\u00fcrgens V, Ess S, Phuleria HC, Fr\u00fch M, Schwenkglenks M, Frick H, Cerny T, Vounatsou P. Tobacco-related cancer mortality: projections for different geographical regions in Switzerland. Swiss Medical Weekly, 143:w13771, doi: 10.4414/smw.2013.13771, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "J\u00fcrgens V, Ess S, Phuleria HC, Fr\u00fch M, Schwenkglenks M, Frick H, Cerny T, Vounatsou P. Tobacco-related cancer mortality: projections for different geographical regions",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "33. Ducret-Stich RE, Tsai MY, Ragettli MS, Ineichen A, K\u00fcnzli N, Phuleria HC. Role of highway traffic on spatial and temporal distributions of air pollutants in a Swiss Alpine valley. Science of the Total Environment, 456, 50-60, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ducret-Stich RE, Tsai MY, Ragettli MS, Ineichen A, K\u00fcnzli N, Phuleria HC. Role of highway traffic on spatial and temporal distributions of air pollutants in a Swiss Alpine valley. Science of the Total Environment, 456, 50-60, 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "34. J\u00fcrgens V, Ess S, Phuleria HC, Fr\u00fch M, Schwenkglenks M, Frick H, Cerny T, Vounatsou P. Bayesian spatio-temporal modelling of tobacco-related cancer mortality in Switzerland. Geospatial Health, 7(2), 219-36, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "J\u00fcrgens V, Ess S, Phuleria HC, Fr\u00fch M, Schwenkglenks M, Frick H, Cerny T, Vounatsou P. Bayesian spatio-temporal modelling of tobacco-related cancer mortality",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Improved air quality and attenuated lung function decline: Modification by obesity in the SAPALDIA cohort. Environmental Health Perspectives, 121(9), 1034-1039, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Improved air quality and attenuated lung function decline: Modification by obesity in the SAPALDIA cohort. Environmental Health Perspectives, 121(9), 1034-1039, 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "36. de Hoogh K, Wang M, Adam M, Badaloni C, Beelen R, Birk M, Cesaroni G, Cirach M, Declercq C, De\u0307dele\u0307 A, Dons E, de Nazelle A,  Eeftens M, Eriksen K, Eriksson C, Fischer P, Gra\u017eulevi\u010diene\u0307 R, Gryparis A, Hoffmann B, Jerrett M, Katsouyanni K, Iakovides M, Lanki T, Lindley S, Madsen C, M\u00f6lter A, Mosler G, N\u00e1dor G, Nieuwenhuijsen M, Pershagen G, Peters A, Phuleria HC, Probst-Hensch NM, Raaschou-Nielsen O,  Quass U, Ranzi A, Stephanou E, Sugiri D, Schwarze P, Tsai MY, Yli-Tuomi T, Varr\u00f3 MJ, Vienneau D, Weinmayr G, Brunekreef B, Hoek G. Development of land use regression models for particle composition in twenty study areas in Europe. Environmental Science & Technology, 47(11), 5778-5786, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "de Hoogh K, Wang M, Adam M, Badaloni C, Beelen R, Birk M, Cesaroni G, Cirach M, Declercq C, De\u0307dele\u0307 A, Dons E, de Nazelle A,  Eeftens M, Eriksen K, Eriksson C, Fischer P, Gra\u017eulevi\u010diene\u0307 R, Gryparis A, Hoffmann B, Jerrett M, Katsouyanni K, Iakovides M, Lanki T, Lindley S, Madsen C, M\u00f6lter A, Mosler G, N\u00e1dor G, Nieuwenhuijsen M, Pershagen G, Peters A, Phuleria HC, Probst-Hensch NM, Raaschou-Nielsen O,  Quass U, Ranzi A, Stephanou E, Sugiri D, Schwarze P, Tsai MY, Yli-Tuomi T, Varr\u00f3 MJ, Vienneau D, Weinmayr G, Brunekreef B, Hoek G. Development of land use regression models for particle composition in twenty study areas",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "37. Wang M, Beelen R, Basagana X, Becker T, Cesaroni G, de Hoogh K, Dedele A, Declercq C, Dimakopoulou K, Eeftens M, Forastiere F, Galassi C, Gra\u017eulevi\u010diene\u0307 R, Hoffmann B, Heinrich J, Iakovides M, K\u00fcnzli N, Korek M, Lindley S, M\u00f6lter A, Mosler G, Madsen C, Nieuwenhuijsen M, Phuleria HC, Pedeli X, Raaschou-Nielsen O, Ranzi A, Stephanou E, Sugiri D, Stempfelet M, Tsai MY, Lanki T, Udvardy O, Varr\u00f3 MJ, Wolf K, Weinmayr G, Yli- Tuomi T, Hoek G, Brunekreef B. Evaluation of land use regression models for NO2 and particulate matter in 20 European study areas: the ESCAPE Project. Environmental Science & Technology, 47(9), 4357-4364, 2013.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Wang M, Beelen R, Basagana X, Becker T, Cesaroni G, de Hoogh K, Dedele A, Declercq C, Dimakopoulou K, Eeftens M, Forastiere F, Galassi C, Gra\u017eulevi\u010diene\u0307 R, Hoffmann B, Heinrich J, Iakovides M, K\u00fcnzli N, Korek M, Lindley S, M\u00f6lter A, Mosler G, Madsen C, Nieuwenhuijsen M, Phuleria HC, Pedeli X, Raaschou-Nielsen O, Ranzi A, Stephanou E, Sugiri D, Stempfelet M, Tsai MY, Lanki T, Udvardy O, Varr\u00f3 MJ, Wolf K, Weinmayr G, Yli- Tuomi T, Hoek G, Brunekreef B. Evaluation of land use regression models for NO2 and particulate matter in 20 European study areas: the ESCAPE Project. Environmental Science & Technology, 47(9), 4357-4364, 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "39. Martin A, Felber-Dietrich D, Schaffner E, Carballo D, Barth\u00e9l\u00e9my JC, Gaspoz JM, Tsai MY, Rapp R, Phuleria HC, Schindler C, Schwartz J, K\u00fcnzli N, Probst-Hensch NM. Long-term exposure to traffic-related PM10 and decreased heart rate variability: Is the association restricted to subjects taking ACE inhibitors? Environment International, 48, 9-16, 2012.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Martin A, Felber-Dietrich D, Schaffner E, Carballo D, Barth\u00e9l\u00e9my JC, Gaspoz JM, Tsai MY, Rapp R, Phuleria HC, Schindler C, Schwartz J, K\u00fcnzli N, Probst-Hensch NM. Long-term exposure to traffic-related PM10 and decreased heart rate variability: Is the association restricted to subjects taking ACE inhibitors? Environment International, 48, 9-16, 2012.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "40. Curjuric I, Imboden M, Nadif R, Kumar A, Schindler C, Haun M, Kronenberg F, K\u00fcnzli N, Phuleria HC, Postma DS, Russi EW, Rochat T, Demenais F, Probst-Hensch NM. Different genes interact with particulate matter and tobacco smoke exposure in affecting lung function decline in the general population. PLoS One, 7(7), e40175, 2012.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Curjuric I, Imboden M, Nadif R, Kumar A, Schindler C, Haun M, Kronenberg F, K\u00fcnzli N, Phuleria HC, Postma DS, Russi EW, Rochat T, Demenais F, Probst-Hensch NM. Different genes interact with particulate matter and tobacco smoke exposure in affecting lung function decline in the general population. PLoS One, 7(7), e40175, 2012.",
+            "Publisher": "PLOS",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "41. Dratva J, Phuleria HC, Foraster M, Gaspoz JM, Keidel D, K\u00fcnzli N, Liu L-JS, Pons M, Zemp E, Gerbase MW, Schindler C. Transportation noise and blood pressure in a population-based sample of adults. Environmental Health Perspectives, 120 (1), 50-55, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Dratva J, Phuleria HC, Foraster M, Gaspoz JM, Keidel D, K\u00fcnzli N, Liu L-JS, Pons M, Zemp E, Gerbase MW, Schindler C. Transportation noise and blood pressure in a population-based sample of adults. Environmental Health Perspectives, 120 (1), 50-55, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "42. Foraster M, Deltell A, Basaga\u00f1a X, Medina-Ram\u00f3n M, Aguilera I, Bouso L, Grau M, Phuleria HC, Rivera M, Slama R, Sunyer J, Targa J, K\u00fcnzli, N. Local determinants of road traffic noise levels versus determinants of air pollution levels in a Mediterranean city. Environmental Research, 111 (1), 177-183, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Foraster M, Deltell A, Basaga\u00f1a X, Medina-Ram\u00f3n M, Aguilera I, Bouso L, Grau M, Phuleria HC, Rivera M, Slama R, Sunyer J, Targa J, K\u00fcnzli, N. Local determinants of road traffic noise levels versus determinants of air pollution levels in a Mediterranean city. Environmental Research, 111 (1), 177-183, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "43. Liu LJS, Phuleria HC, Webber W, Davey ME, Lawson DR, Ireson RG, Zielinska B, Ondov JM, Weaver CS, Lapin CA, Easter M, Hesterberg TW, Larson T. Quantification of self- pollution from two diesel school buses using three independent methods. Atmospheric Environment, 44 (28) 3422\u20133431, 2010.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Liu LJS, Phuleria HC, Webber W, Davey ME, Lawson DR, Ireson RG, Zielinska B, Ondov JM, Weaver CS, Lapin CA, Easter M, Hesterberg TW, Larson T. Quantification of self- pollution from two diesel school buses using three independent methods. Atmospheric Environment, 44 (28) 3422\u20133431, 2010.",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "44. Sillanp\u00e4\u00e4 M, Geller MD, Phuleria HC, Sioutas C. High collection efficiency electrostatic precipitator for in vitro cell exposure to concentrated ambient particulate matter. Journal of Aerosol Science, 39, 335-347, 2008.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Sillanp\u00e4\u00e4 M, Geller MD, Phuleria HC, Sioutas C. High collection efficiency electrostatic precipitator for in vitro cell exposure to concentrated ambient particulate matter. Journal of Aerosol Science, 39, 335-347, 2008.",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "45. Yacobi NR, Phuleria HC, Demaio L, Liang C, Peng C-A, Sioutas C, Borok Z, Kim K-J, Crandall ED. Nanoparticle effects on rat alveolar epithelial cell monolayer barrier properties. Toxicology In Vitro, 21, 1373-1381, 2007.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Yacobi NR, Phuleria HC, Demaio L, Liang C, Peng C-A, Sioutas C, Borok Z, Kim K-J, Crandall ED. Nanoparticle effects on rat alveolar epithelial cell monolayer barrier properties. Toxicology",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Aerosol Science & Technology, 41(6): 571 \u2013 580, 2007.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Aerosol Science & Technology, 41(6): 571",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "49. Singh M, Phuleria HC, Bowers K, Sioutas C. Seasonal and spatial trends in particle number concentrations and size distributions at the Children\u2019s Health Study sites in Southern California. Journal of Exposure Science & Environmental Epidemiology, 16(1):",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Singh M, Phuleria HC, Bowers K, Sioutas C. Seasonal and spatial trends in particle number concentrations and size distributions at the Children\u2019s Health Study sites",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "50. Geller MD, Sardar B, Phuleria HC, Fine PM and Sioutas C. Measurements of Particle Number and Mass Concentrations in a Tunnel Environment. Environmental Science & Technology, 39(22), 8653-8663, 2005.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Geller MD, Sardar B, Phuleria HC, Fine PM and Sioutas C. Measurements of Particle Number and Mass Concentrations in a Tunnel Environment. Environmental Science & Technology, 39(22), 8653-8663, 2005.",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "51. Phuleria HC, Fine PM, Zhu Y, Sioutas C. Air quality impact of October 2003 Southern California Wildfires. Journal of Geophysical Research-Atmosphere, 10 (D7): Art. No.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Fine PM, Zhu Y, Sioutas C. Air quality impact of October 2003 Southern California Wildfires. Journal of Geophysical Research-Atmosphere, 10 (D7): Art. No.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Yadav S, Phuleria HC. Oxidative potential of Particulate Matter: A prospective measure to assess PM toxicity, in Gupta T, Singh SP, Rajput P, Agarwal AK, (eds) Measurement, Analysis and Remediation of Environmental Pollutants, Springer, Singapore, 333-356, 2019.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Yadav S, Phuleria HC. Oxidative potential of Particulate Matter: A prospective measure to assess PM toxicity,",
+            "Publisher": "Springer",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "R. (Eds) Climate Change Impacts. Water Science and Technology Library, Springer, Singapore, 82, 157-164, 2018.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "R. (Eds) Climate Change Impacts. Water Science and Technology Library, Springer, Singapore, 82, 157-164, 2018.",
+            "Publisher": "Springer",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Phuleria HC, Navinya C. What did the lockdowns tell us about air pollution source contributions? Part of a CCAPC series on \u201cCommunicating air pollution-linked risks in India in light of COVID-19\u201d. CCAPC/2020/04, Sep,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Communicating air pollution-linked risks in India in light of COVID-19",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Yadav S, Salve NV, Phuleria HC. Characterization of Water-Soluble Organic Carbon and Related Functional Groups by H1 NMR at Suburban Mumbai. Iasta Bulletin. Proceeding of Indian Aerosol Science & Technology Association (IASTA) 2018, IIT Delhi, New Delhi, India, 26-28 Nov, 2018.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Yadav S, Salve NV, Phuleria HC. Characterization of Water-Soluble Organic Carbon and Related Functional Groups by H1 NMR at Suburban Mumbai. Iasta Bulletin. Proceeding of Indian Aerosol Science & Technology Association (IASTA) 2018, IIT Delhi, New Delhi, India, 26-28 Nov, 2018.",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Taveen KS, Vernenkar P, Venkataraman C, Phuleria HC. Emissions from open-field burning inf agricultural residue in Vadodara, Gujarat. Iasta Bulletin. Proceeding of Indian Aerosol Science & Technology Association (IASTA) 2018, IIT Delhi, New Delhi, India,",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Taveen KS, Vernenkar P, Venkataraman C, Phuleria HC. Emissions from open-field burning inf agricultural residue",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Phuleria HC, Gehrig R. The role of air quality monitoring networks in supporting health research and legislation. BMC Proceedings, 7 (Suppl 5): O11, 2013",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Gehrig R. The role of air quality monitoring networks in supporting health research and legislation. BMC Proceedings, 7 (Suppl 5): O11, 2013",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Phuleria HC, Schindler C, Tsai M, K\u00fcnzli N, Liu LJS. Modeling Personal and Indoor Exposure to Nitrogen Dioxide Among Adults in Eight Swiss Cities in 1993 and 2003.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Schindler C, Tsai M, K\u00fcnzli N, Liu LJS. Modeling Personal and Indoor Exposure to Nitrogen Dioxide Among Adults",
+            "Publisher": "Unknown",
+            "Year": "1993",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Phuleria HC, Ducret-Stich R, Ineichen A, Tsai M, Liu LJS. Trace metal composition of ambient PM2.5 and PM10 and their spatiotemporal variation near a major highway in an Alpine valley in Switzerland. Epidemiology, 22 (1), S288-S289, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Ducret-Stich R, Ineichen A, Tsai M, Liu LJS. Trace metal composition of ambient PM2.5 and PM10 and their spatiotemporal variation near a major highway in an Alpine valley",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Ragettli M, Ducret-Stich R, Braun-Fahrlander C, Ineichen A, Phuleria HC, Schindler C, Liu LJS. Impacts of exposure to highway traffic exhaust on childhood respiratory health in trans-Alpine highway valleys. Epidemiology, 20 (6), S114, 2009.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ragettli M, Ducret-Stich R, Braun-Fahrlander C, Ineichen A, Phuleria HC, Schindler C, Liu LJS. Impacts of exposure to highway traffic exhaust on childhood respiratory health in trans-Alpine highway valleys. Epidemiology, 20 (6), S114, 2009.",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "8. Phuleria HC, Ducret-Stich R, Tjoa T, Gemperli A, Wu J, Delfino RJ, Liu LJS. Modeling personal exposures to various components of fine particulate matter from different sources in Southern California. Epidemiology, 19 (6), S109-S110, 2008.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Ducret-Stich R, Tjoa T, Gemperli A, Wu J, Delfino RJ, Liu LJS. Modeling personal exposures to various components of fine particulate matter from different sources",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Phuleria HC, Fine PM, Sioutas C. Air quality impacts of the October 2003 Southern California wildfires. Journal of Aerosol Science, 35, S785-S786, 2004.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Fine PM, Sioutas C. Air quality impacts of the October 2003 Southern California wildfires. Journal of Aerosol Science, 35, S785-S786, 2004.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Navinya C, Patidar G, Phuleria HC. Changes in air quality during the COVID-19 lockdown in India. 32nd Annual Scientific Conference of International Society for Environmental Epidemiology, Virtual Conference, 24-27 Aug, 2020.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Navinya C, Patidar G, Phuleria HC. Changes in air quality during the COVID-19 lockdown",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Patra A, Phuleria HC. Occupational Air Pollution Exposure of the People Working on or near Roads. International Conclave on Occupational Health \u2013 2020, Mumbai, India, 28 Jan-1 Feb, 2020.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Patra A, Phuleria HC. Occupational Air Pollution Exposure of the People Working on or near Roads. International Conclave on Occupational Health",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Manwani P, Venkataraman C, Phuleria HC. Assessment of seasonal variability in black carbon and PM2.5 and role of meteorology at a regional background location in Northern India. International Conference on Sustainable Energy and Environmental Challenges (SEEC-2019), CSIR-NEERI, Nagpur, India, 27-29 Nov, 2019.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Manwani P, Venkataraman C, Phuleria HC. Assessment of seasonal variability in black carbon and PM2.5 and role of meteorology at a regional background location",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Phuleria HC, Chandel MK, Singh V. Characterization of sewage sludge from moving bed biofilm reactor (MBBR) sewage treatment plant for its agricultural application, 4th Symposium on Urban Mining and Circular Economy (SUM 2018), Bergamo, Italy, 23-25 May, 2018.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Chandel MK, Singh V. Characterization of sewage sludge from moving bed biofilm reactor (MBBR) sewage treatment plant for its agricultural application, 4th Symposium on Urban Mining and Circular Economy (SUM 2018), Bergamo, Italy, 23-25 May, 2018.",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "5. Chandel MK, Singh V, Phuleria HC. Thermal investigation and FTIR analysis of sewage sludge generated from municipal wastewater treatment plants in India, 16th International Waste Management and Landfill Symposium, Sardinia, Italy, 2-6 Oct, 2017.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Chandel MK, Singh V, Phuleria HC. Thermal investigation and FTIR analysis of sewage sludge generated from municipal wastewater treatment plants",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "6. Anand A, Gulam TJ, Phuleria HC. Assessment of indoor PM2.5 in slums of Mumbai, India, 29th Annual Scientific Conference of International Society for Environmental Epidemiology, Sydney, Australia, 24-29 Sep, 2017.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Anand A, Gulam TJ, Phuleria HC. Assessment of indoor PM2.5 in slums of Mumbai, India, 29th Annual Scientific Conference of International Society for Environmental Epidemiology, Sydney, Australia, 24-29 Sep, 2017.",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "7. Singh V, Phuleria HC, Chandel MK. Energy utilization in activated sludge process-based sewage treatment system in Gujarat, Recycle 2016: International Conference on Waste Management, IIT Guwahati India, April 1-2, 2016.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Singh V, Phuleria HC, Chandel MK. Energy utilization in activated sludge process-based sewage treatment system",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10th International Conference on Air Quality- Science and Application, Milan, Italy,",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "10th International Conference on Air Quality- Science and Application, Milan, Italy,",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "9. Jeong A, Phuleria HC, Keidel D, Rochat T, Probst-Hensch NM, Schindler C. Stability of air pollution models over time: Evaluation of PolluMap models for the Swiss cohort study, SAPALDIA. Environment & Health conference - Joint conference of ISES, ISEE & ISIAQ, Basel, Switzerland, 19-23 Aug, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Jeong A, Phuleria HC, Keidel D, Rochat T, Probst-Hensch NM, Schindler C. Stability of air pollution models over time: Evaluation of PolluMap models for the Swiss cohort study, SAPALDIA. Environment & Health conference",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Ragettli MS, Braun-Fahrl\u00e4nder C, Tsai MY, de Nazelle A, Schindler C, Perez L, Ducret- Stich RE, K\u00fcnzli N, Phuleria HC. Simulation of NO2 commute exposure: Investigation of its contribution to total exposure and comparison of air pollution models. Environment & Health conference - Joint conference of ISES, ISEE & ISIAQ, Basel, Switzerland,",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Ragettli MS, Braun-Fahrl\u00e4nder C, Tsai MY, de Nazelle A, Schindler C, Perez L, Ducret- Stich RE, K\u00fcnzli N, Phuleria HC. Simulation of NO2 commute exposure: Investigation of its contribution to total exposure and comparison of air pollution models. Environment & Health conference",
+            "Publisher": "Unknown",
+            "Year": "",
+            "Confidence": 70
+        },
+        {
+            "Publication detected": "11. Phuleria HC, Tsai MY, Ragettli MS, Corradi E, Ineichen A, Rochat T, Probst-Hensch NM, Fierz M, K\u00fcnzli N. Spatiotemporal variation of particle number and surface area concentration in four Swiss areas and its relationship with mass measurements. 17th ETH-Combustion Generated Nanoparticles conference, Z\u00fcrich, Switzerland, 23-26 Jun, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Tsai MY, Ragettli MS, Corradi E, Ineichen A, Rochat T, Probst-Hensch NM, Fierz M, K\u00fcnzli N. Spatiotemporal variation of particle number and surface area concentration in four Swiss areas and its relationship with mass measurements. 17th ETH-Combustion Generated Nanoparticles conference, Z\u00fcrich, Switzerland, 23-26 Jun, 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Phuleria HC, Zechmeister H, K\u00fcnzli N. Assessment of long-term spatial variation of hazardous air pollutants in urban areas of Basel. 22nd Annual meeting of International Society of Exposure Sciences, Seattle, WA, USA, Oct 2012.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Zechmeister H, K\u00fcnzli N. Assessment of long-term spatial variation of hazardous air pollutants in urban areas of Basel. 22nd Annual meeting of International Society of Exposure Sciences, Seattle, WA, USA, Oct 2012.",
+            "Publisher": "Unknown",
+            "Year": "2012",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Phuleria HC, Corradi E, Ineichen A, K\u00fcnzli N. Spatiotemporal variation of particle number concentration in urban area of Basel, Switzerland and relationship with mass measurements. 21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Corradi E, Ineichen A, K\u00fcnzli N. Spatiotemporal variation of particle number concentration in urban area of Basel, Switzerland and relationship with mass measurements. 21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "15. Ducret-Stich R, Phuleria HC. Source contributions to ambient PM10 near a major highway in a Swiss Alpine valley. 21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Ducret-Stich R, Phuleria HC. Source contributions to ambient PM10 near a major highway in a Swiss Alpine valley. 21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. Phuleria HC, Corradi E, Foraster M, Basagana X, Slama, R, K\u00fcnzli N. Correlation between short-term measure of traffic noise, traffic volume and particle number concentration in a Swiss urban city, Basel. 21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Corradi E, Foraster M, Basagana X, Slama, R, K\u00fcnzli N. Correlation between short-term measure of traffic noise, traffic volume and particle number concentration in a Swiss urban city, Basel. 21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "17. Phuleria HC, Corradi E, Ineichen A, K\u00fcnzli N, Liu LJS. Spatiotemporal variation of particle number concentration in urban areas of Switzerland and relationship with mass measurements. 15th ETH-Combustion Generated Nanoparticles conference, Z\u00fcrich, Switzerland, 26-29 Jun, 2011.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Corradi E, Ineichen A, K\u00fcnzli N, Liu LJS. Spatiotemporal variation of particle number concentration in urban areas of Switzerland and relationship with mass measurements. 15th ETH-Combustion Generated Nanoparticles conference, Z\u00fcrich, Switzerland, 26-29 Jun, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "18. Phuleria HC, Schindler C, Tsai M, K\u00fcnzli N, Liu LJS. Modeling personal and indoor exposure to nitrogen dioxide among adults in eight Swiss Cities in 1993 and",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Schindler C, Tsai M, K\u00fcnzli N, Liu LJS. Modeling personal and indoor exposure to nitrogen dioxide among adults in eight Swiss Cities in 1993 and",
+            "Publisher": "Unknown",
+            "Year": "1993",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2003. Joint annual conference of International Society of Exposure Science and International Society for Environmental Epidemiology, Seoul, South Korea, 28 Aug- 1 Sep, 2010.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Joint annual conference of International Society of Exposure Science and International Society for Environmental Epidemiology, Seoul, South Korea, 28 Aug- 1 Sep, 2010.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "19. Phuleria HC, Ineichen A, Tsai M, Schindler C, K\u00fcnzli N, Liu LJS. Exposure assessment in Swiss Cohort Study on Air Pollution and Lung Diseases in Adults (SAPALDIA3). 3rd Swiss Aerosol Group Meeting, Bern, Switzerland, Nov 2009.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Ineichen A, Tsai M, Schindler C, K\u00fcnzli N, Liu LJS. Exposure assessment",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "European Aerosol Conference, Thessaloniki, Greece, Aug 2008.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "European Aerosol Conference, Thessaloniki, Greece, Aug 2008.",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21. Phuleria HC, Ducret-Stich R, Tjoa T, Gemperli A, Wu J, Delfino RJ, Liu LJS. Modeling personal exposure of various components of fine particulate matter from different sources in Southern California. Joint annual conference of International Society for Environmental Epidemiology and International Society of Exposure Analysis, Pasadena, CA, United States, Oct 2008.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Ducret-Stich R, Tjoa T, Gemperli A, Wu J, Delfino RJ, Liu LJS. Modeling personal exposure of various components of fine particulate matter from different sources",
+            "Publisher": "Unknown",
+            "Year": "2008",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "22. Phuleria HC, Fine PM, Ntziachristos L, Schauer JJ, Sioutas C. Roadside measurements of organic tracers near a gasoline freeway in Los Angeles, CA. 7th International Aerosol Conference, St. Paul, MN, United States, Sep 2006.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Fine PM, Ntziachristos L, Schauer JJ, Sioutas C. Roadside measurements of organic tracers near a gasoline freeway",
+            "Publisher": "Unknown",
+            "Year": "2006",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "23. Phuleria HC, Geller MD, Fine PM, Sioutas C. Size-resolved emissions of organic tracers from light- and heavy-duty vehicles measured in a California Roadway tunnel. 25th Annual Conference of American Association for Aerosol Research, Austin, TX, United States, Oct 2005.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Geller MD, Fine PM, Sioutas C. Size-resolved emissions of organic tracers from light- and heavy-duty vehicles measured in a California Roadway tunnel. 25th Annual Conference of American Association for Aerosol Research, Austin, TX, United States, Oct 2005.",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "24. Phuleria HC, Fine PM, Zhu Y, Sioutas C. Air quality impact of October 2003 Southern California Wildfires. 24th Annual Conference of American Association for Aerosol Research, Atlanta, GA, United States, Oct 2004.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Fine PM, Zhu Y, Sioutas C. Air quality impact of October 2003 Southern California Wildfires. 24th Annual Conference of American Association for Aerosol Research, Atlanta, GA, United States, Oct 2004.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Patra A, Phuleria HC. Commuter\u2019s exposure to different particle size ranges inside transportation modes. 30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Patra A, Phuleria HC. Commuter\u2019s exposure to different particle size ranges inside transportation modes. 30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Patra A, Phuleria HC. Can the socio-economic variables discriminate against the air pollution exposure? 30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Patra A, Phuleria HC. Can the socio-economic variables discriminate against the air pollution exposure? 30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "4. Raparthi N, Manikyala N, Phuleria HC. Estimating real-world emission factors for on- road vehicular fleet and their dependence on traffic and meteorological parameters. 30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Raparthi N, Manikyala N, Phuleria HC. Estimating real-world emission factors for on- road vehicular fleet and their dependence on traffic and meteorological parameters. 30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "30th Annual Meeting of the International Society of Exposure Science (ISES), Virtual meeting, September 21-22, 2020",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "9. Gupta K, Pullokaran D, Phuleria HC. Health-risk assessment of human exposure to heavy metal using hair and nail as bio-samples. 32nd Annual Scientific Conference of International Society for Environmental Epidemiology, Virtual Conference, 24-27 Aug, 2020.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Gupta K, Pullokaran D, Phuleria HC. Health-risk assessment of human exposure to heavy metal using hair and nail as bio-samples. 32nd Annual Scientific Conference of International Society for Environmental Epidemiology, Virtual Conference, 24-27 Aug, 2020.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "10. Yadav S, Raparthi N, Khare A, Phuleria HC. Impact of traffic-origin particulate matter and its chemical constituents on oxidative potential. 32nd Annual Scientific Conference of International Society for Environmental Epidemiology, Virtual Conference, 24-27 Aug, 2020.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Yadav S, Raparthi N, Khare A, Phuleria HC. Impact of traffic-origin particulate matter and its chemical constituents on oxidative potential. 32nd Annual Scientific Conference of International Society for Environmental Epidemiology, Virtual Conference, 24-27 Aug, 2020.",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "11. Yadav S, Vernekar P, Taveen SK, Venkataraman C, Phuleria HC. Chemical characterisation and oxidative potential of aerosols emitted from solid biomass fuels use in rural India. American Geophysical Union (AGU) Fall Meeting, San Francisco, California, USA, 9-13 Dec, 2019.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Yadav S, Vernekar P, Taveen SK, Venkataraman C, Phuleria HC. Chemical characterisation and oxidative potential of aerosols emitted from solid biomass fuels use in rural India. American Geophysical Union (AGU) Fall Meeting, San Francisco, California, USA, 9-13 Dec, 2019.",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "12. Vijay P, Pullokaran P, Phuleria HC. Long term air pollution exposure assessment in a cohort of women in metropolitan cities in India. Workshop on Priorities for Advancing Research on Health Effects of Air Pollution in India AIIMS, New Delhi, India, 2-4 Dec, 2019.",
+            "Classification": "Workshop",
+            "Reason": "Contains keyword 'workshop'",
+            "Title": "Vijay P, Pullokaran P, Phuleria HC. Long term air pollution exposure assessment in a cohort of women in metropolitan cities",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "13. Sarkar C, Kapoor T, Venkataraman C, Chatterjee A, Phuleria HC, Ghosh S. Estimating brown carbon absorption using multiple methods from long-term multi-wavelength aethalometer measurements over a Himalayan site. European Geophysical Union (EGU), Vienna, Austria, 7\u201312 Apr, 2019.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Sarkar C, Kapoor T, Venkataraman C, Chatterjee A, Phuleria HC, Ghosh S. Estimating brown carbon absorption using multiple methods from long-term multi-wavelength aethalometer measurements over a Himalayan site. European Geophysical Union (EGU), Vienna, Austria, 7\u201312 Apr, 2019.",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "14. Davuluri S, Vernekar P, Lohe S, Rane R, Phuleria HC. Indoor air pollution exposure and health issues among women in rural areas of Maharashtra, India. 29th Annual Scientific Conference of International Society for Environmental Epidemiology, Sydney, Australia, 24-29 Sep, 2017.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Davuluri S, Vernekar P, Lohe S, Rane R, Phuleria HC. Indoor air pollution exposure and health issues among women in rural areas of Maharashtra, India. 29th Annual Scientific Conference of International Society for Environmental Epidemiology, Sydney, Australia, 24-29 Sep, 2017.",
+            "Publisher": "Unknown",
+            "Year": "2017",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "15. Sharma N, Davuluri S, Phuleria HC. Indoor air pollution exposure and health issues among women in rural areas of Maharashtra, India. 28th Annual Conference of International Society for Environmental Epidemiology, Rome, Italy, 1-4 Sep, 2016.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Sharma N, Davuluri S, Phuleria HC. Indoor air pollution exposure and health issues among women in rural areas of Maharashtra, India. 28th Annual Conference of International Society for Environmental Epidemiology, Rome, Italy, 1-4 Sep, 2016.",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "16. Anand A, Lohe S, Varghese D, Phuleria HC. Air pollution exposure assessment in Mumbai slums. 17th IUAPPA World Clean Air Congress and 9th CAA Better Air Quality Conference, Busan, South Korea, 29 Aug- 2 Sep, 2016.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Anand A, Lohe S, Varghese D, Phuleria HC. Air pollution exposure assessment",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "17. Davuluri S. Garg M, Venkataraman C, Phuleria HC. Carbonaceous aerosol emissions from biomass burning cookstoves in Western India. 22nd European Aerosol Conference, Tours, France, 4-9 Sep, 2016.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Davuluri S. Garg M, Venkataraman C, Phuleria HC. Carbonaceous aerosol emissions from biomass burning cookstoves",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "18. Trehan L, Phuleria HC, Patil RS, Namdeo A. Air Pollution, Health and Social Deprivation Assessment in Mumbai. 10th International Conference on Air Quality- Science and Application, Milan, Italy, 14\u201318 Mar, 2016.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Trehan L, Phuleria HC, Patil RS, Namdeo A. Air Pollution, Health and Social Deprivation Assessment",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "19. Garg M, Phuleria HC, Venkataraman C. Quantification and characterization of emissions from open-field agricultural residue burning in Maharashtra. 10th International Conference on Air Quality- Science and Application, Milan, Italy, 14\u201318 Mar, 2016.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Garg M, Phuleria HC, Venkataraman C. Quantification and characterization of emissions from open-field agricultural residue burning",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "20. Anand A, Phuleria HC. Outdoor PM2.5 and black carbon exposure assessment in urban slums in India. 17th IUAPPA World Clean Air Congress and 9th CAA Better Air Quality Conference, Busan, South Korea, 29 Aug-2 Sep, 2016.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Anand A, Phuleria HC. Outdoor PM2.5 and black carbon exposure assessment in urban slums",
+            "Publisher": "Unknown",
+            "Year": "2016",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21. Ducret-Stich RE, Corradi E, Foraster M, Morelli X, Aguilera I, Basagana X, Rivera M, Slama, R, K\u00fcnzli N, Phuleria HC. Spatial distribution and modeling of ultrafine particle concentrations in a Swiss urban city. Environment & Health conference - Joint conference of Joint conference of ISES, ISEE & ISIAQ, Basel, Switzerland, 19-23 Aug, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Ducret-Stich RE, Corradi E, Foraster M, Morelli X, Aguilera I, Basagana X, Rivera M, Slama, R, K\u00fcnzli N, Phuleria HC. Spatial distribution and modeling of ultrafine particle concentrations in a Swiss urban city. Environment & Health conference",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "22. Phuleria HC, Jeyachandran S, Corradi E, Zechmeister H, K\u00fcnzli N. Assessment of long- term spatial variation of heavy metals and polycyclic aromatic hydrocarbons in urban areas of Basel. Environment & Health conference - Joint conference of Joint conference of ISES, ISEE & ISIAQ, Basel, Switzerland, 19-23 Aug, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Jeyachandran S, Corradi E, Zechmeister H, K\u00fcnzli N. Assessment of long- term spatial variation of heavy metals and polycyclic aromatic hydrocarbons in urban areas of Basel. Environment & Health conference",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "Seasonal and spatial variation of indoor and outdoor particulate mass and nitrogen dioxide concentrations in eight Swiss areas. Environment & Health conference - Joint conference of ISES, ISEE & ISIAQ, Basel, Switzerland, 19-23 Aug, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Seasonal and spatial variation of indoor and outdoor particulate mass and nitrogen dioxide concentrations in eight Swiss areas. Environment & Health conference",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "24. Phuleria HC, Chandrasekaran V, Swaminathan S, Probst-Hensch NM. Impact of household cooking fuels on gender-specific adult tuberculosis and diabetes in India: a cross sectional study. Environment & Health conference - Joint conference of Joint conference of ISES, ISEE & ISIAQ, Basel, Switzerland, 19-23 Aug, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Chandrasekaran V, Swaminathan S, Probst-Hensch NM. Impact of household cooking fuels on gender-specific adult tuberculosis and diabetes in India: a cross sectional study. Environment & Health conference",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "25. Phuleria HC, Tsai MY, Ragettli MS, Corradi E, Ineichen A, Rochat T, Probst-Hensch NM, Fierz M, K\u00fcnzli N. Seasonal and spatial variation of indoor and outdoor particulate mass and nitrogen dioxide concentration in eight Swiss Areas. 17th ETH-Combustion Generated Nanoparticles conference, Z\u00fcrich, Switzerland, 23-26 Jun, 2013.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Tsai MY, Ragettli MS, Corradi E, Ineichen A, Rochat T, Probst-Hensch NM, Fierz M, K\u00fcnzli N. Seasonal and spatial variation of indoor and outdoor particulate mass and nitrogen dioxide concentration in eight Swiss Areas. 17th ETH-Combustion Generated Nanoparticles conference, Z\u00fcrich, Switzerland, 23-26 Jun, 2013.",
+            "Publisher": "Unknown",
+            "Year": "2013",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "21st Annual meeting of International Society of Exposure Sciences, Baltimore, MD, USA, 23-27 Oct, 2011.",
+            "Publisher": "Unknown",
+            "Year": "2011",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "27. Phuleria HC, Ducret-Stich R, Ineichen A, Liu LJS. Trace metal composition of ambient PM2.5 and PM10 and their spatio-temporal variation near a major highway in an Alpine valley in Switzerland. Joint conference of International Society of Exposure Science and International Society for Environmental Epidemiology, Seoul, South Korea, 28 Aug- 1 Sep, 2010.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Ducret-Stich R, Ineichen A, Liu LJS. Trace metal composition of ambient PM2.5 and PM10 and their spatio-temporal variation near a major highway in an Alpine valley",
+            "Publisher": "Unknown",
+            "Year": "2010",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "28. Phuleria HC, Keidel D, Ineichen A, Tsai M, Schindler C, K\u00fcnzli N, Liu LJS. Modeling personal and indoor exposure to nitrogen dioxide among adults in eight Swiss Cities in 1993 and",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "Phuleria HC, Keidel D, Ineichen A, Tsai M, Schindler C, K\u00fcnzli N, Liu LJS. Modeling personal and indoor exposure to nitrogen dioxide among adults in eight Swiss Cities in 1993 and",
+            "Publisher": "Unknown",
+            "Year": "1993",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2003. 19th International symposium on Transport & Air Pollution, D\u00fcbendorf, Switzerland, May 2010.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "19th International symposium on Transport & Air Pollution, D\u00fcbendorf, Switzerland, May 2010.",
+            "Publisher": "Unknown",
+            "Year": "2003",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "29. Ducret-Stich R, Phuleria HC, Ineichen A, Liu LJS. Assessment of highways traffic exhaust on residential air pollution exposure in an Alpine valley in Switzerland. 13th ETH Combustion Generated Nanoparticles Conference, Z\u00fcrich, Switzerland, 22-24 Jun, 2009.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Ducret-Stich R, Phuleria HC, Ineichen A, Liu LJS. Assessment of highways traffic exhaust on residential air pollution exposure in an Alpine valley",
+            "Publisher": "Unknown",
+            "Year": "2009",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "30. Phuleria HC, Sheesley R, Schauer JJ, Fine PM, Sioutas C. Roadside measurements of organic tracers near a gasoline and a diesel-dominated freeway in Los Angeles, CA. 26th Annual Conference of American Association for Aerosol Research, Reno, NV, United States, Sep 2007.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Sheesley R, Schauer JJ, Fine PM, Sioutas C. Roadside measurements of organic tracers near a gasoline and a diesel-dominated freeway",
+            "Publisher": "Unknown",
+            "Year": "2007",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "31. Phuleria HC, Geller MD, Fine PM, Sioutas C. Size-resolved emissions of organic tracers from light- and heavy-duty vehicles measured in a California Roadway tunnel. 7th International Aerosol Conference, St. Paul, MN, United States, Sep 2006.",
+            "Classification": "International Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Phuleria HC, Geller MD, Fine PM, Sioutas C. Size-resolved emissions of organic tracers from light- and heavy-duty vehicles measured in a California Roadway tunnel. 7th International Aerosol Conference, St. Paul, MN, United States, Sep 2006.",
+            "Publisher": "Unknown",
+            "Year": "2006",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "32. Singh M, Phuleria HC, Bowers K, Sioutas C. Seasonal and spatial trends in particle number concentrations and size distributions at the Children\u2019s Health Study sites in Southern California. 25th Annual Conference of American Association for Aerosol Research, Austin, TX, United States, Oct 2005.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Singh M, Phuleria HC, Bowers K, Sioutas C. Seasonal and spatial trends in particle number concentrations and size distributions at the Children\u2019s Health Study sites",
+            "Publisher": "Unknown",
+            "Year": "2005",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "33. Fine PM, Phuleria HC, Biswas S, Geller MD, Sioutas C. A new aerosol min-concentrator for use in conjunction with low flow-rate continuous aerosol instrumentation. 24th Annual Conference of American Association for Aerosol Research, Atlanta, GA, United States, Oct 2004.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Fine PM, Phuleria HC, Biswas S, Geller MD, Sioutas C. A new aerosol min-concentrator for use in conjunction with low flow-rate continuous aerosol instrumentation. 24th Annual Conference of American Association for Aerosol Research, Atlanta, GA, United States, Oct 2004.",
+            "Publisher": "Unknown",
+            "Year": "2004",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "1. Raparthi N, Phuleria HC. Estimating the average fleet emission factors for on-road vehicles by driving a car through the roadway tunnels, National Environmental Conference (NEC-2019), IIT Bombay, Mumbai, India, 31 Jan- 2 Feb, 2019.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Raparthi N, Phuleria HC. Estimating the average fleet emission factors for on-road vehicles by driving a car through the roadway tunnels, National Environmental Conference (NEC-2019), IIT Bombay, Mumbai, India, 31 Jan- 2 Feb, 2019.",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "2. Anand A, Phuleria HC. Modelling indoor PM2.5 and BC in slum homes of Mumbai, India, National Environmental Conference (NEC-2019), IIT Bombay, Mumbai, MH, 31 Jan- 2 Feb, 2019.",
+            "Classification": "National Conference",
+            "Reason": "Contains conference/proceedings indicator keywords",
+            "Title": "Anand A, Phuleria HC. Modelling indoor PM2.5 and BC in slum homes of Mumbai, India, National Environmental Conference (NEC-2019), IIT Bombay, Mumbai, MH, 31 Jan- 2 Feb, 2019.",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "3. Vijay P, Pullokaran P, Phuleria HC. Long term air pollution exposure assessment in a cohort of women in metropolitan cities in India. Workshop on Priorities for Advancing Research on Health Effects of Air Pollution in India, AIIMS, New Delhi, India, 2-4 Dec, 2019.",
+            "Classification": "Workshop",
+            "Reason": "Contains keyword 'workshop'",
+            "Title": "Vijay P, Pullokaran P, Phuleria HC. Long term air pollution exposure assessment in a cohort of women in metropolitan cities",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 PhD student, Abhay Anand, graduated in Dec 2020",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "\uf0b7 PhD student, Abhay Anand, graduated",
+            "Publisher": "Unknown",
+            "Year": "2020",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Three PhD students graduated as co-guide: Vipin Singh in Oct 2019, Martina Ragettli in Aug 2013, and Regina Ducret-Stich in Oct 2012",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "\uf0b7 Three PhD students graduated as co-guide: Vipin Singh",
+            "Publisher": "Unknown",
+            "Year": "2019",
+            "Confidence": 95
+        },
+        {
+            "Publication detected": "\uf0b7 Have co-mentored three postdoctoral researchers in IDP Climate Studies, Dr. Suman Yadav, since Aug 2018, Dr. Chirantan Sarkar, Oct 2017 \u2013 Sep 2019, and Dr. Pranav Tripathi, Sep 2016 \u2013 Nov 2017",
+            "Classification": "Journal",
+            "Reason": "Default classification (no other type keywords matched)",
+            "Title": "\uf0b7 Have co-mentored three postdoctoral researchers in IDP Climate Studies, Dr. Suman Yadav, since Aug 2018, Dr. Chirantan Sarkar, Oct 2017",
+            "Publisher": "Unknown",
+            "Year": "2018",
+            "Confidence": 95
+        }
+    ],
+    "Validation Report": {
+        "Resume File": "CV_HarishPhuleria.pdf",
+        "Missing Fields": "patents",
+        "Warnings": "Duplicate publication detected: '21st Annual meeting of Interna...'.; Duplicate publication detected: 'Singh M, Phuleria HC, Bowers K...'.; Duplicate publication detected: 'Vijay P, Pullokaran P, Phuleri...'.",
+        "Validation Errors": "Duplicate publication detected: '21st Annual meeting of Interna...'.; Duplicate publication detected: 'Singh M, Phuleria HC, Bowers K...'.; Duplicate publication detected: 'Vijay P, Pullokaran P, Phuleri...'.",
+        "Duplicate Detection": "Yes",
+        "Confidence deductions": 15
+    },
+    "Processing Report": {
+        "Resume File": "CV_HarishPhuleria.pdf",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "education, experience, fdp, publications, projects, awards, memberships, administrative_work",
+        "Sections missing": "patents",
+        "Extraction confidence per field": "Name: 100%, Email: 100%, Phone: 100%, UG Degree: 100%, PG Degree: 100%, PhD Univ: 100%"
+    }
+}

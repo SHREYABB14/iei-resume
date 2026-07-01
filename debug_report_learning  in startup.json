@@ -1,0 +1,21 @@
+{
+    "Employment History": [],
+    "Publication Debug": [],
+    "Validation Report": {
+        "Resume File": "learning  in startup.docx",
+        "Missing Fields": "education, experience, publications, patents, projects, awards, memberships, fdp",
+        "Warnings": "None",
+        "Validation Errors": "None",
+        "Duplicate Detection": "No",
+        "Confidence deductions": 45
+    },
+    "Processing Report": {
+        "Resume File": "learning  in startup.docx",
+        "Parser used": "Regex/Rule-based Parsing Engine",
+        "LLM response": "N/A",
+        "Fallback parser used": "No",
+        "Sections detected": "None",
+        "Sections missing": "education, experience, publications, patents, projects, awards, memberships, fdp",
+        "Extraction confidence per field": "Name: 0%, Email: 0%, Phone: 0%, UG Degree: 0%, PG Degree: 0%, PhD Univ: 0%"
+    }
+}
